@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>&#22307;&#35834;&#27712;&#20043;&#26790; &#19979;&#36733;</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      margin: 0;
+      min-height: 100%;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", sans-serif;
+      color: #f5f1e8;
+      background: #111;
+    }
+
+    body {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 28px 18px;
+      background:
+        linear-gradient(rgba(8, 8, 8, 0.46), rgba(8, 8, 8, 0.84)),
+        url("cover.jpg") center / cover no-repeat,
+        #111;
+    }
+
+    .page {
+      width: min(480px, 100%);
+      padding: 28px 22px;
+      border: 1px solid rgba(214, 188, 120, 0.42);
+      background: rgba(16, 15, 14, 0.86);
+      box-shadow: 0 18px 60px rgba(0, 0, 0, 0.48);
+    }
+
+    .title {
+      margin: 0 0 8px;
+      font-size: 30px;
+      font-weight: 600;
+      letter-spacing: 0;
+      text-align: center;
+    }
+
+    .subtitle {
+      margin: 0 0 24px;
+      color: rgba(245, 241, 232, 0.72);
+      font-size: 15px;
+      line-height: 1.7;
+      text-align: center;
+    }
+
+    .downloads {
+      display: grid;
+      gap: 14px;
+    }
+
+    .download-button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 54px;
+      padding: 0 18px;
+      border: 1px solid rgba(214, 188, 120, 0.64);
+      color: #18130b;
+      background: #d6bc78;
+      font-size: 17px;
+      font-weight: 700;
+      text-decoration: none;
+      transition: transform 0.16s ease, background 0.16s ease;
+    }
+
+    .download-button:active {
+      transform: scale(0.98);
+    }
+
+    .download-button.secondary {
+      color: #f5f1e8;
+      background: rgba(255, 255, 255, 0.08);
+    }
+
+    .tips {
+      margin: 20px 0 0;
+      color: rgba(245, 241, 232, 0.62);
+      font-size: 13px;
+      line-height: 1.7;
+      text-align: center;
+    }
+
+    @media (max-width: 360px) {
+      .page {
+        padding: 24px 16px;
+      }
+
+      .title {
+        font-size: 26px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <h1 class="title">&#22307;&#35834;&#27712;&#20043;&#26790;</h1>
+    <p class="subtitle">&#35831;&#36873;&#25321;&#23545;&#24212;&#31995;&#32479;&#19979;&#36733;&#23433;&#35013;&#21253;&#12290;</p>
+
+    <div class="downloads">
+      <a id="androidDownload" class="download-button" href="javascript:void(0)">
+        &#19979;&#36733; Android &#29256;
+      </a>
+      <a id="iosDownload" class="download-button secondary" href="javascript:void(0)">
+        &#19979;&#36733; iOS &#29256;
+      </a>
+    </div>
+
+    <p class="tips">Android &#19979;&#36733;&#21518;&#35831;&#25353;&#31995;&#32479;&#25552;&#31034;&#23433;&#35013;&#12290;iOS &#38142;&#25509;&#35831;&#26367;&#25442;&#20026; App Store&#12289;TestFlight &#25110;&#20225;&#19994;&#31614;&#20998;&#21457;&#22320;&#22336;&#12290;</p>
+  </main>
+
+  <script>
+    var ANDROID_DOWNLOAD_URL = "https://res.huizi888.com/vnovelizer/game/sntzm/Download/Android/1.0.0/%E5%9C%A3%E8%AF%BA%E6%B1%80%E4%B9%8B%E6%A2%A6.apk";
+
+    function openExternal(url) {
+      if (!url || url === "IOS_DOWNLOAD_URL") {
+        return;
+      }
+
+      try {
+        window.open(url, "_blank", "noopener");
+      } catch (e) {}
+    }
+
+    var androidButton = document.getElementById("androidDownload");
+    androidButton.addEventListener("click", function(event) {
+      event.preventDefault();
+      openExternal(ANDROID_DOWNLOAD_URL);
+    });
+
+    var IOS_DOWNLOAD_URL = "IOS_DOWNLOAD_URL";
+    var iosButton = document.getElementById("iosDownload");
+
+    if (!IOS_DOWNLOAD_URL || IOS_DOWNLOAD_URL === "IOS_DOWNLOAD_URL") {
+      iosButton.href = "javascript:void(0)";
+      iosButton.addEventListener("click", function(event) {
+        event.preventDefault();
+        alert("iOS \u4e0b\u8f7d\u94fe\u63a5\u6682\u672a\u914d\u7f6e");
+      });
+    } else {
+      iosButton.addEventListener("click", function(event) {
+        event.preventDefault();
+        openExternal(IOS_DOWNLOAD_URL);
+      });
+    }
+  </script>
+</body>
+</html>

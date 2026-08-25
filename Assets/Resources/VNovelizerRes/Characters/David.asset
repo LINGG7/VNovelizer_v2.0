@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5505eadd43ebc114b9e9be075c8cb3a1, type: 3}
+  m_Name: David
+  m_EditorClassIdentifier: 
+  CharacterID: David
+  ElementSprites:
+  - Element: default
+    Sprite: {fileID: 21300000, guid: dd6540b699c750e42ac1b14441d94376, type: 3}
+    SpritePath: "VNovelizerRes/CharactersPic/\u5927\u536B"
+  - Element: unknown1
+    Sprite: {fileID: 21300000, guid: 2d5fd58e6165c1148b8877240bf3c0a6, type: 3}
+    SpritePath: "VNovelizerRes/CharactersPic/\u5927\u536B\u8868\u60C5/\u4E0D\u77E5\u540D\u8868\u60C51"
+  - Element: unknown2
+    Sprite: {fileID: 21300000, guid: 9c39ae2b0c75e174bb2c35e10dbfdf3b, type: 3}
+    SpritePath: "VNovelizerRes/CharactersPic/\u5927\u536B\u8868\u60C5/\u4E0D\u77E5\u540D\u8868\u60C52"
+  - Element: dislike
+    Sprite: {fileID: 21300000, guid: eeaa25d7fb033354a89ab61f3770a20a, type: 3}
+    SpritePath: "VNovelizerRes/CharactersPic/\u5927\u536B\u8868\u60C5/\u5ACC\u5F03"
+  - Element: scared
+    Sprite: {fileID: 21300000, guid: fea61ded085fcb64fa578e110c74f3cd, type: 3}
+    SpritePath: "VNovelizerRes/CharactersPic/\u5927\u536B\u8868\u60C5/\u5BB3\u6015"
+  - Element: worried
+    Sprite: {fileID: 21300000, guid: 6f959650899883f4fa17079bd21d328a, type: 3}
+    SpritePath: "VNovelizerRes/CharactersPic/\u5927\u536B\u8868\u60C5/\u5FE7\u8651"
+  - Element: angry
+    Sprite: {fileID: 21300000, guid: 37a0ad6146110694e9489b4d5ab4d6b8, type: 3}
+    SpritePath: "VNovelizerRes/CharactersPic/\u5927\u536B\u8868\u60C5/\u751F\u6C14"
+  - Element: analyze
+    Sprite: {fileID: 21300000, guid: 651d2b27cf8352547a443a7d00cdb351, type: 3}
+    SpritePath: "VNovelizerRes/CharactersPic/\u5927\u536B\u8868\u60C5/\u5206\u6790"
+  - Element: sneaky
+    Sprite: {fileID: 21300000, guid: 5b5dafe3a2afccd44bafc9584e610a4d, type: 3}
+    SpritePath: "VNovelizerRes/CharactersPic/\u5927\u536B\u8868\u60C5/\u574F\u7B11"
+  - Element: withgun
+    Sprite: {fileID: 21300000, guid: 0addf4544e391a54ba21b2d56985863d, type: 3}
+    SpritePath: "VNovelizerRes/CharactersPic/\u5927\u536B\u8868\u60C5/\u4E3E\u67AA"
+  - Element: bandage
+    Sprite: {fileID: 21300000, guid: 5fe119f69f1166d4ea0b8abf30902f2a, type: 3}
+    SpritePath: "VNovelizerRes/CharactersPic/\u5927\u536B\u8868\u60C5/\u7EF7\u5E26"
+  - Element: blood
+    Sprite: {fileID: 21300000, guid: 408725c4d23a0d24588964f1188a337b, type: 3}
+    SpritePath: "VNovelizerRes/CharactersPic/\u5927\u536B\u8868\u60C5/\u6D41\u8840"
+  - Element: bandageAngry
+    Sprite: {fileID: 21300000, guid: b67879a6d45f71e41a73f09b867c8725, type: 3}
+    SpritePath: "VNovelizerRes/CharactersPic/\u5927\u536B\u8868\u60C5/\u7EF7\u5E26_\u751F\u6C14"
+  HeadSprites:
+  - Element: Default
+    Sprite: {fileID: 1467869316, guid: f37736ae1efd263439641beb5c977dcf, type: 3}
+    SpritePath: 
+  SpeakerBox: {fileID: 0}
+  HeadFrame: {fileID: 0}
+  scale: 1
+  offset: {x: 0, y: -200}

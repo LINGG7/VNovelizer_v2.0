@@ -1,0 +1,68 @@
+ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Command,Note
+1,旁白,hide,,,,,,,false,,源类型=type:exeBC; 层级=0
+10,你,hide,,,,它迟早会出来的，我们必须尽快去到楼上。,,,,,"源类型=type:txt_You; 层级=1; wherelist={""wheretype"":""1"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""端详飞蛾（克拉克）"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}"
+2,旁白,hide,,,,,,,,,源类型=type:exeBC; 层级=2
+3,旁白,hide,,,,在说出这句话时，你莫名想起了那个被你关在小屋里的男孩。或许他也一样，正承受着被改造躯体里不受控的癫狂，而且迟早会破门而出。,,,,,"源类型=type:txt_pb; 层级=3; wherelist={""wheretype"":""2"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""问艾米丽"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]},{""sortnum"":""2"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""不开枪"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}"
+5,旁白,hide,,,,但现在不是仁慈心泛滥的时候，对于这些已经半条腿踏入非人领域的可怜病人而言，能够为他们讨回公道的最好方式就是让真相大白，而这必须建立在你们活着出去的基础之上。,,,,jump(4),源类型=type:txt_pb; 层级=4; gotomainline=4
+4,索菲亚,hide,Sophia_default,,,楼上的安全性可以保障吗？,,,,"charfadein(L,1)","源类型=type:txt_Sophia; 层级=3; wherelist={""wheretype"":""1"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""问大卫"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]},{""sortnum"":""2"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""开枪"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}"
+6,你,hide,Sophia_default,,,不能，但大卫还在四楼，你的......老师，是这么告诉我的。,,,,"charfadeout(L,1)",源类型=type:txt_You; 层级=4
+7,旁白,hide,,,,你的舌头在提到老师二字时浅浅打了个结，尽管你并没有奚落这位年轻医生的想法，但对于眼下这个连脑子里的人格都成谜的盖曼而言，你实在找不到一个更合适的称呼方式。,,,,,源类型=type:txt_pb; 层级=5
+8,索菲亚,hide,Sophia_default,,,也许他不值得信任，我说过的.......亚当，他已经不再是过去那个盖曼.阿门努斯了。,,,,"charfadein(L,1)",源类型=type:txt_Sophia; 层级=6
+9,旁白,hide,Sophia_default,,,看着门牌上面目全非的照片，夜莺的语气中带上了一丝近乎哀悼的沉重。但随着门内再度传出一声骇人的闷响，她只能跟上你们的脚步，朝着楼梯的口的方向快步跑动起来。,,,,"charfadeout(L,1)&bgfade(sntzm_clark4F(1)_9,1)",源类型=type:txt_pb; 层级=7
+12,克拉克,hide,Clark_default,,,我们现在没有别的选择，而且要论不值得信任的话，你也是一样。,,,,"charfadein(L,1)",源类型=type:txt_Clark; 层级=8
+13,克拉克,hide,Clark_default,,,你明知道那个怪物的本事，却在最后一刻才提醒我们它的存在，那场战斗本来可以避免的。,,,,,源类型=type:txt_Clark; 层级=9
+14,旁白,hide,Clark_default,,,索菲亚的表情在墙柱的阴影下黯淡了一瞬，紧接着从喉咙里发出了一声微弱的叹息。,,,,"charfadeout(L,1)",源类型=type:txt_pb; 层级=10
+15,旁白,hide,,,,,,,,,源类型=type:exeBC; 层级=11
+16,索菲亚,hide,Sophia_default,,,当时被你们袭击的是我，从那之后就一直被问各种问题。就算我后面提醒了你们它的危险性，但你们还是自信满满地放它进了暗室，不是吗？,,,,"charfadein(L,1)","源类型=type:txt_Sophia; 层级=12; wherelist={""wheretype"":""1"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""试图活捉"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""0"",""dowlist4"":[]}]}]}"
+18,旁白,hide,Sophia_default,,,对于索菲亚给出的这个解释，你的态度是？,,,,"charfadeout(L,1)",源类型=type:txt_pb; 层级=13
+19,旁白,hide,,,,,,,,choice(保持怀疑，持续施压|jump(22))&choice(暂且作罢，专注眼前|jump(35)),源类型=type:selectBC; 层级=14
+20,旁白,hide,,,,,,,,,源类型=type:txt_pb; 层级=15
+22,你,hide,,,,是吗？可你当时说自己并不认得这个怪物，但却能准确说出它的习性，下达“它不是人类可以对付”的判断，你不觉得这个说法有些自相矛盾吗？,,,,,源类型=type:txt_You; 层级=16; tag=保持怀疑
+23,索菲亚,hide,Sophia_default,,,那是因为......,,,,"charfadein(L,1)",源类型=type:txt_Sophia; 层级=17
+24,旁白,hide,Sophia_default,,,她试图为自己辩解些什么，却一时没能找到为刚才情急之下的反应辩护的说辞，声音刚提到嗓子眼便瘪了下去。,,,,"charfadeout(L,1)",源类型=type:txt_pb; 层级=18
+25,你,hide,,,,不过也能理解，毕竟说到底我们不过是怀着各自的目的来到这里，刚好遇见的临时同盟，先前冒充“夜莺”的事情也还没解释清楚，但我相信你这么做肯定有自己的目的。,,,,,源类型=type:txt_You; 层级=19
+26,旁白,hide,,,,说着，你凑到她耳边，用审讯嫌疑人的技巧，轻声试探道。,,,,,源类型=type:txt_pb; 层级=20
+27,你,hide,,,,是为了盖亚之心吗？,,,,,源类型=type:txt_You; 层级=21
+28,索菲亚,hide,,,,......,,,,,源类型=type:txt_Sophia; 层级=22
+29,旁白,hide,,,,她没有回答，水亮的眸子在深色的阴影中像是蒙上了一层水雾。但你却敏锐地注意到她垂在身侧的手指，不自觉地捏紧了白大褂的一角。,,,,,源类型=type:txt_pb; 层级=23
+30,旁白,hide,,,,这个细微的反应已经给了你想要的答案，你不再追问，重新把注意力放回身前昏暗的走廊上。,,,,,源类型=type:txt_pb; 层级=24
+31,旁白,hide,,,,,,,,,源类型=type:exeBC; 层级=25
+32,旁白,hide,,,,戴着手套的手指在额头的伤口上抹掉一把未干的血痕，与一前一后地扫视起四楼的房间。,,,,jump(41),"源类型=type:txt_pb; 层级=26; wherelist={""wheretype"":""1"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""试图活捉"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}; gotomainline=41"
+33,旁白,hide,,,,留下抓痕的小腿一瘸一拐地杵在克拉克身后，目光飞速扫视着周围的房间。,,,,jump(41),"源类型=type:txt_pb; 层级=26; wherelist={""wheretype"":""1"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""先发制人"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}; gotomainline=41"
+21,旁白,hide,,,,,,,,,源类型=type:txt_pb; 层级=15
+35,你,hide,,,,罢了，当时的确事发突然，尤其是对于你而言。虽然冒充夜莺的事情，希望你能做进一步的解释，但比起关在这所精神病院里的妖魔鬼怪，我们也只能选择和你这个正常人类一起行动了。,,,,,源类型=type:txt_You; 层级=16; tag=暂且作罢
+36,旁白,hide,,,,索菲亚的喉咙轻轻滚动了一下，把那些为自己辩护的强硬说辞悄悄吞回了嘴里。她似乎对你的出言解围有些惊讶，伶牙俐齿的小嘴酝酿了半天，才吐出一句真诚的感谢。,,,,,源类型=type:txt_pb; 层级=17
+37,索菲亚,hide,Sophia_default,,,谢谢你，亚当。出于一些特殊的理由，我身上的确有些秘密不能立刻告诉你们，但至少现在，我们的目标是一致的。,,,,"charfadein(L,1)",源类型=type:txt_Sophia; 层级=18
+38,索菲亚,hide,Sophia_default,,,大卫的事情......如果这样能减轻老师身上的罪孽的话，我也会尽自己的全力帮你们。,,,,,源类型=type:txt_Sophia; 层级=19
+39,旁白,hide,Sophia_default,,,见你不再过多追究，克拉克也适时地转过头去。他平时总是你们中最善解人意的那个人，但在同伴生死不明的当下，他的职业本能一度主导了他对周遭事物的态度，这种背离本心的感觉并不好受。,,,,"charfadeout(L,1)",源类型=type:txt_pb; 层级=20
+40,旁白,hide,,,,很快，你们便来到了四楼空旷无人的半露天平台上。楼下拍打铁门的撞击声仍未消失，意味着被怪物追上的可能随时可能因脚步的放慢而成为现实。,,,,,源类型=type:txt_pb; 层级=21
+41,旁白,hide,,,,两道光柱在暗沉的空气中左右分叉，在布满灰尘的走廊中勾勒出一道道明暗交错的轮廓。,,,,"bgfade(sntzm_clark4F(1)_41,1)",源类型=type:txt_pb; 层级=22
+42,旁白,hide,,,,积灰的设备、翻倒的推车，还有碎裂在地的玻璃点滴瓶，像一个个沉默的证人，静静等候着你们的提审。,,,,,源类型=type:txt_pb; 层级=23
+43,旁白,hide,,,,如果说一二层是病人居住的病房，三层是医生上班的科室，那这层荒废的四楼，大概就是一些“特殊疗法”的实验场地了。,,,,,源类型=type:txt_pb; 层级=24
+44,旁白,hide,,,,,,,,,源类型=type:exeBC; 层级=25
+46,旁白,hide,,,,跟在身后的索菲亚全程无话，既不打算为自己辩解，也没有为你们指路。多年过去，尽管现实里的陈设布置实际上并没有太多变化，这些早已被罪恶污染房间如今也早就不是她和同伴们钻研学术，救助病人的象牙塔和告解室了。,,,,jump(69),"源类型=type:txt_pb; 层级=26; wherelist={""wheretype"":""1"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""保持怀疑"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}; gotomainline=69"
+47,旁白,hide,,,,只听索菲亚清秀的女声从一旁再次响起，仿佛一名迟来的导游，为周围的一切做着并不清晰的注解。,,,,,"源类型=type:txt_pb; 层级=26; wherelist={""wheretype"":""1"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""暂且作罢"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}"
+48,索菲亚,hide,Sophia_default,,,这层楼是医院的手术和实验楼层，过去我们就是在这层楼进行造梦设备的研发，并以此为病人进行临床治疗的。,,,,,源类型=type:txt_Sophia; 层级=27
+49,旁白,hide,Sophia_default,,,她有些失落地垂下了眸子，低低地补充道。,,,,,源类型=type:txt_pb; 层级=28
+50,索菲亚,hide,Sophia_default,,,当然，仅限它还服务于它被创造的初衷的那段日子。,,,,jump(69),源类型=type:txt_Sophia; 层级=29; gotomainline=69
+69,旁白,hide,Sophia_default,,,你摇晃着手电，轻轻扫过周围房间里那些零零落落的废弃设备，有的是在大火中烧坏了外壳，有的则是在提前报废时被拆走了核心的元件。,,,,"charfadeout(L,1)","源类型=type:txt_pb; 层级=26; wherelist={""wheretype"":""1"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""无视飞蛾（克拉克）"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}"
+70,旁白,hide,,,,那些曾经被严格封锁的实验室，现在大多都只余下被搬空后空荡荡的骨架，连一块能说明这里曾经做过什么研究的标识牌都没能留下。,,,,,源类型=type:txt_pb; 层级=27
+71,旁白,hide,,,,物是人非，是你现在所能想到的，最适用于眼前场景的词汇。,,,,,源类型=type:txt_pb; 层级=28
+72,旁白,hide,,,,可还没来得及在心中发出一声由衷的感叹，走廊尽头的房间突然传出一声轻响，那声音不大，却在满是撞击声的死寂里格外清晰。,,,,,源类型=type:txt_pb; 层级=29
+73,旁白,hide,,,,只见一层薄薄的微光自房间新开的裂缝中渗出苍白的一角，像是这层楼看不见的主人，从黑暗中伸出一只小手，一脸顽皮地向你打着招呼。,,,,"bgfade(sntzm_clark4F(1)_73,1)",源类型=type:txt_pb; 层级=30
+74,克拉克,hide,,,,有什么东西在里面。,,,,,源类型=type:txt_Clark; 层级=31
+75,旁白,hide,,,,他把嗓门压到最低，声音将将高过呼吸的声线，就连电筒的功率也接连下调了两个档位。,,,,,源类型=type:txt_pb; 层级=32
+83,旁白,hide,,,,,,,,,源类型=type:exeBC; 层级=33
+76,旁白,hide,,,,你没有用言语回答，只是冲身后的索菲亚你比了个噤声的手势，然后和克拉克一左一右，小心翼翼地侧身贴到门板边。,,,,,"源类型=type:txt_pb; 层级=34; wherelist={""wheretype"":""2"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""端详飞蛾（克拉克）"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}"
+77,旁白,hide,,,,其中一侧的门上有一处被大火灼蚀过的深黄色标记，从大致轮廓不难判断，是电离辐射的警示标识。,,,,,源类型=type:txt_pb; 层级=35
+78,旁白,hide,,,,克拉克拿出辐射检测仪贴在门上轻轻一扫，仪器上读数仅以极其轻微的幅度微微上调了半格，说明里面至少没有什么能危及生命的辐射陷阱。,,,,,源类型=type:txt_pb; 层级=36
+79,旁白,hide,,,,既然里面的辐射水平是人类完全可以接受的正常阈值，且这是这层楼里唯一还在向外透光的房间，那自然有理由怀疑，这里就是神秘人所在的位置。同理......被抓走的大卫也在里面。,,,,,源类型=type:txt_pb; 层级=37
+80,旁白,hide,,,,你向克拉克递了个眼神，立刻收到了他不带一丝犹豫的点头回应。两双手分别扣住一侧冰冷的门把，心中默念三个数后齐力一推——,,,,,源类型=type:txt_pb; 层级=38
+81,旁白,hide,,,,“咔——！”,,,,"bgfade(sntzm_clark4F(1)_81,1)",源类型=type:txt_pb; 层级=39
+82,旁白,hide,,,,伴随着一声沉重的闷响，这扇标着B-512的沉重铁门应声弹开，手电光柱如利刃般劈开室内的黑暗，跟着的着是你们紧随其后的两只枪口。,,,,"loadScript(sntzm_clark4F(2), 1)",源类型=type:txt_pb; 层级=40; gotomainline=克拉克4层（中）_1
+84,旁白,hide,,,,你没有用言语回答，只是配合克拉克的身位微微站开，然后和他一左一右，小心翼翼地侧身贴到门板边。,,,,jump(77),"源类型=type:txt_pb; 层级=34; wherelist={""wheretype"":""1"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""无视飞蛾（克拉克）"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}; gotomainline=77"
+17,索菲亚,hide,Sophia_default,,,我很感激你们救了我，但当时袭击我的人也是你们，从那之后就一直被问各种问题，就算我当时说了，你们可能也不会立刻相信吧。,,,,"charfadein(L,1)&jump(18)","源类型=type:txt_Sophia; 层级=12; wherelist={""wheretype"":""1"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""先发制人"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}; gotomainline=18"
+11,旁白,hide,,,,不到半分钟的功夫，你们便来到了四楼空旷无人的半露天平台上。四周的环境安静得有些发冷，从1层至4层,,,,,"源类型=type:txt_pb; 层级=1; wherelist={""wheretype"":""1"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""无视飞蛾（克拉克）"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""0"",""dowlist4"":[]}]}]}"
+65,旁白,hide,,,,不到半分钟的功夫，你们便来到了四楼空旷无人的半露天平台上。四周的环境安静得有些发冷，一路上畅通无阻的顺利，反而让你们不自觉绷紧了神经。,,,,,源类型=type:txt_pb; 层级=2
+66,你,hide,,,,一人检查一边，没问题吧？,,,,,源类型=type:txt_You; 层级=3
+67,旁白,hide,,,,看着克拉克负伤未愈的手臂，你的指令来得有些略显迟疑。但克拉克的下巴向下垂了垂，便很快用行动给出了回应。,,,,jump(41),源类型=type:txt_pb; 层级=4; gotomainline=41

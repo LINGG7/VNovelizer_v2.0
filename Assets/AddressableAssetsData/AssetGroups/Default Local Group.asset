@@ -1,0 +1,2149 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Default Local Group
+  m_EditorClassIdentifier: 
+  m_GroupName: Default Local Group
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 4dfd3b35a8d3c6d4497e8450a5d9593c
+  m_SerializeEntries:
+  - m_GUID: 02510cb50aea1c749b260281f376cfe6
+    m_Address: VNovelizerRes/Backgrounds/sntzm_david313-315(2)_62
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 027f5f140909cf74f9b5293f61186ddb
+    m_Address: VNovelizerRes/Backgrounds/sntzm_david313-315(4)_33
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 02b4d6436a1290e40a912ee8624d59d7
+    m_Address: VNovelizerRes/VNScripts/sntzm_david3F(1)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNScripts
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 03250d2e63286e34f8c2aaf67a48af6a
+    m_Address: VNovelizerRes/VNPrefabs/UI/Gallery/Scene/ScenePage
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNPrefabs
+    - VNovelizerRes/VNPrefabs/UI
+    - VNovelizerRes/VNPrefabs/UI/Gallery
+    - VNovelizerRes/VNPrefabs/UI/Gallery/Scene
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 03d542df93ce85144aa5a97571e22dfc
+    m_Address: VNovelizerRes/Backgrounds/sntzm_clark4F(2)_68
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 04461a0f92ad4363b93e0ea23ab77723
+    m_Address: VNovelizerRes/Materials/S_UI_OldFilmMemory
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Materials
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 048f6ef40c6a46d48bf781d3ca6c4425
+    m_Address: VNovelizerRes/Backgrounds/sntzm_david313-315(2)_33
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0561536b3f8c28442817d4d06d730066
+    m_Address: VNovelizerRes/VNPrefabs/UI/SaveLoad/Delete
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNPrefabs
+    - VNovelizerRes/VNPrefabs/UI
+    - VNovelizerRes/VNPrefabs/UI/SaveLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 07683654bdfc0b14d8d181d97062a129
+    m_Address: VNovelizerRes/Backgrounds/sntzm_clark3F(3)_19
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 076aed1620b29af478a48c3c152aea28
+    m_Address: VNovelizerRes/Backgrounds/sntzm_clark3F(4)_74
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0786e95f67e21db48a615796db5bc7c2
+    m_Address: VNovelizerRes/ExcelVNScripts/sntzm_david3F(3)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/ExcelVNScripts
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 07c386c7bf9a59c4cbeafdcce7be4989
+    m_Address: VNovelizerRes/Backgrounds/sntzm_david313-315(4)_27
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 092f0c3f7c02c7f459d15f4f0dbba3de
+    m_Address: VNovelizerRes/Backgrounds/sntzm_david313-315(3)_13
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0950bd30f504bfb409bf9184989455ad
+    m_Address: VNovelizerRes/VNPrefabs/UI/History/HistoryItem
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNPrefabs
+    - VNovelizerRes/VNPrefabs/UI
+    - VNovelizerRes/VNPrefabs/UI/History
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0a8f8453203d4534a9da9ed8f5844491
+    m_Address: VNovelizerRes/Materials/S_MainMenuBurnParticle
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Materials
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0b2ff14a811a9cb45ac03d194f32e450
+    m_Address: VNovelizerRes/VNScripts/sntzm_yy
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNScripts
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0b45f4e08cd5c5944b9912779975337f
+    m_Address: VNovelizerRes/ExcelVNScripts/sntzm_main1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/ExcelVNScripts
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0f94ba89e6173ec4fae99bbf7c5fb880
+    m_Address: VNovelizerRes/GalleryContent/Music/MusicDataContainer
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/GalleryContent
+    - VNovelizerRes/GalleryContent/Music
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0fdcfafde380082468b29573247f2305
+    m_Address: VNovelizerRes/Backgrounds/sntzm_david4F(1)_1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 10bc7b3f8dd286e408bb86e7965df592
+    m_Address: VNovelizerRes/Backgrounds/sntzm_david313-315(3)_45
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 113c5371c5654704388cc010e11a0ddc
+    m_Address: VNovelizerRes/Backgrounds/sntzm_david313-315(5)_3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1160c6ab702073e44924697757191bb3
+    m_Address: VNovelizerRes/Backgrounds/sntzm_david4F(2)_32
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1308097b2dc96784bbb79b93c0b637b8
+    m_Address: VNovelizerRes/VNPrefabs/Gameplay/VideoObj
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNPrefabs
+    - VNovelizerRes/VNPrefabs/Gameplay
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 139e3e6122c235b4a85ea4d4316573f9
+    m_Address: VNovelizerRes/Backgrounds/sntzm_david313-315(1)_46
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 14cc78d011b5132469ad313abd382a19
+    m_Address: VNovelizerRes/ExcelVNScripts/sntzm_clark2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/ExcelVNScripts
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 154bf8ff3efcfce49b026d6716f09b3a
+    m_Address: VNovelizerRes/VNPrefabs/UI/Confirm/ConfirmPanel
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNPrefabs
+    - VNovelizerRes/VNPrefabs/UI
+    - VNovelizerRes/VNPrefabs/UI/Confirm
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 164d96cd54ac59f4fa0c117ece153d8c
+    m_Address: VNovelizerRes/ExcelVNScripts/sntzm_davidBranch
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/ExcelVNScripts
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 16ade40123c74d149b05254a9a276e22
+    m_Address: VNovelizerRes/VNPrefabs/UI/Gallery/Music/MusicPage
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNPrefabs
+    - VNovelizerRes/VNPrefabs/UI
+    - VNovelizerRes/VNPrefabs/UI/Gallery
+    - VNovelizerRes/VNPrefabs/UI/Gallery/Music
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 17c0fe00f6a04414d8cdf9f3c4c0649a
+    m_Address: VNovelizerRes/VNScripts/sntzm_david313-315(3)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNScripts
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 191492ebea22ba742bcbcf35f7e5905c
+    m_Address: VNovelizerRes/VNPrefabs/UI/Settings/TabsButtons
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNPrefabs
+    - VNovelizerRes/VNPrefabs/UI
+    - VNovelizerRes/VNPrefabs/UI/Settings
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1a500b3f767eeac4d801a9d87ca58730
+    m_Address: VNovelizerRes/Backgrounds/sntzm_david3F(2)_44
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1a52d027146e1f34ca75732ffd157323
+    m_Address: VNovelizerRes/Backgrounds/sntzm_clark3F(4)_24
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1bdda11245259a543b1f0d03d77b01c4
+    m_Address: VNovelizerRes/Backgrounds/sntzm_clark3F(4)_94
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1c2884f726d699749828876f8442d3a3
+    m_Address: VNovelizerRes/Backgrounds/sntzm_clark3F(4)_65
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1c41667ddccd4ccfab39935216b7e6e8
+    m_Address: VNovelizerRes/VNPrefabs/UI/Monetization/StaminaRecoveryPopup
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNPrefabs
+    - VNovelizerRes/VNPrefabs/UI
+    - VNovelizerRes/VNPrefabs/UI/Monetization
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1ce2355e107eb8e4ca59f49307ad0d30
+    m_Address: VNovelizerRes/VNPrefabs/UI/SaveLoad/SaveLoadPanel
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNPrefabs
+    - VNovelizerRes/VNPrefabs/UI
+    - VNovelizerRes/VNPrefabs/UI/SaveLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1d07b4e91ade4c7459e94a5d102afc09
+    m_Address: VNovelizerRes/Audio/SFX/Kata
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Audio
+    - VNovelizerRes/Audio/SFX
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1d5e5817168fe064390910a85760cc54
+    m_Address: VNovelizerRes/VNScripts/sntzm_clark2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNScripts
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1e4ecf85eaebcab42a2b943a6b55c0da
+    m_Address: VNovelizerRes/Backgrounds/sntzm_david313-315(3)_64
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2001fc3a7ae49094e957ee97aeeefe78
+    m_Address: VNovelizerRes/VNPrefabs/UI/VNGamePlay/VNGamePlayPanel
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNPrefabs
+    - VNovelizerRes/VNPrefabs/UI
+    - VNovelizerRes/VNPrefabs/UI/VNGamePlay
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 20efdcf0ae7eef74098ea2565514858f
+    m_Address: VNovelizerRes/ExcelVNScripts/sntzm_clark3F(2)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/ExcelVNScripts
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 26adb4c929ce75f469447be696365b50
+    m_Address: VNovelizerRes/GalleryContent/CG/CGDataContainer
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/GalleryContent
+    - VNovelizerRes/GalleryContent/CG
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 276030191f146a24f98d5f620fcef7c7
+    m_Address: VNovelizerRes/VNPrefabs/UI/Settings/DisplayPage
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNPrefabs
+    - VNovelizerRes/VNPrefabs/UI
+    - VNovelizerRes/VNPrefabs/UI/Settings
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 27de99a1edc84cde86f8c637c8a6e8be
+    m_Address: VNovelizerRes/VFX/MainMenuBurn/T_MainMenuBurnCharEdge
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VFX
+    - VNovelizerRes/VFX/MainMenuBurn
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 28ef231535e743247bb67c06360cb3b0
+    m_Address: VNovelizerRes/Backgrounds/sntzm_david313-315(1)_84
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2943a6b884d215c47805d9ac0cd6e7e7
+    m_Address: VNovelizerRes/ExcelVNScripts/sntzm_david3F(1)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/ExcelVNScripts
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2b3e77052c330b04bb3fac364e8cb186
+    m_Address: VNovelizerRes/Backgrounds/sntzm_clark3F(4)_49
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2b40357c21fa0da499d6734743ae6f7f
+    m_Address: VNovelizerRes/ExcelVNScripts/sntzm_david4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/ExcelVNScripts
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2c4ac5d81a7ab6541a8f7517de777ae9
+    m_Address: VNovelizerRes/VNScripts/sntzm_david4F(2)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNScripts
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2cbcc14abe4b0bb48b6311f75bcc76f9
+    m_Address: VNovelizerRes/Characters/wy
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Characters
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2cd8fefdae456af4b82ad9f51e5fd334
+    m_Address: VNovelizerRes/VNPrefabs/UI/Gallery/GalleryPanel
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNPrefabs
+    - VNovelizerRes/VNPrefabs/UI
+    - VNovelizerRes/VNPrefabs/UI/Gallery
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2dbea6899a1d1d44c805b4269d01c1de
+    m_Address: VNovelizerRes/VNScripts/sntzm_clark3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNScripts
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2ebc639ebd992c14093c6a85329dcf0b
+    m_Address: VNovelizerRes/Backgrounds/sntzm_clark4F(2)_22
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 30b041e4e2d23d3469887a9be3818b1a
+    m_Address: VNovelizerRes/Backgrounds/sntzm_david313-315(5)_49
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3152c4f3e4dc4ee6891ca7cb0dcbf76e
+    m_Address: VNovelizerRes/Materials/M_TVSnow
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Materials
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 34525da57612a0b4c9f1c80624c28da5
+    m_Address: VNovelizerRes/Backgrounds/sntzm_david4F(1)_35 1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 35bb3182c633e69428cbcfa915c089cd
+    m_Address: VNovelizerRes/ExcelVNScripts/sntzm_clark4F(1)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/ExcelVNScripts
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 35e7c7709f686b6418a39809fcba674f
+    m_Address: VNovelizerRes/Backgrounds/sntzm_david313-315(2)_8
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 36d9ade586b3c8e4b84f06719c674df7
+    m_Address: VNovelizerRes/ExcelVNScripts/sntzm_david313-315(3)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/ExcelVNScripts
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 36dc76b3d9aae3545828feae16415ec1
+    m_Address: VNovelizerRes/Audio/SFX/RockBreak
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Audio
+    - VNovelizerRes/Audio/SFX
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 385820926a8c041418e5c793ccf10a38
+    m_Address: VNovelizerRes/VNScripts/sntzm_david313-315(5)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNScripts
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 397cae93fca18564dbd650b4de2fb771
+    m_Address: VNovelizerRes/VNScripts/sntzm_clark5
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNScripts
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3982d7bb54676394b9e878509b1ff9fc
+    m_Address: VNovelizerRes/Backgrounds/sntzm_david3F(1)_91
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3a94e0d15cce8f84a9181f890e736312
+    m_Address: VNovelizerRes/VNScripts/sntzm_clark3F(1)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNScripts
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3a9984a6baf895840adafbdea2ebd771
+    m_Address: VNovelizerRes/Backgrounds/sntzm_clark3F(2)_24
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3ce16464686778548a0fa9051fbf24ad
+    m_Address: VNovelizerRes/Backgrounds/sntzm_david4F(3)_60
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3d4a04a38985e2f4d98203b3168d587f
+    m_Address: VNovelizerRes/VNPrefabs/UI/Gallery/Scene/SceneSlot
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNPrefabs
+    - VNovelizerRes/VNPrefabs/UI
+    - VNovelizerRes/VNPrefabs/UI/Gallery
+    - VNovelizerRes/VNPrefabs/UI/Gallery/Scene
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3d6814eed4513374f80e53293ae6da38
+    m_Address: VNovelizerRes/Backgrounds/sntzm_david4F(3)_28
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 401946c88df89f14f857c4ce22c3dadf
+    m_Address: VNovelizerRes/VNScripts/sntzm_main3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNScripts
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 409e1c0cf23045d8a65e29e1ad64ca15
+    m_Address: VNovelizerRes/Materials/S_UI_TVSnow
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Materials
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 410e5470f398290448c4212f210a16a2
+    m_Address: VNovelizerRes/Backgrounds/sntzm_clark3F(3)_63
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 421771b33470aa945ae2ff0d7c96e501
+    m_Address: VNovelizerRes/Backgrounds/sntzm_clark3F(2)_80
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 446b22ef73fdda94cbccfd66d6440143
+    m_Address: VNovelizerRes/Backgrounds/sntzm_david313-315(3)_10
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 453050476ff75584c987e8177fd5e119
+    m_Address: VNovelizerRes/VNPrefabs/UI/History/H_DialogueBox
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNPrefabs
+    - VNovelizerRes/VNPrefabs/UI
+    - VNovelizerRes/VNPrefabs/UI/History
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 459bcf3b9b3a13b4997871d2805008de
+    m_Address: VNovelizerRes/Backgrounds/sntzm_david313-315(3)_35
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 46645c1810cf3184582a0ec0390e4d3a
+    m_Address: VNovelizerRes/Audio/SFX/Sizzle
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Audio
+    - VNovelizerRes/Audio/SFX
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 488ebf77bc4cbcd4497639bd876cab73
+    m_Address: VNovelizerRes/ExcelVNScripts/sntzm_david2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/ExcelVNScripts
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4892f327961b42f4a928cb14a322e4f0
+    m_Address: VNovelizerRes/Characters/Emily
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Characters
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 49172aacde5b4bddac89101bacdd2bee
+    m_Address: VNovelizerRes/Materials/S_MainMenuBurnFlameRibbon
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Materials
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 49304ef52ad16bd4d8df2fe6fc3f81e0
+    m_Address: VNovelizerRes/Audio/SFX/FootStep
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Audio
+    - VNovelizerRes/Audio/SFX
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 494e961e1ddad0f4d99e66651ebd1fb7
+    m_Address: VNovelizerRes/Backgrounds/sntzm_david4F(1)_27 1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4ace94afda1d3b34db435d1c3349fb6c
+    m_Address: VNovelizerRes/Backgrounds/sntzm_clark3F(2)_1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4d9e0575c179eaa45ba6c9e88fb264e2
+    m_Address: VNovelizerRes/Backgrounds/sntzm_david313-315(3)_23
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4f1d3e07836e4d528a7f4f9a261a26e6
+    m_Address: VNovelizerRes/VFX/PostProcess/MemoryOldFilmOverlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VFX
+    - VNovelizerRes/VFX/PostProcess
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4ff30de2581828a45a26c63abeb9d14e
+    m_Address: VNovelizerRes/ExcelVNScripts/sntzm_clark3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/ExcelVNScripts
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 50811b2a3eb298947881b13a5d5e4683
+    m_Address: VNovelizerRes/Backgrounds/sntzm_david3F(1)_76
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 50b4ddb7f7c1f25458779f2d414c47ed
+    m_Address: VNovelizerRes/VNPrefabs/UI/VNGamePlay/Char_Left
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNPrefabs
+    - VNovelizerRes/VNPrefabs/UI
+    - VNovelizerRes/VNPrefabs/UI/VNGamePlay
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 50c66c7713bfba248a22768e3f44c523
+    m_Address: VNovelizerRes/Backgrounds/sntzm_david4F(2)_26
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 527b8724c19939442ae56e5b123a39a8
+    m_Address: VNovelizerRes/Backgrounds/sntzm_david3F(2)_73
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5301723f87a4a3148bf3c4b03397802e
+    m_Address: VNovelizerRes/ExcelVNScripts/sntzm_clark3F(1)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/ExcelVNScripts
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 555c8f8b1cd60104d986d55969bb832d
+    m_Address: VNovelizerRes/Backgrounds/sntzm_david313-315(6)_50
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5562eafd7a20dae4685ffa0d14dab39f
+    m_Address: VNovelizerRes/Audio/SFX/GlassBreaking
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Audio
+    - VNovelizerRes/Audio/SFX
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5593a2415734dcf43aa04bc8b852eccd
+    m_Address: VNovelizerRes/VNPrefabs/UI/SaveLoad/CloseButton
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNPrefabs
+    - VNovelizerRes/VNPrefabs/UI
+    - VNovelizerRes/VNPrefabs/UI/SaveLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 571632c1049b16342a409326333c6c7b
+    m_Address: VNovelizerRes/Backgrounds/sntzm_clark3F(4)_41
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 574ac68236f17ad47a3641097a9189e9
+    m_Address: VNovelizerRes/VNPrefabs/UI/History/H_Close
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNPrefabs
+    - VNovelizerRes/VNPrefabs/UI
+    - VNovelizerRes/VNPrefabs/UI/History
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 574eaae471115c74893bbf962e0a6e10
+    m_Address: VNovelizerRes/Backgrounds/sntzm_david313-315(4)_19
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5752bf23fec41e149a0383c6d7da9c81
+    m_Address: VNovelizerRes/VNScripts/sntzm_fourBranch1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNScripts
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 58bb20dd000d58d4da69a59e8771487e
+    m_Address: VNovelizerRes/VNScripts/sntzm_david3F(3)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNScripts
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5a05465c320e9ab4583b3c9b93e905f6
+    m_Address: VNovelizerRes/Backgrounds/sntzm_david4F(3)_33
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5a59a1e091aa03d408497a0089d35ad2
+    m_Address: VNovelizerRes/ExcelVNScripts/sntzm_david313-315(4)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/ExcelVNScripts
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5ab801af597f2dd44bd363fd9653eecc
+    m_Address: VNovelizerRes/VNScripts/sntzm_david2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNScripts
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5be6ce8277c2f104796c31684ff471b4
+    m_Address: VNovelizerRes/Characters/You
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Characters
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5c51145bb66224a4d8a8cb178ec7fa35
+    m_Address: VNovelizerRes/Backgrounds/sntzm_clark3_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5cb9dc3f19e84be59d7b3771830395d6
+    m_Address: VNovelizerRes/Materials/M_OldFilmMemory
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Materials
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5cdde3b8c1da2ee458a708e7667e25d5
+    m_Address: VNovelizerRes/Backgrounds/sntzm_david3F(2)_18
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5dcc4d12315120c4892b66c3fb245618
+    m_Address: VNovelizerRes/VNScripts/sntzm_main1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNScripts
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5fb53831a6ba3994d897e6dc8d640d3e
+    m_Address: VNovelizerRes/Materials/M_Snow
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Materials
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6058cc62bbd811647bef6654a86dbb21
+    m_Address: VNovelizerRes/VNPrefabs/UI/Gallery/Music/MusicSlot
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNPrefabs
+    - VNovelizerRes/VNPrefabs/UI
+    - VNovelizerRes/VNPrefabs/UI/Gallery
+    - VNovelizerRes/VNPrefabs/UI/Gallery/Music
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 60594e18b174d2e46831c527b3fbc79d
+    m_Address: VNovelizerRes/VNPrefabs/UI/Settings/SettingsPanel
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNPrefabs
+    - VNovelizerRes/VNPrefabs/UI
+    - VNovelizerRes/VNPrefabs/UI/Settings
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 60733ea8fe1a2f64d83bd571167a1361
+    m_Address: VNovelizerRes/VNScripts/sntzm_clark1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNScripts
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 607406970739dd7418f8003c7d1dee7d
+    m_Address: VNovelizerRes/ExcelVNScripts/sntzm_fe
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/ExcelVNScripts
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 61f80fdf60ce49b43995c20e67a3db90
+    m_Address: VNovelizerRes/Backgrounds/sntzm_ss_76
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6260e00d3f36be44cbb885c2dcae7b37
+    m_Address: VNovelizerRes/ExcelVNScripts/sntzm_david1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/ExcelVNScripts
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 643235b831923ee468f9dece2a3d5363
+    m_Address: VNovelizerRes/VNScripts/sntzm_david3F(2)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNScripts
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6574357b4bb44083a668dd9fc131b51d
+    m_Address: VNovelizerRes/VNPrefabs/UI/ToBeContinued/ToBeContinuedPanel
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNPrefabs
+    - VNovelizerRes/VNPrefabs/UI
+    - VNovelizerRes/VNPrefabs/UI/ToBeContinued
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 66108bde4f88fa843958bc09146e6a58
+    m_Address: VNovelizerRes/Backgrounds/sntzm_david313-315(6)_84
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6673d451c25f483439c7a4b980046c11
+    m_Address: VNovelizerRes/VNPrefabs/Gameplay/SoundObj
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNPrefabs
+    - VNovelizerRes/VNPrefabs/Gameplay
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6676ea9c00498f040afd6af747a9237a
+    m_Address: VNovelizerRes/Backgrounds/sntzm_david4F(1)_1 1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 66a5907f51c802d4fa59f2a569860223
+    m_Address: VNovelizerRes/Backgrounds/sntzm_clark3F(3)_13
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 67cf4f0786a60354789c6b54423f809d
+    m_Address: VNovelizerRes/VNScripts/sntzm_david1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNScripts
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 68c31e92cbda7004fae79316beefb005
+    m_Address: VNovelizerRes/VNScripts/sntzm_david3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNScripts
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 69285751f96b35a4092c9cb26cb42ca9
+    m_Address: VNovelizerRes/Backgrounds/sntzm_clark3F(2)_72
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 692cbe74a004b7647a7cdb52759451f6
+    m_Address: VNovelizerRes/Audio/SFX/Electric
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Audio
+    - VNovelizerRes/Audio/SFX
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6b9407b183ab3354b90700f66974f246
+    m_Address: VNovelizerRes/ExcelVNScripts/sntzm_clark4F(2)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/ExcelVNScripts
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6bcef367874d5db46b7c5d5423bd5f39
+    m_Address: VNovelizerRes/ExcelVNScripts/sntzm_ss
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/ExcelVNScripts
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6c4c090745ddc634aacb0680cdf4dc95
+    m_Address: VNovelizerRes/Backgrounds/sntzm_clark4F(3)_19
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6cd5cccb4ba61404fb75032f3e520b0a
+    m_Address: VNovelizerRes/Characters/Abaddon
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Characters
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6dfa548d3fe73a54a8bc3336f8b858b0
+    m_Address: VNovelizerRes/VFX/Partical/RainEffect
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VFX
+    - VNovelizerRes/VFX/Partical
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6ea411417d11b75479b59beeac6d9952
+    m_Address: VNovelizerRes/VNScripts/sntzm_david313-315(4)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNScripts
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6f1eed1793bce1448a2d6979cffe923d
+    m_Address: VNovelizerRes/Backgrounds/sntzm_david3F(2)_20
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6f54300a02322a14db7b61c05fc8d8b7
+    m_Address: VNovelizerRes/Backgrounds/sntzm_clark3F(3)_70
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 719a51ce48ea1364fac64819ba579d36
+    m_Address: VNovelizerRes/VNPrefabs/UI/VNGamePlay/Char_Right
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNPrefabs
+    - VNovelizerRes/VNPrefabs/UI
+    - VNovelizerRes/VNPrefabs/UI/VNGamePlay
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 739ea54ff76a9124ab477dcc395d313b
+    m_Address: VNovelizerRes/VFX/MainMenuBurn/T_MainMenuBurnSmoke
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VFX
+    - VNovelizerRes/VFX/MainMenuBurn
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 73e150a72e83ee7439f38284ea09bfba
+    m_Address: VNovelizerRes/VNScripts/sntzm_david4F(1)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNScripts
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 751882a8392336c4ea63889b798ba4ae
+    m_Address: VNovelizerRes/Backgrounds/sntzm_clark3F(4)_68
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 75f07602718671049a3a1fd4585c0f8e
+    m_Address: VNovelizerRes/VNPrefabs/UI/VNGamePlayCanvas
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNPrefabs
+    - VNovelizerRes/VNPrefabs/UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 76469fab173833b4fa3ebcf47375f762
+    m_Address: VNovelizerRes/Backgrounds/sntzm_david4F(2)_15
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 797eb640c0509de4abb8d63dcdf58ecb
+    m_Address: VNovelizerRes/VNPrefabs/UI/SaveLoad/SaveSlot
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNPrefabs
+    - VNovelizerRes/VNPrefabs/UI
+    - VNovelizerRes/VNPrefabs/UI/SaveLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7ba43d49277849389dc30b9f0f086626
+    m_Address: VNovelizerRes/VNPrefabs/UI/EndingChoice/EndingChoicePanel
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNPrefabs
+    - VNovelizerRes/VNPrefabs/UI
+    - VNovelizerRes/VNPrefabs/UI/EndingChoice
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7ee42edec937fde42b417b9ded1a8641
+    m_Address: VNovelizerRes/Characters/David
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Characters
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7f6de267dbce9084fbd211b42722973d
+    m_Address: VNovelizerRes/VNPrefabs/UI/History/H_Content
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNPrefabs
+    - VNovelizerRes/VNPrefabs/UI
+    - VNovelizerRes/VNPrefabs/UI/History
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7f7bb11d4ba34bc4b97f17d0a1f206c1
+    m_Address: VNovelizerRes/VFX/Partical/MemoryDustEffect
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VFX
+    - VNovelizerRes/VFX/Partical
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 80cb4d86829146549b3011ed4d446006
+    m_Address: VNovelizerRes/Backgrounds/sntzm_clark3F(1)_64
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 81758cdab8946b24bb2ba3401e532706
+    m_Address: VNovelizerRes/Backgrounds/sntzm_david4F(3)_39
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 81c0cacafb78d4c4e8f8f371d71dee72
+    m_Address: VNovelizerRes/Backgrounds/sntzm_clark4F(3)_13
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 82d3c76641acb244c96d3007e1995867
+    m_Address: VNovelizerRes/VNScripts/sntzm_ss
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNScripts
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8333d4aa589eee24c9f1851acdbf162e
+    m_Address: VNovelizerRes/Backgrounds/sntzm_david313-315(1)_74
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8339dafddd1ea4145a096732fc690822
+    m_Address: VNovelizerRes/VNScripts/sntzm_fourBranch2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNScripts
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 84d3d982cea059e479845b2d9af567e7
+    m_Address: VNovelizerRes/Characters/Clark
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Characters
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 861e803ffe012b84d90e74d5b3e36baa
+    m_Address: VNovelizerRes/Backgrounds/sntzm_david313-315(4)_1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 86ec73be3f0d1be4c9413c11bf4d6915
+    m_Address: VNovelizerRes/VNScripts/sntzm_clark4F(3)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNScripts
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 873ab190706d13d4086f1e20452453d8
+    m_Address: VNovelizerRes/ExcelVNScripts/sntzm_main3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/ExcelVNScripts
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 87bb06d8b2ca0fa4983176cca50ed6b8
+    m_Address: VNovelizerRes/Backgrounds/sntzm_clark3F(2)_18
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8810dabda6a64f3418e59626e8953900
+    m_Address: VNovelizerRes/ExcelVNScripts/sntzm_david4F(1)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/ExcelVNScripts
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8989e540fa230b74696dcd1751dd841c
+    m_Address: VNovelizerRes/Audio/SFX/DoorClose
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Audio
+    - VNovelizerRes/Audio/SFX
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8a0fd0d4a528d664ab328805e9216b75
+    m_Address: VNovelizerRes/Backgrounds/sntzm_clark3F(2)_90
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8a82cf080d9e76b4fbfa209b72d50215
+    m_Address: VNovelizerRes/VNPrefabs/UI/Settings/CloseBtn
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNPrefabs
+    - VNovelizerRes/VNPrefabs/UI
+    - VNovelizerRes/VNPrefabs/UI/Settings
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8c1698eca9aca3044b13547780e9ba76
+    m_Address: VNovelizerRes/ExcelVNScripts/sntzm_david3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/ExcelVNScripts
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8dd3af6d81f94b54c89d305b542edf58
+    m_Address: VNovelizerRes/Backgrounds/sntzm_david313-315(1)_20
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8e1e5b1b11754c76b1a02e57b4c2f001
+    m_Address: VNovelizerRes/Materials/S_UI_TapePlayback
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Materials
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8e1e5b1b11754c76b1a02e57b4c2f002
+    m_Address: VNovelizerRes/Materials/M_TapePlayback
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Materials
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8e1e5b1b11754c76b1a02e57b4c2f003
+    m_Address: VNovelizerRes/VFX/PostProcess/TapePlaybackOverlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VFX
+    - VNovelizerRes/VFX/PostProcess
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 90b31ca24f428b74f958b703b6cb7271
+    m_Address: VNovelizerRes/Backgrounds/sntzm_david313-315(1)_79
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 90bd575605bedfb478b8dfe419f56357
+    m_Address: VNovelizerRes/Backgrounds/sntzm_david4F(2)_5
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 91871c5d7cf792e46915a44b5479db8c
+    m_Address: VNovelizerRes/VNScripts/sntzm_david4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNScripts
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 91a0f18948c242d40be68fe04254f0a9
+    m_Address: VNovelizerRes/ExcelVNScripts/sntzm_clark5
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/ExcelVNScripts
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9363700280b36d64681123bb36b6f66a
+    m_Address: VNovelizerRes/VNScripts/sntzm_main2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNScripts
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 941fa1718ec3f1840b4db57c916519b0
+    m_Address: VNovelizerRes/Backgrounds/sntzm_clark3F(2)_36
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 944329b37a58af84e8c232414fe5fc6c
+    m_Address: VNovelizerRes/Backgrounds/sntzm_david313-315(4)_78
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 94856c0ff92a41f4aa27f836edabefa4
+    m_Address: VNovelizerRes/VFX/Partical/SnowEffect
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VFX
+    - VNovelizerRes/VFX/Partical
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 963e9086a187eb7458c5e5a15068a368
+    m_Address: VNovelizerRes/Backgrounds/sntzm_clark3F(2)_40
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 965a4cd38a4d5a242a4da972e96555ee
+    m_Address: VNovelizerRes/Backgrounds/sntzm_clark3F(3)_80
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 969ad7fad0f3f934188ae8f40f758c7c
+    m_Address: VNovelizerRes/Backgrounds/sntzm_clark3F(3)_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 97debbc384b5fb54ebb0b2e70e9177dc
+    m_Address: VNovelizerRes/ExcelVNScripts/sntzm_yy
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/ExcelVNScripts
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 98a90db0076273d45b8fc04d11a1d219
+    m_Address: VNovelizerRes/Backgrounds/sntzm_david3F(3)_71
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 991b8d2b9c3f9ad499068c8e6ebaebfb
+    m_Address: VNovelizerRes/VNPrefabs/UI/Choice/ChoicePanel
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNPrefabs
+    - VNovelizerRes/VNPrefabs/UI
+    - VNovelizerRes/VNPrefabs/UI/Choice
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 995ba1e7492723d40a46dfcb28ff06e3
+    m_Address: VNovelizerRes/Backgrounds/sntzm_david313-315(3)_38
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 99bca371aeabe5c41b1b83815a88fd95
+    m_Address: VNovelizerRes/VFX/Animation/Sweat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VFX
+    - VNovelizerRes/VFX/Animation
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9aed2557d959005489d4e2351738370b
+    m_Address: VNovelizerRes/VNScripts/sntzm_clark4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNScripts
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9b9801f32706f1146b78fa4e91d8e1e4
+    m_Address: VNovelizerRes/Backgrounds/sntzm_david313-315(2)_1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9c16bbb89a5297a4896cb48c550b9f66
+    m_Address: VNProjectConfig
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9c528a118f574836bc6ef9a6db63b7c7
+    m_Address: VNovelizerRes/VNPrefabs/UI/Monetization/StaminaHUD
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNPrefabs
+    - VNovelizerRes/VNPrefabs/UI
+    - VNovelizerRes/VNPrefabs/UI/Monetization
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9cb4132853b5b264b80eb45b1d54cc73
+    m_Address: VNovelizerRes/VNPrefabs/UI/VNGamePlay/Prompt/PromptItem
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNPrefabs
+    - VNovelizerRes/VNPrefabs/UI
+    - VNovelizerRes/VNPrefabs/UI/VNGamePlay
+    - VNovelizerRes/VNPrefabs/UI/VNGamePlay/Prompt
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9ec869961306fa04f9ee267690fa9ab9
+    m_Address: VNovelizerRes/Backgrounds/sntzm_david313-315(1)_1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9fc0125910fe078408cdd8fb4c615a83
+    m_Address: VNovelizerRes/ExcelVNScripts/sntzm_david313-315(6)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/ExcelVNScripts
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a009431fbd50a8642814355a700d4eac
+    m_Address: VNovelizerRes/ExcelVNScripts/sntzm_fourBranch2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/ExcelVNScripts
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a0603f2b254b39a4584cc67aa26a77ba
+    m_Address: VNovelizerRes/VFX/Partical/FogEffect
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VFX
+    - VNovelizerRes/VFX/Partical
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a0e2827124225fd45993f735f24b3bd3
+    m_Address: VNovelizerRes/VNScripts/sntzm_david313-315(6)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNScripts
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a0fe7cd3439cbbb439be33b818b2d5c1
+    m_Address: VNovelizerRes/Backgrounds/sntzm_david4F(1)_35
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a22b4c08440f9b841b3aa0504346c075
+    m_Address: VNovelizerRes/VNPrefabs/UI/Settings/VolumePage
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNPrefabs
+    - VNovelizerRes/VNPrefabs/UI
+    - VNovelizerRes/VNPrefabs/UI/Settings
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a56664354d70999499e00f3ee2707f67
+    m_Address: VNovelizerRes/ExcelVNScripts/sntzm_clark1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/ExcelVNScripts
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a5e2edf5221656841971843235e4296b
+    m_Address: VNovelizerRes/VNPrefabs/UI/History/H_SpeakerBox
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNPrefabs
+    - VNovelizerRes/VNPrefabs/UI
+    - VNovelizerRes/VNPrefabs/UI/History
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a6ea8b42ca5c550499d74ddfbf3a0fc3
+    m_Address: VNovelizerRes/Audio/SFX/Skip
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Audio
+    - VNovelizerRes/Audio/SFX
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a7a602b092ab0c24faf11842f5937c2d
+    m_Address: VNovelizerRes/VNPrefabs/UI/TransitionManagerRoot
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNPrefabs
+    - VNovelizerRes/VNPrefabs/UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a86051a249b298946bebac770ad05634
+    m_Address: VNovelizerRes/Backgrounds/sntzm_clark3F(2)_42
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a8fd8c40f71848b2ac75bbf9d5ef6a36
+    m_Address: VNovelizerRes/VNPrefabs/UI/Gallery/Ending/EndingSlot
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNPrefabs
+    - VNovelizerRes/VNPrefabs/UI
+    - VNovelizerRes/VNPrefabs/UI/Gallery
+    - VNovelizerRes/VNPrefabs/UI/Gallery/Ending
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a959ff13262fe5d4f80798de9ebb7963
+    m_Address: VNovelizerRes/Audio/SFX/Screech
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Audio
+    - VNovelizerRes/Audio/SFX
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a98873f03a45f354786fd9c70302cd45
+    m_Address: VNovelizerRes/Backgrounds/sntzm_david4F(1)_27
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: abb255ba47dfc52439a89a4ed938e017
+    m_Address: VNovelizerRes/VNScripts/sntzm_clark4F(2)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNScripts
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ad2b4bae970dedf4d85bb720c0565465
+    m_Address: VNovelizerRes/Backgrounds/sntzm_clark3F(3)_94
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aebec1cfc981c4645b3111e1506ed3ea
+    m_Address: VNovelizerRes/VNScripts/sntzm_david313-315(2)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNScripts
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aee83a751bdb06a4d99adb3d25832910
+    m_Address: VNovelizerRes/ExcelVNScripts/sntzm_david4F(3)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/ExcelVNScripts
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: af488596495e4244eb51a888dfc81265
+    m_Address: VNovelizerRes/Backgrounds/sntzm_david313-315(1)_26
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: afb818cf15a59414e8843c360536a95d
+    m_Address: VNovelizerRes/VNPrefabs/UI/Pause/PausePanel
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNPrefabs
+    - VNovelizerRes/VNPrefabs/UI
+    - VNovelizerRes/VNPrefabs/UI/Pause
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: afcc0bc0d5242e142bda4260a1668735
+    m_Address: VNovelizerRes/Backgrounds/sntzm_clark3F(1)_61
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b09d4eabea757e244b6acf8118dea374
+    m_Address: VNovelizerRes/ExcelVNScripts/sntzm_clark3F(3)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/ExcelVNScripts
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b2d0644f0d4d4a340942457dd324a6fb
+    m_Address: VNovelizerRes/ExcelVNScripts/sntzm_david3F(2)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/ExcelVNScripts
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b5538e9429500914a8d8005979454554
+    m_Address: VNovelizerRes/Backgrounds/sntzm_david313-315(3)_67
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b6a22f39989b47149a2877e15d613a53
+    m_Address: VNovelizerRes/VFX/PostProcess/MemoryFilterOverlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VFX
+    - VNovelizerRes/VFX/PostProcess
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b6f593145695e28459729ff307e7240b
+    m_Address: VNovelizerRes/Backgrounds/sntzm_clark3F(1)_67
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b73e8d06fb8448baab392f217dfdce51
+    m_Address: VNovelizerRes/Materials/S_UI_ElectronicScreenNoise
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Materials
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b7b0f7cffca1942489089ea2f038ce8b
+    m_Address: VNovelizerRes/VNScripts/sntzm_clark3F(4)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNScripts
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b8b3ede17e7a0564bb36b9ee92bcf50c
+    m_Address: VNovelizerRes/VNPrefabs/UI/History/H_Replay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNPrefabs
+    - VNovelizerRes/VNPrefabs/UI
+    - VNovelizerRes/VNPrefabs/UI/History
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b94ec0db6de84c429cf70cb2ad383a1f
+    m_Address: VNovelizerRes/VNPrefabs/UI/Gallery/Ending/EndingPage
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNPrefabs
+    - VNovelizerRes/VNPrefabs/UI
+    - VNovelizerRes/VNPrefabs/UI/Gallery
+    - VNovelizerRes/VNPrefabs/UI/Gallery/Ending
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b98b6f4c194a4899a14dd437e75f93e2
+    m_Address: VNovelizerRes/VFX/PostProcess/MemoryTVSnowOverlay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VFX
+    - VNovelizerRes/VFX/PostProcess
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b9a3b97517207e242a83b2491d0038c6
+    m_Address: VNovelizerRes/ExcelVNScripts/sntzm_david313-315(1)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/ExcelVNScripts
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ba527902c0422b04d94124d4b5dcaa9f
+    m_Address: VNovelizerRes/Backgrounds/mainmenu
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bcccfbbb96a296644a1f074568c2c5f6
+    m_Address: VNovelizerRes/ExcelVNScripts/sntzm_fourBranch1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/ExcelVNScripts
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bf29cb827c945064b8f4b308f8424eba
+    m_Address: VNovelizerRes/ExcelVNScripts/sntzm_clark4F(3)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/ExcelVNScripts
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bff24fe8e15390a4d918ab2cf68020d0
+    m_Address: VNovelizerRes/VFX/Partical/SparkEffect
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VFX
+    - VNovelizerRes/VFX/Partical
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c00a2e757d5dc9545a6cf7fb60b1d732
+    m_Address: VNovelizerRes/VNPrefabs/UI/Loading/LoadingProgressPanel
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNPrefabs
+    - VNovelizerRes/VNPrefabs/UI
+    - VNovelizerRes/VNPrefabs/UI/Loading
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c18073d6ca3f4b12a9cf93618cf40e6a
+    m_Address: VNovelizerRes/VNPrefabs/UI/Gallery/Ending/EndingSlotContainer
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNPrefabs
+    - VNovelizerRes/VNPrefabs/UI
+    - VNovelizerRes/VNPrefabs/UI/Gallery
+    - VNovelizerRes/VNPrefabs/UI/Gallery/Ending
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c222d48d6413d934ca216bff7216b35a
+    m_Address: VNovelizerRes/VNScripts/sntzm_david313-315(1)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNScripts
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c26fe25a8d535cd4ba25fa0a4c912ff4
+    m_Address: VNovelizerRes/VNPrefabs/UI/Choice/ChoiceItem
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNPrefabs
+    - VNovelizerRes/VNPrefabs/UI
+    - VNovelizerRes/VNPrefabs/UI/Choice
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c4ecfa88c7175dd4ca6e8c8d9b46d670
+    m_Address: VNovelizerRes/ExcelVNScripts/sntzm_david313-315(2)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/ExcelVNScripts
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c5441c9c3d834b24683591fae1e4731d
+    m_Address: VNovelizerRes/VNPrefabs/UI/Gallery/Music/MusicList
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNPrefabs
+    - VNovelizerRes/VNPrefabs/UI
+    - VNovelizerRes/VNPrefabs/UI/Gallery
+    - VNovelizerRes/VNPrefabs/UI/Gallery/Music
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c5f3e9a0e3aa5ff4d914384c7e2b4c8b
+    m_Address: VNovelizerRes/VNPrefabs/UI/History/H_Scroll View
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNPrefabs
+    - VNovelizerRes/VNPrefabs/UI
+    - VNovelizerRes/VNPrefabs/UI/History
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c6cac0bffb9b452bb7ce7358a131d288
+    m_Address: VNovelizerRes/Materials/M_ElectronicScreenNoise
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Materials
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c6ffce649953f1c498f1355777522090
+    m_Address: VNovelizerRes/Materials/S_UI_MainMenuBurnMask
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Materials
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c85826e9e39e02b4e8cfb243c307dc6c
+    m_Address: VNovelizerRes/VNPrefabs/UI/VNGamePlay/SpeakerBox
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNPrefabs
+    - VNovelizerRes/VNPrefabs/UI
+    - VNovelizerRes/VNPrefabs/UI/VNGamePlay
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c9c9bcc6044678b4eb925bd28d29bf01
+    m_Address: VNovelizerRes/Backgrounds/sntzm_david4F(3)_36
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cabde64c99960264cadc055f6de3d595
+    m_Address: VNovelizerRes/ExcelVNScripts/sntzm_main2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/ExcelVNScripts
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cb1a0817f90c9504b8269b1003f599af
+    m_Address: VNovelizerRes/Characters/jiaoguan
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Characters
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cc13860c025ed604c9e0e32dab73a80e
+    m_Address: VNovelizerRes/Backgrounds/sntzm_clark3F(3)_86
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cc6c0a69ea724cc2a9c1e6854f2a5c0f
+    m_Address: VNovelizerRes/GalleryContent/Ending/EndingDataContainer
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/GalleryContent
+    - VNovelizerRes/GalleryContent/Ending
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ce51689a1ee92b44ab15a1d689f07eb8
+    m_Address: VNovelizerRes/VNPrefabs/UI/VNGamePlay/ButtonContainer
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNPrefabs
+    - VNovelizerRes/VNPrefabs/UI
+    - VNovelizerRes/VNPrefabs/UI/VNGamePlay
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d02651d1f5bfd204cb390145ef5c390c
+    m_Address: VNovelizerRes/Backgrounds/sntzm_david4F(2)_11
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d24897294e00c93488868b8d6ae2e169
+    m_Address: VNovelizerRes/Backgrounds/sntzm_david3F(3)_43
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d37a2b7a77096844085fd380b1b516ad
+    m_Address: VNovelizerRes/Backgrounds/sntzm_clark3F(3)_77
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d383510fd6fb8f840993baefd99d2fb8
+    m_Address: VNovelizerRes/ExcelVNScripts/sntzm_emily
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/ExcelVNScripts
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d4fcacbac2d274f49bdf28f93aaccf9d
+    m_Address: VNovelizerRes/Characters/Sophia
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Characters
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d6961fa3702281f488c8470485d37b35
+    m_Address: VNovelizerRes/Backgrounds/sntzm_david313-315(6)_45
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d8221d4b7e908dd4bb3521c77b23ec5e
+    m_Address: VNovelizerRes/VNScripts/sntzm_emily
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNScripts
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d959fb53075a03c448d2fe8531592422
+    m_Address: VNovelizerRes/VNPrefabs/UI/Gallery/CG/CGSlot
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNPrefabs
+    - VNovelizerRes/VNPrefabs/UI
+    - VNovelizerRes/VNPrefabs/UI/Gallery
+    - VNovelizerRes/VNPrefabs/UI/Gallery/CG
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dd1e6623ab4df4c4398085eb176ec244
+    m_Address: VNovelizerRes/VNPrefabs/UI/Settings/TextPage
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNPrefabs
+    - VNovelizerRes/VNPrefabs/UI
+    - VNovelizerRes/VNPrefabs/UI/Settings
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e00bfb3014b0b0242b9aac2f7606a321
+    m_Address: VNovelizerRes/Backgrounds/sntzm_david4F(3)_1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e13b06e45b868754b9e818c9b38ed88e
+    m_Address: VNovelizerRes/ExcelVNScripts/sntzm_clark3F(4)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/ExcelVNScripts
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e34d79bbb4d643e479fb303ca11df049
+    m_Address: VNovelizerRes/Audio/SFX/GunShot
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Audio
+    - VNovelizerRes/Audio/SFX
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e52b9b9f22a132444b49e7487b8a4246
+    m_Address: VNovelizerRes/VNScripts/sntzm_davidBranch
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNScripts
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e56c60c4dbe898a4c891de21c08bdf56
+    m_Address: VNovelizerRes/VNPrefabs/UI/Gallery/Scene/SceneSlotContainer
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNPrefabs
+    - VNovelizerRes/VNPrefabs/UI
+    - VNovelizerRes/VNPrefabs/UI/Gallery
+    - VNovelizerRes/VNPrefabs/UI/Gallery/Scene
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e5ab178da5286224e9c326942d6de2ce
+    m_Address: VNovelizerRes/Backgrounds/sntzm_david313-315(2)_69
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e62c721f34ec67140acd4327a4182eca
+    m_Address: VNovelizerRes/VNPrefabs/UI/SaveLoad/ModeBox
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNPrefabs
+    - VNovelizerRes/VNPrefabs/UI
+    - VNovelizerRes/VNPrefabs/UI/SaveLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e644b10d1bd62184c882fe8a586cd1c5
+    m_Address: VNovelizerRes/Backgrounds/sntzm_david313-315(1)_23
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e7a4854b66e33e549871df4ea84b5752
+    m_Address: VNovelizerRes/Backgrounds/sntzm_david3F(2)_66
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e7d71018e7c49824683180c149ae790a
+    m_Address: VNovelizerRes/VNPrefabs/UI/VNGamePlay/DialougeBox
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNPrefabs
+    - VNovelizerRes/VNPrefabs/UI
+    - VNovelizerRes/VNPrefabs/UI/VNGamePlay
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ea4290de20f61ba458d34053f18a3aef
+    m_Address: VNovelizerRes/VNScripts/sntzm_clark3F(3)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNScripts
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: eb9e1b0efe7feee439d60d248a69ef87
+    m_Address: VNovelizerRes/ExcelVNScripts/sntzm_david313-315(5)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/ExcelVNScripts
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ed25c55958d148043bfee16010d34fc8
+    m_Address: VNovelizerRes/Backgrounds/sntzm_clark3F(3)_6
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ed391a1f9447a674198737fc070d6785
+    m_Address: VNovelizerRes/VNScripts/sntzm_clark3F(2)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNScripts
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ee46f0fabcd9fb74bb03103a1ebc71d2
+    m_Address: VNovelizerRes/VNPrefabs/UI/History/HistoryPanel
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNPrefabs
+    - VNovelizerRes/VNPrefabs/UI
+    - VNovelizerRes/VNPrefabs/UI/History
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: efe9601a95793364c98f8539cf488d20
+    m_Address: VNovelizerRes/ExcelVNScripts/sntzm_david4F(2)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/ExcelVNScripts
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f11909e4d84c12943b2c3acbaeeb5d4b
+    m_Address: VNovelizerRes/GalleryContent/Scene/SceneDataContainer
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/GalleryContent
+    - VNovelizerRes/GalleryContent/Scene
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f2cb12129647dac4aad392a2858210de
+    m_Address: VNovelizerRes/Backgrounds/sntzm_david4F(2)_1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f3a0ebd270bfb5d419463d8376a2bc99
+    m_Address: VNovelizerRes/Backgrounds/sntzm_david3F(2)_24
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f3dfc550367f8ec45a32d02107fe934a
+    m_Address: VNovelizerRes/Backgrounds/sntzm_david313-315(1)_34
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f404098ebfe369548a44afa7dee1c7be
+    m_Address: VNovelizerRes/VNPrefabs/UI/Gallery/CG/CGPage
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNPrefabs
+    - VNovelizerRes/VNPrefabs/UI
+    - VNovelizerRes/VNPrefabs/UI/Gallery
+    - VNovelizerRes/VNPrefabs/UI/Gallery/CG
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f43a5d38ca7e42d699e938a75fcd0a01
+    m_Address: VNovelizerRes/VFX/MainMenuBurn/T_MainMenuBurnFlameRibbon
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VFX
+    - VNovelizerRes/VFX/MainMenuBurn
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f533f269da3cf304eb71740fa8bc9e5f
+    m_Address: VNovelizerRes/VNPrefabs/UI/Gallery/Music/RightPanel
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNPrefabs
+    - VNovelizerRes/VNPrefabs/UI
+    - VNovelizerRes/VNPrefabs/UI/Gallery
+    - VNovelizerRes/VNPrefabs/UI/Gallery/Music
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f6344708e03f7f2469bca16cb05c52b0
+    m_Address: VNovelizerRes/VNPrefabs/UI/EventSystem
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNPrefabs
+    - VNovelizerRes/VNPrefabs/UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f64eca261454b4c4285d0c0fd106920c
+    m_Address: VNovelizerRes/VNScripts/sntzm_fe
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNScripts
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f6508d7dc4d810741aea823fc12524d7
+    m_Address: VNovelizerRes/VNPrefabs/UI/MainMenu/MainMenuPanel
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNPrefabs
+    - VNovelizerRes/VNPrefabs/UI
+    - VNovelizerRes/VNPrefabs/UI/MainMenu
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f6b5dc97099937940bee9c97db7ea556
+    m_Address: VNovelizerRes/VFX/PostProcess/PostEffect_Pixel
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VFX
+    - VNovelizerRes/VFX/PostProcess
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f70643692f1a1b64eab951e34dec930f
+    m_Address: VNovelizerRes/Characters/Clemons
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Characters
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f779dfdc7d81e8744ae97e18818be17b
+    m_Address: VNovelizerRes/VNPrefabs/UI/Gallery/Scene/SceneSlotDetail
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNPrefabs
+    - VNovelizerRes/VNPrefabs/UI
+    - VNovelizerRes/VNPrefabs/UI/Gallery
+    - VNovelizerRes/VNPrefabs/UI/Gallery/Scene
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f8341e7f5376da04db3e594ae9396631
+    m_Address: VNovelizerRes/VNPrefabs/UI/VNGamePlay/Char_Mid
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNPrefabs
+    - VNovelizerRes/VNPrefabs/UI
+    - VNovelizerRes/VNPrefabs/UI/VNGamePlay
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f887046fa6693e14caee623ed637d0c3
+    m_Address: VNovelizerRes/ExcelVNScripts/sntzm_clark4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/ExcelVNScripts
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f912cbe726154dc9b66cb1f52d15927e
+    m_Address: VNovelizerRes/VNPrefabs/UI/Gallery/Ending/EndingSlotDetail
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNPrefabs
+    - VNovelizerRes/VNPrefabs/UI
+    - VNovelizerRes/VNPrefabs/UI/Gallery
+    - VNovelizerRes/VNPrefabs/UI/Gallery/Ending
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f98ae3620a5a732448e2a9a6bed8288d
+    m_Address: VNovelizerRes/Backgrounds/sntzm_david3F(1)_88
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f9b1aca17d7b12245a324d7f2bcded12
+    m_Address: VNovelizerRes/Backgrounds/sntzm_david313-315(4)_48
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fdaf3ece72f335e42b3069f36210139d
+    m_Address: VNovelizerRes/VNScripts/sntzm_clark4F(1)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNScripts
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fe3d20c4d649361479203a9e0b756dd1
+    m_Address: VNovelizerRes/VNScripts/sntzm_david4F(3)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNScripts
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ff70c5ead58fbec438b9f30e9be420a3
+    m_Address: VNovelizerRes/Backgrounds/sntzm_clark3F(3)_91
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: e05a7e7d0a4767d4dbd8053c426fbfd0, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: c58a63bf50cbf874a8a4959887e29732, type: 2}
+    - {fileID: 11400000, guid: ae396c43cd856b24389542c96a66bc07, type: 2}

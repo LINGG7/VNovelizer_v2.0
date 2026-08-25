@@ -1,0 +1,71 @@
+ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Command,Note
+1,旁白,hide,,,,伴随着一阵刺耳的拖地声，这扇标有B-512的沉重铁门应声弹开，手电光柱如利刃般劈开室内的黑暗，跟着的着是你们紧随其后的两支枪口。,,,false,"bgfade(sntzm_david4F(2)_1,1)",源类型=type:txt_pb; 层级=0
+66,旁白,hide,,,,房间比想象中大得多，与其说是一间电击治疗室，倒更像是一间审讯室。,,,,,源类型=type:txt_pb; 层级=1
+65,旁白,hide,,,,两侧墙壁上各挂着一张闪着花白乱码的监视器屏幕，粗粝的防静电橡胶垫从角落一直延伸到房门，几根断裂的线缆从天花板无力地垂下，如同被手术刀斩断的神经末梢。,,,,,源类型=type:txt_pb; 层级=2
+67,旁白,hide,,,,但最为显眼的，还是嵌在房间内侧的两间隔舱，隔间的铁门被电子锁紧紧咬住，只留出一块不到10英寸的半透明玻璃，让你们勉强看清里面的景象。,,,,,源类型=type:txt_pb; 层级=3
+68,旁白,hide,,,,左侧隔间的电椅子上坐着一个人，双手被宽大的金属扣缚在扶手上，头垂着，看不出生死，但他的脸你们很熟悉。,,,,"bgfade(sntzm_clark4F(2)_68,1)",源类型=type:txt_pb; 层级=4
+70,旁白,hide,,,,克拉克像头熊似得贴在门上，隔着那扇小小的窗户对他大声喊话。受困的警官浑身都染上了鲜红的血迹，他没有反应。连呼吸的起伏都微弱得令人心悸。,,,,,源类型=type:txt_pb; 层级=6
+71,你,hide,,,,他还活着。,,,,,源类型=type:txt_You; 层级=7
+72,旁白,hide,,,,你的声音从他耳侧传来，带着一丝庆幸的安抚。,,,,,源类型=type:txt_pb; 层级=8
+73,你,hide,,,,他的胸口在动。,,,,,源类型=type:txt_You; 层级=9
+75,旁白,hide,,,,,,,,,源类型=type:exeBC; 层级=10
+74,旁白,hide,,,,克拉克定睛一看，脸上的紧绷随之缓和了些许，先前神秘人的那声枪响只是隔着音频逢场作戏，他果然不会轻易把自己手里的筹码白白葬送。,,,,,"源类型=type:txt_pb; 层级=11; wherelist={""wheretype"":""2"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""不开枪"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]},{""sortnum"":""2"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""问艾米丽"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}"
+2,你,hide,,,,喂，听得到吗？我们是来救你们的，你也是被那个男人......,,,,,源类型=type:txt_You; 层级=12
+3,旁白,hide,,,,,,,,,源类型=type:exeBC; 层级=13
+4,旁白,hide,,,,你口中的话刚说出一半，便被那张突然抬起的、同样熟悉的面孔生生截停在了半空。,,,,"bgfade(sntzm_david4F(2)_15,1)","源类型=type:txt_pb; 层级=14; wherelist={""wheretype"":""1"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""飞蛾线"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]},{""sortnum"":""2"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""端详飞蛾（大卫）"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}"
+5,旁白,hide,,,,,,,,,源类型=type:exeBC; 层级=15
+6,旁白,hide,,,,他的脸和一楼照片上的盖曼.阿门努斯一模一样，但表情完全不同——那照片里的医生目光温和，眉眼间带着学者的谨慎；而此刻坐在电刑椅上的这个男人，嘴角挂着一种近乎享受的微笑，像是刚拆开一件期待已久的礼物。,,,,,"源类型=type:txt_pb; 层级=16; wherelist={""wheretype"":""2"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""飞蛾线"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]},{""sortnum"":""2"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""无视飞蛾（克拉克）"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}"
+7,你,hide,,,,是你？！,,,,,源类型=type:txt_You; 层级=17
+8,？？？,hide,,,,哦？看来你们已经在楼下提前做了些功课了。,,,,jump(13),源类型=type:txt_Un; 层级=18; gotomainline=13
+9,旁白,hide,,,,这张脸你们见过——在一楼角落的照片墙上、在三楼盖曼的办公室里，在所有飞蛾引导你们前往，而你们也趋之若鹜的火焰之中，在索菲亚内心深处最为恐惧，亦无法轻易割舍的过去之中。,,,,,"源类型=type:txt_pb; 层级=16; wherelist={""wheretype"":""2"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""飞蛾线"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]},{""sortnum"":""2"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""端详飞蛾（大卫）"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}"
+10,你,hide,,,,亚波伦。,,,,,源类型=type:txt_You; 层级=17
+11,？？？,hide,,,,正是在下。,,,,,源类型=type:txt_Un; 层级=18
+13,旁白,hide,,,,他开口了，声音和录音里听到的大同小异——醇厚、从容，却带着一种让人毛骨悚然的耐心。,,,,,"源类型=type:txt_pb; 层级=19; wherelist={""wheretype"":""1"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""深入探究"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}"
+14,旁白,hide,,,,原本瘫坐的身体在一刹之间恢复了活力，二郎腿微微翘起，手指在木质的扶手上敲击出欢快的节奏，赤红的眸子目不斜视地打量着你们，浑身上下都散发出一种邪恶的生机。,,,,"bgfade(sntzm_david4F(2)_26,1)",源类型=type:txt_pb; 层级=20
+15,旁白,hide,,,,,,,,,源类型=type:exeBC; 层级=21
+16,亚波伦,hide,,,,你们比我想象的慢了一些。不过没关系，时间还很充裕。,,,,,"源类型=type:txt_Abaddon; 层级=22; wherelist={""wheretype"":""2"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""端详飞蛾（克拉克）"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}"
+17,旁白,hide,,,,克拉克没有理会他的寒暄，枪口隔着玻璃直接对准了男人的眉心。,,,,,源类型=type:txt_pb; 层级=23
+18,克拉克,hide,Clark_default,,,放了他，我们只警告一次。,,,,"charfadein(L,1)",源类型=type:txt_Clark; 层级=24
+19,旁白,hide,Clark_default,,,男人没有立刻答话，他只是哂笑着歪了歪头，像在品味一个有趣的笑话。,,,,"charfadeout(L,1)",源类型=type:txt_pb; 层级=25
+87,旁白,hide,,,,,,,,,源类型=type:exeBC; 层级=26
+20,亚波伦,hide,,,,海尔特探员，你确定你要用这种语气和掌握着你同伴性命的人说话吗？,,,,,"源类型=type:txt_Abaddon; 层级=27; wherelist={""wheretype"":""1"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""端详飞蛾（克拉克）"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]},{""sortnum"":""2"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""飞蛾线"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}"
+21,旁白,hide,,,,他抬起右手，指尖轻轻敲了敲电刑椅扶手上一个红色的按钮。,,,,,源类型=type:txt_pb; 层级=28
+22,亚波伦,hide,,,,只要我按下去，你们的朋友就会在0.3秒内被3000伏的电流贯穿全身。他的心跳会先加速到每分钟200次以上，然后骤然停止。在你击穿这这块防弹玻璃之前，我想海尔特探员早已经撒手人寰了。,,,,"bgfade(sntzm_clark4F(2)_22,1)",源类型=type:txt_Abaddon; 层级=29
+23,旁白,hide,,,,他说得很慢，像在背诵一首曾经很喜欢的诗。,,,,,源类型=type:txt_pb; 层级=30
+24,亚波伦,hide,,,,你们想听那个声音吗？肌肉痉挛、骨骼震颤、体液沸腾——,,,,,源类型=type:txt_Abaddon; 层级=31
+25,你,hide,,,,够了。,,,,,源类型=type:txt_You; 层级=32
+26,旁白,hide,,,,你缓缓放下枪口，闭上眼睛，拒绝去思考他描述的那个画面。,,,,,源类型=type:txt_pb; 层级=33
+27,你,hide,,,,你想要什么？,,,,,源类型=type:txt_You; 层级=34
+28,旁白,hide,,,,听到这句话，男人的目光终于从指着自己的枪口上移开，径直落在你的脸上。那目光让你后背发冷——不是因为凶狠，而是因为他看你的方式，像在端详一件熟悉但一直不甚满意的老旧工具。,,,,"loadScript(sntzm_david4F(3), 1)",源类型=type:txt_pb; 层级=35; gotomainline=克拉克线4层（下）_1
+88,？？？,hide,,,,格莱特探员，你确定你要用这种语气和掌握着你同伴性命的人说话吗？,,,,jump(21),"源类型=type:txt_Un; 层级=27; wherelist={""wheretype"":""1"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""无视飞蛾（克拉克）"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]},{""sortnum"":""2"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""夜莺线"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}; gotomainline=21"
+29,你,hide,,,,盖曼.阿门努斯......像你这样的人，怎么会......,,,,"bgfade(sntzm_david4F(2)_26,1)","源类型=type:txt_You; 层级=22; wherelist={""wheretype"":""2"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""无视飞蛾（克拉克）"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]},{""sortnum"":""2"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""飞蛾线"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}"
+30,旁白,hide,,,,随着这个名字的脱口而出，你的意识骤然回到了1层的那面摆满照片的墙壁，回想起当时克拉克在网络上搜索到的关于盖曼的信息——约翰霍普金斯大学医学院博士、圣诺汀医院神经科主任、造梦技术的开创者。,,,,,源类型=type:txt_pb; 层级=23
+31,旁白,hide,,,,一个拥有大好前途的科学家为何会沦落到如此处境？以及......为何要做这种事情。,,,,,源类型=type:txt_pb; 层级=24
+32,盖曼？,hide,,,,怎么会什么？,,,,,源类型=type:txt_GM; 层级=25
+33,旁白,hide,,,,男人嘴角的笑意又深了几分，他微微倾身向前，额发垂下来挡住半张脸，像一只从地狱深处爬出的恶鬼。,,,,,源类型=type:txt_pb; 层级=26
+34,盖曼？,hide,,,,你指的是被人像个死刑犯一样绑在电椅上，还是指......把你们的好朋友抓起来？,,,,,源类型=type:txt_GM; 层级=27
+35,旁白,hide,,,,半句话刚说出口，克拉克想都不想便拔出配枪，枪口隔着玻璃直接对准了男人的眉心。,,,,,源类型=type:txt_pb; 层级=28
+36,克拉克,hide,Clark_default,,,根据H. R. 7439 第2条规章，在探员合理判断自己或他人面临即时死亡或重伤风险，且无其他非致命手段可用时，方可使用致命武力。,,,,"charfadein(L,1)",源类型=type:txt_Clark; 层级=29
+37,克拉克,hide,Clark_default,,,鉴于你已经多次直接和间接威胁梅森探员的生命，我认为当下的情况，非常适合按照这一条例进行处理。,,,,jump(19),源类型=type:txt_Clark; 层级=30; gotomainline=19
+38,旁白,hide,,,,听到那既熟悉又让人心生憎恶的声音，克拉克几乎下意识地转过了头，湛蓝的眸子和对方鲜红的瞳孔隔着一层薄薄的透光玻璃彼此凝视，在干燥的空气中擦出一道道充满敌意的火花。,,,,"bgfade(sntzm_david4F(2)_26,1)","源类型=type:txt_pb; 层级=22; wherelist={""wheretype"":""2"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""夜莺线"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]},{""sortnum"":""2"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""无视飞蛾（克拉克）"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}"
+77,旁白,hide,,,,,,,,,源类型=type:exeBC; 层级=23
+39,克拉克,hide,Clark_default,,,你应该在还有机会的时候就按照约定放了他的。,,,,"charfadein(L,1)","源类型=type:txt_Clark; 层级=24; wherelist={""wheretype"":""1"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""开枪"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}"
+79,旁白,hide,Clark_default,,,男人微微歪了歪头，指尖在电椅扶手上轻轻敲了两下，对这名高大警官的威胁不以为然。,,,,"charfadeout(L,1)",源类型=type:txt_pb; 层级=25
+80,？？？,hide,,,,现在也汗不晚不是么？只不过，是否放走大卫不是由我这个被绑在电刑椅上的人决定的，而是你们......海尔特探员。,,,,,源类型=type:txt_Un; 层级=26
+81,你,hide,,,,别耍花招！,,,,,源类型=type:txt_You; 层级=27
+82,旁白,hide,,,,你忍无可忍地拔出配枪，枪口直指他的额头。深灰的漆面在室内的灯光下泛着一层无情的冷白色，把扳机后愤怒的双眼照得雪亮。,,,,,源类型=type:txt_pb; 层级=28
+83,？？？,hide,,,,看来你还对杰森的事情耿耿于怀。怎么，后悔当时对他开枪了吗？但如果不这么做的话，旁边的大卫恐怕已经是一具尸体了。,,,,,源类型=type:txt_Un; 层级=29
+84,你,hide,,,,我只后悔没有一进门的时候就立刻干掉你，现在我要修复这个错误。,,,,,源类型=type:txt_You; 层级=30
+85,旁白,hide,,,,说完，你的两根食指在扳机的前端彼此交叠，只要微微发力，即可崩掉这头巧言令色的魔鬼。,,,,,源类型=type:txt_pb; 层级=31
+86,旁白,hide,,,,但神秘人脸上依旧维持着从容不迫的微笑，毫无俱色的眼神直视着面前黑洞洞的枪口，仿佛一名等待着神启的狂热信徒，迫不及待地要在这炙手可热扳机上再添一把火。,,,,jump(88),源类型=type:txt_pb; 层级=32; gotomainline=88
+78,克拉克,hide,Clark_default,,,你对他做了什么？,,,,"charfadein(L,1)","源类型=type:txt_Clark; 层级=24; wherelist={""wheretype"":""2"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""不开枪"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}"
+89,？？？,hide,Clark_default,,,没什么，只是用了一些能让他那张喋喋不休的嘴暂时安静下来的魔法，以及......,,,,"charfadeout(L,1)",源类型=type:txt_Un; 层级=25
+90,旁白,hide,,,,他的声音压低了几分，像是在分享什么只有自己知道的秘密。,,,,,源类型=type:txt_pb; 层级=26
+91,？？？,hide,,,,给他稍微开了点小灶，让他比你们更早，了解到了一些关于自己过去的事情，我是说.......真正的过去。,,,,"loadScript(sntzm_david4F(3), 1)",源类型=type:txt_Un; 层级=27; gotomainline=克拉克线4层（下）_1
+59,旁白,hide,,,,那是一张你们并不陌生的脸，在三楼盖曼的办公室里你们见过他，在索菲亚讲述的过去里你们听过他。更重要的是，在经历了所有这一切的阴谋后，你们此刻最为怀疑的幕后黑手也是他。,,,,jump(10),"源类型=type:txt_pb; 层级=16; wherelist={""wheretype"":""2"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""夜莺线"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]},{""sortnum"":""2"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""端详飞蛾（大卫）"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}; gotomainline=10"
+60,旁白,hide,,,,你口中的话刚说出一半，便被他凶险的眼神生生截停在了半空。那不是一张让你熟悉的脸，但其诡谲的笑容里散发出的无形的恶意却让你胃里升起一阵恶寒。,,,,,"源类型=type:txt_pb; 层级=14; wherelist={""wheretype"":""2"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""夜莺线"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]},{""sortnum"":""2"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""无视飞蛾（大卫）"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}"
+61,旁白,hide,,,,那不是一个被捆在电椅上的人应有的从容——他刚刚还蜷缩着的手指此刻正在木椅的扶手上轻轻敲打着节拍，指尖每一次落下都像是敲在你的神经上，让你握枪的指节不自觉绷紧。,,,,,源类型=type:txt_pb; 层级=15
+62,旁白,hide,,,,加上那身披白大褂的衣着打扮，很难不将他和医院里那些做着疯狂实验的家伙联想到一起。,,,,,源类型=type:txt_pb; 层级=16
+63,你,hide,,,,你到底是什么人？,,,,,源类型=type:txt_You; 层级=17
+64,？？？,hide,,,,哦？我以为你们早就知道我的身份了.......身为探员，你们在楼底下的功课实在做得有些不够啊。,,,,jump(13),源类型=type:txt_Un; 层级=18; gotomainline=13
+76,旁白,hide,,,,克拉克定睛一看，脸上的紧绷随之缓和了些许，尽管对方并没有按照约定把大卫直接放走，但能够平安找到活着的大卫已是不幸中的万幸。,,,,jump(2),"源类型=type:txt_pb; 层级=11; wherelist={""wheretype"":""1"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""开枪"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]},{""sortnum"":""2"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""问大卫"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}; gotomainline=2"

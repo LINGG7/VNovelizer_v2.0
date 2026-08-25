@@ -1,0 +1,32 @@
+{
+    "name": "VNovelizer.Runtime",
+    "rootNamespace": "",
+    "references": [
+        "Unity.InputSystem",
+        "Unity.TextMeshPro",
+        "Unity.UGUI",
+        "Unity.VisualScripting.Core",
+        "Coffee.UIParticle",
+        "PrimeTween.Runtime",
+        "VNovelizer.LitJson",
+        "Unity.Localization",
+        "Unity.ResourceManager",
+        "Unity.Addressables"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.localization",
+            "expression": "[0.0.0,9999.9999]",
+            "define": "VN_LOCALIZATION"
+        }
+    ],
+    "noEngineReferences": false
+}
+

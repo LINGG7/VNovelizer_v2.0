@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Audio-Remote
+  m_EditorClassIdentifier: 
+  m_GroupName: Audio-Remote
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 6878078505151924bb86ba7c46b71123
+  m_SerializeEntries: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: e05a7e7d0a4767d4dbd8053c426fbfd0, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: f12b2a1b47823334b87ac0dd35d7c5a2, type: 2}
+    - {fileID: 11400000, guid: 7e4d4d71174f82c45ab860ade08cf6dc, type: 2}

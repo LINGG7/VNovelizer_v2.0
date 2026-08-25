@@ -1,0 +1,39 @@
+pluginManagement {
+    repositories {
+        maven { url 'https://maven.aliyun.com/repository/google' }
+        maven { url 'https://maven.aliyun.com/repository/public' }
+        maven { url 'https://maven.aliyun.com/repository/jcenter' }
+        **ARTIFACTORYREPOSITORY**
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+
+include ':launcher', ':unityLibrary'
+**INCLUDES**
+
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.PREFER_SETTINGS)
+    repositories {
+        maven { url 'https://maven.aliyun.com/repository/google' }
+        maven { url 'https://maven.aliyun.com/repository/public' }
+        maven { url 'https://maven.aliyun.com/repository/jcenter' }
+        **ARTIFACTORYREPOSITORY**
+        google()
+        mavenCentral()
+// Android Resolver Repos Start
+        def unityProjectPath = $/file:///**DIR_UNITYPROJECT**/$.replace("\\", "/")
+        maven {
+            url "https://maven.google.com" // Assets/DirichletMediation/Editor/DirichletMediationDependencies.xml:21, Assets/DirichletMediation/Editor/DirichletMediationDependencies.xml:27, Assets/DirichletMediation/Editor/DirichletMediationDependencies.xml:33, Assets/DirichletMediation/Editor/DirichletMediationDependencies.xml:39
+        }
+        maven {
+            url "https://repo.maven.apache.org/maven2" // Assets/DirichletMediation/Editor/DirichletMediationDependencies.xml:46, Assets/DirichletMediation/Editor/DirichletMediationDependencies.xml:52
+        }
+        mavenLocal()
+// Android Resolver Repos End
+        flatDir {
+            dirs "${project(':unityLibrary').projectDir}/libs"
+        }
+    }
+}

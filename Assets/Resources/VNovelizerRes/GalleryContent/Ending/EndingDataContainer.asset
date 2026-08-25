@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b3da86e0a7e4d7399e37ca4995d0feb, type: 3}
+  m_Name: EndingDataContainer
+  m_EditorClassIdentifier: 
+  endingList:
+  - EndingID: Ending_1
+    LockedText: "\u7ED3\u5C40\u4E00\uFF1A\uFF1F\uFF1F\uFF1F"
+    UnlockedText: "\u7ED3\u5C40\u4E00\uFF1A\u3010\u8FF7\u5931\u7684\u810F\u5F39\u3011"
+    LockedSprite: {fileID: 21300000, guid: 8a2c0e00c8eed5640b1c6f435d8446e1, type: 3}
+    LockedSpritePath: 
+    UnLockedSprite: {fileID: 21300000, guid: 830a501c408f82c42bcf3f979de3fe1e, type: 3}
+    UnLockedSpritePath: VNovelizerRes/Backgrounds/sntzm_david2_58
+    isUnLocked: 0
+  - EndingID: Ending_2
+    LockedText: "\u7ED3\u5C40\u4E8C\uFF1A\uFF1F\uFF1F\uFF1F"
+    UnlockedText: "\u7ED3\u5C40\u4E8C\uFF1A\u3010\u7070\u767D\u7684\u671D\u5723\u3011"
+    LockedSprite: {fileID: 21300000, guid: 8a2c0e00c8eed5640b1c6f435d8446e1, type: 3}
+    LockedSpritePath: 
+    UnLockedSprite: {fileID: 21300000, guid: 7c15d1acf19b8ae4eb84f3ca9d54217e, type: 3}
+    UnLockedSpritePath: VNovelizerRes/Backgrounds/sntzm_david4_59
+    isUnLocked: 0

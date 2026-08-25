@@ -1,0 +1,100 @@
+ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Command,Note
+1,旁白,hide,,,,克拉克的无线电信号最后一次出现是在医院四层的位置，并且持续了大约2分钟才被掐断。尽管存在陷阱的可能，你们也愿意为了这个一同出生入死的同伴赌上一把。,,,false,,源类型=type:txt_pb; 层级=0
+93,旁白,hide,,,,你们并肩走入通往四层的楼梯转角，冷硬的水泥台阶积着薄薄一层灰，每一步踩上去都能留下清晰的脚印，像是在给隐藏在暗处的眼睛记录着你们的行踪。,,,,,源类型=type:txt_pb; 层级=1
+2,旁白,hide,,,,大卫的磁带和那块属于姐姐的记者证随着腰包的甩荡轻轻摇晃着，像两块沉甸甸的石头压在你们的胸口，没有人开口说多余的话，只有手电的光在斑驳的墙面上来回晃动，照得那些不知道是谁留下的涂鸦忽明忽暗。,,,,,源类型=type:txt_pb; 层级=2
+3,旁白,hide,,,,两双质地各异的靴子在坑洼的地面上不断撞出急促的轻响，如同某种致命的节拍在你们耳边回荡。,,,,,源类型=type:txt_pb; 层级=3
+4,旁白,hide,,,,一只飞蛾沿着你们跑动的方向啪嗒着翅膀，每一次翅膀的扇动都会剥落一层惨白的粉尘，在你们身后形成一道细碎的光带。,,,,,源类型=type:txt_pb; 层级=4
+5,旁白,hide,,,,你起初并未在意，可当那只白色的生物轻飘飘擦过你冒着汗的手腕时，脑海中却突然传来了一阵细微的耳语。,,,,,源类型=type:txt_pb; 层级=5
+6,？？？,hide,,,,“留下来......”,,,,,源类型=type:txt_Un; 层级=6
+7,旁白,hide,,,,那声音细得像根生锈的针，轻轻刮过你的后颈，你浑身的汗毛瞬间竖了起来，猛地旋过身拧亮手电，光圈摇曳着扫过空荡荡的走廊墙壁，却未能触及半分人类的轮廓，只有那只白色的飞蛾在手电微弱的光晕里打着旋儿。,,,,,源类型=type:txt_pb; 层级=7
+8,大卫,hide,David_bandage,,,怎么？又对这只破蛾子产生了兴趣？,,,,"charfadein(L,1)",源类型=type:txt_David; 层级=8
+9,旁白,hide,David_bandage,,,没等你进一步在这片黑暗中锁定声音的来源，耳边便传来了大卫毫不留情的偷挪，他停在楼梯转角半层的位置回头看你，手电光亮得晃眼。,,,,"charfadeout(L,1)",源类型=type:txt_pb; 层级=9
+10,旁白,hide,,,,充满磁性的低音在潮湿的空气中蒸开一片热雾，越发衬得那声呼唤像某种空穴来风的幻听。,,,,,源类型=type:txt_pb; 层级=10
+11,旁白,hide,,,,对于这个小小的异常，你是否打算进行调查？,,,,,源类型=type:txt_pb; 层级=11
+12,旁白,hide,,,,,,,,choice(仔细端详飞蛾|jump(15))&choice(装作无事离开|jump(94)),源类型=type:selectBC; 层级=12
+13,旁白,hide,,,,,,,,,源类型=type:txt_pb; 层级=13
+15,旁白,hide,,,,你没有立即回话，只是眯起眼睛，仔细端详起那只停在走廊扶手上的微小白影，它的翅膀在静止状态下呈现出病怏怏的灰白，表面的纹理脉络凹凸分明，像一条条被人解剖后泡在营养液里的大脑沟壑。,,,,"bgfade(sntzm_clark3F(2)_18,1)",源类型=type:txt_pb; 层级=14; 选项/备注=这一定有什么古怪; tag=端详飞蛾（大卫）
+16,你,hide,,,,你没听到吗？刚才的声音。,,,,,源类型=type:txt_You; 层级=15
+17,旁白,hide,,,,你用眼角的余光向身旁一瞥，目之所及之处是大卫那张被你过度旺盛的好奇心惹得有些不耐烦的冷脸。,,,,,源类型=type:txt_pb; 层级=16
+19,旁白,hide,,,,,,,,,源类型=type:exeBC; 层级=17
+20,大卫,hide,David_bandage,,,没有，我现在满脑子都是刚才听到的那些东西，阿兰的那场官司......还有你提到的那场幻觉。,,,,"charfadein(L,1)","源类型=type:txt_David; 层级=18; wherelist={""wheretype"":""1"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""深入探究"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}"
+23,旁白,hide,David_bandage,,,无论出于何种原因他显然没有把你的话放在心上，只当你是受了太多刺激，精神太过紧绷，才会对一只普通飞蛾草木皆兵。,,,,"charfadeout(L,1)",源类型=type:txt_pb; 层级=19
+24,旁白,hide,,,,就在你因此愣神的瞬间，那只飞蛾像是察觉到了落在它身上的两道目光，啪嗒着翅膀便飞向了三层走廊的一片漆黑的角落。,,,,,源类型=type:txt_pb; 层级=20
+25,旁白,hide,,,,你下意识地将手电追了过去，光圈牢牢钉在它缓慢移动的轨迹上，竟意外地在那片斑驳的墙面上映出了几道带血的指纹。,,,,"bgfade(sntzm_clark3F(2)_24,1)",源类型=type:txt_pb; 层级=21
+26,旁白,hide,,,,大卫握在配枪上的手指瞬间收紧，眼神顿时从方才的不屑一顾变得锐利老沉。,,,,,源类型=type:txt_pb; 层级=22
+27,旁白,hide,,,,阿兰.斯科特那张如死尸般苍白的脸依旧在他的脑海中阴魂不散，如果这些血迹是当初从一楼储藏间一路逃走的他留在这里的，那么尽快离开这里或许才是上上策。,,,,,源类型=type:txt_pb; 层级=23
+28,旁白,hide,,,,,,,,,源类型=type:exeBC; 层级=24
+29,你,hide,,,,要不要过去调查一下？万一是克拉克在被拖走时故意留下的记号呢？,,,,,"源类型=type:txt_You; 层级=25; wherelist={""wheretype"":""1"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""深入探究"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}"
+31,旁白,hide,,,,大卫朝你做了个相当难看的鬼脸，那表情仿佛在说“这种话你是怎么想的出来的。”,,,,,源类型=type:txt_pb; 层级=26
+32,旁白,hide,,,,他的目光在你和那几道猩红的指印间游移了一瞬，最终还是松开放在扳机上的手指，耸了耸肩，无奈地顺从道。,,,,,源类型=type:txt_pb; 层级=27
+33,旁白,hide,,,,,,,,,源类型=type:exeBC; 层级=28
+34,大卫,hide,,,,行吧，好奇心害死猫，可别说我没提醒过你。要不是考虑到克拉克那小子，我才不会跟你搅这趟浑水。,,,,,"源类型=type:txt_David; 层级=29; wherelist={""wheretype"":""1"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""深入探究"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}"
+36,旁白,hide,,,,说完，他率先走下楼梯，循着飞蛾在空气中留下的淡白粉尘，往那片漆黑的角落走去。,,,,,源类型=type:txt_pb; 层级=30
+37,旁白,hide,,,,这里的墙面早已被时间泡得发潮，墙皮一块块剥落卷翘，那几道带血的指纹就嵌在豁开的墙皮缝隙里，血痕早就干得发黑发脆，像是在这里留了有段时间。,,,,,源类型=type:txt_pb; 层级=31
+38,旁白,hide,,,,拐过转角，一道半掩的铁门映入眼帘，相框里的医生的头像已剥落大半，只剩下一行写着“阿门努斯”的性氏歪歪扭扭地横在门牌的一角，而姓名的部分则被那只悬停在半空的灰白色飞蛾刚好遮住。,,,,"bgfade(sntzm_clark3F(2)_36,1)",源类型=type:txt_pb; 层级=32
+39,旁白,hide,,,,,,,,,源类型=type:exeBC; 层级=33
+40,大卫,hide,,,,等等......这不是？,,,,,"源类型=type:txt_David; 层级=34; wherelist={""wheretype"":""1"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""飞蛾线"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}"
+42,你,hide,,,,盖曼......,,,,,源类型=type:txt_You; 层级=35
+43,旁白,hide,,,,没错，你们记得他。这个独特姓氏的拥有者，正是一层角落里，位于那面照片墙正中央的医生——盖曼.阿门努斯。,,,,,源类型=type:txt_pb; 层级=36
+44,旁白,hide,,,,造梦设备的发明者，在数年前失踪的神经科主任，这里就是他曾经工作的地方。,,,,jump(41),源类型=type:txt_pb; 层级=37; gotomainline=41
+41,旁白,hide,,,,“B4-03”,,,,,源类型=type:txt_pb; 层级=34
+45,旁白,hide,,,,你将房间的门牌号默默记下，但却始终有个疑问在心中阴魂不散——,,,,,源类型=type:txt_pb; 层级=35
+46,旁白,hide,,,,为什么三层的房间会使用4开头的编号？先前在一层看到的B2-07和B2-15号房也是如此。所有楼层的房间编号都比层数多了1个数字，到底是设计时刻意为之，还是有什么深层次的暗示？,,,,,源类型=type:txt_pb; 层级=36
+47,旁白,hide,,,,没等你想清楚这个问题的答案，大卫便猴急地踢开了那扇薄薄的铁门，配枪和准心连同手电的光晕在昏暗的房间里切出一个极具压迫感的圆弧，随后率先落到了满是陈旧纸张的木质办公桌上。,,,,,源类型=type:txt_pb; 层级=37
+48,旁白,hide,,,,一股纸浆腐烂后散发出的潮湿霉味猛地喷了出来，混杂着少量福尔马林的刺鼻气息，呛得你忍不住捂住了鼻子。手电光圈扫过不大的房间，照出墙面上被大火灼烧后的焦黑斑痕，紧接着落回到一片狼藉的地砖上。,,,,"bgfade(sntzm_clark3F(2)_40,1)",源类型=type:txt_pb; 层级=38
+49,旁白,hide,,,,散落一地的实验记录纸像是被人洗劫过似的，如雪花般洒得纷纷扬扬。你捡起几张实验材料放在电筒下阅读，除开大片看不懂的参数和复杂的专业术语外，一个名词死死攥住了你的眼球——造梦设备。,,,,"bgfade(sntzm_clark3F(2)_42,1)",源类型=type:txt_pb; 层级=39
+50,旁白,hide,,,,泛黄的纸页上，这个名词被人用红笔反复圈画，即便是不识字的文盲也很难不从中注意到这个显眼的词汇。,,,,,源类型=type:txt_pb; 层级=40
+52,旁白,hide,,,,,,,,,源类型=type:exeBC; 层级=41
+53,旁白,hide,,,,还记得一个小时前，你们曾在楼底下那条挂满医生大头照的走廊上见到过它的发明者，如果这里当真是那位“盖曼.阿门努斯”的办公室，这些资料会出现在这里也就说得通了。,,,,"bgfade(sntzm_clark3F(2)_40,1)","源类型=type:txt_pb; 层级=42; wherelist={""wheretype"":""1"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""飞蛾线"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}"
+57,旁白,hide,,,,正当你打算将这几页报告打包收集起来之际，大卫突然开口，那双赤红的瞳孔死死聚焦于地上散落的纸张，似乎从中察觉到了某些猫腻。,,,,,源类型=type:txt_pb; 层级=43
+58,大卫,hide,David_bandage,,,有点奇怪......,,,,"charfadein(L,1)",源类型=type:txt_David; 层级=44
+59,大卫,hide,David_bandage,,,为什么整间办公室都烧成了这样，这些文件却几乎没有太严重的损毁。按理来说纸才是最容易被点燃的吧？,,,,,源类型=type:txt_David; 层级=45
+60,旁白,hide,David_bandage,,,你心头一凛，握着纸页的手指瞬间收紧。指腹在粗粝的纸面上有意识地摩擦了几下，试着通过上面的质地来判断纸张的年限。,,,,"charfadeout(L,1)",源类型=type:txt_pb; 层级=46
+61,你,hide,,,,纸的触感比较生硬，摸起来不像新打印的。可能当时被锁在了保险柜里？,,,,,源类型=type:txt_You; 层级=47
+62,大卫,hide,David_bandage,,,那也就是说，这里还藏了个喜欢翻箱倒柜的小贼了。,,,,"charfadein(L,1)",源类型=type:txt_David; 层级=48
+63,旁白,hide,David_bandage,,,他重新将枪举至与肩齐高，时刻警惕着门外的动静。,,,,"charfadeout(L,1)",源类型=type:txt_pb; 层级=49
+64,你,hide,,,,你认为会是他吗？那个带走克拉克的小孩子。,,,,,源类型=type:txt_You; 层级=50
+65,大卫,hide,David_bandage,,,如果你指的是把这些文件搞得满地都是的可能性的话，对于一个瞎子来说，恐怕连摸到这里的门把手都成问题。,,,,"charfadein(L,1)",源类型=type:txt_David; 层级=51
+66,旁白,hide,David_bandage,,,他咂了咂舌，一脸严肃地把刚才的那番玩笑话咽回了肚子。,,,,"charfadeout(L,1)",源类型=type:txt_pb; 层级=52
+67,旁白,hide,,,,,,,,,源类型=type:exeBC; 层级=53
+68,大卫,hide,David_bandage,,,我的意思是，就算是那个小屁孩干的，他背后肯定有人指使，比如那个抓走克拉克的神秘人。,,,,"charfadein(L,1)","源类型=type:txt_David; 层级=54; wherelist={""wheretype"":""1"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""深入探究"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}"
+70,你,hide,David_bandage,,,我怀疑那家伙的身份应该是曾经在这里工作的一名医生。,,,,"charfadeout(L,1)",源类型=type:txt_You; 层级=55
+71,大卫,hide,David_bandage,,,同感，毕竟我们普通人就算拿了这些东西也看不懂。,,,,"charfadein(L,1)",源类型=type:txt_David; 层级=56
+72,旁白,hide,David_bandage,,,他捻起一张沾着薄灰的实验纸放在手里打量，不到两秒就因为满页的专业词汇无力地翻了个白眼。,,,,"charfadeout(L,1)",源类型=type:txt_pb; 层级=57
+73,你,hide,,,,总之，现在可以确认克拉克不在这里。但既然来都来了，先收集一部分资料作为证据带回去吧。,,,,,源类型=type:txt_You; 层级=58
+74,你,hide,,,,哪怕最坏的情况......也至少能防止它们继续被人利用。,,,,,源类型=type:txt_You; 层级=59
+75,旁白,hide,,,,说完，你转过身，快步走向位于房间内侧的办公桌。不管三七二十一，只要是完整度高于7成的资料都塞进了随身的公文包。,,,,,源类型=type:txt_pb; 层级=60
+76,旁白,hide,,,,大卫也蹲下来帮忙整理，在瞧见一张编号为2236的实验记录时，眉头猛地一皱，只因上面画着一个和B3-15房间的床上相同的头盔。,,,,"bgfade(sntzm_david3F(1)_76,1)",源类型=type:txt_pb; 层级=61
+77,大卫,hide,David_bandage,,,脑神经适配接口......,,,,"charfadein(L,1)",源类型=type:txt_David; 层级=62
+78,旁白,hide,David_bandage,,,他把上面能看懂的几行字小声念了出来，里面关于“多脑互联”的描述瞬间引起了你的注意。,,,,,源类型=type:txt_pb; 层级=63
+79,大卫,hide,David_bandage,,,——将多名受试者的意识接入一个人的大脑进行同一管理，以完成在同一个梦境空间内的多模态交互......,,,,,源类型=type:txt_David; 层级=64
+80,大卫,hide,David_bandage,,,什么意思？也就是说这个造梦设备既能让人发梦，还可以让不同的共享同一个梦境，这简直就像......,,,,,源类型=type:txt_David; 层级=65
+81,你,hide,David_bandage,,,联机游戏，我们以前一起玩过的那种。,,,,"charfadeout(L,1)",源类型=type:txt_You; 层级=66
+82,旁白,hide,,,,你以一如既往的平静接上了他的感叹，注意力一刻也没有从手上的活路上移开。,,,,,源类型=type:txt_pb; 层级=67
+83,旁白,hide,,,,,,,,,源类型=type:exeBC; 层级=68
+84,旁白,hide,,,,但只有你自己知道，当“大脑适配”等词汇传入你的耳朵时，你胸中的那颗红桃跳得有多快——那正是你在幻觉中从那群白大褂口中听到的描述，倘若幻觉中的信息的确能和现实一一对应，那你岂不是真的做过这里的病人？,,,,,"源类型=type:txt_pb; 层级=69; wherelist={""wheretype"":""1"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""深入探究"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}"
+86,你,hide,,,,！？,,,,,源类型=type:txt_You; 层级=70
+87,旁白,hide,,,,你刚想继续追问，脚下突然被什么硬邦邦的东西绊了一下，险些因为无法维持平衡而连人带枪得重重摔倒在地。,,,,,源类型=type:txt_pb; 层级=71
+88,旁白,hide,,,,低头一看，一个黄铜色的开关在办公桌正下方的位置赫然露出半边轮廓。若不是正好捡起了覆盖在上面的文件，你恐怕永远无法注意到这个只有坐在这里的人才能轻易触碰到的隐藏开关。,,,,"bgfade(sntzm_david3F(1)_88,1)",源类型=type:txt_pb; 层级=72
+89,旁白,hide,,,,你冲大卫递了个眼色，他立刻心领神会地举着枪守在门口，警惕地留意着走廊外的风吹草动。你则在这个开关上用力一按——,,,,,源类型=type:txt_pb; 层级=73
+90,旁白,hide,,,,“咔嚓”,,,,playsfx(Kata),源类型=type:txt_pb; 层级=74
+91,旁白,hide,,,,只听一块木板松动的声音自你们身后传来，紧接着是齿轮紧密咬合时发出的轻微响动，靠近墙角的那面书架缓缓朝着旁侧挪开半尺，露出一条只够一人通过的狭小暗道。,,,,"bgfade(sntzm_david3F(1)_91,1)",源类型=type:txt_pb; 层级=75
+92,旁白,hide,,,,暗道周围散落着几块反光的物体，手电一照才知道是碎了一地的镜子玻璃。,,,,"loadScript(sntzm_david3F(2), 1)",源类型=type:txt_pb; 层级=76; gotomainline=大卫线3层（中）_1
+85,旁白,hide,,,,但只有你自己知道，当“大脑适配”等词汇传入你的耳朵时，你胸中的那颗红桃跳得有多快——倘若那真的是B-315房间里那只头盔的真正功能，在那里发现姐姐的记者证又意味着什么呢？,,,,jump(86),"源类型=type:txt_pb; 层级=69; wherelist={""wheretype"":""1"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""视为陷阱"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}; gotomainline=86"
+69,大卫,hide,,,,我的意思是，就算真和他有关，背后也肯定有人指使，无论是抓走克拉克的事情，还是别的什么。,,,,jump(70),"源类型=type:txt_David; 层级=54; wherelist={""wheretype"":""1"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""视为陷阱"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}; gotomainline=70"
+54,旁白,hide,,,,你打开手机上网搜索，的确在一篇有关医学杂志的网页上找到了这个概念。,,,,,"源类型=type:txt_pb; 层级=42; wherelist={""wheretype"":""1"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""夜莺线"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}"
+55,旁白,hide,,,,“通过营造梦境来介入并干预患者的潜意识，从而引导其走出心理创伤。”,,,,,源类型=type:txt_pb; 层级=43
+56,旁白,hide,,,,这是文章摘要中的提出的一种新颖的治疗手段，看起来他们似乎取得了一些成果，并且极有可能已经在这所精神病院的某些患者身上完成了临床测试。,,,,jump(53),源类型=type:txt_pb; 层级=44; gotomainline=53
+35,大卫,hide,,,,行吧，最多5分钟，如果没有找到克拉克的下落，就算你坚持要调查，我也会拎着你的领口把你拖走。,,,,jump(36),"源类型=type:txt_David; 层级=29; wherelist={""wheretype"":""1"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""视为陷阱"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}; gotomainline=36"
+30,你,hide,,,,要不要过去调查一下？万一是克拉克在被拖走时故意留下的记号呢？毕竟我们不能百分百相信那个人口中的话。,,,,jump(31),"源类型=type:txt_You; 层级=25; wherelist={""wheretype"":""1"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""视为陷阱"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}; gotomainline=31"
+22,大卫,hide,,,,没有，我只知道那家伙给我们的时间并不多，还有不到12分钟。,,,,jump(23),"源类型=type:txt_David; 层级=18; wherelist={""wheretype"":""1"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""视为陷阱"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}; gotomainline=23"
+14,旁白,hide,,,,,,,,,源类型=type:txt_pb; 层级=13
+94,你,hide,,,,没什么，大概是我听错了。,,,,,源类型=type:txt_You; 层级=14; 选项/备注=还是先救同伴要紧; tag=无视飞蛾（大卫）
+95,旁白,hide,,,,你摆了摆手，决定不再去管那只飞蛾或是脑海中的声音。,,,,,源类型=type:txt_pb; 层级=15
+98,旁白,hide,,,,,,,,,源类型=type:exeBC; 层级=16
+96,旁白,hide,,,,先前经历的重重幻觉已经让你们身心俱疲，现在你只想赶紧找到克拉克，然后从这家噩梦般的医院里尽早脱身。既然克拉克的定位信号停在了4楼，自然没有继续留在三楼的必要。,,,,,"源类型=type:txt_pb; 层级=17; wherelist={""wheretype"":""1"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""深入探究"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}"
+97,旁白,hide,,,,况且，就算这里真的藏着什么必须揭开的秘密，也完全可以等将他救出来后再行探索。,,,,,源类型=type:txt_pb; 层级=18
+100,旁白,hide,,,,想到这里，你不再多作停留，把手中的光柱重新甩回前方。,,,,,源类型=type:txt_pb; 层级=19
+101,旁白,hide,,,,大卫回头看了那只飞蛾一眼，恍惚间似乎感觉到了什么，但终究还是没有为此驻足。只是迈开脚下的步子，沿着向上的楼梯继续朝着四层的走廊前进。,,,,,源类型=type:txt_pb; 层级=20
+102,旁白,hide,,,,那只飞蛾在楼道的阴影中奋力扑腾着翅膀，仿佛仍不死心地试图挽留你们前进的脚步。但这一次，除了在空气中留下一团淡淡的光点外，它再也没能激起你们半分停留的心思。,,,,"loadScript(sntzm_david4F(1), 1)",源类型=type:txt_pb; 层级=21; gotomainline=大卫线4层（上）_1
+99,旁白,hide,,,,克拉克的位置已经经由神秘人交代的信息得以确认，既然他不在三楼，那自然也就不存在任何“留下来”的必要。,,,,jump(97),"源类型=type:txt_pb; 层级=17; wherelist={""wheretype"":""1"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""视为陷阱"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}; gotomainline=97"

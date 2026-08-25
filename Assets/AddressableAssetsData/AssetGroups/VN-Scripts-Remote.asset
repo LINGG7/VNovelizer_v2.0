@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: VN-Scripts-Remote
+  m_EditorClassIdentifier: 
+  m_GroupName: VN-Scripts-Remote
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 957ed3cec93c1b74f9ef9e6569dc81e5
+  m_SerializeEntries: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: e05a7e7d0a4767d4dbd8053c426fbfd0, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 92369b942c93ee64dbaa15c3917555ca, type: 2}
+    - {fileID: 11400000, guid: 0aa5714792c1037418d95fec86967f85, type: 2}

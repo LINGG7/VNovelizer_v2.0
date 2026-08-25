@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  DirichletMediation Android/iOS Dependencies
+  
+  This file declares Maven dependencies for EDM4U (External Dependency Manager for Unity).
+  Local AAR files are handled separately by DirichletGradlePostProcessor.
+  
+  Note: This file coexists with other SDK dependencies (e.g., TapSDK).
+  EDM4U will merge all *Dependencies.xml files when resolving.
+-->
+<dependencies>
+  
+  <!-- Android dependencies -->
+  <androidPackages>
+    
+    <!-- Support Libraries -->
+    <androidPackage spec="com.android.support:recyclerview-v7:28.0.0">
+      <repositories>
+        <repository>https://maven.google.com</repository>
+      </repositories>
+    </androidPackage>
+    
+    <androidPackage spec="com.android.support:support-v4:28.0.0">
+      <repositories>
+        <repository>https://maven.google.com</repository>
+      </repositories>
+    </androidPackage>
+    
+    <androidPackage spec="com.android.support:support-annotations:28.0.0">
+      <repositories>
+        <repository>https://maven.google.com</repository>
+      </repositories>
+    </androidPackage>
+    
+    <androidPackage spec="com.android.support:appcompat-v7:28.0.0">
+      <repositories>
+        <repository>https://maven.google.com</repository>
+      </repositories>
+    </androidPackage>
+    
+    <!-- Third-party Libraries -->
+    <androidPackage spec="com.github.bumptech.glide:glide:4.9.0">
+      <repositories>
+        <repository>https://repo.maven.apache.org/maven2</repository>
+      </repositories>
+    </androidPackage>
+    
+    <androidPackage spec="com.squareup.okhttp3:okhttp:3.12.1">
+      <repositories>
+        <repository>https://repo.maven.apache.org/maven2</repository>
+      </repositories>
+    </androidPackage>
+    
+  </androidPackages>
+  
+  <!-- iOS dependencies (if any) -->
+  <iosPods>
+    <!-- Add CocoaPods dependencies here if needed -->
+  </iosPods>
+  
+</dependencies>
+
+

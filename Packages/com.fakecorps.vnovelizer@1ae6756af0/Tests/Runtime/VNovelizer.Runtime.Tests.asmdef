@@ -1,0 +1,14 @@
+{
+  "name": "VNovelizer.Runtime.Tests",
+  "rootNamespace": "VNovelizer.Tests",
+  "references": [
+    "VNovelizer.Runtime"
+  ],
+  "optionalUnityReferences": [
+    "TestAssemblies"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "autoReferenced": false
+}

@@ -1,0 +1,99 @@
+ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Command,Note
+1,旁白,hide,,,,,,,false,,源类型=type:exeBC; 层级=0
+2,旁白,hide,,,,是在外面继续追那个偷窥狂？但走廊里没有任何脚步声......把他们甩得太远？不，克拉克从不是那种喜欢独自冲锋，对同伴不管不顾的个人英雄主义者。,,,,,"源类型=type:txt_pb; 层级=1; wherelist={""wheretype"":""1"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""大卫线"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}"
+3,你,hide,,,,先别管这个，克拉克呢？怎么没见他回来。,,,,,源类型=type:txt_You; 层级=2
+4,旁白,hide,,,,你的声音中混合着昏迷后的嘶哑与新加入的焦急，回荡在大卫耳边，让他原本锐利的眼神，片刻间暗淡了下去。,,,,,源类型=type:txt_pb; 层级=3
+5,大卫,hide,David_worried,,,比你还糟......,,,,"charfadein(L,1)",源类型=type:txt_David; 层级=4
+6,旁白,hide,David_worried,,,他别过头，不再看你，但那咔咔作响的后槽牙，却将这四个字中隐含的忧虑和不甘清晰地流露在了这压抑的空气之中。你知道他的言外之意是什么，但这份启示背后的沉重分量，依旧像一块巨石般堵在你的心口。,,,,,源类型=type:txt_pb; 层级=5
+7,大卫,hide,David_worried,,,别误会，我可没有因为你的突然晕倒而放任他一个人去追那鬼东西。,,,,,源类型=type:txt_David; 层级=6
+8,旁白,hide,David_worried,,,大卫眼里闪过一丝寒光，你仿佛能从中窥见那场紧张追逐背后的神秘一角。,,,,,源类型=type:txt_pb; 层级=7
+9,大卫,hide,David_worried,,,但当他冲入走廊尽头那扇小门的那一刻，门却自动在他身后关上了，把我像个傻子一样隔离在了另一边。,,,,,源类型=type:txt_David; 层级=8
+10,大卫,hide,David_worried,,,等我使出吃奶的力气，好不容易把那破门撬开的时候，克拉克......连同那个小矮子，都跟插上翅膀似得，在楼道里蒸发了。我甚至检查了通风管道和天花板，连一丝拖拽的痕迹都没找到。,,,,,源类型=type:txt_David; 层级=9
+11,旁白,hide,David_worried,,,大卫能提供的信息似乎已经到此为止，现在轮到你开口了。,,,,"charfadeout(L,1)",源类型=type:txt_pb; 层级=10
+12,旁白,hide,,,,,,,,choice(询问当时有没有听到什么奇怪的动静|jump(13))&choice(谈及你方才的幻觉|jump(20)),源类型=type:selectBC; 层级=11
+13,旁白,hide,,,,询问当时有没有听到什么奇怪的动静,,,,,源类型=type:txt_pb; 层级=12; tag=询问动静
+14,你,hide,,,,那......你有没有在门后听到什么动静，例如他被抓走时发出的尖叫声之类的？,,,,,源类型=type:txt_You; 层级=13
+15,大卫,hide,David_default,,,如果有叫声的话，我就不会称之为人间蒸发了。,,,,"charfadein(L,1)",源类型=type:txt_David; 层级=14
+16,旁白,hide,David_default,,,他思衬了片刻，就连空气中的灰尘都因这份沉默显得格外厚重,,,,,源类型=type:txt_pb; 层级=15
+17,大卫,hide,David_default,,,不过......说起这个，我倒是在门关上的那一刻听到了一丝微弱的电流声，但这扇门没有通电，我一度怀疑是自己出现幻听了。,,,,,源类型=type:txt_David; 层级=16
+18,旁白,hide,David_default,,,幻听这两个字，像一根冰冷的针，猛地刺入你尚未完全清醒的神经。你回想起那个军装男子低沉的声音，耳边挥之不去的噪音，以及那枚在黑暗中闪烁的白头鹰徽章。,,,,"charfadeout(L,1)",源类型=type:txt_pb; 层级=17
+19,旁白,hide,,,,那些曾被认为是酒后迷乱的虚影，在共同幻觉的支撑下前所未有得真实。仿佛它们不再是可以随意丢弃的记忆的残余，而是某种隐晦且苛刻的预言，正沿着神经突触的纹路缓慢显影。,,,,,源类型=type:txt_pb; 层级=18
+21,你,hide,,,,如果那不是幻听呢？,,,,,源类型=type:txt_You; 层级=19
+22,旁白,hide,,,,你突然开口道,,,,,源类型=type:txt_pb; 层级=20
+23,旁白,hide,,,,如果我说，我当时也听到了类似的声音，且在昏迷期间看到了一段更为详细的画面。你愿意相信我吗？,,,,,源类型=type:txt_pb; 层级=21
+24,旁白,hide,,,,听到你这番话，他的瞳孔猛地收缩了一下，显然对你的情报产生了一丝兴趣,,,,,源类型=type:txt_pb; 层级=22
+25,大卫,hide,David_default,,,......说来听听。,,,,"charfadein(L,1)&jump(57)",源类型=type:txt_David; 层级=23; gotomainline=57
+20,旁白,hide,,,,谈及你方才的幻觉,,,,,源类型=type:txt_pb; 层级=12; tag=解释幻觉
+50,旁白,hide,,,,你知道此刻多说无益，打算先冷静下来共享情报。,,,,,源类型=type:txt_pb; 层级=13
+51,旁白,hide,,,,,,,,,源类型=type:exeBC; 层级=14
+52,你,hide,,,,抱歉，是我在关键时刻又出现了幻觉。,,,,jump(57),"源类型=type:txt_You; 层级=15; wherelist={""wheretype"":""1"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""告知"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}; gotomainline=57"
+53,你,hide,,,,抱歉，我当时不知怎么的，突然就感到头痛欲裂，陷入了严重的幻觉。,,,,,"源类型=type:txt_You; 层级=15; wherelist={""wheretype"":""1"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""隐瞒"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}"
+57,你,hide,David_default,,,我看到一个身着军装的男人站在病床前，正与一位疑似医生的人交谈着什么。,,,,"charfadeout(L,1)",源类型=type:txt_You; 层级=16
+58,旁白,hide,,,,你努力回想当时的细节，每一次搜集信息的尝试，都像是用一把带血的铲子在你的大脑里犁出一道新的沟壑。,,,,,源类型=type:txt_pb; 层级=17
+59,你,hide,,,,那房间很亮，且医疗设备齐全，和这里残破的景象完全不同。但......,,,,,源类型=type:txt_You; 层级=18
+60,旁白,hide,,,,你猛地望向四周，这里的陈设大多布满了厚厚的积尘，床单有被烈火灼烧的焦痕，就连墙角的无影灯玻璃罩也缺失了一大块。但唯独有一点——,,,,,源类型=type:txt_pb; 层级=19
+61,你,hide,,,,唯独那房间门前的编号，与这间病房的编号格式完全一致。,,,,,源类型=type:txt_You; 层级=20
+62,旁白,hide,,,,你的语气斩钉截铁，仿佛那并非一时幻觉，而是你在现实中亲眼所见。,,,,,源类型=type:txt_pb; 层级=21
+63,你,hide,,,,你：我记得清清楚楚，那上面的编号是“B0—01”。,,,,"bgfade(sntzm_david1_63,1)",源类型=type:txt_You; 层级=22
+64,旁白,hide,,,,大卫顺着你的目光瞥了眼门楣，褪色的金属牌上刻着“B2—07”的字样，虽然同你口中的具体数字有所不同，但二者的格式却是惊人的一致。,,,,"bgfade(sntzm_david1_64,1)",源类型=type:txt_pb; 层级=23
+65,大卫,hide,David_default,,,这么一听，还真有点像那么回事......,,,,"charfadein(L,1)","源类型=type:txt_David; 层级=24; wherelist={""wheretype"":""1"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""询问动静"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}"
+66,旁白,hide,David_default,,,,,,,,源类型=type:exeBC; 层级=25
+67,大卫,hide,David_default,,,照明完整、设施齐全，但房号格式一致.......,,,,,"源类型=type:txt_David; 层级=26; wherelist={""wheretype"":""1"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""询问动静"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}"
+68,旁白,hide,David_default,,,他喃喃自语地分析着，两个截然相反的特征此刻似乎指向了同一个可能性——,,,,,源类型=type:txt_pb; 层级=27
+69,大卫,hide,David_default,,,或许你在幻境中看到的，是来自过去的投影？,,,,,源类型=type:txt_David; 层级=28
+70,旁白,hide,David_default,,,见你一时语塞，他立马补上了自己的分析思路。,,,,,源类型=type:txt_pb; 层级=29
+71,大卫,hide,David_default,,,你想想，军队的人出现在精神病院里本就不太寻常，而那场火灾的真相以及盖亚之心的用途也尚未明确。,,,,,源类型=type:txt_David; 层级=30
+72,大卫,hide,David_default,,,但有一点是确定的，医院现在处于大火焚烧后的废弃状态，但你却看到了设施尚且完好时的景象。,,,,,源类型=type:txt_David; 层级=31
+73,大卫,hide,David_default,,,说不定你在幻觉中看到的人正是借助盖亚之心，将医院发生事故前的某些关键信息传递到了我们所处的未来，只有在进入了医院的特定区域才能感知到，就像无线网络一样。,,,,,源类型=type:txt_David; 层级=32
+74,大卫,hide,David_default,,,你当时信号强，所以看得清楚，我那儿信号弱，就只能听到一点儿声音，这么一联想是不是就很合理？,,,,,源类型=type:txt_David; 层级=33
+75,旁白,hide,David_default,,,你皱起眉头，指尖无意识地摩挲着冰冷的床沿，一些更具体的细节开始在你的脑海中逐步浮现，但心中的困惑却是有增无减——,,,,"charfadeout(L,1)",源类型=type:txt_pb; 层级=34
+76,旁白,hide,,,,如果真的如大卫所言，那场幻境中的实验是为了向未来传递某种讯息，那为什么在你窥探到一些关键信息时，那名医生会突然按住你的脑门？,,,,,源类型=type:txt_pb; 层级=35
+77,旁白,hide,,,,来不及细想，大卫的下一个行动便已接踵而至。虽然看得出来他很想回去验证自己的理论。但在克拉克失踪的当下，没有什么是比确保他的安危更重要的任务。,,,,,源类型=type:txt_pb; 层级=36
+78,大卫,hide,David_default,,,罢了，现在的当务之急还是把克拉克那傻小子赶紧拽回来，至于你在幻觉中看到的那些奇奇怪怪的玩意，还是等回去后在上交的材料里慢慢汇报吧。,,,,"charfadein(L,1)",源类型=type:txt_David; 层级=37
+79,旁白,hide,David_default,,,随着手电光的再次亮起，他的眼神已从方才遐想的狂热中，重新落回现实的冰冷。,,,,"charfadeout(L,1)",源类型=type:txt_pb; 层级=38
+80,旁白,hide,,,,而你也强迫自己摆脱那该死的，眩晕的余韵——无论它意味着什么，都不是你们此刻需要优先处理的问题。,,,,,源类型=type:txt_pb; 层级=39
+81,旁白,hide,,,,你深吸一口气，压下心头翻涌的思绪，目光随着大卫手中的光束投向那扇曾吞噬克拉克的小门。门依旧虚掩着，像一张沉默的嘴，等待着你们再次踏入它背后的未知。,,,,"loadScript(sntzm_david2, 1)",源类型=type:txt_pb; 层级=40; gotomainline=大卫线2_1
+82,旁白,hide,David_default,,,他咬了咬指甲，模仿侦探的语气有模有样地分析道。,,,,,"源类型=type:txt_pb; 层级=26; wherelist={""wheretype"":""1"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""解释幻觉"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}"
+83,旁白,hide,David_default,,,,,,,,源类型=type:exeBC; 层级=27
+84,大卫,hide,David_default,,,还记得不久前我们看到的关于盖曼的资料吗？那个造梦设备......,,,,,"源类型=type:txt_David; 层级=28; wherelist={""wheretype"":""1"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""飞蛾线"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}"
+86,大卫,hide,David_default,,,或许你刚刚就体验到了——不止是睡着的家伙，就连清醒的人也能瞬间拉入梦中。,,,,,源类型=type:txt_David; 层级=29
+88,旁白,hide,David_default,,,他的声音压得很低，仿佛正向你透露一个惊天秘密。,,,,,源类型=type:txt_pb; 层级=30
+89,大卫,hide,David_default,,,我怀疑，这才是盖亚之心的真正用途，它很可能就是盖曼造梦设备的某种迭代升级版本。不是用于医学，而是作为某种能强行干预他人意识的精神武器。,,,,,源类型=type:txt_David; 层级=31
+90,旁白,hide,David_default,,,你顺着他的思路回想，那些在幻境中感受到的香甜气味、无法动弹的身体，以及穿着军服的男人，确实与大卫的猜测隐隐吻合。,,,,"charfadeout(L,1)",源类型=type:txt_pb; 层级=32
+91,旁白,hide,,,,如果这项技术真的可以服务于军事目标的话，那么FBI派你们将其秘密回收的真实动机，也就有迹可循了。,,,,,源类型=type:txt_pb; 层级=33
+92,你,hide,,,,假设你的推论真的正确的话，那么盖曼医生三年前的失踪，很可能就是因为察觉到自己的研究被用到了错误的方向上。所以才会带着研究成果和核心数据人间蒸发？,,,,,源类型=type:txt_You; 层级=34
+93,大卫,hide,David_default,,,又或者被他们用某种方式秘密软禁了起来。,,,,"charfadein(L,1)",源类型=type:txt_David; 层级=35
+94,旁白,hide,David_default,,,大卫慎重地补充道,,,,"charfadeout(L,1)",源类型=type:txt_pb; 层级=36
+95,你,hide,,,,那假如，我是说假如。真相真的如你所推测的那样，这个任务......,,,,,源类型=type:txt_You; 层级=37
+96,旁白,hide,,,,你没有把话说完，但你相信他知道你真正想说的是什么。或者说，早在你们接到这个奇怪任务的那一刻，就已经对这类阴谋有所猜测了。,,,,,源类型=type:txt_pb; 层级=38
+97,旁白,hide,,,,那是对良知和职责的严酷拷问——如果盖亚之心真的是能操控意识的精神武器，那他们此刻在做的究竟是在回收一件危险的科技产物，还是在帮军方夺回一件有违伦理的杀戮工具？,,,,,源类型=type:txt_pb; 层级=39
+98,大卫,hide,David_default,,,......,,,,"charfadein(L,1)",源类型=type:txt_David; 层级=40
+99,旁白,hide,David_default,,,沉默再次在病房里蔓延，像是瘟疫。大卫的喉结上下滚动了一下，他伸手从口袋里摸出半包皱巴巴的香烟，却发现打火机不知何时遗失了，只能烦躁地将烟盒揉成一团扔在地上。,,,,,源类型=type:txt_pb; 层级=41
+100,大卫,hide,David_default,,,别说蠢话......亚当。我们是联邦探员，执行命令是我们的天职。,,,,,源类型=type:txt_David; 层级=42
+101,旁白,hide,David_default,,,尽管他极力掩饰，你也能感觉到他的呼吸在那一刻变得粗重，手电光在墙壁上投下剧烈晃动的阴影，仿佛连光线都在挣扎。,,,,,源类型=type:txt_pb; 层级=43
+102,大卫,hide,David_default,,,至于那些高层的龌龊事......轮不到我们来评判。现在最重要的是找到克拉克，还有那个该死的盖亚之心，其他的等活着回去再商量。,,,,,源类型=type:txt_David; 层级=44
+103,旁白,hide,David_default,,,随着最后一个字的音节没入走廊深处的黑暗，大卫的的眼神再度变得平静而锐利，仿佛那颗在道德天平上摇摆不定的心，已经从方才热烈的讨论中重新落回到冰冷的现实。,,,,"charfadeout(L,1)",源类型=type:txt_pb; 层级=45
+104,旁白,hide,,,,但你知道，这番看似充满觉悟的豪言壮语，与其说是在说服你，更像是说服他自己。,,,,,源类型=type:txt_pb; 层级=46
+105,旁白,hide,,,,但你也没有过多追问，只是默默点头，将那份关于良知的沉重思考暂时压入心底。,,,,,源类型=type:txt_pb; 层级=47
+106,旁白,hide,,,,此刻，只有找到克拉克和盖亚之心，才是是唯一能让你们从这诡异困境中脱身的途径。,,,,,源类型=type:txt_pb; 层级=48
+107,旁白,hide,,,,大卫率先迈步走向那扇虚掩的小门，手电光束在前方的黑暗中划出一道明亮的轨迹，你深吸一口气，紧随其后，踏入了那未知的阴影之中。,,,,"loadScript(sntzm_david2, 1)",源类型=type:txt_pb; 层级=49; gotomainline=大卫线2_1
+85,大卫,hide,David_default,,,还记得不久前总部通讯里的那个“夜莺”吗？她不是提醒过我们有可能会遇到“麻烦”。,,,,,"源类型=type:txt_David; 层级=28; wherelist={""wheretype"":""1"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""夜莺线"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}"
+87,大卫,hide,David_default,,,最初，我也以为她口中的麻烦指的是像那个小矮子一样喜欢装神弄鬼的东西。但听你这么一说，我突然觉得，或许盖亚之心才是麻烦本身？,,,,,源类型=type:txt_David; 层级=29
+108,旁白,hide,David_default,,,你被他的这番大胆的推论惊得瞳孔微缩，脑海中瞬间闪过无数念头。“夜莺”的提醒如同鬼魅般再次回响，之前只当是寻常任务警告，此刻结合幻境中的军装男人和那神秘的电流声，一个更可怕的猜想逐渐成形。,,,,"charfadeout(L,1)",源类型=type:txt_pb; 层级=30
+109,旁白,hide,,,,盖亚之心……或许不仅仅是一件需要回收的物品，更像是一个会主动“攻击”或“干扰”周围人的源头。,,,,,源类型=type:txt_pb; 层级=31
+110,大卫,hide,David_default,,,你还记得她的原话是什么吗，嗯？“盖亚之心的热信号出现了波动，总部担心你们可能遇到麻烦。”,,,,"charfadein(L,1)",源类型=type:txt_David; 层级=32
+111,旁白,hide,David_default,,,他原封不动地将夜莺的话复述了一遍，在怀疑论的阴影下，“热信号波动”与“麻烦”这两个看似毫不相关的词汇，出现在同一个句子中，似乎已不再是单纯的巧合。,,,,,源类型=type:txt_pb; 层级=33
+112,大卫,hide,David_default,,,如果是已经关闭的设备，又怎么会出现热信号波动？除非它根本就没停过，一直在暗中运行着。就像一头潜伏在暗处的野兽，用某种我们无法察觉的方式影响着周围的一切，包括你的幻觉和克拉克的失踪。,,,,,源类型=type:txt_David; 层级=34
+113,旁白,hide,David_default,,,如果它一直在运行，那它的能量来源是什么？这医院早就断水断电了。,,,,"charfadeout(L,1)",源类型=type:txt_pb; 层级=35
+114,旁白,hide,,,,大卫的脚步顿在门前，手电光打在布满划痕的门板上，映出他紧锁的眉头。,,,,,源类型=type:txt_pb; 层级=36
+115,大卫,hide,David_default,,,或许它就是能量源本身？,,,,"charfadein(L,1)",源类型=type:txt_David; 层级=37
+116,旁白,hide,David_default,,,他用指节轻轻叩了叩自己心口的位置。,,,,,源类型=type:txt_pb; 层级=38
+117,大卫,hide,David_default,,,心脏，心脏啊，亚当。它都叫盖亚之心了，你怎么知道它不会跟我们人类的心脏一样，源源不断地为这里面的某些设施输送“血液”？,,,,,源类型=type:txt_David; 层级=39
+118,你,hide,David_default,,,那万一它不是呢？,,,,"charfadeout(L,1)",源类型=type:txt_You; 层级=40
+119,旁白,hide,,,,听到这句话，他刚才还沉浸在推理狂热中的剧烈的心跳，似乎被按了暂停键，连呼吸都放缓了几分。眼神里那股方才因推测而燃起的火焰，此刻添上了几分现实的审慎。,,,,,源类型=type:txt_pb; 层级=41
+120,大卫,hide,David_default,,,那就只有一种可能......,,,,"charfadein(L,1)",源类型=type:txt_David; 层级=42
+121,大卫,hide,David_default,,,有人启动了它，也许是在我们来之前，或者更晚。如果这是真的。那咱们要面对的麻烦，确实就不止是那个小矮子那么简单了。,,,,,源类型=type:txt_David; 层级=43
+122,旁白,hide,David_default,,,他叹了口气，眼神中闪过一丝对前方不确定性的迷茫，就连推开病房门的手也多了一丝基于后怕的颤抖。,,,,"charfadeout(L,1)",源类型=type:txt_pb; 层级=44
+123,你,hide,,,,总之，先找到克拉克再说吧，只要我们三个在一起......当初比这给更艰苦的任务不也一起熬过来了吗？,,,,,源类型=type:txt_You; 层级=45
+124,旁白,hide,,,,你低声安慰着同伴的情绪，提醒他不必为了一个似是而非的猜测乱了阵脚。手电的光束在前方的黑暗中打开一条明亮的通路，当他重新将手指扣回枪机的握把上时，这块致命金属带来的厚重的安全感重新充盈了你们的思绪。,,,,,源类型=type:txt_pb; 层级=46
+125,旁白,hide,,,,无论前方等待你们的是什么，夺回克拉克，带走盖亚之心，都是你们势在必行的任务。,,,,"loadScript(sntzm_david2, 1)",源类型=type:txt_pb; 层级=47; gotomainline=大卫线2_1

@@ -1,0 +1,70 @@
+ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Command,Note
+1,旁白,hide,,,,,,yy1-69,false,"bgfade(sntzm_yy_1,1)&unlockmusic(Music8)",源类型=type:exeBC; 层级=0
+2,旁白,hide,,,,你选择留在同伴身边，先听听总部究竟有何指示。可当那只飞蛾从你眼皮底下彻底消失的瞬间，一种怅然若失的遗憾感却悄然缠上了你的心头。,,,,,"源类型=type:txt_pb; 层级=1; wherelist={""wheretype"":""1"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""夜莺线"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}"
+3,旁白,hide,,,,随着通讯中的电磁杂音渐渐散去，一个清冷的女声重新打破了这短暂的沉寂。,,,,,源类型=type:txt_pb; 层级=2
+4,索菲亚,Sophia_headcut,,,,能听到吗？这里是FBI技术支援部......我是你们本次任务的联络员，代号“夜莺”。,,,,,源类型=type:txt_Sophia; 层级=3
+5,旁白,hide,,,,她的语速比常人快了些，像是在赶时间，但这种专业而冷静的支援，正是你们此刻最需要的。,,,,,源类型=type:txt_pb; 层级=4
+6,克拉克,hide,Clark_confused,,,技术支援？我们可没收到这类通知。,,,,"charfadein(L,1)",源类型=type:txt_Clark; 层级=5
+7,索菲亚,Sophia_headcut,Clark_confused,,,临时增派。“盖亚之心”的热信号出现了波动，总部担心你们可能遇到麻烦。,,,,"charfadeout(L,1)",源类型=type:txt_Sophia; 层级=6
+8,旁白,hide,,,,大卫从她的话里敏锐地察觉到一丝异常，立刻见缝插针地追问道：,,,,,源类型=type:txt_pb; 层级=7
+9,大卫,hide,David_default,,,麻烦？这里别说活人，连只活耗子都找不到。有什么能威胁到我们三个荷枪实弹的特警？,,,,"charfadein(L,1)",源类型=type:txt_David; 层级=8
+10,旁白,hide,David_default,,,通讯那头沉默了一瞬，与其说是在思考，倒更像是完成了一次简短而果断的决策。,,,,"charfadeout(L,1)",源类型=type:txt_pb; 层级=9
+11,索菲亚,Sophia_headcut,,,,现在还无法确定，你们只需知道，目标大致位于住院大楼的5层，主体楼梯结构已严重受损，建议从东侧应急通道绕行。,,,,,源类型=type:txt_Sophia; 层级=10
+12,旁白,hide,,,,大卫看了你一眼，你能从他的目光里捕捉到一丝尖锐的怀疑。你按下通话键，压低声音回复道,,,,,源类型=type:txt_pb; 层级=11
+13,你,hide,,,,收到，还有其他信息吗？,,,,,源类型=type:txt_You; 层级=12
+14,旁白,hide,,,,她思索片刻，随即以一种不确定的语气向你们抛出了一个奇怪的问题。,,,,,源类型=type:txt_pb; 层级=13
+15,索菲亚,Sophia_headcut,,,,你们三个......有没有出现剧烈的头痛或者不适？  ,,,,,源类型=type:txt_Sophia; 层级=14
+16,旁白,hide,,,,你心头一紧，医院大门前的那场幻觉还历历在目，而现在，它就像一只灌满泥浆的气球，被人猛地戳爆。,,,,,源类型=type:txt_pb; 层级=15
+17,旁白,hide,,,,你下意识偏过头看了眼身边的两个队友，克拉克正皱着眉检查武器，大卫则不以为意地耸了耸肩，似乎只有你一人深陷幻觉的困扰。,,,,,源类型=type:txt_pb; 层级=16
+18,旁白,hide,,,,你此时的选择是？,,,,,源类型=type:txt_pb; 层级=17
+19,旁白,hide,,,,,,,,choice(告知实情|jump(20))&choice(隐瞒实情|jump(21)),源类型=type:selectBC; 层级=18
+20,旁白,hide,,,,告知实情,,,,,源类型=type:txt_pb; 层级=19
+22,你,hide,,,,在医院门口，我感觉手提箱里的配枪似乎变了......,,,,,源类型=type:txt_You; 层级=20
+24,索菲亚,Sophia_headcut,,,,好，我知道了。,,,,,源类型=type:txt_Sophia; 层级=21
+25,旁白,hide,,,,她突然打断了你，没有任何预兆或者提醒，速度快得几乎可以用粗暴来形容。,,,,,源类型=type:txt_pb; 层级=22
+26,索菲亚,Sophia_headcut,,,,无论你看到了什么，那都是医院内的化学残留所致，无需太过在意。,,,,,源类型=type:txt_Sophia; 层级=23
+27,旁白,hide,,,,她清了清嗓子，以一如既往的专业语气解释道,,,,,源类型=type:txt_pb; 层级=24
+28,索菲亚,Sophia_headcut,,,,若空气中的致幻药物残留浓度超标，就容易引发恶心头痛这类轻微症状。,,,,,源类型=type:txt_Sophia; 层级=25
+29,大卫,hide,David_default,,,那我们怎么毫无感觉？总不该是那些气体刚好被亚当吸了去吧？,,,,"charfadein(L,1)",源类型=type:txt_David; 层级=26
+30,索菲亚,Sophia_headcut,David_default,,,个体的药物耐受度总是不同的，而且......你怎么不问问亚当昨晚去了哪儿？,,,,"charfadeout(L,1)",源类型=type:txt_Sophia; 层级=27
+31,旁白,hide,,,,此话一出，原本弥漫在你们三人之间的怀疑气氛顿时被更深的尴尬所打破，即使她没有明说，你也知道——,,,,,源类型=type:txt_pb; 层级=28
+32,旁白,hide,,,,早些时候在城南谢尔顿酒馆里烂醉如泥的家伙，此刻正有模有样地跟着自己的两名队友，在医院废弃的里寻宝。,,,,,源类型=type:txt_pb; 层级=29
+33,你,hide,,,,你怎么知道我昨晚去了哪儿？,,,,,源类型=type:txt_You; 层级=30
+34,索菲亚,Sophia_headcut,,,,我说过，我是总部临时增派的技术支援。你们所有人的过往任务记录、行动前的轨迹，我都能从总部数据库里调出来看。,,,,,源类型=type:txt_Sophia; 层级=31
+35,旁白,hide,,,,她的声音被刻意压低了几分，但你确信你有从这句话中听出一丝被逗乐的笑意。,,,,,源类型=type:txt_pb; 层级=32
+36,索菲亚,Sophia_headcut,,,,怎么？要我念出来给你的队友们听听吗？,,,,,源类型=type:txt_Sophia; 层级=33
+37,旁白,hide,David_sneaky,,,大卫刚想起哄，却被你当机立断地抢过话头。如果因为体内的酒精含量超标而轻易被空气中残留的药物轻易“灌醉”，这事儿传开了恐怕也只会沦为同事间的笑柄。,,,,"charfadein(L,1)",源类型=type:txt_pb; 层级=34
+38,你,hide,David_sneaky,,,......不必了，如果没有什么别的情报的话，我们就先挂了。,,,,"charfadeout(L,1)&jump(39)",源类型=type:txt_You; 层级=35; gotomainline=39
+21,旁白,hide,,,,隐瞒实情,,,,,源类型=type:txt_pb; 层级=19
+23,旁白,hide,,,,,,,,,源类型=type:exeBC; 层级=20
+40,你,hide,,,,我们......都很好，为什么要问这个？,,,,,"源类型=type:txt_You; 层级=21; wherelist={""wheretype"":""1"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""隐瞒"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}"
+42,旁白,hide,,,,你竭力回避着两位同伴的视线，不忘甩出一个反问来转移注意。对于之前向克拉克他们隐瞒了幻觉的你而言，此刻坦白无异于自找麻烦。,,,,,源类型=type:txt_pb; 层级=22
+43,旁白,hide,,,,况且现在你还没有理由去相信一位此前从未有过任何接触的陌生女人，万一走漏了关键信息，反而会弄巧成拙。,,,,,源类型=type:txt_pb; 层级=23
+44,索菲亚,Sophia_headcut,,,,是吗......？,,,,,源类型=type:txt_Sophia; 层级=24
+45,旁白,hide,,,,她的语调很轻，轻到你听不出这两个字背后的情绪，究竟是是安心还是失落。,,,,,源类型=type:txt_pb; 层级=25
+46,索菲亚,Sophia_headcut,,,,也没什么，只是例行询问，医院附近的能量场不太稳定，总部担心这可能给特工的神经系统带来负面影响。,,,,,源类型=type:txt_Sophia; 层级=26
+47,克拉克,hide,Clark_confused,,,能量场，是指某种辐射吗？和盖亚之心有关？,,,,"charfadein(L,1)",源类型=type:txt_Clark; 层级=27
+48,旁白,hide,Clark_confused,,,克拉克立刻掏出了包里的辐射检测仪，看着上面处于安全范围的读数陷入了沉思,,,,"charfadeout(L,1)",源类型=type:txt_pb; 层级=28
+49,索菲亚,Sophia_headcut,,,,只是卫星监测到的数据而已，相比起你的设备......总部的卫星分辨率要更高一些。,,,,,源类型=type:txt_Sophia; 层级=29
+50,旁白,hide,,,,你能明显感觉她说这句话时语气上有些含糊其辞，似乎在刻意隐瞒什么，但这种感觉很快随着话题的切换消失了。,,,,,源类型=type:txt_pb; 层级=30
+51,索菲亚,Sophia_headcut,,,,你们继续向目标位置推进就好，有任何异常都可以随时通过无线电联络我，我会同步帮你们监测周边环境的变化。,,,,,源类型=type:txt_Sophia; 层级=31
+52,旁白,hide,,,,你握着通讯器的手指紧了紧，想要再问些什么，但注意到身边两名同伴探究的眼神，原本到了嘴边的疑问被硬生生咽了回去。,,,,,源类型=type:txt_pb; 层级=32
+53,你,hide,,,,那......如果没有什么别的情报的话，我们就先挂了。,,,,,源类型=type:txt_You; 层级=33
+39,索菲亚,Sophia_headcut,,,,嗯......注意安全，亚当。,,,,,源类型=type:txt_Sophia; 层级=34
+57,旁白,hide,,,,话音刚落，通讯便戛然而止，只剩下一片沙沙的白噪音，以及一句模棱两可的警告如不散的阴云般笼罩在你们头顶。,,,,,源类型=type:txt_pb; 层级=35
+58,大卫,hide,David_default,,,不太对劲。,,,,"charfadein(L,1)",源类型=type:txt_David; 层级=36
+59,旁白,hide,David_default,,,他率先掐断手中的无线电，刺耳的杂音随之消失，取而代之的是四周愈发诡谲的死寂。,,,,"charfadeout(L,1)",源类型=type:txt_pb; 层级=37
+60,旁白,hide,,,,克拉克看了一眼手腕上的电子腕表，屏幕显示时间为晚上八点十六分。距离他们进入设施内部已足足过去了20分钟。这时候才增派支援，未免有些突兀。,,,,"bgfade(sntzm_yy_60,1)",源类型=type:txt_pb; 层级=38
+61,克拉克,hide,Clark_default,,,总部突然增派技术支援，却只给个模糊的楼层位置，这和以往的任务流程不太一样。,,,,"charfadein(L,1)",源类型=type:txt_Clark; 层级=39
+62,旁白,hide,Clark_default,,,比起克拉克因循规蹈矩产生的迟疑，大卫的思维更加跳跃，直指问题核心：,,,,"charfadeout(L,1)",源类型=type:txt_pb; 层级=40
+63,大卫,hide,David_default,,,听起来就像是催我们赶紧拿了东西走人，却又不想让我们知道太多内情。,,,,"charfadein(L,1)",源类型=type:txt_David; 层级=41
+64,你,hide,David_default,,,你们觉得这位“夜莺”说的“麻烦”具体指什么？辐射？鬼魂？那语气可不像是在开玩笑。,,,,"charfadeout(L,1)",源类型=type:txt_You; 层级=42
+65,旁白,hide,,,,大卫烦躁地踹了脚身旁的立柱，鞋底与墙面的摩擦声在空旷的大厅里格外刺耳。,,,,,源类型=type:txt_pb; 层级=43
+66,大卫,hide,David_default,,,我可不愿相信这世上真有什么鬼魂，若它们真的存在，就不会有那么多混账东西犯下累累恶行后，至今还逍遥法外了。,,,,"charfadein(L,1)",源类型=type:txt_David; 层级=44
+67,旁白,hide,David_default,,,他的情绪有些激动，这是你在这位可靠的前辈身上鲜少见到的模样，他的确喜欢开些毒舌的玩笑，也从不掩饰自己对金钱的欲望。,,,,,源类型=type:txt_pb; 层级=45
+68,旁白,hide,David_default,,,唯独那属于一名探员应有的，嫉恶如仇的性格，你还是第一次从他口中，如此真切地感受到。,,,,,源类型=type:txt_pb; 层级=46
+69,大卫,hide,David_default,,,我看那小妞就是想故弄玄虚吓咱们，好让咱们按上头的意思，一刻也不多待地把东西带回去。这样一来......,,,,"loadScript(sntzm_main3, 2)",源类型=type:txt_David; 层级=47; gotomainline=主线3_2
+41,你,hide,,,,突然问起这个，是知道些什么吗？,,,,,"源类型=type:txt_You; 层级=21; wherelist={""wheretype"":""1"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""告知"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}"
+54,旁白,hide,,,,你警惕地目光如刀刻般扫过，仅一瞬的视线接触，两名同伴便理解了你的用意——明明之前从未提及此类信息，但却被主动问起，很难不让人怀疑她是否知晓一些内情。,,,,,源类型=type:txt_pb; 层级=22
+55,索菲亚,Sophia_headcut,,,,......没什么，只是例行询问。根据医院内的化学扫描结果，若空气中的致幻药物残留浓度超标，会引发恶心头痛这类轻微症状。,,,,,源类型=type:txt_Sophia; 层级=23
+56,旁白,hide,,,,通讯那头的声音听不出情绪，但这种欲盖弥彰的掩饰反而加深了你们的怀疑。,,,,jump(29),源类型=type:txt_pb; 层级=24; gotomainline=29

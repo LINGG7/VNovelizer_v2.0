@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | {{{ PRODUCT_NAME }}}</title>
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
+  </head>
+  <body>
+    <div id="unity-rotate-wrapper">
+      <div id="unity-container" class="unity-desktop">
+        <canvas id="unity-canvas" width={{{ WIDTH }}} height={{{ HEIGHT }}} tabindex="-1"></canvas>
+        <div id="unity-loading-bar">
+          <div id="unity-logo"></div>
+          <div id="unity-progress-bar-empty">
+            <div id="unity-progress-bar-full"></div>
+          </div>
+        </div>
+        <div id="unity-warning"> </div>
+        <div id="unity-footer">
+          <div id="unity-webgl-logo"></div>
+          <div id="unity-fullscreen-button"></div>
+          <div id="unity-build-title">{{{ PRODUCT_NAME }}}</div>
+        </div>
+      </div>
+    </div>
+    <script>
+      var rotateWrapper = document.querySelector("#unity-rotate-wrapper");
+      var container = document.querySelector("#unity-container");
+      var canvas = document.querySelector("#unity-canvas");
+      var loadingBar = document.querySelector("#unity-loading-bar");
+      var progressBarFull = document.querySelector("#unity-progress-bar-full");
+      var fullscreenButton = document.querySelector("#unity-fullscreen-button");
+      var warningBanner = document.querySelector("#unity-warning");
+
+      function updateMobileLayout() {
+        if (!container.classList.contains("unity-mobile")) return;
+        var isPortraitViewport = window.innerHeight > window.innerWidth;
+        rotateWrapper.classList.toggle("unity-force-landscape", isPortraitViewport);
+
+        if (isPortraitViewport) {
+          canvas.width = {{{ WIDTH }}};
+          canvas.height = {{{ HEIGHT }}};
+        }
+      }
+
+      function patchRotatedCanvasInput() {
+        var nativeGetBoundingClientRect = canvas.getBoundingClientRect.bind(canvas);
+        canvas.getBoundingClientRect = function() {
+          if (!rotateWrapper.classList.contains("unity-force-landscape")) {
+            return nativeGetBoundingClientRect();
+          }
+
+          var containerRect = container.getBoundingClientRect();
+          var logicalWidth = containerRect.height;
+          var logicalHeight = containerRect.width;
+          var logicalLeft = (window.innerWidth - logicalWidth) * 0.5;
+          var logicalTop = (window.innerHeight - logicalHeight) * 0.5;
+          return {
+            x: logicalLeft,
+            y: logicalTop,
+            left: logicalLeft,
+            top: logicalTop,
+            right: logicalLeft + logicalWidth,
+            bottom: logicalTop + logicalHeight,
+            width: logicalWidth,
+            height: logicalHeight
+          };
+        };
+
+        function mapRotatedPoint(clientX, clientY) {
+          var rect = container.getBoundingClientRect();
+          var visualWidth = rect.width;
+          var visualHeight = rect.height;
+          var xInVisual = clientX - rect.left;
+          var yInVisual = clientY - rect.top;
+          var logicalWidth = visualHeight;
+          var logicalHeight = visualWidth;
+          var logicalLeft = (window.innerWidth - logicalWidth) * 0.5;
+          var logicalTop = (window.innerHeight - logicalHeight) * 0.5;
+
+          return {
+            clientX: logicalLeft + yInVisual,
+            clientY: logicalTop + (visualWidth - xInVisual),
+            screenX: logicalLeft + yInVisual,
+            screenY: logicalTop + (visualWidth - xInVisual)
+          };
+        }
+
+        var isDispatchingMappedInput = false;
+
+        function dispatchMappedMouseEvent(sourceEvent, type) {
+          if (isDispatchingMappedInput) return false;
+          if (!rotateWrapper.classList.contains("unity-force-landscape")) return false;
+
+          var point = mapRotatedPoint(sourceEvent.clientX, sourceEvent.clientY);
+          var mappedEvent = new MouseEvent(type, {
+            bubbles: true,
+            cancelable: true,
+            view: window,
+            clientX: point.clientX,
+            clientY: point.clientY,
+            screenX: point.screenX,
+            screenY: point.screenY,
+            button: sourceEvent.button || 0,
+            buttons: sourceEvent.buttons || 1
+          });
+
+          sourceEvent.preventDefault();
+          sourceEvent.stopImmediatePropagation();
+          isDispatchingMappedInput = true;
+          canvas.dispatchEvent(mappedEvent);
+          isDispatchingMappedInput = false;
+          return true;
+        }
+
+        function dispatchMappedTouchEvent(sourceEvent, type) {
+          if (isDispatchingMappedInput) return false;
+          if (!rotateWrapper.classList.contains("unity-force-landscape") || !sourceEvent.changedTouches.length) return false;
+
+          var sourceTouch = sourceEvent.changedTouches[0];
+          var point = mapRotatedPoint(sourceTouch.clientX, sourceTouch.clientY);
+          var mappedEvent = new MouseEvent(type, {
+            bubbles: true,
+            cancelable: true,
+            view: window,
+            clientX: point.clientX,
+            clientY: point.clientY,
+            screenX: point.screenX,
+            screenY: point.screenY,
+            button: 0,
+            buttons: type === "mouseup" ? 0 : 1
+          });
+
+          sourceEvent.preventDefault();
+          sourceEvent.stopImmediatePropagation();
+          isDispatchingMappedInput = true;
+          canvas.dispatchEvent(mappedEvent);
+          isDispatchingMappedInput = false;
+          return true;
+        }
+
+        rotateWrapper.addEventListener("mousedown", function(event) { dispatchMappedMouseEvent(event, "mousedown"); }, true);
+        rotateWrapper.addEventListener("mousemove", function(event) { dispatchMappedMouseEvent(event, "mousemove"); }, true);
+        rotateWrapper.addEventListener("mouseup", function(event) { dispatchMappedMouseEvent(event, "mouseup"); }, true);
+        rotateWrapper.addEventListener("touchstart", function(event) { dispatchMappedTouchEvent(event, "mousedown"); }, { capture: true, passive: false });
+        rotateWrapper.addEventListener("touchmove", function(event) { dispatchMappedTouchEvent(event, "mousemove"); }, { capture: true, passive: false });
+        rotateWrapper.addEventListener("touchend", function(event) { dispatchMappedTouchEvent(event, "mouseup"); }, { capture: true, passive: false });
+      }
+
+      function unityShowBanner(msg, type) {
+        function updateBannerVisibility() {
+          warningBanner.style.display = warningBanner.children.length ? "block" : "none";
+        }
+        var div = document.createElement("div");
+        div.innerHTML = msg;
+        warningBanner.appendChild(div);
+        if (type == "error") div.style = "background: red; padding: 10px;";
+        else {
+          if (type == "warning") div.style = "background: yellow; padding: 10px;";
+          setTimeout(function() {
+            warningBanner.removeChild(div);
+            updateBannerVisibility();
+          }, 5000);
+        }
+        updateBannerVisibility();
+      }
+
+      var buildUrl = "Build";
+      var loaderUrl = buildUrl + "/{{{ LOADER_FILENAME }}}";
+      var config = {
+        dataUrl: buildUrl + "/{{{ DATA_FILENAME }}}",
+        frameworkUrl: buildUrl + "/{{{ FRAMEWORK_FILENAME }}}",
+        codeUrl: buildUrl + "/{{{ CODE_FILENAME }}}",
+        streamingAssetsUrl: "StreamingAssets",
+        companyName: "{{{ COMPANY_NAME }}}",
+        productName: "{{{ PRODUCT_NAME }}}",
+        productVersion: "{{{ PRODUCT_VERSION }}}",
+        showBanner: unityShowBanner,
+      };
+      config.autoSyncPersistentDataPath = true;
+      config.matchWebGLToCanvasSize = false;
+
+      window.unityInstance = null;
+      window.unityQuitStarted = false;
+
+      function blurUnityCanvas() {
+        try {
+          if (canvas && typeof canvas.blur === "function") {
+            canvas.blur();
+          }
+        } catch (e) {}
+      }
+
+      window.quitUnityWebGL = function() {
+        if (window.unityQuitStarted) return Promise.resolve();
+        window.unityQuitStarted = true;
+
+        blurUnityCanvas();
+
+        var instance = window.unityInstance;
+        window.unityInstance = null;
+
+        if (instance && typeof instance.Quit === "function") {
+          return instance.Quit().catch(function() {});
+        }
+
+        return Promise.resolve();
+      };
+
+      function quitUnityWebGLOnLifecycleExit() {
+        window.quitUnityWebGL();
+      }
+
+      window.addEventListener("pagehide", quitUnityWebGLOnLifecycleExit);
+      window.addEventListener("beforeunload", quitUnityWebGLOnLifecycleExit);
+      document.addEventListener("visibilitychange", function() {
+        if (document.visibilityState === "hidden") {
+          quitUnityWebGLOnLifecycleExit();
+        }
+      });
+      window.addEventListener("blur", blurUnityCanvas);
+
+      if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
+        var meta = document.createElement("meta");
+        meta.name = "viewport";
+        meta.content = "width=device-width, height=device-height, initial-scale=1.0, user-scalable=no, shrink-to-fit=yes";
+        document.getElementsByTagName("head")[0].appendChild(meta);
+        container.className = "unity-mobile";
+        canvas.className = "unity-mobile";
+        patchRotatedCanvasInput();
+        updateMobileLayout();
+        window.addEventListener("resize", updateMobileLayout);
+        window.addEventListener("orientationchange", updateMobileLayout);
+      } else {
+        canvas.style.width = "{{{ WIDTH }}}px";
+        canvas.style.height = "{{{ HEIGHT }}}px";
+      }
+
+      loadingBar.style.display = "block";
+
+      var script = document.createElement("script");
+      script.src = loaderUrl;
+      script.onload = () => {
+        createUnityInstance(canvas, config, (progress) => {
+          progressBarFull.style.width = 100 * progress + "%";
+        }).then((unityInstance) => {
+          window.unityInstance = unityInstance;
+          window.unityQuitStarted = false;
+          loadingBar.style.display = "none";
+          fullscreenButton.onclick = () => {
+            unityInstance.SetFullscreen(1);
+          };
+        }).catch((message) => {
+          alert(message);
+        });
+      };
+
+      document.body.appendChild(script);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,147 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a4678c49a5a7284dbcf97b6cbdc856f, type: 3}
+  m_Name: MusicDataContainer
+  m_EditorClassIdentifier: 
+  musicList:
+  - name: Music1
+    picture: {fileID: 21300000, guid: b7f694d7a3fd0c14fa7dd4b3943efd4a, type: 3}
+    picturePath: 
+    music: {fileID: 8300000, guid: 58aa3c6920e9f064f8d3b5c1d0a5aeed, type: 3}
+    musicPath: VNovelizerRes/Audio/Music/BGM/sorrowful
+    isUnlocked: 0
+  - name: Music2
+    picture: {fileID: 0}
+    picturePath: 
+    music: {fileID: 8300000, guid: 8fd4598ccbe207a4f9bb8a60a71e4370, type: 3}
+    musicPath: VNovelizerRes/Audio/Music/BGM/monume-guitar-beat
+    isUnlocked: 0
+  - name: Music3
+    picture: {fileID: 0}
+    picturePath: 
+    music: {fileID: 8300000, guid: d4b61a6e416ef8f42a035c553c980279, type: 3}
+    musicPath: VNovelizerRes/Audio/Music/BGM/suspense-tensions
+    isUnlocked: 0
+  - name: Music4
+    picture: {fileID: 0}
+    picturePath: 
+    music: {fileID: 8300000, guid: 9d3b8264d1c2e48498a7f1d1afd955b9, type: 3}
+    musicPath: VNovelizerRes/Audio/Music/BGM/suspence-horror
+    isUnlocked: 0
+  - name: Music5
+    picture: {fileID: 0}
+    picturePath: 
+    music: {fileID: 8300000, guid: beeba011650f78b43ae989cffa1de4d9, type: 3}
+    musicPath: VNovelizerRes/Audio/Music/BGM/suspence
+    isUnlocked: 0
+  - name: Music6
+    picture: {fileID: 0}
+    picturePath: 
+    music: {fileID: 8300000, guid: b5124285e4bb27241b0e1945bdf8adb2, type: 3}
+    musicPath: VNovelizerRes/Audio/Music/BGM/suspense2
+    isUnlocked: 0
+  - name: Music7
+    picture: {fileID: 0}
+    picturePath: 
+    music: {fileID: 8300000, guid: d11425d99372f2f4ca06ed21dc38603d, type: 3}
+    musicPath: VNovelizerRes/Audio/Music/BGM/leberch-suspense
+    isUnlocked: 0
+  - name: Music8
+    picture: {fileID: 0}
+    picturePath: 
+    music: {fileID: 8300000, guid: 6038a34214bf5d34e974cdca24265d52, type: 3}
+    musicPath: VNovelizerRes/Audio/Music/BGM/yy1-69
+    isUnlocked: 0
+  - name: Music9
+    picture: {fileID: 0}
+    picturePath: 
+    music: {fileID: 8300000, guid: eaba2f7ab70002c478cfb56d784f938f, type: 3}
+    musicPath: VNovelizerRes/Audio/Music/BGM/leberch-suspense2
+    isUnlocked: 0
+  - name: Music10
+    picture: {fileID: 0}
+    picturePath: 
+    music: {fileID: 8300000, guid: 6a65682829b94424396f9b3c7415b5f1, type: 3}
+    musicPath: VNovelizerRes/Audio/Music/BGM/the-mountain-horror
+    isUnlocked: 0
+  - name: Music11
+    picture: {fileID: 0}
+    picturePath: 
+    music: {fileID: 8300000, guid: 5a010b4a3057c0244b95f5346b76032c, type: 3}
+    musicPath: VNovelizerRes/Audio/Music/BGM/horror-free
+    isUnlocked: 0
+  - name: Music12
+    picture: {fileID: 0}
+    picturePath: 
+    music: {fileID: 8300000, guid: c1359e4cc9c3a2443a722c50e264498a, type: 3}
+    musicPath: VNovelizerRes/Audio/Music/BGM/leberch-spooky-piano
+    isUnlocked: 0
+  - name: Music13
+    picture: {fileID: 0}
+    picturePath: 
+    music: {fileID: 8300000, guid: 47ec111889aa07746bed35c318d2e8d1, type: 3}
+    musicPath: VNovelizerRes/Audio/Music/BGM/alex-morgan-dark-suspense-thriller
+    isUnlocked: 0
+  - name: Music14
+    picture: {fileID: 0}
+    picturePath: 
+    music: {fileID: 8300000, guid: 57f189a7f3aba8540b88e94d9e2498bf, type: 3}
+    musicPath: VNovelizerRes/Audio/Music/BGM/the-mountain-hope-background
+    isUnlocked: 0
+  - name: Music15
+    picture: {fileID: 0}
+    picturePath: 
+    music: {fileID: 8300000, guid: 8f2c4fdb0de970240a454845f645e7ed, type: 3}
+    musicPath: VNovelizerRes/Audio/Music/BGM/suspense-tension-background-music
+    isUnlocked: 0
+  - name: Music16
+    picture: {fileID: 0}
+    picturePath: 
+    music: {fileID: 8300000, guid: 0308f3f1aa81ff448afc46a87b0719b1, type: 3}
+    musicPath: VNovelizerRes/Audio/Music/BGM/oceanframemusic-horror-background-music
+    isUnlocked: 0
+  - name: Music17
+    picture: {fileID: 0}
+    picturePath: 
+    music: {fileID: 8300000, guid: 81b9f0b5738f8d94292ec1add06efd95, type: 3}
+    musicPath: VNovelizerRes/Audio/Music/BGM/litesaturation-horror
+    isUnlocked: 0
+  - name: Music18
+    picture: {fileID: 0}
+    picturePath: 
+    music: {fileID: 8300000, guid: 8ec5dfa3f366c4c46b524975be13faee, type: 3}
+    musicPath: VNovelizerRes/Audio/Music/BGM/audioatlant-total-war-epic-action-cinematic-trailer-main
+    isUnlocked: 0
+  - name: Music19
+    picture: {fileID: 0}
+    picturePath: 
+    music: {fileID: 8300000, guid: 2c7a317f7034ba7479b979c9dacb3e2e, type: 3}
+    musicPath: VNovelizerRes/Audio/Music/BGM/leberch-horror-night
+    isUnlocked: 0
+  - name: Music20
+    picture: {fileID: 0}
+    picturePath: 
+    music: {fileID: 8300000, guid: 2b2d651d622e59649a3e4f23c765ecdb, type: 3}
+    musicPath: VNovelizerRes/Audio/Music/BGM/suspense-tense-background-music
+    isUnlocked: 0
+  - name: Music21
+    picture: {fileID: 0}
+    picturePath: 
+    music: {fileID: 8300000, guid: d483b455708524f4dae73d127b36ce62, type: 3}
+    musicPath: VNovelizerRes/Audio/Music/BGM/ikoliks_aj-sad-sorrowful-documentary-music
+    isUnlocked: 0
+  - name: Music22
+    picture: {fileID: 0}
+    picturePath: 
+    music: {fileID: 8300000, guid: 63d4935f5604b594ab38fa75075a0b74, type: 3}
+    musicPath: VNovelizerRes/Audio/Music/BGM/universfield-suspenseful-dark-atmosphere-231510
+    isUnlocked: 0

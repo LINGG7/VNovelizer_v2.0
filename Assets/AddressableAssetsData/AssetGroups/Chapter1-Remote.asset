@@ -1,0 +1,236 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Chapter1-Remote
+  m_EditorClassIdentifier: 
+  m_GroupName: Chapter1-Remote
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 576a7a4c4233445498fcdb701a8525da
+  m_SerializeEntries:
+  - m_GUID: 2d5fd58e6165c1148b8877240bf3c0a6
+    m_Address: "VNovelizerRes/CharactersPic/\u5927\u536B\u8868\u60C5/\u4E0D\u77E5\u540D\u8868\u60C51"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/CharactersPic
+    - "VNovelizerRes/CharactersPic/\u5927\u536B\u8868\u60C5"
+    - chapter1_required
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2f3a2575c2ec3a34f88af0b6ccb22233
+    m_Address: VNovelizerRes/Backgrounds/sntzm_main1_7
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter1_required
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 37a0ad6146110694e9489b4d5ab4d6b8
+    m_Address: "VNovelizerRes/CharactersPic/\u5927\u536B\u8868\u60C5/\u751F\u6C14"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/CharactersPic
+    - "VNovelizerRes/CharactersPic/\u5927\u536B\u8868\u60C5"
+    - chapter1_required
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 48a4780f265fb114180a84405e107436
+    m_Address: "VNovelizerRes/CharactersPic/\u514B\u62C9\u514B\u8868\u60C5/\u7591\u60D1"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/CharactersPic
+    - "VNovelizerRes/CharactersPic/\u514B\u62C9\u514B\u8868\u60C5"
+    - chapter1_required
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 495d67b7d4f1f4a4780c8a74cb9a598c
+    m_Address: VNovelizerRes/Backgrounds/sntzm_main1_32
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter1_required
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 58aa3c6920e9f064f8d3b5c1d0a5aeed
+    m_Address: VNovelizerRes/Audio/Music/BGM/sorrowful
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Audio
+    - VNovelizerRes/Audio/Music
+    - VNovelizerRes/Audio/Music/BGM
+    - chapter1_required
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 62c4dfdfa1b78eb47a65bc9570cb4d73
+    m_Address: VNovelizerRes/Backgrounds/sntzm_main1_27
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter1_required
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 673b5731ac5686448a9470a46ef969c2
+    m_Address: VNovelizerRes/Backgrounds/sntzm_main1_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter1_required
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 75b6496865d3d424fb8071cdbcb76d58
+    m_Address: VNovelizerRes/Backgrounds/sntzm_main1_13
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter1_required
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7aee953c20a478842b25fabbc9bc7a9e
+    m_Address: VNovelizerRes/Backgrounds/sntzm_main2_1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter1_required
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8216156f7f7c93948b38f83b91316dee
+    m_Address: VNovelizerRes/Backgrounds/sntzm_main1_10
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter1_required
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8b85c88e841217b4f93500deed078ef5
+    m_Address: VNovelizerRes/Backgrounds/sntzm_main1_66
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter1_required
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8fd4598ccbe207a4f9bb8a60a71e4370
+    m_Address: VNovelizerRes/Audio/Music/BGM/monume-guitar-beat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Audio
+    - VNovelizerRes/Audio/Music
+    - VNovelizerRes/Audio/Music/BGM
+    - chapter1_required
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9c977b6386d430d42b6d5f36ecb8f94b
+    m_Address: VNovelizerRes/Backgrounds/sntzm_main2_49
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter1_required
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9d3b8264d1c2e48498a7f1d1afd955b9
+    m_Address: VNovelizerRes/Audio/Music/BGM/suspence-horror
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Audio
+    - VNovelizerRes/Audio/Music
+    - VNovelizerRes/Audio/Music/BGM
+    - chapter1_required
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9eb76000e9d1f3847ac2e745b100f1dd
+    m_Address: VNovelizerRes/Backgrounds/sntzm_main2_48
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter1_required
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c0c1c248431341e409d19dbea9bca92c
+    m_Address: VNovelizerRes/Backgrounds/sntzm_main1_69
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter1_required
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d22f2c0cd2863f144a57501119cbc6ab
+    m_Address: VNovelizerRes/Backgrounds/sntzm_main2_52
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter1_required
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d33513d77160883419872c4e20b554dd
+    m_Address: VNovelizerRes/Backgrounds/sntzm_main1_12
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter1_required
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d4b61a6e416ef8f42a035c553c980279
+    m_Address: VNovelizerRes/Audio/Music/BGM/suspense-tensions
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Audio
+    - VNovelizerRes/Audio/Music
+    - VNovelizerRes/Audio/Music/BGM
+    - chapter1_required
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d5a93460516e4f44b9e62f873eae1e1e
+    m_Address: "VNovelizerRes/CharactersPic/\u514B\u62C9\u514B"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/CharactersPic
+    - chapter1_required
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: db72c953dda93fe4191a971360bb8829
+    m_Address: VNovelizerRes/Backgrounds/sntzm_main1_3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter1_required
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dd6540b699c750e42ac1b14441d94376
+    m_Address: "VNovelizerRes/CharactersPic/\u5927\u536B"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/CharactersPic
+    - chapter1_required
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e08308d51ccc04d4bbae12794c6e3156
+    m_Address: VNovelizerRes/Backgrounds/sntzm_main1_62
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter1_required
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e28b1dbf16e7d5b45951308969cd9b7a
+    m_Address: VNovelizerRes/Backgrounds/sntzm_main2_61
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter1_required
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: e05a7e7d0a4767d4dbd8053c426fbfd0, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 315c59f9b334b6a4abe7162dbb83f016, type: 2}
+    - {fileID: 11400000, guid: 8b741236f5107e94cb3607da408ccb78, type: 2}

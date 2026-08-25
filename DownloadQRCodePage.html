@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>&#22307;&#35834;&#27712;&#20043;&#26790; &#25195;&#30721;&#19979;&#36733;</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      margin: 0;
+      min-height: 100%;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", sans-serif;
+      color: #f5f1e8;
+      background: #111;
+    }
+
+    body {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 22px 16px;
+      background:
+        linear-gradient(rgba(8, 8, 8, 0.48), rgba(8, 8, 8, 0.88)),
+        url("cover.jpg") center / cover no-repeat,
+        #111;
+    }
+
+    .page {
+      width: min(520px, 100%);
+      padding: 24px 18px;
+      border: 1px solid rgba(214, 188, 120, 0.42);
+      background: rgba(16, 15, 14, 0.88);
+      box-shadow: 0 18px 60px rgba(0, 0, 0, 0.48);
+    }
+
+    .title {
+      margin: 0 0 8px;
+      font-size: 28px;
+      font-weight: 600;
+      letter-spacing: 0;
+      text-align: center;
+    }
+
+    .subtitle {
+      margin: 0 0 20px;
+      color: rgba(245, 241, 232, 0.74);
+      font-size: 14px;
+      line-height: 1.7;
+      text-align: center;
+    }
+
+    .download-card {
+      padding: 18px;
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      background: rgba(255, 255, 255, 0.06);
+    }
+
+    .download-card + .download-card {
+      margin-top: 14px;
+    }
+
+    .platform {
+      margin: 0 0 14px;
+      color: #d6bc78;
+      font-size: 18px;
+      font-weight: 700;
+      text-align: center;
+    }
+
+    .qr-wrap {
+      display: flex;
+      justify-content: center;
+      margin: 0 0 14px;
+    }
+
+    .qr-image {
+      width: 220px;
+      height: 220px;
+      padding: 10px;
+      background: #fff;
+    }
+
+    .download-url {
+      width: 100%;
+      min-height: 42px;
+      padding: 10px;
+      border: 1px solid rgba(214, 188, 120, 0.36);
+      color: rgba(245, 241, 232, 0.82);
+      background: rgba(0, 0, 0, 0.32);
+      font-size: 12px;
+      line-height: 1.45;
+      word-break: break-all;
+      user-select: text;
+    }
+
+    .actions {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 10px;
+      margin-top: 12px;
+    }
+
+    .button {
+      min-height: 48px;
+      border: 1px solid rgba(214, 188, 120, 0.64);
+      color: #18130b;
+      background: #d6bc78;
+      font: inherit;
+      font-size: 16px;
+      font-weight: 700;
+      cursor: pointer;
+    }
+
+    .button.secondary {
+      color: #f5f1e8;
+      background: rgba(255, 255, 255, 0.08);
+    }
+
+    .tips {
+      margin: 18px 0 0;
+      color: rgba(245, 241, 232, 0.62);
+      font-size: 13px;
+      line-height: 1.7;
+      text-align: center;
+    }
+
+    @media (max-width: 360px) {
+      .page {
+        padding: 20px 14px;
+      }
+
+      .title {
+        font-size: 25px;
+      }
+
+      .qr-image {
+        width: 200px;
+        height: 200px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <h1 class="title">&#22307;&#35834;&#27712;&#20043;&#26790;</h1>
+    <p class="subtitle">&#22914;&#26524; App &#20869;&#19981;&#33021;&#30452;&#25509;&#19979;&#36733;&#65292;&#35831;&#38271;&#25353;&#22797;&#21046;&#38142;&#25509;&#65292;&#25110;&#29992;&#25163;&#26426;&#27983;&#35272;&#22120;&#25195;&#30721;&#25171;&#24320;&#12290;</p>
+
+    <section class="download-card">
+      <h2 class="platform">Android</h2>
+      <div class="qr-wrap">
+        <img id="androidQr" class="qr-image" src="android-qr.png" alt="Android QR Code">
+      </div>
+      <div id="androidUrlText" class="download-url"></div>
+      <div class="actions">
+        <button id="copyAndroid" class="button" type="button">&#22797;&#21046; Android &#19979;&#36733;&#38142;&#25509;</button>
+      </div>
+    </section>
+
+    <section class="download-card">
+      <h2 class="platform">iOS</h2>
+      <div class="qr-wrap">
+        <img id="iosQr" class="qr-image" alt="iOS QR Code">
+      </div>
+      <div id="iosUrlText" class="download-url"></div>
+      <div class="actions">
+        <button id="copyIos" class="button secondary" type="button">&#22797;&#21046; iOS &#19979;&#36733;&#38142;&#25509;</button>
+      </div>
+    </section>
+
+    <p class="tips">Android &#23433;&#35013;&#21253;&#38656;&#35201;&#22312; Android &#25163;&#26426;&#19978;&#23433;&#35013;&#12290;iOS &#38142;&#25509;&#35831;&#26367;&#25442;&#20026; App Store&#12289;TestFlight &#25110;&#20225;&#19994;&#31614;&#20998;&#21457;&#22320;&#22336;&#12290;</p>
+  </main>
+
+  <script>
+    var ANDROID_DOWNLOAD_URL = "https://res.huizi888.com/vnovelizer/game/sntzm/Download/Android/1.0.0/%E5%9C%A3%E8%AF%BA%E6%B1%80%E4%B9%8B%E6%A2%A6.apk";
+    var IOS_DOWNLOAD_URL = "IOS_DOWNLOAD_URL";
+
+    function setDownloadInfo(platform, url) {
+      var qr = document.getElementById(platform + "Qr");
+      var text = document.getElementById(platform + "UrlText");
+
+      if (!url || url === "IOS_DOWNLOAD_URL") {
+        qr.style.display = "none";
+        text.textContent = platform === "ios" ? "iOS \u4e0b\u8f7d\u94fe\u63a5\u6682\u672a\u914d\u7f6e" : "";
+        return;
+      }
+
+      if (platform !== "android") {
+        qr.style.display = "none";
+      }
+      text.textContent = url;
+    }
+
+    function copyText(text) {
+      if (!text || text === "IOS_DOWNLOAD_URL") {
+        alert("\u4e0b\u8f7d\u94fe\u63a5\u6682\u672a\u914d\u7f6e");
+        return;
+      }
+
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(text).then(function() {
+          alert("\u5df2\u590d\u5236\u4e0b\u8f7d\u94fe\u63a5");
+        }).catch(function() {
+          alert("\u590d\u5236\u5931\u8d25\uff0c\u8bf7\u957f\u6309\u94fe\u63a5\u624b\u52a8\u590d\u5236");
+        });
+        return;
+      }
+
+      alert("\u8bf7\u957f\u6309\u94fe\u63a5\u624b\u52a8\u590d\u5236");
+    }
+
+    setDownloadInfo("android", ANDROID_DOWNLOAD_URL);
+    setDownloadInfo("ios", IOS_DOWNLOAD_URL);
+
+    document.getElementById("copyAndroid").addEventListener("click", function() {
+      copyText(ANDROID_DOWNLOAD_URL);
+    });
+
+    document.getElementById("copyIos").addEventListener("click", function() {
+      copyText(IOS_DOWNLOAD_URL);
+    });
+  </script>
+</body>
+</html>

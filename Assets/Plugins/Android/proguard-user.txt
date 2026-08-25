@@ -1,0 +1,4 @@
+-keep class com.dirichlet.unity.** { *; }
+-keep interface com.dirichlet.unity.** { *; }
+-keep class com.dirichlet.unity.DirichletUnityBridge$* { *; }
+-keepattributes InnerClasses,EnclosingMethod
