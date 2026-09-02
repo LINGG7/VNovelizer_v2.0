@@ -17,6 +17,9 @@ MonoBehaviour:
   - Element: cut
     Sprite: {fileID: 21300000, guid: 5aa33c853d9cf9544b4110da53d9c5fc, type: 3}
     SpritePath: "VNovelizerRes/CharactersPic/\u514B\u83B1\u8499\u65AF\u4E0A\u6821\u8868\u60C5/\u526A\u5F71"
+  - Element: default
+    Sprite: {fileID: 21300000, guid: 5eca183ea94e5044890a057fbf3a3ee4, type: 3}
+    SpritePath: "VNovelizerRes/CharactersPic/\u514B\u83B1\u8499\u65AF\u4E0A\u6821"
   HeadSprites:
   - Element: Default
     Sprite: {fileID: -7385412646656166944, guid: b530678b355b00f409b3ceaacf5ab510, type: 3}

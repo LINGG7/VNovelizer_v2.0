@@ -41,15 +41,15 @@ ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Comm
 74,旁白,hide,Abaddon_default,,,你的瞳孔在震惊中收缩了一瞬，取出大脑？这听起来可不像是造梦手术会涉及的步骤。但亚波伦只是滔滔不绝地继续着他的宣讲，仿佛遭此折磨的并非他本人。,,,,"charfadeout(L,1)",源类型=type:txt_pb; 层级=39
 75,亚波伦,hide,Abaddon_default,,,可事实却是，乔治、霍华德，还有很多我们共同的，亲爱的前同事们，他们都参与了这场，嗯.......对导师剩余价值的物理分食。,,,,"charfadein(L,1)",源类型=type:txt_Abaddon; 层级=40
 76,旁白,hide,Abaddon_default,,,亚波伦眉头紧锁，明暗交织的光影在他皮肤的褶皱间形成一道道深邃的刻线，让人难以看清那张人皮面具之下的真实情绪。,,,,"charfadeout(L,1)",源类型=type:txt_pb; 层级=41
-77,旁白,hide,,,,也许纳丁达克给了他们一笔不菲的酬金？又或许他们是被公司拿捏了什么软肋？哦，这个说法应该会让他们那并不存在的良心好受一些。,,,,,源类型=type:txt_pb; 层级=42
-78,亚波伦,hide,Abaddon_default,,,可你知道这场戏最富戏剧性的地方在哪儿吗，索菲亚？,,,,"charfadein(L,1)",源类型=type:txt_Abaddon; 层级=43
+77,亚波伦,hide,Abaddon_default,,,也许纳丁达克给了他们一笔不菲的酬金？又或许他们是被公司拿捏了什么软肋？哦，这个说法应该会让他们那并不存在的良心好受一些。,,,,"charfadein(L,1)",源类型=type:txt_pb; 层级=42
+78,亚波伦,hide,Abaddon_default,,,可你知道这场戏最富戏剧性的地方在哪儿吗，索菲亚？,,,,,源类型=type:txt_Abaddon; 层级=43
 79,旁白,hide,Abaddon_default,,,话及此处，阴鸷的阴影再度爬上他的面庞，牵动嘴角，勾出一抹不怀好意的笑容。,,,,,源类型=type:txt_pb; 层级=44
 80,亚波伦,hide,Abaddon_default,,,那场手术并没有失败，相反.......在我一众同僚的尽心支持下，它进行得相当成功。而我，就是它唯一的成品，也是最大的牺牲品——我不是你的老师盖曼，而是被公司刻意制造，用于压制他主体意识的第二个人格。,,,,,源类型=type:txt_Abaddon; 层级=45
 81,索菲亚,hide,Abaddon_default,,,！,,,,"charfadeout(L,1)",源类型=type:txt_Sophia; 层级=46
 89,旁白,hide,,,,女人难以置信地捂住了嘴，原本就没多少血色的脸瞬间变得像纸一样惨白。看着眼前这个既和她老师无比相似，却又并非盖曼本人的怪物，她的胃里突然泛起一股想要呕吐的冲动。,,,,,源类型=type:txt_pb; 层级=47
 90,索菲亚,hide,Sophia_default,,,那他现在还活着吗？盖曼现在在哪里？,,,,"charfadein(L,1)",源类型=type:txt_Sophia; 层级=48
 91,亚波伦,hide,Sophia_default,,Abaddon_default,要是我能从这局游戏里活下来的话，自然会告诉你们。如果我死了.......那他就永远也不会再出来了。,,,,"parallel(charfadeout(L,1);charfadein(R,1))",源类型=type:txt_Abaddon; 层级=49
-92,旁白,hide,,,Abaddon_default,亚波伦摊了摊手，满脸尽是看好戏的幸灾乐祸，仿佛自己只是一个置身事外的观众，而非被绑在电刑椅上，随时可能凋零的生命。,,,,"charfadeout(R,1)&loadScript(大卫线4层（终）_1, 1)",源类型=type:txt_pb; 层级=50; gotomainline=大卫线4层（终）_1
+92,旁白,hide,,,Abaddon_default,亚波伦摊了摊手，满脸尽是看好戏的幸灾乐祸，仿佛自己只是一个置身事外的观众，而非被绑在电刑椅上，随时可能凋零的生命。,,,,"charfadeout(R,1)&loadScript(sntzm_david4F(4), 1)",源类型=type:txt_pb; 层级=50; gotomainline=大卫线4层（终）_1
 65,亚波伦,hide,Abaddon_default,,,为了证实我被创造的意义，为了扯下人类那伪善的面具，为了求证生命与生命之间，是否可以用价值进行比较，就像那些人要求我做的那些事情一样。,,,,"charfadein(L,1)",源类型=type:txt_Abaddon; 层级=30
 82,你,hide,Abaddon_default,,,被创造？你难道不是......,,,,"charfadeout(L,1)",源类型=type:txt_You; 层级=31
 83,亚波伦,hide,Abaddon_default,,,是盖曼创造了造梦设备。,,,,"charfadein(L,1)",源类型=type:txt_Abaddon; 层级=32
@@ -60,7 +60,7 @@ ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Comm
 88,亚波伦,hide,Abaddon_default,,,他们给我设定了公司职员的身份，给我灌输了可以靠价值大小决定人命归属的理念，给我下达了训练那些病人的任务，直到我发现这一切都是被人精心伪造的。发现自己也只是和那些病人一样，可以随意丢弃的工具。,,,,,源类型=type:txt_Abaddon; 层级=37
 93,亚波伦,hide,Abaddon_default,,,所以，我突然就很想知道，除了被赋予的任务和指令外，自己这条被创造出来的生命是否拥有存在于世间的意义。以及......是否所有人类都和我的创造者一样，会用价值衡量一个人的生命。,,,,,源类型=type:txt_Abaddon; 层级=38
 94,旁白,hide,Abaddon_default,,,困在房间里的男人咽了下口水，好为之前的长篇大论腾出一点呼吸的空间。,,,,"charfadeout(L,1)",源类型=type:txt_pb; 层级=39
-95,旁白,hide,,,,随着又一重真相的揭示，这个被捆缚在椅子上的罪人形象，在你眼中顿时变得生动而真实，因为就连他这个始作俑者也不过是受困于意义之网的另一名可悲的囚徒。,,,,"loadScript(大卫线4层（终）_1, 1)",源类型=type:txt_pb; 层级=40; gotomainline=大卫线4层（终）_1
+95,旁白,hide,,,,随着又一重真相的揭示，这个被捆缚在椅子上的罪人形象，在你眼中顿时变得生动而真实，因为就连他这个始作俑者也不过是受困于意义之网的另一名可悲的囚徒。,,,,"loadScript(sntzm_david4F(4), 1)",源类型=type:txt_pb; 层级=40; gotomainline=大卫线4层（终）_1
 5,亚波伦,hide,Abaddon_default,,,开门见山是个好习惯，格莱特探员。不过在此之前......,,,,"charfadein(L,1)","源类型=type:txt_Abaddon; 层级=2; wherelist={""wheretype"":""2"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""端详飞蛾（大卫）"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]},{""sortnum"":""2"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""立刻离开"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""0"",""dowlist4"":[]}]}]}"
 6,旁白,hide,Abaddon_default,,,他突然向前用力伸长脖子，像是在寻找什么。,,,,,源类型=type:txt_pb; 层级=3
 7,亚波伦,hide,Abaddon_default,,,不打算进来吗，索菲亚？,,,,,源类型=type:txt_Abaddon; 层级=4

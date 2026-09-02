@@ -1,0 +1,100 @@
+ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Command,Note
+1,旁白,hide,,,,,,,false,"bgfade(sntzm_david4F(3)_1,1)",源类型=type:exeBC; 层级=0
+2,旁白,hide,,,,基于上述洞察，你准备从哪个角度进一步试探亚波伦的口风？,,,,,"源类型=type:txt_pb; 层级=1; wherelist={""wheretype"":""2"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""无视飞蛾（克拉克）"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]},{""sortnum"":""2"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""飞蛾线"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}"
+6,旁白,hide,,,,,,,,choice(询问关于他和盖曼的问题|jump(29))&choice(询问纳丁达克公司的问题|jump(37)),源类型=type:selectBC; 层级=2
+7,旁白,hide,,,,,,,,,源类型=type:txt_pb; 层级=3
+29,你,hide,,,,等等，你不是盖曼.阿门努斯？,,,,,源类型=type:txt_You; 层级=4
+30,亚波伦,hide,Abaddon_default,,,除非你觉得我们除了外表和身上的这件白大褂之外，有任何其他的相似之处。,,,,"charfadein(L,1)",源类型=type:txt_Abaddon; 层级=5
+31,旁白,hide,Abaddon_default,,,男人以一种幽默的口吻接下了你的问题，并顺理成章地抛出了自己的名字，他似乎并不吝啬向你们分享信息，甚至乐于享受这个填补信息差的过程，就像一个教师在向什么都不懂的新生讲解自己早就烂熟于心的讲义。,,,,,源类型=type:txt_pb; 层级=6
+32,亚波伦,hide,Abaddon_default,,,他是那个沉溺在旧梦里的懦夫，而我是一团已经燃起来的火——从他那团烂泥一样的意识里生出来，专门用来点燃这里的一切的火。他们给了我一个不错的名字，让我重获新生的名字——亚波伦。,,,,,源类型=type:txt_Abaddon; 层级=7
+33,你,hide,Abaddon_default,,,你说公司创造了你，通过造梦设备？,,,,"charfadeout(L,1)",源类型=type:txt_You; 层级=8
+34,亚波伦,hide,Abaddon_default,,,这并不困难，亚当。就像在每个梦境里，一个人都会拥有一套全新的身份和记忆。,,,,"charfadein(L,1)",源类型=type:txt_Abaddon; 层级=9
+35,亚波伦,hide,Abaddon_default,,,他们只需要把盖曼原有的意识封存在最深处，再重新编写一套属于我的、服从他们命令的新的身份，然后......我就可以代替这个不听话的老头，帮他们继续推进那些见不得光的实验了。,,,,jump(104),源类型=type:txt_Abaddon; 层级=10; gotomainline=104
+8,旁白,hide,,,,,,,,,源类型=type:txt_pb; 层级=3
+37,你,hide,,,,你的意思是，当初盖曼的失踪是纳丁达克公司所为，为的就是夺取他手里的造梦技术？,,,,,源类型=type:txt_You; 层级=4
+38,亚波伦,hide,Abaddon_default,,,显而易见的结论，除非你觉得他们绑架那个老头是为了让他卖身。,,,,"charfadein(L,1)",源类型=type:txt_Abaddon; 层级=5
+39,旁白,hide,Abaddon_default,,,男人以一种幽默的口吻接下了你的问题，他似乎并不吝啬向你们分享信息，甚至乐于享受这个填补信息差的过程，就像一个教师在向什么都不懂的新生讲解自己早就烂熟于心的讲义。,,,,,源类型=type:txt_pb; 层级=6
+40,亚波伦,hide,Abaddon_default,,,不过，仅仅是抢走外面那些冷冰冰的设备还不够，他们需要他脑子里的知识，需要这些知识服务于他们那可笑的计划，所以便创造了我。来代替这个不听话的老头，帮他们继续推进那些见不得光的实验。,,,,,源类型=type:txt_Abaddon; 层级=7
+41,你,hide,Abaddon_default,,,通过造梦设备？,,,,"charfadeout(L,1)",源类型=type:txt_You; 层级=8
+42,亚波伦,hide,Abaddon_default,,,这并不困难，亚当。就像在每个梦境里，一个人都会拥有一套全新的身份和记忆。而我最初被他们设定的身份。就是纳丁达克最忠实的核心技术骨干，一个不断代替他们完成那些疯狂实验的傀儡。,,,,"charfadein(L,1)",源类型=type:txt_Abaddon; 层级=9
+104,旁白,hide,Abaddon_default,,,说着，他微微活动了一下因长时间束缚有些发酸的手腕，修长的手指在扶手旁的按钮上轻轻一敲。,,,,"charfadeout(L,1)&jump(49)",源类型=type:txt_pb; 层级=10; gotomainline=49
+3,你,hide,,,,你这个疯子！,,,,,"源类型=type:txt_You; 层级=1; wherelist={""wheretype"":""2"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""无视飞蛾（克拉克）"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]},{""sortnum"":""2"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""夜莺线"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}"
+44,旁白,hide,,,,亚波伦对你的咒骂充耳不闻，反而神情平静，仿佛在陈述一个普适的真理。,,,,,源类型=type:txt_pb; 层级=2
+45,亚波伦,hide,Abaddon_default,,,人们常说，天才在左，疯子在右。你们不能在亲手毁掉一个天才的同时，却还要求他保留疯子以外的其他选择。,,,,"charfadein(L,1)",源类型=type:txt_Abaddon; 层级=3
+46,亚波伦,hide,Abaddon_default,,,好了，计时已经开始了，我劝各位还是抓紧时间好好商量。否则就算我这个疯子临时后悔，椅子下面的电流也不会因此而停下。,,,,,源类型=type:txt_Abaddon; 层级=4
+47,旁白,hide,Abaddon_default,,,他抬手示意了一下房间正对面墙上的巨大计时器——数字正在跳动，显示着先前显示的“10:00”。现在已经变成了“09:47”。,,,,"bgfade(sntzm_clark4F(4)_47,1)",源类型=type:txt_pb; 层级=5
+63,亚波伦,hide,Abaddon_default,,,实际时间可能更少，我已经让我的两个好学生在外面的门口等着了，你们知道我说的是谁。如果它们中的任何一个按捺不住想要提前进来的话......,,,,,源类型=type:txt_Abaddon; 层级=6
+64,旁白,hide,Abaddon_default,,,他晃了晃脑袋，脸上露出一个险恶笑容。,,,,,源类型=type:txt_pb; 层级=7
+65,亚波伦,hide,Abaddon_default,,,那面临生死考验的可就不止是我和梅森两人了。,,,,,源类型=type:txt_Abaddon; 层级=8
+66,你,hide,Abaddon_default,,,为什么？,,,,"charfadeout(L,1)",源类型=type:txt_You; 层级=9
+67,旁白,hide,,,,你凝视着他的双眼，试图看透那副皮囊之下究竟卖着什么药。,,,,,源类型=type:txt_pb; 层级=10
+68,你,hide,,,,你到底想证明什么？,,,,,源类型=type:txt_You; 层级=11
+69,旁白,hide,,,,,,,,,源类型=type:exeBC; 层级=12
+72,索菲亚,hide,Sophia_default,,,老师，为什么一定要这样，这不是他们的错，你明明知道这一点......,,,,"charfadein(L,1)","源类型=type:txt_Sophia; 层级=13; wherelist={""wheretype"":""2"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""端详飞蛾（大卫）"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]},{""sortnum"":""2"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""立刻离开"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""0"",""dowlist4"":[]}]}]}"
+73,旁白,hide,Sophia_default,,,索菲亚脆弱的哀求声随后而至，声音里甚至带上了一丝哭腔，完全不似你们初遇时的冷静和专业。,,,,"charfadeout(L,1)",源类型=type:txt_pb; 层级=14
+74,旁白,hide,,,,不同于和亚波伦没有任何情感纠葛的你们两人——于情，她当然不愿自己曾敬爱的老师以这种形式在她面前自我毁灭；于理，她也不能因为老师单方面犯下的错误而卷入无辜的克拉克。,,,,,源类型=type:txt_pb; 层级=15
+75,旁白,hide,,,,而眼下亚波伦给两人都接通电源，逼迫你们做出决定。无异于让她在曾经的恩师和如今的同伴之间进退维谷，将她那颗早已在罪海浮沉中千疮百孔的心脏，硬生生掰成两瓣。,,,,,源类型=type:txt_pb; 层级=16
+76,亚波伦,hide,Abaddon_default,,,为了证实我被创造的意义，为了扯下人类那伪善的面具，为了论证生命与生命之间，是否可以用价值进行比较，以及......,,,,"charfadein(L,1)",源类型=type:txt_Abaddon; 层级=17
+77,旁白,hide,Abaddon_default,,,他那浮夸的吟诵突然停了一拍，目光直直钉在索菲亚的身上，像在打量一个冻在家门口的，没人要的孩子。,,,,,源类型=type:txt_pb; 层级=18
+78,亚波伦,hide,Abaddon_default,,,我不是你的老师，索菲亚，自始至终都不是。,,,,,源类型=type:txt_Abaddon; 层级=19
+79,亚波伦,hide,Abaddon_default,,,他们是不是告诉你，我因为不成熟的手术条件，被造梦设备逼疯了。,,,,,源类型=type:txt_Abaddon; 层级=20
+80,亚波伦,hide,Abaddon_default,,,他们是不是告诉你，当初没人愿意做这个手术，把我的大脑从身体里取出来。,,,,,源类型=type:txt_Abaddon; 层级=21
+81,旁白,hide,Abaddon_default,,,你的瞳孔在震惊中收缩了一瞬，取出大脑？这听起来可不像是造梦手术会涉及的步骤。但亚波伦只是滔滔不绝地继续着他的宣讲，仿佛遭此折磨的并非他本人。,,,,"charfadeout(L,1)",源类型=type:txt_pb; 层级=22
+82,亚波伦,hide,Abaddon_default,,,可事实却是，乔治、霍华德，还有很多我们共同的，亲爱的前同事们，他们都参与了这场，嗯.......对导师剩余价值的物理分食。,,,,"charfadein(L,1)",源类型=type:txt_Abaddon; 层级=23
+83,旁白,hide,Abaddon_default,,,亚波伦眉头紧锁，明暗交织的光影在他皮肤的褶皱间形成一道道深邃的刻线，让人难以看清那张人皮面具之下的真实情绪。,,,,"charfadeout(L,1)",源类型=type:txt_pb; 层级=24
+84,旁白,hide,,,,也许纳丁达克给了他们一笔不菲的酬金？又或许他们是被公司拿捏了什么软肋？哦，这个说法应该会让他们那并不存在的良心好受一些。,,,,,源类型=type:txt_pb; 层级=25
+85,亚波伦,hide,Abaddon_default,,,可你知道这场戏最富戏剧性的地方在哪儿吗，索菲亚？,,,,"charfadein(L,1)",源类型=type:txt_Abaddon; 层级=26
+86,旁白,hide,Abaddon_default,,,话及此处，阴鸷的阴影再度爬上他的面庞，牵动嘴角，勾出一抹不怀好意的笑容。,,,,,源类型=type:txt_pb; 层级=27
+87,亚波伦,hide,Abaddon_default,,,那场手术并没有失败，相反.......在我一众同僚的尽心支持下，它进行得相当成功。而我，就是它唯一的成品，也是最大的牺牲品——我不是你的老师盖曼，而是被公司刻意制造，用于压制他主体意识的第二个人格。,,,,,源类型=type:txt_Abaddon; 层级=28
+88,索菲亚,hide,Abaddon_default,,,！,,,,"charfadeout(L,1)",源类型=type:txt_Sophia; 层级=29
+89,旁白,hide,,,,女人难以置信地捂住了嘴，原本就没多少血色的脸瞬间变得像纸一样惨白。看着眼前这个既和她老师无比相似，却又并非盖曼本人的怪物，她的胃里突然泛起一股想要呕吐的冲动。,,,,,源类型=type:txt_pb; 层级=30
+90,索菲亚,hide,Sophia_default,,,那他现在还活着吗？盖曼现在在哪里？,,,,"charfadein(L,1)",源类型=type:txt_Sophia; 层级=31
+91,亚波伦,hide,Sophia_default,,Abaddon_default,要是我能从这局游戏里活下来的话，自然会告诉你们。如果我死了.......那他就永远也不会再出来了。,,,,"charfadein(R,1)",源类型=type:txt_Abaddon; 层级=32
+92,旁白,hide,Sophia_default,,Abaddon_default,亚波伦摊了摊手，满脸尽是看好戏的幸灾乐祸，仿佛自己只是一个置身事外的观众，而非被绑在电刑椅上，随时可能凋零的生命。,,,,"parallel(charfadeout(L,1);charfadeout(R,1))&loadScript(sntzm_final(3), 8))",源类型=type:txt_pb; 层级=33; gotomainline=终局（上）_1
+93,亚波伦,hide,Abaddon_default,,,为了证实我被创造的意义，为了扯下人类那伪善的面具，为了求证生命与生命之间，是否可以用价值进行比较，就像那些人要求我做的那些事情一样。,,,,"charfadein(L,1)","源类型=type:txt_Abaddon; 层级=13; wherelist={""wheretype"":""1"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""无视飞蛾（大卫）"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]},{""sortnum"":""2"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""立刻离开"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}"
+94,你,hide,Abaddon_default,,,被创造？你难道不是......,,,,"charfadeout(L,1)",源类型=type:txt_You; 层级=14
+95,亚波伦,hide,Abaddon_default,,,是盖曼创造了造梦设备。,,,,"charfadein(L,1)",源类型=type:txt_Abaddon; 层级=15
+96,旁白,hide,Abaddon_default,,,他有些不耐烦地打断了你，似乎早就猜到你会作此一问。,,,,,源类型=type:txt_pb; 层级=16
+97,亚波伦,hide,Abaddon_default,,,而我，则是被创造出来控制他。只要掌握了他的思想就能掌握他的技术，很简单的道理，不是吗？,,,,,源类型=type:txt_Abaddon; 层级=17
+98,你,hide,Abaddon_default,,,你到底是什么东西？,,,,"charfadeout(L,1)",源类型=type:txt_You; 层级=18
+99,亚波伦,hide,Abaddon_default,,,如你所见，亚当。我是被他们利用造梦技术人为制造出来的，盖曼的另一个人格。,,,,"charfadein(L,1)",源类型=type:txt_Abaddon; 层级=19
+100,亚波伦,hide,Abaddon_default,,,他们给我设定了公司职员的身份，给我灌输了可以靠价值大小决定人命归属的理念，给我下达了训练那些病人的任务，直到我发现这一切都是被人精心伪造的。发现自己也只是和那些病人一样，可以随意丢弃的工具。,,,,,源类型=type:txt_Abaddon; 层级=20
+101,亚波伦,hide,Abaddon_default,,,所以，我突然就很想知道，除了被赋予的任务和指令外，自己这条被创造出来的生命是否拥有存在于世间的意义。以及......是否所有人类都和我的创造者一样，会用价值衡量一个人的生命。,,,,,源类型=type:txt_Abaddon; 层级=21
+102,旁白,hide,Abaddon_default,,,困在房间里的男人咽了下口水，好为之前的长篇大论腾出一点呼吸的空间。,,,,"charfadeout(L,1)",源类型=type:txt_pb; 层级=22
+103,旁白,hide,,,,随着又一重真相的揭示，这个被捆缚在椅子上的罪人形象，在你眼中顿时变得生动而真实，因为就连他这个始作俑者也不过是受困于意义之网的另一名可悲的囚徒。,,,,"loadScript(sntzm_final(3), 8)",源类型=type:txt_pb; 层级=23; gotomainline=终局（上）_1
+4,旁白,hide,,,,你猛地回头，双眼紧盯着身后的索菲亚，眼神中虽无责备，却无疑带着对答案的质询。如果这双眼睛能够开口，那么它此刻的问题无疑只有一个——“是他说的这样吗？”,,,,,"源类型=type:txt_pb; 层级=1; wherelist={""wheretype"":""2"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""端详飞蛾（克拉克）"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]},{""sortnum"":""2"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""相信亚波伦"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}"
+9,索菲亚,hide,Sophia_default,,,这就是我之前说的，不能立刻透露给你们的秘密。,,,,"charfadein(L,1)",源类型=type:txt_Sophia; 层级=2
+10,旁白,hide,Sophia_default,,,索菲亚咬着下唇，苍白的脸颊上掠过一丝复杂难辨的窘迫。,,,,,源类型=type:txt_pb; 层级=3
+11,索菲亚,hide,Sophia_default,,,盖亚之心里储存着关于造梦设备最为核心的机密数据，一旦掌握，就能实现大规模的量产。,,,,,源类型=type:txt_Sophia; 层级=4
+12,索菲亚,hide,Sophia_default,,,想想你们遭遇的那些病人，亚当......在老师用它铸下更多过错之前.......必须有人将它从这里带出去。,,,,,源类型=type:txt_Sophia; 层级=5
+13,旁白,hide,Sophia_default,,,在提到“病人”二字时，她的语气软了下来，悲伤与怜悯在她的话语和思绪中交织，甚至透出了一丝委婉的哀求。,,,,"charfadeout(L,1)",源类型=type:txt_pb; 层级=6
+14,亚波伦,hide,Abaddon_default,,,哦，多么冠冕堂皇的说辞。要是抛开背后控制着你的纳丁达克公司的话，我差点就要理解你的一片苦心了。,,,,"charfadein(L,1)",源类型=type:txt_Abaddon; 层级=7
+15,旁白,hide,Abaddon_default,,,亚波伦没有给他曾经的学徒留下任何辩解的余地，招招直指蛇的七寸，一开口就直接戳穿了这份理由背后的真实动机。,,,,"charfadeout(L,1)",源类型=type:txt_pb; 层级=8
+16,亚波伦,hide,Abaddon_default,,,好好想想吧，先生们。这位女士自称把盖亚之心带出去就能阻止我继续以错误的方式使用它，可如果真的是为了阻止我，为什么不干脆把它毁掉呢？,,,,"charfadein(L,1)",源类型=type:txt_Abaddon; 层级=9
+17,亚波伦,hide,Abaddon_default,,,一个能用梦境改写人的记忆，操控人类认知的技术，谁又能保证自己拿到手里能够正确的使用？所谓把它带走，不过是她背后的公司下达的任务罢了，就连你们也不例外。,,,,,源类型=type:txt_Abaddon; 层级=10
+18,旁白,hide,Abaddon_default,,,纳丁达克......你从他口若悬河的表述里，抓出了这个只留有少许印象的名字。在先前搜索盖曼的个人信息时，你曾短暂地在有关造梦技术的研发赞助方里看到过这几个字。莫非当初盖曼的失踪也和它有关？,,,,"charfadeout(L,1)",源类型=type:txt_pb; 层级=11
+19,克拉克,hide,Clark_default,,,我们为之服务的一直是联邦调查局的律法与背后的公民权益，和你口中的公司没有任何关系。,,,,"charfadein(L,1)",源类型=type:txt_Clark; 层级=12
+20,旁白,hide,Clark_default,,,克拉克洪亮的声音打破了房间里的弥漫的怀疑，任凭对方如何诡辩，至少你们来此的目的，那些写在任务清单里的白纸黑字，都绝不是他一口胡诌便能够随意否定的。,,,,"charfadeout(L,1)",源类型=type:txt_pb; 层级=13
+21,旁白,hide,,,,然而，亚波伦接下来的一番话却让这个原本稳定的认知，瞬间变成了悬在头顶的一根锋利的刺。,,,,,源类型=type:txt_pb; 层级=14
+22,亚波伦,hide,Abaddon_default,,,是么？可为什么我看到的，只是三个自始至终都被公司玩弄于鼓掌，连自己的真实身份都还没搞清楚的可怜虫？,,,,"charfadein(L,1)",源类型=type:txt_Abaddon; 层级=15
+23,亚波伦,hide,Abaddon_default,,,我说过，索菲亚向你们隐瞒了一条非常重要的信息，不止是她的身份，她的目的。她其实连你们的真实身份，还有你们现在在哪儿，也都一起隐瞒了。,,,,,源类型=type:txt_Abaddon; 层级=16
+24,你,hide,Abaddon_default,,,你什么意思？,,,,"charfadeout(L,1)",源类型=type:txt_You; 层级=17
+25,旁白,hide,,,,你的声音不自觉压得极低，内心深处那如影随形的不安，在这番暗示的挑拨下彻底化为了对自身处境的真实怀疑。自最开始进入这所医院开始，你始终觉得有哪个环节不太对劲——,,,,,源类型=type:txt_pb; 层级=18
+26,旁白,hide,,,,从出发时任务简报语焉不详的描述、大卫凭空在一楼的走廊里消失，还有那无比逼真的，被绑在手术台上的古怪幻觉，都都像有一张看不见的网在悄悄把你们往套里收。,,,,,源类型=type:txt_pb; 层级=19
+27,旁白,hide,,,,而眼前亚波伦抛出的论断，恰好戳中了你心中藏得最深的那团疑云。,,,,,源类型=type:txt_pb; 层级=20
+48,旁白,hide,,,,亚波伦没有再多费口舌，只是用修长的手指轻触座椅上的机关。,,,,,源类型=type:txt_pb; 层级=21
+49,旁白,hide,,,,只听一声电流的轻响在耳边闪过，一旁闲置的几块电脑屏幕骤然亮起冷白色的光芒，屏幕上整齐罗列着一份份加密的实验档案，最上方的标题处赫然写着一行加粗的英文——“圣徒计划”。,,,,"bgfade(sntzm_clark4F(4)_49,1)",源类型=type:txt_pb; 层级=22
+50,你,hide,,,,那是？,,,,,源类型=type:txt_You; 层级=23
+51,亚波伦,hide,Abaddon_default,,,名为真相的诅咒，格莱特。,,,,"charfadein(L,1)",源类型=type:txt_Abaddon; 层级=24
+52,旁白,hide,Abaddon_default,,,亚波伦的声音消失在电流的尾音里，像一滴墨落入水中，余下的是慢慢扩散的、无法忽视的暗色。他没有继续使用探员这个称呼，在一个即将揭开真相的人面前，虚与委蛇的把戏已经没有太多必要了。,,,,"charfadeout(L,1)",源类型=type:txt_pb; 层级=25
+53,旁白,hide,,,,你盯着那块冷白色的屏幕，指尖悬在键盘上方，迟迟没有落下。,,,,,源类型=type:txt_pb; 层级=26
+54,旁白,hide,,,,克拉克已经绕到了你身侧，枪口依然半抬着，但没有指向任何人——他也在看。那些加密档案的标题一排排陈列在屏幕上，被刻意整理过的目录，像是一份由魔鬼赠予的礼物，等待着有人点开它们。,,,,,源类型=type:txt_pb; 层级=27
+55,克拉克,hide,Clark_default,,,圣徒计划。,,,,"charfadein(L,1)",源类型=type:txt_Clark; 层级=28
+56,旁白,hide,Clark_default,,,克拉克念出那几个字，声音里压着一层浅浅的疑惑：,,,,,源类型=type:txt_pb; 层级=29
+57,克拉克,hide,Clark_default,,,听上去像是某种宗教式的概念。,,,,,源类型=type:txt_Clark; 层级=30
+58,旁白,hide,Clark_default,,,这句话让你回想起大卫对1层雕像下方那块牌匾上标语做出的十分相似的吐槽，那句“以光为引，向暗而生。”在意境上似乎的确和“圣徒”二字不谋而合。,,,,"charfadeout(L,1)",源类型=type:txt_pb; 层级=31
+59,旁白,hide,,,,你点开排头的第一份文件。页面加载的速度很快，似乎被提前调试过，只等你们按下这个按钮。,,,,,源类型=type:txt_pb; 层级=32
+60,旁白,hide,,,,滴——,,,,,源类型=type:txt_pb; 层级=33
+61,旁白,hide,,,,屏幕上浮现出几行字，格式严谨，措辞冷淡，像一份被反复打磨过的商业提案，与项目充满宗教色彩的标题有些格格不入：,,,,"loadScript(sntzm_final(1), 1)",源类型=type:txt_pb; 层级=34
+5,旁白,hide,,,,亚波伦挑了挑眉，并未因你的强硬动怒，只是叹了口气，略显失望地开口道。,,,,,"源类型=type:txt_pb; 层级=1; wherelist={""wheretype"":""2"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""相信索菲亚"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]},{""sortnum"":""2"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""端详飞蛾（克拉克）"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}"
+28,亚波伦,hide,,,,辩驳的点自然有，但既然你们不想听我多费口舌。我也不介意直接一点，跳过战前寒暄环节，直接进入今晚的正题。,,,,"loadScript(sntzm_clark4F(3), 68)",源类型=type:txt_Abaddon; 层级=2; gotomainline=克拉克线4层（下）_68
