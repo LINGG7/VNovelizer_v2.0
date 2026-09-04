@@ -76,6 +76,7 @@ crashlytics-build.properties
 
 # Local Codex tools and generated build exports
 /.codex/
+/.codex-sheet-analysis/
 /.codex-temp/
 /.dotnet/
 /output/

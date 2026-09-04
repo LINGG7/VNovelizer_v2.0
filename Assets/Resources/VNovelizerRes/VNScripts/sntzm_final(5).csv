@@ -1,0 +1,79 @@
+ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Command,Note
+1,旁白,hide,,,,,,,false,,源类型=type:exeBC; 层级=0
+2,旁白,hide,,,,你的指尖在左侧按钮的上方悬停了半秒——然后，在克拉克来得及阻止你之前，迅速落了下去。,,,,,源类型=type:txt_pb; 层级=1
+19,旁白,hide,,,,,,,,,源类型=type:exeBC; 层级=2
+20,旁白,hide,,,,按下去的那一瞬间，一种近乎麻木的清醒裹挟了你全身的感官，左边是克拉克惊怒的喝止，身后亚波伦带着了然的轻笑，只有时钟滴答声还在空旷的房间里清晰地回荡。,,,,"loadScript(sntzm_ending4(1), 1)","源类型=type:txt_pb; 层级=3; wherelist={""wheretype"":""1"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""无视飞蛾（克拉克）"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}; gotomainline=结局4_1"
+21,旁白,hide,,,,“啪”,,,,,"源类型=type:txt_pb; 层级=3; wherelist={""wheretype"":""1"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""相信索菲亚"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}"
+51,旁白,hide,,,,耳畔骤然响起一声脆响，那并非指尖触碰按键的动静，而是掌心与手背相互撞击、血肉相撞所发出的声响。,,,,,源类型=type:txt_pb; 层级=4
+52,旁白,hide,,,,它的力度不大，但速度很快，带着和你一样的不容动摇的决心，一巴掌拍开了你按向按钮的手手心。,,,,,源类型=type:txt_pb; 层级=5
+53,索菲亚,hide,Sophia_default,,,别按。,,,,"charfadein(L,1)",源类型=type:txt_Sophia; 层级=6
+54,旁白,hide,Sophia_default,,,一个熟悉的女声传了过来，冷静、清冽，在你心急如焚的，着了魔的思绪中恰如其分地浇下了一盆冷水。然后，在这股邪火再一次烧起来之前，一双粗壮有力的手臂及时从身后压制住了你的一切行动。,,,,"charfadeout(L,1)",源类型=type:txt_pb; 层级=7
+55,克拉克,hide,Clark_default,,,做得好，索菲亚。,,,,"charfadein(L,1)",源类型=type:txt_Clark; 层级=8
+56,旁白,hide,Clark_default,,,他朝身侧微微带了点力度，把你从那个如同潘多拉魔盒的按钮旁强行拽开出一小段距离。被杰森划伤的小臂因这个动作再一次撕裂开来。,,,,"charfadeout(L,1)",源类型=type:txt_pb; 层级=9
+57,旁白,hide,,,,血珠蹭过你的衣领，那温热粘稠的触感像浇入冷灶的一滴热油。瞬间将你从亚波伦那关于真相的承诺中拉回到当下，拉回到这个大卫刚刚得救的瞬间。,,,,,源类型=type:txt_pb; 层级=10
+58,克拉克,hide,Clark_default,,,你疯了！那可是......大卫，无论对方答应了我们什么条件，我们都不能拿人命去做交换！,,,,"charfadein(L,1)",源类型=type:txt_Clark; 层级=11
+59,旁白,hide,Clark_default,,,克拉克显然还沉浸在数秒前险些失去同伴的惊骇与愤怒中，胸膛贴在你的后背上剧烈起伏着，那双牢牢捆住你的手臂一刻也没有放松压制的力道。,,,,"charfadeout(L,1)",源类型=type:txt_pb; 层级=12
+60,旁白,hide,,,,但索菲亚已经看到了更远，亦看到了问题的根本所在——只要你们一刻不知晓真相的全貌，你们就一刻是被亚波伦玩弄于股掌之间的棋子。,,,,,源类型=type:txt_pb; 层级=13
+61,索菲亚,hide,Sophia_default,,,够了！,,,,"charfadein(L,1)",源类型=type:txt_Sophia; 层级=14
+62,旁白,hide,Sophia_default,,,她的声音并不尖锐，但却同时镇住了纠缠中的你们两人。五根纤细的手指紧紧扣着白大褂的衣角，力度大得几乎要把上面的布料扯烂。像是在长时间的隐瞒和压抑后终于迎来了最为彻底的爆发。,,,,,源类型=type:txt_pb; 层级=15
+63,索菲亚,hide,Sophia_default,,,你们无需受他的摆布，我来告诉你们真相。,,,,,源类型=type:txt_Sophia; 层级=16
+64,旁白,hide,Sophia_default,,,她迅速瞄了眼还剩大约1分40秒的计时装置，思考着如何以最言简意赅的言语提炼出关于“逐光计划”的所有要点。,,,,"charfadeout(L,1)",源类型=type:txt_pb; 层级=17
+65,索菲亚,hide,,,,你们从来都不是什么FBI......这里也根本不是什么医院，而是用造梦设备编织的虚假梦境，这里的所有人......,,,,,源类型=type:txt_Sophia; 层级=18
+66,旁白,hide,,,,她深吸一口气，只为支撑自己把这句话说完。,,,,,源类型=type:txt_pb; 层级=19
+67,索菲亚,hide,Sophia_default,,,全都站在在盖曼的脑子里。,,,,"charfadein(L,1)",源类型=type:txt_Sophia; 层级=20
+68,你,hide,Sophia_default,,,？！,,,,"charfadeout(L,1)",源类型=type:txt_You; 层级=21
+69,旁白,hide,,,,你们先前曾设想过无数种可能，梦境自然也在最新诞生的猜想列表之内，可当这句话从索菲亚口中亲口说出时，你还是感觉自己梦境里的心脏一下子提到了嗓子眼。,,,,,源类型=type:txt_pb; 层级=22
+70,克拉克,hide,Clark_default,,,但......这怎么可能。,,,,"charfadein(L,1)",源类型=type:txt_Clark; 层级=23
+71,克拉克,hide,Clark_default,,,我们接受过的训练——战斗技术、案件侦讯，还有各种仪器的正确使用方式，这些都是在任务中切实验证过的，还有那些一起进行任务的经历......,,,,,源类型=type:txt_Clark; 层级=24
+72,旁白,hide,Clark_default,,,克拉克的声音抑制不住地颤抖，连紧抓你手臂的力道也不自觉地松懈了些许。与其说他无法接受自己并非FBI的事实，不如说他无法承受失去和你们共同记忆的无比沉重的现实。,,,,"charfadeout(L,1)",源类型=type:txt_pb; 层级=25
+73,旁白,hide,,,,那些和大家一起出生入死、在枪林弹雨里摸爬滚打的过往，每一次呼吸、每一声枪响都清晰得像是发生在昨天，如果这一切都只是盖曼脑海中的黄粱一梦，那属于你们的真实又在哪里？,,,,,源类型=type:txt_pb; 层级=26
+74,索菲亚,hide,Sophia_default,,,那正是造梦设备的可怕之处。,,,,"charfadein(L,1)",源类型=type:txt_Sophia; 层级=27
+75,旁白,hide,Sophia_default,,,她又瞥了一眼倒计时面板，红色数字跳动得越发刺眼，空气里仿佛都能嗅到倒计时滴答声里裹挟的紧张气息。,,,,,源类型=type:txt_pb; 层级=28
+76,索菲亚,hide,Sophia_default,,,它会人为地赋予你们在一层梦境中的身份设定，就像你们平时做的那些梦会赋予你们的新的身份一样，有时候是学生、有时候是外星人，但造梦设备孵化的梦境和这些都不一样......,,,,,源类型=type:txt_Sophia; 层级=29
+77,旁白,hide,Sophia_default,,,60秒,,,,"charfadeout(L,1)",源类型=type:txt_pb; 层级=30
+78,索菲亚,hide,Sophia_default,,,FBI的记忆和身份都是人为设置好的，是纳丁达克公司在梦中赋予你们的身份和任务，好让你们在不知情的前提下把老师大脑中的重要技术知识挖掘出来，那些关于造梦技术的核心内容......就是盖亚之心的本质。,,,,"charfadein(L,1)",源类型=type:txt_Sophia; 层级=31
+79,旁白,hide,Sophia_default,,,50秒,,,,"charfadeout(L,1)",源类型=type:txt_pb; 层级=32
+80,索菲亚,hide,Sophia_default,,,而我......就是在现实里替纳丁达克调整造梦设备的那个人，夜莺的通讯就是我在后台预输入的信息，而亚当产生的那些幻觉，也都是设备被我动手脚后，让你在手术室半睡半醒间看到的......现实里的画面。,,,,"charfadein(L,1)",源类型=type:txt_Sophia; 层级=33
+81,旁白,hide,Sophia_default,,,她看向了你，一种介于愧疚和解脱之间的复杂神情落在她的脸上，在明暗交织的光影中模糊不清。,,,,"charfadeout(L,1)",源类型=type:txt_pb; 层级=34
+82,旁白,hide,,,,原来现实才是梦境，幻觉才是现实，这突如其来的虚实反转像一柄吊悬在半空的重锤，在绳子剪短的那一刻轰然砸落在你的头顶，将那些原本坚不可摧的认知砸得粉碎。,,,,,源类型=type:txt_pb; 层级=35
+83,旁白,hide,,,,在计时器上的时间还剩40秒时，一直欣赏着这场独角戏的亚波伦终于慢悠悠地开口了。,,,,,源类型=type:txt_pb; 层级=36
+84,亚波伦,hide,Abaddon_default,,,……事到如今才说出真相，未免有些虚伪了吧，我亲爱的徒弟。,,,,"charfadein(L,1)",源类型=type:txt_Abaddon; 层级=37
+85,旁白,hide,Abaddon_default,,,他的笑声幽幽地穿过玻璃，穿过电流的杂音，像是有人往一潭静水里投进了一颗石子。,,,,,源类型=type:txt_pb; 层级=38
+86,亚波伦,hide,Abaddon_default,,,你明知道他们走到这一步需要多久，却偏偏等到了最后的六十秒才开口。是想让他们改变主意，终结我这个曾经的老师？还是只是想让自己在临死前听一句‘谢谢’？,,,,,源类型=type:txt_Abaddon; 层级=39
+87,旁白,hide,Abaddon_default,,,索菲亚没有移开视线。她定定地看着他，那种目光不像是在看一个已经变成敌人的故人，更像是在辨认某个很久以前认识的人如今已经塌陷成什么模样。,,,,"charfadeout(L,1)",源类型=type:txt_pb; 层级=40
+88,索菲亚,hide,Sophia_default,,,是你自己告诉我的。,,,,"charfadein(L,1)",源类型=type:txt_Sophia; 层级=41
+89,旁白,hide,Sophia_default,,,30秒的倒计时提示在此刻响起，但她的语气却刚才更加深沉，丝毫没有被倒计时的催促打乱节奏，反而像是下定了某种决心。,,,,"charfadeout(L,1)",源类型=type:txt_pb; 层级=42
+90,索菲亚,hide,Sophia_default,,,你不是我的老师。你只是公司塞进他身体里的一个傀儡，一段被赋予了自我意识的、用来替代他的傀儡。,,,,"charfadein(L,1)",源类型=type:txt_Sophia; 层级=43
+91,旁白,hide,Sophia_default,,,她停了一拍，仿佛那一瞬间在心底对自己确认了一件她已经犹豫了太久的事。,,,,,源类型=type:txt_pb; 层级=44
+92,索菲亚,hide,Sophia_default,,,就算你真的是他，在亲眼看到你变成现在这副模样——和纳丁达克一样玩弄人心、把人命当筹码的模样之后，我也会亲手终结你。,,,,,源类型=type:txt_Sophia; 层级=45
+93,旁白,hide,Sophia_default,,,20秒。,,,,"charfadeout(L,1)",源类型=type:txt_pb; 层级=46
+94,索菲亚,hide,Sophia_default,,,因为如果不这么做，他曾经教过我的那些东西，就全都成了笑话。,,,,"charfadein(L,1)",源类型=type:txt_Sophia; 层级=47
+95,旁白,hide,Sophia_default,,,15秒。,,,,"charfadeout(L,1)",源类型=type:txt_pb; 层级=48
+96,亚波伦,hide,Abaddon_default,,,看来你已经下定决心要帮他们了，我的好徒弟......你觉得等你醒来后，纳丁达克会放过你吗？还有你的家人，怎么这时候就不替他们多考虑考虑呢？,,,,"charfadein(L,1)",源类型=type:txt_Abaddon; 层级=49
+97,旁白,hide,Abaddon_default,,,亚波伦的声音拖得又冷又长，带着恶意的颤音撞在空旷的舱壁上，嗡嗡的回声裹着倒计时的滴答声，如同某种催命符，贴在你耳旁挥之不去。,,,,"charfadeout(L,1)",源类型=type:txt_pb; 层级=50
+98,旁白,hide,,,,还剩最后10秒。,,,,"loadScript(sntzm_final(6), 3)",源类型=type:txt_pb; 层级=51; gotomainline=终局3_3
+3,旁白,hide,,,,你的指尖落在右侧的按钮上，不带一丝犹豫。 ,,,,"loadScript(sntzm_final(6), 4)",源类型=type:txt_pb; 层级=1; gotomainline=终局3_4
+4,旁白,hide,,,,你迅速跟上了他有些跳跃的思维，倘若盖亚之心的确能帮助你们逃离这个梦境，那么找到它的具体位置就成为了破解眼前困局的唯一方向。,,,,,源类型=type:txt_pb; 层级=1
+99,旁白,hide,,,,,,,,,源类型=type:exeBC; 层级=2
+100,大卫,hide,David_default,,,从我们踏入这家精神病院开始，所有线索就都指向了盖曼.阿门努斯。,,,,"charfadein(L,1)","源类型=type:txt_David; 层级=3; wherelist={""wheretype"":""1"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""飞蛾线"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}"
+101,大卫,hide,David_default,,,如果亚波伦说的没错——我们从进入这家医院的那一刻起就已经坠入了盖曼编织的深层梦境，那起点自然就是盖曼本人所在的地方，也就是我们最初进入这家医院时，接收我们问诊的一楼大厅。,,,,,源类型=type:txt_David; 层级=4
+102,你,hide,David_default,,,那面挂有盖曼大头照的照片墙！,,,,"charfadeout(L,1)",源类型=type:txt_You; 层级=5
+103,旁白,hide,,,,大卫打了个响指，眼神中闪过一丝不加掩饰的欣赏。,,,,,源类型=type:txt_pb; 层级=6
+104,大卫,hide,David_default,,,正是那里，最开始我还只把那只破蛾子当成趋光而来的普通虫子，现在想来，如果这一切都是梦境的话，那飞蛾有没有可能是梦主意识投射出来的某种具象化碎片？,,,,"charfadein(L,1)",源类型=type:txt_David; 层级=7
+105,你,hide,David_default,,,的确有这个可能，既然这样，我想我们可以现在就往楼下赶，就算没有在那里找到盖亚之心，直接徒步离开医院，说不定也是离开盖曼梦境的一种可行的做法。,,,,"charfadeout(L,1)",源类型=type:txt_You; 层级=8
+106,旁白,hide,,,,克拉克有些虚弱地点了点头，对此没有提出什么反对意见。在经历了被绑架、被亚波伦灌输真相，这一系列事件后，他此刻唯一的想法就是和身边救下他的两名同伴，一起离开这个鬼地方。,,,,"loadScript(sntzm_final(6), 2)",源类型=type:txt_pb; 层级=9; gotomainline=终局3_2
+107,克拉克,hide,Clark_default,,,夜莺说过......盖亚之心在5层。我认为应该去楼上找。亚波伦留下的终究只是一句故弄玄虚的谜语，说不定它自始至终都和盖亚之心无关。,,,,"charfadein(L,1)",源类型=type:txt_Clark; 层级=3
+108,旁白,hide,Clark_default,,,面对克拉克一向理性而严谨的分析，大卫却斩钉截铁地摇了摇头，视线重新落回到那片以鲜血写就的文字上。,,,,"charfadeout(L,1)",源类型=type:txt_pb; 层级=4
+109,大卫,hide,David_default,,,那家伙从不做没有意义的事情。,,,,"charfadein(L,1)",源类型=type:txt_David; 层级=5
+110,你,hide,David_default,,,绑架克拉克，再让我们电死他自己，可算不上“有意义”。,,,,"charfadeout(L,1)",源类型=type:txt_You; 层级=6
+111,旁白,hide,,,,你有些刻薄地评价道，在你现有的印象中，那家伙固然知道很多你们所不了解的信息，但究其根本，他只是一个玩弄他人、也被他人玩弄的自视甚高的疯子罢了。,,,,,源类型=type:txt_pb; 层级=7
+112,大卫,hide,David_default,,,也许只是时间未到。,,,,"charfadein(L,1)",源类型=type:txt_David; 层级=8
+113,旁白,hide,David_default,,,大卫的语气笃定得让你有些惊讶，或许是疑心作祟，亦或是别的什么理由。他似乎已经接受了亚波伦在这场博弈里留下的思想种子，只等最后找到答案的那一刻破土发芽。,,,,,源类型=type:txt_pb; 层级=9
+114,大卫,hide,David_default,,,总之，我更倾向于认为盖亚之心在楼下，在我们出发时经过的某个地方。而且......万一踏出这家医院也能离开梦境呢？哪怕是出于对替代选项的考虑，咱们也该往低处走。,,,,,源类型=type:txt_David; 层级=10
+115,旁白,hide,David_default,,,克拉克皱起眉，还想再争辩两句。,,,,"charfadeout(L,1)&loadScript(sntzm_final(6), 2)",源类型=type:txt_pb; 层级=11; gotomainline=终局3_2
+5,你,hide,,,,什么不应该？,,,,,源类型=type:txt_You; 层级=1
+116,旁白,hide,,,,索菲亚蹲在空旷的电刑椅旁，纤细的手指抚过椅面上残留的血渍，眉头紧紧拧成了一团：,,,,"bgfade(sntzm_final(5)_116,1)",源类型=type:txt_pb; 层级=2
+117,索菲亚,hide,,,,如果亚波伦没有撒谎，在他消散的那一刻，这个梦境就应该随之一起崩塌才对，可我感受不到任何波动，整个梦境的锚点还牢牢立在这周围。,,,,,源类型=type:txt_Sophia; 层级=3
+118,你,hide,,,,或许他并不是真正的梦主？,,,,,源类型=type:txt_You; 层级=4
+119,索菲亚,hide,,,,如果不是的话就无法解释为什么刚才整个手术室都会随着他身体的瓦解而震颤，就像你在梦境中面临死亡或强烈的情绪波动，你的梦境也会随之受到影响。刚才发生的事情就属于这种情况。,,,,"loadScript(sntzm_final(6), 56)",源类型=type:txt_Sophia; 层级=5; gotomainline=终局3_5
+6,大卫//亚波伦,hide,,,,你原本可以选他，但你选了你的过去，选了你的姐姐，选了你那个空缺了太久、无论如何都想填上的答案——你选了你自己。,,,,"loadScript(sntzm_ending3, 1)",源类型=type:txt_DVABL; 层级=1; gotomainline=结局3_1

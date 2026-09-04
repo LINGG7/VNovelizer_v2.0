@@ -6,7 +6,7 @@ ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Comm
 51,旁白,hide,Abaddon_default,,,他的视线依旧在那块写有圣徒计划的屏幕上呆滞地停留着，这个距离并不足以他看清上面写了什么，但里面的每一个字，都早已都刻进了他诞生之初的基因，成为了令这副残破躯壳更加扭曲的一部分。,,,,,源类型=type:txt_pb; 层级=4
 52,亚波伦,hide,Abaddon_default,,,是你们选择了这么做，选择了创造恶魔来取代天使。而作为一个被你们亲手创造出来的恶魔，我会非常乐意，将被创造时赋予的使命，以更加极致的方式贯彻到底。,,,,,源类型=type:txt_pb; 层级=5
 53,旁白,hide,Abaddon_default,,,“啪嗒”,,,,"charfadeout(L,1)",源类型=type:txt_pb; 层级=6
-57,旁白,hide,,,,随着亚波伦座椅的扶手上传出一声轻响，一股巨大的能量波动猛地席卷了他的身体，顺着整间手术室的墙壁扩散开来，惨白的灯光开始疯狂闪烁，每一次明暗交替都带着电流滋啦的炸响。,,,,"bgfade(sntzm_final(3)_57,1)",源类型=type:txt_pb; 层级=7
+57,旁白,hide,,,,随着亚波伦座椅的扶手上传出一声轻响，一股巨大的能量波动猛地席卷了他的身体，顺着整间手术室的墙壁扩散开来，惨白的灯光开始疯狂闪烁，每一次明暗交替都带着电流滋啦的炸响。,,,,"playsfx(ElectricShock)&bgfade(sntzm_final(3)_57,1)",源类型=type:txt_pb; 层级=7
 58,旁白,hide,,,,他的身体突然开始不受控制地抽搐起来，原本搭在扶手上的手指疯狂地痉挛着，额头上渗出大颗冷汗，连原本挂在脸上的怨毒与傲慢都扭曲成了痛苦的狰狞。,,,,,源类型=type:txt_pb; 层级=8
 59,旁白,hide,,,,原本还瘫坐在椅子上的男人在难以忍受的剧痛中轰然惊醒，背部不受控制地向后弓起，两眼以一种恐怖的角度向上翻起，血管从青白的皮肤下暴突起结，像是有无数条虫子在着他的血管里疯狂蠕动。,,,,,源类型=type:txt_pb; 层级=9
 60,你,hide,,,,不！你做了什么？！,,,,,源类型=type:txt_You; 层级=10
@@ -62,7 +62,7 @@ ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Comm
 110,旁白,hide,,,,但就在他踏出隔间的那一刻，整间手术室的灯光猛地一暗，原本还平稳运行的供电系统突然中断，应急灯在三秒的延迟后才亮起幽幽的暗红。,,,,"bgfade(sntzm_final(3)_110,1)",源类型=type:txt_pb; 层级=60
 111,索菲亚,hide,,,,这个梦境块支撑不下去了，但......为什么是现在？,,,,,源类型=type:txt_Sophia; 层级=61
 112,你,hide,,,,大卫？！,,,,,源类型=type:txt_You; 层级=62
-113,大卫,hide,,,,不是我！,,,,"loadScript(盖亚之心（上）_3, 1)",源类型=type:txt_David; 层级=63; gotomainline=盖亚之心（上）_3
+113,大卫,hide,,,,不是我！,,,,"loadScript(盖亚之心（上）_2, 2)",源类型=type:txt_David; 层级=63; gotomainline=盖亚之心（上）_3
 8,你,hide,,,,无论你到底是不是盖曼本人，你现在正在做的事情，都已经构成对警员生命的威胁，无论是借助子弹还是电刑椅，我们都有充分的理由解决你这个威胁。,,,,,源类型=type:txt_You; 层级=1
 9,亚波伦,hide,Abaddon_default,,,同时也解决了最为关键的证人。,,,,"charfadein(L,1)",源类型=type:txt_Abaddon; 层级=2
 10,旁白,hide,Abaddon_default,,,亚波伦充满恶趣味地补充道。,,,,,源类型=type:txt_pb; 层级=3
