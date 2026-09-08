@@ -71,8 +71,14 @@ public sealed class CdnBuildValidation : IPreprocessBuildWithReport
 
     public static void ValidateOrThrow()
     {
-        string version = PlayerSettings.bundleVersion;
-        AddressableAssetSettings settings = AddressableAssetSettingsDefaultObject.Settings;
+        ValidateSettings(
+            AddressableAssetSettingsDefaultObject.Settings,
+            PlayerSettings.bundleVersion,
+            File.Exists(MiniGameConfigPath) ? File.ReadAllText(MiniGameConfigPath) : null);
+    }
+
+    private static void ValidateSettings(AddressableAssetSettings settings, string version, string miniGameConfigText)
+    {
         if (settings == null)
         {
             throw new BuildFailedException("Addressables settings were not found.");
@@ -99,6 +105,9 @@ public sealed class CdnBuildValidation : IPreprocessBuildWithReport
             settings.activeProfileId,
             AddressableAssetSettings.kRemoteLoadPath);
 
+        expectedRemoteBuildPath = settings.profileSettings.EvaluateString(settings.activeProfileId, expectedRemoteBuildPath);
+        expectedRemoteLoadPath = settings.profileSettings.EvaluateString(settings.activeProfileId, expectedRemoteLoadPath);
+
         foreach (AddressableAssetGroup group in settings.groups)
         {
             if (group == null || !group.Name.Contains("Remote", StringComparison.OrdinalIgnoreCase))
@@ -117,7 +126,10 @@ public sealed class CdnBuildValidation : IPreprocessBuildWithReport
             if (!string.Equals(buildPath, expectedRemoteBuildPath, StringComparison.Ordinal)
                 || !string.Equals(loadPath, expectedRemoteLoadPath, StringComparison.Ordinal))
             {
-                throw new BuildFailedException($"Remote group {group.Name} points to a local Addressables path.");
+                throw new BuildFailedException(
+                    $"Remote group {group.Name} has mismatched Addressables paths. " +
+                    $"Build expected '{expectedRemoteBuildPath}', actual '{buildPath}'; " +
+                    $"Load expected '{expectedRemoteLoadPath}', actual '{loadPath}'.");
             }
 
             if (schema.Timeout <= 0)
@@ -126,10 +138,9 @@ public sealed class CdnBuildValidation : IPreprocessBuildWithReport
             }
         }
 
-        if (File.Exists(MiniGameConfigPath))
+        if (miniGameConfigText != null)
         {
-            string text = File.ReadAllText(MiniGameConfigPath);
-            if (!text.Contains(expectedPath + "WebGL/", StringComparison.Ordinal))
+            if (!miniGameConfigText.Contains(expectedPath + "WebGL/", StringComparison.Ordinal))
             {
                 throw new BuildFailedException("TapTap MiniGameConfig CDN version does not match PlayerSettings.bundleVersion.");
             }

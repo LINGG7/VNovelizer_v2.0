@@ -41,7 +41,7 @@ ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Comm
 66,亚波伦,hide,Abaddon_default,,David_bandage,事情就是这样，梅森。如果靠偷奸耍滑就能绕过一项重要的道德决策，那就没有人需要对任何选择负责了。,,,,"parallel(charfadeout(R,1)&charfadein(L,1))",源类型=type:txt_Abaddon; 层级=39
 67,旁白,hide,Abaddon_default,,,话音落下，他将视线转向墙上的时钟——这十分钟里承前启后的段落已然落幕，是时候进入最后一分钟的高潮部分了。,,,,"charfadeout(L,1)",源类型=type:txt_pb; 层级=40
 68,旁白,hide,,,,时针沉重地嘀嗒一声，分针恰好越过了那道刻线，房间里的温度仿佛随着这一声轻响骤然降了好几度，就连你们细微的呼吸声都变得清晰可闻。,,,,,源类型=type:txt_pb; 层级=41
-69,旁白,hide,,,,你瞥了眼墙上因刚才的讨论而再度减半的时限，心中的最后一丝犹疑终于在倒计时滴答声中暗自落定。,,,,"loadScript(终局（终）_2, 2)",源类型=type:txt_pb; 层级=42; gotomainline=70
+69,旁白,hide,,,,你瞥了眼墙上因刚才的讨论而再度减半的时限，心中的最后一丝犹疑终于在倒计时滴答声中暗自落定。,,,,"loadScript(sntzm_final(4), 2)",源类型=type:txt_pb; 层级=42; gotomainline=70
 3,旁白,hide,Abaddon_default,,,空气在那一刻像是被抽空了。你扶着冰冷的墙壁才勉强站稳，指尖划过墙壁上那些斑驳的纹路，每一处凹凸都像是刻满了荒诞——,,,,"charfadeout(L,1)",源类型=type:txt_pb; 层级=1
 8,旁白,hide,,,,你无数次在这里开枪、搏斗、追逐，靠着对正义与使命的信念撑到现在，原来脚下连一寸真实的土地都没有。,,,,,源类型=type:txt_pb; 层级=2
 9,旁白,hide,,,,“真实的土地......”,,,,,源类型=type:txt_pb; 层级=3
@@ -66,7 +66,7 @@ ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Comm
 27,亚波伦,hide,Abaddon_default,,,现在，你产生这种想法，不过是把赌桌从宏观的区域战争，移到了我为你们所开创的小小的游戏里。而我，一向欢迎这种敢于放手一搏的，激进的想象力。,,,,,源类型=type:txt_Abaddon; 层级=22
 28,旁白,hide,Abaddon_default,,,大卫的试探并未奏效，非但未能迫使对方透露梦境中的死亡是否致命这一关键信息，反倒使他自己在这充满未知的道德博弈中率先泄了气。,,,,"charfadeout(L,1)",源类型=type:txt_pb; 层级=23
 29,旁白,hide,,,,但眼下时间的紧迫，已然容不下任何的纠结和迟疑。,,,,,源类型=type:txt_pb; 层级=24
-30,旁白,hide,,,,你瞥了眼墙上因刚才的讨论而再度减半的时限，心中的最后一丝犹疑终于在倒计时滴答声中暗自落定。,,,,"loadScript(终局（终 _2, 1)",源类型=type:txt_pb; 层级=25; gotomainline=终局（终)_2
+30,旁白,hide,,,,你瞥了眼墙上因刚才的讨论而再度减半的时限，心中的最后一丝犹疑终于在倒计时滴答声中暗自落定。,,,,"loadScript(sntzm_final(4), 2)",源类型=type:txt_pb; 层级=25; gotomainline=终局（终)_2
 4,克拉克,hide,Clark_default,,,所以——我们不是FBI探员。我们从来都不是......,,,,"charfadein(L,1)",源类型=type:txt_Clark; 层级=1
 75,旁白,hide,Clark_default,,,这句话说出口的瞬间，你感觉有某种一直支撑着你的、看不见的东西，正在从脚下缓缓抽离。,,,,"charfadeout(L,1)",源类型=type:txt_pb; 层级=2
 76,旁白,hide,,,,而就在这时，隔间里的亚波伦终于开口了。,,,,,源类型=type:txt_pb; 层级=3

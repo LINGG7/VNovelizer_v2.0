@@ -172,13 +172,18 @@ public class RemoteContentPreloadManager : BaseManager<RemoteContentPreloadManag
         downloadedBytes = 0;
         yield return WaitForPendingTimedOutOperations(true);
         MonoManager.GetInstance().StartCoroutine(PreloadCommonUIPanels());
-        yield return InitializeAndUpdateCatalogs(true);
-        yield return PreloadLabels(
-            BuildRequiredPreloadLabels(),
-            true,
-            "准备下载第一章资源",
-            "第一章资源已缓存",
-            "第一章资源下载完成");
+        bool initialized = false;
+        lastPreloadSucceeded = false;
+        yield return InitializeAndUpdateCatalogs(true, succeeded => initialized = succeeded);
+        if (initialized)
+        {
+            yield return PreloadLabels(
+                BuildRequiredPreloadLabels(),
+                true,
+                "准备下载第一章资源",
+                "第一章资源已缓存",
+                "第一章资源下载完成");
+        }
 
         if (!lastPreloadSucceeded)
         {
@@ -404,14 +409,25 @@ public class RemoteContentPreloadManager : BaseManager<RemoteContentPreloadManag
         labels.Add(label);
     }
 
-    private IEnumerator InitializeAndUpdateCatalogs(bool showProgressTask)
+    private IEnumerator InitializeAndUpdateCatalogs(bool showProgressTask, System.Action<bool> initializedCallback)
     {
         if (showProgressTask)
         {
             RegisterOrUpdateLoadingTask(0f, "检查资源目录");
         }
 
-        AsyncOperationHandle initializeHandle = Addressables.InitializeAsync();
+        initializedCallback(false);
+        AsyncOperationHandle initializeHandle;
+        try
+        {
+            initializeHandle = Addressables.InitializeAsync(false);
+        }
+        catch (System.Exception e)
+        {
+            RecordFailure(RemoteContentOperationStage.Initialize, ClassifyFailure(e, false),
+                null, e.Message, true, 1);
+            yield break;
+        }
         yield return WaitForAddressablesOperation(initializeHandle, CatalogOperationTimeoutSeconds);
 
         if (!initializeHandle.IsDone)
@@ -432,6 +448,7 @@ public class RemoteContentPreloadManager : BaseManager<RemoteContentPreloadManag
 
         ReleaseIfValid(initializeHandle);
 
+        initializedCallback(true);
         AsyncOperationHandle<List<string>> checkHandle = Addressables.CheckForCatalogUpdates(false);
         yield return WaitForAddressablesOperation(checkHandle, CatalogOperationTimeoutSeconds);
 
@@ -563,7 +580,7 @@ public class RemoteContentPreloadManager : BaseManager<RemoteContentPreloadManag
             }
 
             long labelSize = 0;
-            yield return GetDownloadSize(label, size => labelSize = size);
+            yield return GetDownloadSize(label, currentPreloadIsRequired, size => labelSize = size);
 
             if (lastSizeQueryFailed)
             {
@@ -624,27 +641,49 @@ public class RemoteContentPreloadManager : BaseManager<RemoteContentPreloadManag
             }
 
             long size = 0;
-            yield return GetDownloadSize(label, result => size = result);
+            yield return GetDownloadSize(label, currentPreloadIsRequired, result => size = result);
+            if (lastSizeQueryFailed)
+            {
+                yield break;
+            }
             totalDownloadBytes += size;
         }
 
         Debug.Log($"[RemoteContentPreload] Preload size: {FormatBytes(totalDownloadBytes)}.");
     }
 
-    private IEnumerator GetDownloadSize(string label, System.Action<long> callback)
+    private bool ValidateLocationState(string label, bool required, RemoteContentLocationState state)
+    {
+        if (state == RemoteContentLocationState.Found)
+        {
+            return true;
+        }
+
+        if (state == RemoteContentLocationState.Failed || required)
+        {
+            lastSizeQueryFailed = true;
+            failedLabels.Add(label);
+            if (state == RemoteContentLocationState.NotFound)
+            {
+                RecordFailure(RemoteContentOperationStage.LocationLookup, RemoteContentErrorKind.ResourceMissing,
+                    label, $"必需资源标签不存在或为空: {label}", false, 1);
+            }
+        }
+        else
+        {
+            Debug.LogWarning($"[RemoteContentPreload] Optional label is absent or empty; skipping: {label}");
+        }
+
+        return false;
+    }
+
+    private IEnumerator GetDownloadSize(string label, bool required, System.Action<long> callback)
     {
         RemoteContentLocationState locationState = RemoteContentLocationState.Failed;
         yield return HasLocations(label, result => locationState = result);
 
-        if (locationState == RemoteContentLocationState.NotFound)
+        if (!ValidateLocationState(label, required, locationState))
         {
-            callback?.Invoke(0);
-            yield break;
-        }
-
-        if (locationState == RemoteContentLocationState.Failed)
-        {
-            lastSizeQueryFailed = true;
             callback?.Invoke(0);
             yield break;
         }

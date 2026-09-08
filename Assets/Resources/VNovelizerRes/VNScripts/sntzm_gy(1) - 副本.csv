@@ -1,0 +1,99 @@
+ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Command,Note
+1,旁白,hide,,,,,,,false,,源类型=type:exeBC; 层级=0
+2,旁白,hide,,,,他刚退回隔间，门框便在头顶折断。退路没有回来，裂缝反而追上了你们的脚跟。你猛地收脚，半块地板坠了下去，迟迟没有传回落地的声音。,,,,"bgfade(sntzm_gy(1)_2,1)&parallel(playsfx(RubbleCrash);shake(screen,0.5,10))",源类型=type:txt_pb; 层级=1
+5,索菲亚,hide,Sophia_default,,,别退了！跑！,,,,"charfadein(L,1)",源类型=type:txt_Sophia; 层级=2
+6,克拉克,hide,Sophia_default,,Clark_default,哪边？,,,,"charfadein(R,1)",源类型=type:txt_Clark; 层级=3
+7,索菲亚,hide,Sophia_default,,,跟着灯走，快！,,,,"charfadeout(R,1)",源类型=type:txt_Sophia; 层级=4
+8,旁白,hide,Sophia_default,,,索菲亚先冲出门。应急灯一盏接一盏亮向走廊深处，她的白大褂在红光里闪了一下，随即没入灰尘。,,,,"charfadeout(L,1)&bgfade(sntzm_gy(1)_8,1)",源类型=type:txt_pb; 层级=5
+9,旁白,hide,,,,你扶住大卫，克拉克挡在他另一侧。三个人挤过门口时，一块墙砖擦着克拉克的肩膀砸下。他没有回头，只把你们往前推。身后的走廊正在一截截消失。,,,,,源类型=type:txt_pb; 层级=6
+10,旁白,hide,,,,一只飞蛾从黑暗里跌撞着飞出，掠过你的脸，落在大卫肩上。它看起来漆黑，翅缘却沾着灰白的粉。大卫抬了抬手，终究没有把它赶走。,,,,jump(3),源类型=type:txt_pb; 层级=7; gotomainline=3
+3,旁白,hide,,,,冲过楼梯拐角，脚下的震动忽然轻了。你刚吸进半口气，上方就传来一声闷响——刚才经过的平台塌了。,,,,"bgfade(sntzm_gy(1)_3,1)",源类型=type:txt_pb; 层级=1
+16,旁白,hide,,,,你把那口气咽回去，继续往下跑。大卫的重量越来越多地压在你手臂上，你不敢问他还能撑多久。,,,,,源类型=type:txt_pb; 层级=2
+17,旁白,hide,,,,,,,,,源类型=type:exeBC; 层级=3
+18,旁白,hide,,,,索菲亚始终跑在前面。白大褂扫过扶手，她在转角处侧身，避开一截翘起的铁皮，连脚步都没乱。,,,,,源类型=type:txt_pb; 层级=4
+20,旁白,hide,,,,那一下太熟练了。手电还没照到脚下，她已经踩向下一级台阶。你忽然想知道，她究竟走过这条路多少次。,,,,jump(19),源类型=type:txt_pb; 层级=5; gotomainline=19
+19,旁白,hide,,,,四楼的入口在身后合拢。你回头时，只看见一面平整的黑暗。楼梯越收越窄，你们被迫排成一列，继续向下。,,,,,"源类型=type:txt_pb; 层级=4; wherelist={""wheretype"":""1"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""无视飞蛾（克拉克）"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]},{""sortnum"":""2"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""无视飞蛾（大卫）"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]},{""sortnum"":""3"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""立刻离开"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}"
+21,旁白,hide,,,,转身、低头，左手护住肋下。你做完这一连串动作，才意识到自己根本没想过要这样做。身体像是记得这条路。,,,,,源类型=type:txt_pb; 层级=5
+22,旁白,hide,,,,你以前也在这里逃过。这个念头来得毫无缘由，却让你不敢落下脚跟，仿佛一慢下来，身后就会有人抓住你。,,,,,源类型=type:txt_pb; 层级=6
+23,旁白,hide,,,,是谁在追？那次逃出去了吗？你什么也想不起，掌心却先冒出了冷汗。,,,,,源类型=type:txt_pb; 层级=7
+24,旁白,hide,,,,踏进三楼走廊时，另一阵脚步声混进你们之间。手电照过去，光束中多出了几道白影。它们没有避让，径直穿过了将要落下的碎砖。,,,,,源类型=type:txt_pb; 层级=8
+25,旁白,hide,,,,三个穿白大褂的男人正朝你们跑来。追在后面的人穿着制服，警棍撞上扶手，泰瑟枪的电弧照亮了一张脸。你认出了那张脸。,,,,"bgfade(sntzm_gy(1)_25,1)",源类型=type:txt_pb; 层级=9
+26,旁白,hide,,,,那个人是你。更年轻的你把一沓文件死死护在胸前，散出的纸落了一地。他没有捡，甚至没有回头。,,,,,源类型=type:txt_pb; 层级=10
+27,旁白,hide,,,,中间的小个子是大卫。他一手抹掉流进眼里的血，一手把相机朝向身后。快门响了一声，又一声。明明已经跑不稳，他还在拍。,,,,,源类型=type:txt_pb; 层级=11
+28,旁白,hide,,,,最后那个人不断回身，替同伴挡开追来的手。你还没看清他的脸，目光就先落在了他的靴子上。,,,,,源类型=type:txt_pb; 层级=12
+29,旁白,hide,,,,高筒山地靴。前年你送给克拉克的生日礼物。他说鞋底太硬，却一直穿着。眼前这个人的鞋带，也像他一样绕过靴口多系了一圈。,,,,,源类型=type:txt_pb; 层级=13
+30,旁白,hide,,,,有人猛地攥住你的胳膊，把你拉离一块下陷的地砖。是身边的克拉克。而在他肩后，另一个克拉克停了下来，转身堵住整条走廊。,,,,,源类型=type:txt_pb; 层级=14
+31,旁白,hide,,,,追兵撞上他的身体。他踉跄了一下，仍撑着两侧的墙，把身后的路留给同伴。回头的那一瞬，他的嘴唇动了。你身边的人也正朝你喊——,,,,,源类型=type:txt_pb; 层级=15
+32,克拉克&克拉克//？,hide,,,,快走！,,,,,源类型=type:txt_克拉克&克拉克//？; 层级=16
+33,旁白,hide,,,,墙面轰然合拢。殿后的身影消失了，剩下两个白影却从缝隙里冲了出来。它们与你和大卫并肩跑了两步，忽然散成微光，贴着领口没入你们身体。你胸口一凉。,,,,,源类型=type:txt_pb; 层级=17
+34,你,hide,,,,刚才……你们也看见了？,,,,,源类型=type:txt_You; 层级=18
+35,旁白,hide,,,,坍塌声盖过了你的声音。你还想再问，克拉克握着你胳膊的手却紧了一下。,,,,,源类型=type:txt_pb; 层级=19
+36,旁白,hide,,,,他看着那道已经封死的缝隙，几次张口，都没有出声。你第一次发现，这个总催别人往前走的人，也会忘记抬脚。,,,,,源类型=type:txt_pb; 层级=20
+37,旁白,hide,,,,到了二楼，手电照见更深的裂缝。墙皮下露出发黑的灰泥，走廊尽头却亮起一片不属于此刻的冷白灯光。,,,,"bgfade(sntzm_gy(1)_37,1)",源类型=type:txt_pb; 层级=21
+38,旁白,hide,,,,两辆束缚床从那片白光里缓缓推来。轮子每转一圈，就发出一声短促的吱响。,,,,,源类型=type:txt_pb; 层级=22
+39,旁白,hide,,,,床上的人穿着灰蓝色病号服，手脚都扣着皮带。他们没有挣扎。那种安静，比楼上的追喊声更让你害怕。,,,,,源类型=type:txt_pb; 层级=23
+40,旁白,hide,,,,你数了数。只有两张床。刚才还在前面逃命的三个人，如今只剩两个躺在这里。,,,,,源类型=type:txt_pb; 层级=24
+41,旁白,hide,,,,左边是大卫，头歪在枕边，嘴里塞着固定好的软垫。右边是你自己。你的胸口还在起伏，手腕被束带勒出一圈淤青。你下意识摸了摸同一个位置。,,,,"bgfade(sntzm_gy(1)_41,1)",源类型=type:txt_pb; 层级=25
+42,旁白,hide,,,,两名医生各推着一张床，走向不同的病房。门牌在白光里逐渐清晰。你认得那段走廊，也认得其中一个号码。,,,,,源类型=type:txt_pb; 层级=26
+43,旁白,hide,,,,推着大卫的医生在门前停下，向另一人抬了抬下巴。两张床就此分开。没有人低头看一眼床上的脸。,,,,,源类型=type:txt_pb; 层级=27
+44,旁白,hide,,,,另一名医生点头，把你的床推进了B3-15。门缓缓关上，最后留在门缝里的，是你垂在床沿的指尖。,,,,,源类型=type:txt_pb; 层级=28
+45,旁白,hide,,,,灯光灭了。病房、推床的人、门缝，全被眼前的黑暗抹去。你还站在原地，手指却不由自主地蜷了起来。,,,,,源类型=type:txt_pb; 层级=29
+46,旁白,hide,,,,身旁传来大卫压不住的喘息。他死盯着床消失的地方，拇指一遍遍掐着自己的手腕。你扶了他一下，他没有甩开。,,,,,源类型=type:txt_pb; 层级=30
+47,旁白,hide,,,,应急灯闪了两次，彻底熄灭。克拉克把手电抬高，索菲亚的光还在前面等着。你握紧自己的手电，带着大卫追上去。,,,,"bgfade(sntzm_gy(1)_47,1)",源类型=type:txt_pb; 层级=31
+48,旁白,hide,,,,,,,,,源类型=type:exeBC; 层级=32
+49,索菲亚,hide,Sophia_default,,,看着脚下！再下一层就到了！,,,,"charfadein(L,1)",源类型=type:txt_Sophia; 层级=33
+51,旁白,hide,Sophia_default,,,你循着索菲亚的声音低下头，才发现鞋尖已经悬在破损的台阶外。克拉克扶住你的背，等你踩稳才松手。,,,,"charfadeout(L,1)",源类型=type:txt_pb; 层级=34
+52,旁白,hide,,,,身后的碎裂声越来越远，黑暗却越来越近。你看见墙砖落进去，没有发出一点声响。连回声也被留在了那边。,,,,,源类型=type:txt_pb; 层级=35
+53,你,hide,,,,索菲亚，你到底要带我们去哪儿？,,,,,源类型=type:txt_You; 层级=36
+54,索菲亚,hide,Sophia_default,,,起点。,,,,"charfadein(L,1)",源类型=type:txt_Sophia; 层级=37
+55,旁白,hide,Sophia_default,,,她的回答短得让你以为自己听漏了。,,,,,源类型=type:txt_pb; 层级=38
+56,索菲亚,hide,Sophia_default,,,盖曼老师最早做研究的地方。我不能保证入口还在，但要找盖亚之心，就得去那里。,,,,,源类型=type:txt_Sophia; 层级=39
+57,旁白,hide,Sophia_default,,,她望了一眼身后的黑暗，随即转回头。你看见她咬住下唇，方才那点迟疑便收了起来。,,,,,源类型=type:txt_pb; 层级=40
+58,索菲亚,hide,Sophia_default,,,我去找门。你们跟紧，别掉队。,,,,,源类型=type:txt_Sophia; 层级=41
+59,旁白,hide,Sophia_default,,,一楼的楼梯在十字路口前结束。索菲亚没有停，径直转向左边。你只来得及看见她伸手示意，便跟着拐了过去。,,,,"charfadeout(L,1)",源类型=type:txt_pb; 层级=42
+60,旁白,hide,,,,身后传来克拉克的脚步声，近得让你稍稍安心。下一瞬，路口的地砖整片陷入黑暗。刚刚另一个方向的路，也不见了。,,,,,源类型=type:txt_pb; 层级=43
+61,旁白,hide,,,,你终于不再回头。每停一下，都有人得陪你一起慢下来。,,,,,源类型=type:txt_pb; 层级=44
+62,旁白,hide,,,,手电在墙上跳动，病房门一扇扇掠过。索菲亚伸手摸过几个门牌，像在确认距离，随后又加快了脚步。,,,,,源类型=type:txt_pb; 层级=45
+63,旁白,hide,,,,你已经分不清跑了多远。直到她骤然停住，你险些撞上她的背。手电越过她的肩膀，照到了一整面照片。,,,,,源类型=type:txt_pb; 层级=46
+64,旁白,hide,,,,,,,,,源类型=type:exeBC; 层级=47
+65,旁白,hide,,,,是大厅那面医生照片墙。一个小时前，你们还从这里走过。可此刻相框已经翘起，玻璃上蒙着灰，熟悉的几张脸像在这一小时里被遗忘了几十年。,,,,"bgfade(sntzm_gy(1)_65,1)&jump(67)","源类型=type:txt_pb; 层级=48; wherelist={""wheretype"":""1"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""飞蛾线"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}; gotomainline=67"
+66,旁白,hide,,,,你们之前没有到过这里。墙上整齐挂着医生照片，大半已经烧得变色，碎玻璃还留在框里。手电扫过，只有零星几张脸能辨认出来。,,,,,"源类型=type:txt_pb; 层级=48; wherelist={""wheretype"":""1"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""夜莺线"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}"
+67,索菲亚,hide,Sophia_default,,,找到了。,,,,"charfadein(L,1)",源类型=type:txt_Sophia; 层级=49
+68,旁白,hide,Sophia_default,,,索菲亚盯住其中一张照片，伸手拨开相框上的灰。,,,,"charfadeout(L,1)",源类型=type:txt_pb; 层级=50
+69,大卫,hide,David_default,,,找到了什么？这后面最好真有路。索菲亚，我们三个还想活着出去。,,,,"charfadein(L,1)",源类型=type:txt_David; 层级=51
+70,旁白,hide,David_default,,,大卫说到最后一句时，声音已经哑了。他撑着膝盖，连直起身都费劲。克拉克看了一眼来路，朝索菲亚迈近一步。,,,,"charfadeout(L,1)",源类型=type:txt_pb; 层级=52
+71,克拉克,hide,Clark_default,,,要怎么开？我们帮你。,,,,"charfadein(L,1)",源类型=type:txt_Clark; 层级=53
+72,旁白,hide,Clark_default,,,索菲亚没有回头。她沿着相框下缘摸索，指尖在左下角停住，用力按向一处凸起。你把手电移过去，替她照住那个位置。,,,,"charfadeout(L,1)",源类型=type:txt_pb; 层级=54
+73,旁白,hide,,,,没有动静。她换成掌根抵住，肩膀也压了上去。相框轻轻一歪，她立刻用另一只手扶稳，重新往里按。,,,,,源类型=type:txt_pb; 层级=55
+74,旁白,hide,,,,墙里终于响起一声干涩的咬合声。索菲亚没有马上松手，等第二声齿轮转动传来，才慢慢退开。,,,,,源类型=type:txt_pb; 层级=56
+91,索菲亚,hide,Sophia_default,,,盖曼老师就是从这里开始研究的。后来医院扩建，这间实验室被封在了墙后。,,,,"charfadein(L,1)",源类型=type:txt_Sophia; 层级=57
+92,旁白,hide,Sophia_default,,,整面照片墙开始移动。细灰沿相框往下落，盖曼的肖像从正中分开，露出背后一条暗缝。,,,,"charfadeout(L,1)",源类型=type:txt_pb; 层级=58
+93,旁白,hide,,,,那张温和的脸被分向两边，一半停在手电光里，一半隐进阴影。齿轮吃力地转着，墙后渐渐露出一个只容单人侧身通过的入口。台阶通往地下。,,,,"parallel(bgfade(sntzm_gy(1)_93,1);shake(screen,0.5,5);playsfx(GearSpinning))",源类型=type:txt_pb; 层级=59
+94,索菲亚,hide,Sophia_default,,,现实里，你们接入梦境的三台设备也放在这儿。如果盖曼留下的通道还连着它们，我们就有机会醒过来。,,,,"charfadein(L,1)",源类型=type:txt_Sophia; 层级=60
+95,旁白,hide,Sophia_default,,,她说到“醒过来”时，终于望向你们。大卫撑着墙直起身，克拉克没有催。那一小会儿，谁也没再问门后有什么。,,,,,源类型=type:txt_pb; 层级=61
+96,索菲亚,hide,Sophia_default,,,纳丁达克的人守着设备，却一直在梦里别处找盖亚之心。亚波伦很可能把它藏回了这里……离他们最近的地方。,,,,,源类型=type:txt_Sophia; 层级=62
+97,旁白,hide,Sophia_default,,,通道下面亮着一盏昏黄的灯。与外面忽明忽灭的应急灯不同，那点光一直稳稳亮着。索菲亚看了很久，才踏上第一级台阶。,,,,"charfadeout(L,1)",源类型=type:txt_pb; 层级=63
+98,旁白,hide,,,,她侧身钻进入口，手扶住磨得发亮的木栏杆。你照见扶手上深浅不一的旧痕，最常握的位置已经凹下去一小块。这里曾经有人经常出入。,,,,,源类型=type:txt_pb; 层级=64
+99,旁白,hide,,,,你跟着往下走，肩膀擦过粗糙的水泥墙。台阶中央磨得比两侧更低，你小心踩稳，回身接住大卫伸来的手。克拉克最后进来，手电仍朝着门外。,,,,"loadScript(盖亚之心（中）_3, 1)",源类型=type:txt_pb; 层级=65; gotomainline=盖亚之心（中）_3
+50,旁白,hide,,,,一楼到了。楼梯在十字路口前截断，再没有往下的台阶。左边和右边各伸出一条走廊，你们必须赶在身后的黑暗追上前选一条。,,,,,"源类型=type:txt_pb; 层级=33; wherelist={""wheretype"":""1"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""无视飞蛾（克拉克）"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]},{""sortnum"":""2"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""无视飞蛾（大卫）"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]},{""sortnum"":""3"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""立刻离开"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}"
+78,旁白,hide,,,,你扶着大卫停下，抬起手电。右边尽头有一处破口，方向正对着医院大门。月光从那里照进来，铺出一小片银白的地面。,,,,,源类型=type:txt_pb; 层级=34
+79,旁白,hide,,,,左边看不到尽头。光束照过积灰的地砖，很快被转角截住。那里没有出口的标志，也没有风。,,,,,源类型=type:txt_pb; 层级=35
+75,你,hide,,,,往哪边？,,,,,源类型=type:txt_You; 层级=36
+76,旁白,hide,,,,克拉克把手电转向右边，照了照光里的地面，又看向你。,,,,,源类型=type:txt_pb; 层级=37
+77,克拉克,hide,Clark_default,,,大门在右边。你扶好大卫，我走前面。,,,,"charfadein(L,1)",源类型=type:txt_Clark; 层级=38
+80,旁白,hide,Clark_default,,,他往前探了半步，仍把一只手留在你伸手就能碰到的地方，等你们跟上。,,,,"charfadeout(L,1)",源类型=type:txt_pb; 层级=39
+81,你,hide,,,,等等……大卫，你肩上那只飞蛾飞起来了。,,,,,源类型=type:txt_You; 层级=40
+82,旁白,hide,,,,你这才看清，那只飞蛾并非全黑。离开大卫肩后的阴影，翅上透出一层灰白。它掠过手电光束，却没朝右边的月光去，反而转进左侧走廊。,,,,,源类型=type:txt_pb; 层级=41
+83,旁白,hide,,,,大卫的视线跟着它移动。他把压在你肩上的手收回来，站稳，突然叫住了克拉克。,,,,,源类型=type:txt_pb; 层级=42
+86,大卫,hide,David_default,,,先别走。它为什么不往亮的地方飞？,,,,"charfadein(L,1)",源类型=type:txt_David; 层级=43
+84,旁白,hide,David_default,,,,,,,,源类型=type:exeBC; 层级=44
+85,大卫,hide,David_default,,,如果亚波伦给我们用过什么药，那些画面、那边的月光，都可能不是真的。飞蛾不一定能带路，可至少它没往我们认定的出口去。我不想只凭眼睛再赌一次。,,,,,"源类型=type:txt_David; 层级=45; wherelist={""wheretype"":""1"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""无视飞蛾（克拉克）"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}"
+88,旁白,hide,David_default,,,克拉克没有反驳，只把手电停在两条路之间。右边是近在眼前的出口，左边那只飞蛾却越飞越远。你看了看大卫，他正等你的决定。,,,,"charfadeout(L,1)",源类型=type:txt_pb; 层级=46
+89,旁白,hide,,,,你又望向那片月光。它太像一个能让人立刻松口气的答案，而你已经不敢轻易相信这样的答案。跟着飞蛾也许同样会错，但右边的光，此刻已经不足以说服你。,,,,"loadScript(盖亚之心（中）_2, 1)",源类型=type:txt_pb; 层级=47; gotomainline=盖亚之心（中）_2
+87,大卫,hide,David_default,,,亚波伦死了，这个梦却还没停。谁知道那边的月光是不是他留下的东西？飞蛾都往反方向去了……我知道这算不上证据，可我们不能看见一个像出口的地方就冲过去。,,,,"charfadein(L,1)&jump(88)","源类型=type:txt_David; 层级=45; wherelist={""wheretype"":""1"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""无视飞蛾（大卫）"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]},{""sortnum"":""2"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""立刻离开"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}; gotomainline=88"
+4,旁白,hide,Sophia_default,,,第二十一次。你在心里重复了一遍这个数字，试图想起前二十次中的任何一次。什么也没有。比死亡更让你发冷的，是自己竟然可能已经忘记过二十次。,,,,"charfadeout(L,1)",源类型=type:txt_pb; 层级=1
+11,旁白,hide,,,,索菲亚仍盯着亚波伦消失的位置。她没有问那个数字，也没有退后，反而俯下身，继续查看电刑椅底部。,,,,,源类型=type:txt_pb; 层级=2
+12,旁白,hide,,,,你忽然想起姐姐。她做记者时，每逢离真相只差一步，也会这样听不见劝阻。你曾以为那是勇敢，此刻却只想让眼前的人抬头看一眼危险。,,,,,源类型=type:txt_pb; 层级=3
+13,索菲亚,hide,Sophia_default,,,盖亚之心是盖曼留在深层意识里的锚。它连着接入设备的通道。找到它，我们才有可能回到自己的身体里。,,,,"charfadein(L,1)",源类型=type:txt_Sophia; 层级=4
+14,索菲亚,hide,Sophia_default,,,留在梦里，我们就只能等纳丁达克替我们决定什么时候醒、还能不能醒。我不想再等了。,,,,,源类型=type:txt_Sophia; 层级=5
+15,旁白,hide,Sophia_default,,,她伸手探进电刑椅底下，指尖擦过带血的边缘。你把灯往下压，照亮她正在找的地方。血沫沿椅腿滴落，她的手停了一瞬，又继续向缝隙深处摸去。,,,,"charfadeout(L,1)&loadScript(终局（下）_102, 1)",源类型=type:txt_pb; 层级=6; gotomainline=终局（下）_102

@@ -53,7 +53,7 @@ ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Comm
 101,旁白,hide,,,Sophia_default,她头也不回地继续检查这间电刑椅的每一处缝隙，指尖沾到的血沫顺着椅腿滴落到冰冷的瓷砖上，在惨白灯光下晕开一小片不规则的暗褐色痕迹。,,,,"charfadeout(R,1)",源类型=type:txt_pb; 层级=51
 102,旁白,hide,,,,她定睛一瞧，脸上的表情瞬间变得凝重。,,,,,源类型=type:txt_pb; 层级=52
 103,索菲亚,hide,Sophia_default,,,这是一句话。,,,,"charfadein(L,1)",源类型=type:txt_Sophia; 层级=53
-104,旁白,hide,Sophia_default,,,克拉克挤进去半个身子，手电光束顺着她指尖的方向照去，果然在椅腿和地面接触的内侧，刻着一行由刚刚淌下的血渍拓出的一行小字。,,,,"charfadeout(L,1)",源类型=type:txt_pb; 层级=54
+104,旁白,hide,Sophia_default,,,克拉克挤进去半个身子，手电光束顺着她指尖的方向照去，果然在椅腿和地面接触的内侧，刻着一行由刚刚淌下的血渍拓出的一行小字。,,,,"charfadeout(L,1)&bgfade(sntzm_final(3)_104,1)",源类型=type:txt_pb; 层级=54
 105,克拉克,hide,Clark_default,,,终点亦是起点，烈火即为笼网的终局。,,,,"charfadein(L,1)",源类型=type:txt_Clark; 层级=55
 106,旁白,hide,Clark_default,,,克拉克皱着眉把这句话念出来，后半句的笔迹远比前半句潦草，像是亚波伦耗尽最后一丝力气才刻完。,,,,"charfadeout(L,1)",源类型=type:txt_pb; 层级=56
 107,索菲亚,hide,Sophia_default,,,这是典型的控梦效应，他一定还在周围的某处。,,,,"charfadein(L,1)",源类型=type:txt_Sophia; 层级=57
@@ -62,7 +62,7 @@ ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Comm
 110,旁白,hide,,,,但就在他踏出隔间的那一刻，整间手术室的灯光猛地一暗，原本还平稳运行的供电系统突然中断，应急灯在三秒的延迟后才亮起幽幽的暗红。,,,,"bgfade(sntzm_final(3)_110,1)",源类型=type:txt_pb; 层级=60
 111,索菲亚,hide,,,,这个梦境块支撑不下去了，但......为什么是现在？,,,,,源类型=type:txt_Sophia; 层级=61
 112,你,hide,,,,大卫？！,,,,,源类型=type:txt_You; 层级=62
-113,大卫,hide,,,,不是我！,,,,"loadScript(盖亚之心（上）_2, 2)",源类型=type:txt_David; 层级=63; gotomainline=盖亚之心（上）_3
+113,大卫,hide,,,,不是我！,,,,"loadScript(sntzm_gy(1), 2)",源类型=type:txt_David; 层级=63; gotomainline=盖亚之心（上）_3
 8,你,hide,,,,无论你到底是不是盖曼本人，你现在正在做的事情，都已经构成对警员生命的威胁，无论是借助子弹还是电刑椅，我们都有充分的理由解决你这个威胁。,,,,,源类型=type:txt_You; 层级=1
 9,亚波伦,hide,Abaddon_default,,,同时也解决了最为关键的证人。,,,,"charfadein(L,1)",源类型=type:txt_Abaddon; 层级=2
 10,旁白,hide,Abaddon_default,,,亚波伦充满恶趣味地补充道。,,,,,源类型=type:txt_pb; 层级=3
@@ -103,4 +103,4 @@ ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Comm
 24,亚波伦,hide,Abaddon_default,,,是亲密的战友，还是一切的真相和秘密。从价值的角度出发，比起旁边这个早就已经被榨干了价值的愚蠢探员，我脑子里的这些秘密足以你们让纳丁达克周一的市值像坠落的火箭般跌入谷底。,,,,,源类型=type:txt_Abaddon; 层级=38
 25,亚波伦,hide,Abaddon_default,,,那将间接挽救多少无辜的受害者，又能让多少被掩埋的真相重见天日。这笔账，不用我帮你们算吧？,,,,,源类型=type:txt_Abaddon; 层级=39
 54,旁白,hide,Abaddon_default,,,眼看克拉克对原则的坚守不仅毫无成效，反而使局势愈发落入对方掌控之中。你只得暂且放下身为探员的执念，再一次，也是最后一次——认真思量眼前这架天平究竟应该朝着何方倾斜。,,,,"charfadeout(L,1)",源类型=type:txt_pb; 层级=40
-56,旁白,hide,,,,你瞥了眼墙上因刚才的博弈而再度减半的时限，心中的最后一丝犹疑终于在倒计时滴答声中暗自落定。,,,,"loadScript(终局（终）_3, 3)",源类型=type:txt_pb; 层级=41; gotomainline=终局（终）_2
+56,旁白,hide,,,,你瞥了眼墙上因刚才的博弈而再度减半的时限，心中的最后一丝犹疑终于在倒计时滴答声中暗自落定。,,,,"loadScript(sntzm_final(4), 3)",源类型=type:txt_pb; 层级=41; gotomainline=终局（终）_2

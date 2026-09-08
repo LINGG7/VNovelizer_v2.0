@@ -38,6 +38,13 @@ MonoBehaviour:
     - VNovelizerRes
     - VNovelizerRes/VNScripts
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 030b3b73c8eed1b429d1fa19f5a7b697
+    m_Address: VNovelizerRes/VNScripts/sntzm_final(5)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNScripts
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 03250d2e63286e34f8c2aaf67a48af6a
     m_Address: VNovelizerRes/VNPrefabs/UI/Gallery/Scene/ScenePage
     m_ReadOnly: 0
@@ -77,6 +84,13 @@ MonoBehaviour:
     - VNovelizerRes/VNPrefabs
     - VNovelizerRes/VNPrefabs/UI
     - VNovelizerRes/VNPrefabs/UI/SaveLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 06230449dc422684b8bf18aa96319f56
+    m_Address: VNovelizerRes/VNScripts/sntzm_david4F(4)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNScripts
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 07683654bdfc0b14d8d181d97062a129
     m_Address: VNovelizerRes/Backgrounds/sntzm_clark3F(3)_19
@@ -131,6 +145,13 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 0b2ff14a811a9cb45ac03d194f32e450
     m_Address: VNovelizerRes/VNScripts/sntzm_yy
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNScripts
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0b38b8e70f8b89e43b86487c95690f04
+    m_Address: VNovelizerRes/VNScripts/sntzm_final(3)
     m_ReadOnly: 0
     m_SerializedLabels:
     - VNovelizerRes
@@ -257,6 +278,13 @@ MonoBehaviour:
     - VNovelizerRes
     - VNovelizerRes/Backgrounds
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1abbfe63d14161e4c83e504dd563fb6f
+    m_Address: VNovelizerRes/ExcelVNScripts/sntzm_ending4(2)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/ExcelVNScripts
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 1bdda11245259a543b1f0d03d77b01c4
     m_Address: VNovelizerRes/Backgrounds/sntzm_clark3F(4)_94
     m_ReadOnly: 0
@@ -327,6 +355,28 @@ MonoBehaviour:
     - VNovelizerRes
     - VNovelizerRes/ExcelVNScripts
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 223cd39d86569f94faa12b5c75b49e30
+    m_Address: VNovelizerRes/VNScripts/sntzm_clark4F(4)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNScripts
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 22c6bbc500fe6ed40badf7105ba15e75
+    m_Address: VNovelizerRes/VNScripts/sntzm_ending4(1)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNScripts
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 232fd57bd1fae574485a3eb47402b937
+    m_Address: VNovelizerRes/Audio/SFX/RubbleCrash
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Audio
+    - VNovelizerRes/Audio/SFX
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 26adb4c929ce75f469447be696365b50
     m_Address: VNovelizerRes/GalleryContent/CG/CGDataContainer
     m_ReadOnly: 0
@@ -387,6 +437,13 @@ MonoBehaviour:
     - VNovelizerRes
     - VNovelizerRes/VNScripts
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2c8d0fa72e34cd049849b2e89f88148d
+    m_Address: VNovelizerRes/VNScripts/sntzm_ending3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNScripts
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 2cbcc14abe4b0bb48b6311f75bcc76f9
     m_Address: VNovelizerRes/Characters/wy
     m_ReadOnly: 0
@@ -417,12 +474,26 @@ MonoBehaviour:
     - VNovelizerRes
     - VNovelizerRes/Backgrounds
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 30177442672a55f48a3284b48b5eb118
+    m_Address: VNovelizerRes/VNScripts/sntzm_final(1)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNScripts
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 30b041e4e2d23d3469887a9be3818b1a
     m_Address: VNovelizerRes/Backgrounds/sntzm_david313-315(5)_49
     m_ReadOnly: 0
     m_SerializedLabels:
     - VNovelizerRes
     - VNovelizerRes/Backgrounds
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 30be2416dcc16864fa46016bc9faaa9e
+    m_Address: VNovelizerRes/ExcelVNScripts/sntzm_clark4F(4)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/ExcelVNScripts
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 3152c4f3e4dc4ee6891ca7cb0dcbf76e
     m_Address: VNovelizerRes/Materials/M_TVSnow
@@ -702,6 +773,13 @@ MonoBehaviour:
     - VNovelizerRes/Audio
     - VNovelizerRes/Audio/SFX
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 557790b482827e8448b4c6cb8f1e2b00
+    m_Address: VNovelizerRes/ExcelVNScripts/sntzm_final(6)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/ExcelVNScripts
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 5593a2415734dcf43aa04bc8b852eccd
     m_Address: VNovelizerRes/VNPrefabs/UI/SaveLoad/CloseButton
     m_ReadOnly: 0
@@ -932,6 +1010,13 @@ MonoBehaviour:
     - VNovelizerRes/Audio
     - VNovelizerRes/Audio/SFX
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6b767bcceff76724a83dbf9ec0c5c530
+    m_Address: "VNovelizerRes/ExcelVNScripts/~$sntzm_gy(1) - \u526F\u672C"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/ExcelVNScripts
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 6b9407b183ab3354b90700f66974f246
     m_Address: VNovelizerRes/ExcelVNScripts/sntzm_clark4F(2)
     m_ReadOnly: 0
@@ -1077,6 +1162,13 @@ MonoBehaviour:
     - VNovelizerRes/VFX
     - VNovelizerRes/VFX/Partical
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7f87ad0b514595444896931eb36840ab
+    m_Address: VNovelizerRes/ExcelVNScripts/sntzm_final(4)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/ExcelVNScripts
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 80cb4d86829146549b3011ed4d446006
     m_Address: VNovelizerRes/Backgrounds/sntzm_clark3F(1)_64
     m_ReadOnly: 0
@@ -1199,6 +1291,13 @@ MonoBehaviour:
     - VNovelizerRes
     - VNovelizerRes/Backgrounds
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8e015fc2c3ffb114da60ca44c727d770
+    m_Address: VNovelizerRes/ExcelVNScripts/~$sntzm_gy(1)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/ExcelVNScripts
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 8e1e5b1b11754c76b1a02e57b4c2f001
     m_Address: VNovelizerRes/Materials/S_UI_TapePlayback
     m_ReadOnly: 0
@@ -1299,6 +1398,13 @@ MonoBehaviour:
     - VNovelizerRes
     - VNovelizerRes/Backgrounds
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 96b79877b40b586489a66e7ad387a899
+    m_Address: VNovelizerRes/VNScripts/sntzm_gy(1)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNScripts
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 97debbc384b5fb54ebb0b2e70e9177dc
     m_Address: VNovelizerRes/ExcelVNScripts/sntzm_yy
     m_ReadOnly: 0
@@ -1312,6 +1418,13 @@ MonoBehaviour:
     m_SerializedLabels:
     - VNovelizerRes
     - VNovelizerRes/Backgrounds
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 991981fdb86c2994ea967704437befae
+    m_Address: VNovelizerRes/ExcelVNScripts/sntzm_final(1)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/ExcelVNScripts
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 991b8d2b9c3f9ad499068c8e6ebaebfb
     m_Address: VNovelizerRes/VNPrefabs/UI/Choice/ChoicePanel
@@ -1375,6 +1488,13 @@ MonoBehaviour:
     - VNovelizerRes/VNPrefabs/UI/VNGamePlay
     - VNovelizerRes/VNPrefabs/UI/VNGamePlay/Prompt
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9cdbfd152ae11fd40828ef5f53d0e4c1
+    m_Address: VNovelizerRes/ExcelVNScripts/sntzm_final(5)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/ExcelVNScripts
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 9ec869961306fa04f9ee267690fa9ab9
     m_Address: VNovelizerRes/Backgrounds/sntzm_david313-315(1)_1
     m_ReadOnly: 0
@@ -1404,6 +1524,13 @@ MonoBehaviour:
     - VNovelizerRes/VFX
     - VNovelizerRes/VFX/Partical
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a0cdedb65ef5e5f4e84ad6a505c141db
+    m_Address: VNovelizerRes/VNScripts/sntzm_ending4(2)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNScripts
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: a0e2827124225fd45993f735f24b3bd3
     m_Address: VNovelizerRes/VNScripts/sntzm_david313-315(6)
     m_ReadOnly: 0
@@ -1426,6 +1553,13 @@ MonoBehaviour:
     - VNovelizerRes/VNPrefabs
     - VNovelizerRes/VNPrefabs/UI
     - VNovelizerRes/VNPrefabs/UI/Settings
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a2919a4bb0fe32a4ea92921575a575d9
+    m_Address: VNovelizerRes/VNScripts/sntzm_final(2)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNScripts
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: a56664354d70999499e00f3ee2707f67
     m_Address: VNovelizerRes/ExcelVNScripts/sntzm_clark1
@@ -1525,6 +1659,13 @@ MonoBehaviour:
     m_SerializedLabels:
     - VNovelizerRes
     - VNovelizerRes/Backgrounds
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: af8f2eaa070a2d34ba053572c8493573
+    m_Address: VNovelizerRes/VNScripts/sntzm_final(4)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNScripts
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: afb818cf15a59414e8843c360536a95d
     m_Address: VNovelizerRes/VNPrefabs/UI/Pause/PausePanel
@@ -1633,8 +1774,22 @@ MonoBehaviour:
     - VNovelizerRes
     - VNovelizerRes/Backgrounds
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bbe092c09dc10174ba6db5d1e67b4575
+    m_Address: VNovelizerRes/ExcelVNScripts/sntzm_gy(1)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/ExcelVNScripts
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: bcccfbbb96a296644a1f074568c2c5f6
     m_Address: VNovelizerRes/ExcelVNScripts/sntzm_fourBranch1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/ExcelVNScripts
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bd41548265bd80f44b2b37da467d778d
+    m_Address: VNovelizerRes/ExcelVNScripts/sntzm_final(3)
     m_ReadOnly: 0
     m_SerializedLabels:
     - VNovelizerRes
@@ -1664,6 +1819,13 @@ MonoBehaviour:
     - VNovelizerRes/VNPrefabs/UI
     - VNovelizerRes/VNPrefabs/UI/Loading
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c12fa34417c84fc408d43920bb14888a
+    m_Address: VNovelizerRes/ExcelVNScripts/sntzm_gy(2)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/ExcelVNScripts
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: c18073d6ca3f4b12a9cf93618cf40e6a
     m_Address: VNovelizerRes/VNPrefabs/UI/Gallery/Ending/EndingSlotContainer
     m_ReadOnly: 0
@@ -1680,6 +1842,13 @@ MonoBehaviour:
     m_SerializedLabels:
     - VNovelizerRes
     - VNovelizerRes/VNScripts
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c26fa2bed45a34b47bf9df35e3e47811
+    m_Address: VNovelizerRes/ExcelVNScripts/sntzm_final(2)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/ExcelVNScripts
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: c26fe25a8d535cd4ba25fa0a4c912ff4
     m_Address: VNovelizerRes/VNPrefabs/UI/Choice/ChoiceItem
@@ -1826,6 +1995,14 @@ MonoBehaviour:
     - VNovelizerRes
     - VNovelizerRes/Backgrounds
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d751928f59fa202419cf9a13027ef701
+    m_Address: VNovelizerRes/Audio/SFX/GearSpinning
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Audio
+    - VNovelizerRes/Audio/SFX
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: d8221d4b7e908dd4bb3521c77b23ec5e
     m_Address: VNovelizerRes/VNScripts/sntzm_emily
     m_ReadOnly: 0
@@ -1842,6 +2019,13 @@ MonoBehaviour:
     - VNovelizerRes/VNPrefabs/UI
     - VNovelizerRes/VNPrefabs/UI/Gallery
     - VNovelizerRes/VNPrefabs/UI/Gallery/CG
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dbc52987e5e3d3b4abdfb68be51fe8e4
+    m_Address: VNovelizerRes/Characters/Gaiman
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Characters
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: dd1e6623ab4df4c4398085eb176ec244
     m_Address: VNovelizerRes/VNPrefabs/UI/Settings/TextPage
@@ -1861,6 +2045,13 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: e13b06e45b868754b9e818c9b38ed88e
     m_Address: VNovelizerRes/ExcelVNScripts/sntzm_clark3F(4)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/ExcelVNScripts
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e1472318b82cd0c4889d629ef42c353d
+    m_Address: VNovelizerRes/ExcelVNScripts/sntzm_ending4(1)
     m_ReadOnly: 0
     m_SerializedLabels:
     - VNovelizerRes
@@ -1897,6 +2088,13 @@ MonoBehaviour:
     m_SerializedLabels:
     - VNovelizerRes
     - VNovelizerRes/Backgrounds
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e5f6c86a519a4c944b7c9cd6aef96672
+    m_Address: VNovelizerRes/VNScripts/sntzm_gy(2)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNScripts
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: e62c721f34ec67140acd4327a4182eca
     m_Address: VNovelizerRes/VNPrefabs/UI/SaveLoad/ModeBox
@@ -1974,6 +2172,20 @@ MonoBehaviour:
     - VNovelizerRes
     - VNovelizerRes/ExcelVNScripts
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f0af0d641dc10274d97c30c59d1eccae
+    m_Address: VNovelizerRes/ExcelVNScripts/sntzm_david4F(4)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/ExcelVNScripts
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f0f265f1f29d0b8438ef9950387e5b42
+    m_Address: VNovelizerRes/ExcelVNScripts/sntzm_ending3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/ExcelVNScripts
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: f11909e4d84c12943b2c3acbaeeb5d4b
     m_Address: VNovelizerRes/GalleryContent/Scene/SceneDataContainer
     m_ReadOnly: 0
@@ -2020,6 +2232,13 @@ MonoBehaviour:
     - VNovelizerRes
     - VNovelizerRes/VFX
     - VNovelizerRes/VFX/MainMenuBurn
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f50d3400b3d7b8c46bcacd8eb0b29724
+    m_Address: VNovelizerRes/VNScripts/sntzm_final(6)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/VNScripts
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: f533f269da3cf304eb71740fa8bc9e5f
     m_Address: VNovelizerRes/VNPrefabs/UI/Gallery/Music/RightPanel
@@ -2120,6 +2339,13 @@ MonoBehaviour:
     - VNovelizerRes
     - VNovelizerRes/Backgrounds
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fd68b32b53a705940a8d5d12f1a41a49
+    m_Address: "VNovelizerRes/ExcelVNScripts/sntzm_gy(1) - \u526F\u672C"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/ExcelVNScripts
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: fdaf3ece72f335e42b3069f36210139d
     m_Address: VNovelizerRes/VNScripts/sntzm_clark4F(1)
     m_ReadOnly: 0
@@ -2133,6 +2359,14 @@ MonoBehaviour:
     m_SerializedLabels:
     - VNovelizerRes
     - VNovelizerRes/VNScripts
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fed074154ee9b314e95c270b9d9ca7f8
+    m_Address: VNovelizerRes/Audio/SFX/ElectricShock
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Audio
+    - VNovelizerRes/Audio/SFX
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: ff70c5ead58fbec438b9f30e9be420a3
     m_Address: VNovelizerRes/Backgrounds/sntzm_clark3F(3)_91

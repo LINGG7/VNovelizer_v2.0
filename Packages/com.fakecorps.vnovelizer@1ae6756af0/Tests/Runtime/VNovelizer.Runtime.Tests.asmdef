@@ -2,7 +2,11 @@
   "name": "VNovelizer.Runtime.Tests",
   "rootNamespace": "VNovelizer.Tests",
   "references": [
-    "VNovelizer.Runtime"
+    "VNovelizer.Runtime",
+    "VNovelizer.Editor",
+    "Unity.Addressables",
+    "Unity.ResourceManager",
+    "Unity.Addressables.Editor"
   ],
   "optionalUnityReferences": [
     "TestAssemblies"
