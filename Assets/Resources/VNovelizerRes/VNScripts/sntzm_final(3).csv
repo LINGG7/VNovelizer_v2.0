@@ -49,7 +49,7 @@ ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Comm
 97,索菲亚,hide,Sophia_default,,,如果不是的话就无法解释为什么刚才整个手术室都会随着他身体的瓦解而震颤，就像你在梦境中面临死亡或强烈的情绪波动，你的梦境也会随之受到影响。刚才发生的事情就属于这种情况。,,,,"charfadein(L,1)",源类型=type:txt_Sophia; 层级=47
 98,旁白,hide,Sophia_default,,,大卫在门旁的墙壁上靠了一会儿，身体在从电击中恢复后仍显得有些虚弱。你不知道亚波伦给他们各自设定了多少的电压。但对于一个刚经受过电刑的人类身体而言，他的恢复速度快得惊人。,,,,"charfadeout(L,1)",源类型=type:txt_pb; 层级=48
 99,大卫,hide,David_default,,,这个声音怎么听着这么熟悉......你是夜莺？,,,,"charfadein(L,1)",源类型=type:txt_David; 层级=49
-100,索菲亚,hide,David_default,,Sophia_default,在楼下的办公室里，你的朋友们已经问过这个问题了。,,,,"parallel(charfadeout(L,1)&charfadein(R,1))",源类型=type:txt_Sophia; 层级=50
+100,索菲亚,hide,David_default,,Sophia_default,在楼下的办公室里，你的朋友们已经问过这个问题了。,,,,"parallel(charfadeout(L,1);charfadein(R,1))",源类型=type:txt_Sophia; 层级=50
 101,旁白,hide,,,Sophia_default,她头也不回地继续检查这间电刑椅的每一处缝隙，指尖沾到的血沫顺着椅腿滴落到冰冷的瓷砖上，在惨白灯光下晕开一小片不规则的暗褐色痕迹。,,,,"charfadeout(R,1)",源类型=type:txt_pb; 层级=51
 102,旁白,hide,,,,她定睛一瞧，脸上的表情瞬间变得凝重。,,,,,源类型=type:txt_pb; 层级=52
 103,索菲亚,hide,Sophia_default,,,这是一句话。,,,,"charfadein(L,1)",源类型=type:txt_Sophia; 层级=53
@@ -95,7 +95,7 @@ ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Comm
 17,克拉克,hide,Abaddon_default,,Clark_default,不，我们不会拿人命作交换。证人有杰森一位就已经足够，藏在这里的证据我们可以事后呼叫增援，掘地三尺把他们找出来，而不是通过向罪犯交易或妥协。,,,,"parallel(charfadeout(L,1)&charfadein(R,1))",源类型=type:txt_Clark; 层级=30
 27,旁白,hide,,,Clark_default,克拉克洪亮的声音回荡在这片小小的空间里，在这片充斥着算计与背叛的冰冷逻辑中，硬生生劈出一片坦荡的光晕。,,,,"charfadeout(R,1)",源类型=type:txt_pb; 层级=31
 28,亚波伦,hide,Abaddon_default,,,从不向邪恶妥协.......很符合你的作风，海尔特探员。但你说的这一切有个前提，那就是你们得能活着出去。,,,,"charfadein(L,1)",源类型=type:txt_Abaddon; 层级=32
-18,旁白,hide,Abaddon_default,,,话音未落，一阵金属与肉体的沉闷碰撞应声响起，来源正是那扇你们进来时随手带上的，现在正被那个在摄像头里看到的怪物用力顶撞的门，仿佛一种刻意的示威——用切实的力量嘲讽着克拉克不堪一用的正义感。,,,,"charfadeout(L,1)&bgfade(sntzm_david4F(4)_19,1)&shake(screen,0.5,10)",源类型=type:txt_pb; 层级=33
+18,旁白,hide,Abaddon_default,,,话音未落，一阵金属与肉体的沉闷碰撞应声响起，来源正是那扇你们进来时随手带上的，现在正被那个在摄像头里看到的怪物用力顶撞的门，仿佛一种刻意的示威——用切实的力量嘲讽着克拉克不堪一用的正义感。,,,,"charfadeout(L,1)&bgfade(sntzm_david4F(4)_19,1)&parallel(shake(screen,0.5,10);playsfx(MetallicThud))",源类型=type:txt_pb; 层级=33
 19,亚波伦,hide,Abaddon_default,,,你们没有任何刻意威胁我的筹码，无论是身体，还是心理。你们甚至都没办法在短时间内破坏我们之间的这扇上锁的门。,,,,"charfadein(L,1)",源类型=type:txt_Abaddon; 层级=34
 20,亚波伦,hide,Abaddon_default,,,而我，只需要一个最简单的指令，就能让门外摩拳擦掌的怪物进来结束这个我随时可以喊停的游戏。,,,,,源类型=type:txt_Abaddon; 层级=35
 22,旁白,hide,Abaddon_default,,,亚波伦舒展了一下僵硬的四肢，脸上那抹恶意的笑容反而越发灿烂，早已吃准了你们投鼠忌器的困境。,,,,,源类型=type:txt_pb; 层级=36

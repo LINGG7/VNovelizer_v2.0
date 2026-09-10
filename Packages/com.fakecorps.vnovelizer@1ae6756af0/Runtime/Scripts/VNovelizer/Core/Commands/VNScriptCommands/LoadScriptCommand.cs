@@ -14,6 +14,9 @@ namespace VNovelizer.Core.Commands
                 return false;
             }
 
+#if UNITY_EDITOR
+            VNManager.GetInstance().DebugBeginLoading(scriptName);
+#endif
             var scriptData = ScriptParser.Parse(scriptName);
             return ApplyLoadedScript(scriptName, startID, scriptData);
         }
@@ -25,6 +28,9 @@ namespace VNovelizer.Core.Commands
                 yield break;
             }
 
+#if UNITY_EDITOR
+            VNManager.GetInstance().DebugBeginLoading(scriptName);
+#endif
             ScriptParser.ScriptData scriptData = null;
             yield return ScriptParser.ParseAsync(scriptName, data => scriptData = data);
             ApplyLoadedScript(scriptName, startID, scriptData);
@@ -51,6 +57,9 @@ namespace VNovelizer.Core.Commands
         {
             if (scriptData == null || scriptData.Lines.Count == 0)
             {
+#if UNITY_EDITOR
+                VNManager.GetInstance().DebugLoadFailed(scriptName);
+#endif
                 Debug.LogError($"[LoadScript] Failed to load script: {scriptName}");
                 return false;
             }

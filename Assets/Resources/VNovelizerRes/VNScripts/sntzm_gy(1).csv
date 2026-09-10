@@ -3,7 +3,7 @@ ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Comm
 2,旁白,hide,,,,他尝试退回到刚刚呆过的隔间，但对四周环境的崩坏毫无影响，裂痕顺着墙面朝着穹顶疯狂蔓延，水泥碎块混着灰尘噼里啪啦砸落，原本还能立足的地板从中间裂开一道深不见底的鸿沟。险些让你们掉进这伸手不见五指的深渊。,,,,"bgfade(sntzm_gy(1)_2,1)&parallel(playsfx(RubbleCrash);shake(screen,0.5,10))",源类型=type:txt_pb; 层级=1
 5,索菲亚,hide,Sophia_default,,,够了，跑起来！,,,,"charfadein(L,1)",源类型=type:txt_Sophia; 层级=2
 6,克拉克,hide,Sophia_default,,Clark_default,往哪儿？,,,,"charfadein(R,1)",源类型=type:txt_Clark; 层级=3
-7,索菲亚,hide,Sophia_default,,,还在亮着的位置！,,,,"charfadeout(R,1)",源类型=type:txt_Sophia; 层级=4
+7,索菲亚,hide,Sophia_default,,Clark_default,还在亮着的位置！,,,,"charfadeout(R,1)",源类型=type:txt_Sophia; 层级=4
 8,旁白,hide,Sophia_default,,,说完，她第一个冲了出去，指尖在墙壁崩塌扬起的灰尘里划出一道模糊的弧线，暗红的应急灯光追着她的背影往手术室的门口一路延伸，像一条染血的红毯。,,,,"charfadeout(L,1)&bgfade(sntzm_gy(1)_8,1)",源类型=type:txt_pb; 层级=5
 9,旁白,hide,,,,你和克拉克紧随其后，把最虚弱的大卫护在中间，沿着唯一连通外界的走廊向外狂奔，现实的瓦解紧随不舍，一块块剥落的墙砖擦着耳廓砸落在地面上，身后是如浓稠墨汁般不断蔓延的黑暗。,,,,,源类型=type:txt_pb; 层级=6
 10,旁白,hide,,,,一只黑色的飞蛾从这片黑暗中狼狈地飞出，在带起一阵腥甜的气流擦过你的脸颊，它歪歪扭扭撞地落在大卫的肩膀上，扑腾了好几下才重新稳住身形，像一根羽毛，或是一根尚未点燃的引信。,,,,jump(3),源类型=type:txt_pb; 层级=7; gotomainline=3
@@ -35,7 +35,7 @@ ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Comm
 40,旁白,hide,,,,它就像楼上那场追逐戏的第二幕，主演从三个变成了两个，其中一个被留在了楼上，剩下的两人也未能逃离——,,,,,源类型=type:txt_pb; 层级=24
 41,旁白,hide,,,,左边那张床上躺着大卫。他的头歪向一侧，嘴里似乎还塞着什么东西，像是为了防止他咬舌自尽。右边那张床上是你自己。穿着同样的病号服，胸口微微起伏，手腕上的皮带箍得紧紧的，在皮肤上留下了一圈淤青的印痕。,,,,"bgfade(sntzm_gy(1)_41,1)",源类型=type:txt_pb; 层级=25
 42,旁白,hide,,,,两名穿着白大褂的医生正分别推着这两张床，朝走廊尽头的两扇门走去——门的编号在远处模糊成一片阴影，但你隐约记得它们对应的是哪两个房间。,,,,,源类型=type:txt_pb; 层级=26
-43,旁白,hide,,,,,,,,,源类型=type:txt_pb; 层级=27
+43,旁白,hide,,,,你甚至能听到其中一名医生正在说话，她的声音平静得像是念一份实验报告：“……103号和101号适配度都超过80%，优先安排在二层的监护病房，等镇静剂代谢完毕就可以开始第一次意识连接测试。”,,,,,源类型=type:txt_pb; 层级=27
 44,旁白,hide,,,,另一名医生点了点头，推着你的那张床拐进B3-15的门洞。,,,,,源类型=type:txt_pb; 层级=28
 45,旁白,hide,,,,画面瞬间被黑暗吞噬，恰似你们在影像里的视野，飞快地消隐在病房的阴影之中。,,,,,源类型=type:txt_pb; 层级=29
 46,旁白,hide,,,,你听到大卫的呼吸声比刚才重了一些，像是有什么东西在胸腔里缓缓收紧又松开。他没有看你。他的视线还停留在那些画面消失的地方，嘴唇抿成一条线，指甲嵌进掌心。,,,,,源类型=type:txt_pb; 层级=30
@@ -68,7 +68,7 @@ ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Comm
 74,旁白,hide,,,,直到一声干涩的齿轮咬合声从墙壁深处传了出来，她这才松了口气。然后转身朝向你们，眸子里翻涌着释然的光亮。,,,,,源类型=type:txt_pb; 层级=56
 91,索菲亚,hide,Sophia_default,,,这里就是起点，不过不是你们在梦里的起点，而是盖曼老师研究的起点，是一切秘密诞生的地方。,,,,"charfadein(L,1)",源类型=type:txt_Sophia; 层级=57
 92,旁白,hide,Sophia_default,,,随着她话音落下，整面照片墙发出一阵沉闷的吱呀声，照片中的盖曼像是被一把无形的利刃从正中央劈开——,,,,"charfadeout(L,1)",源类型=type:txt_pb; 层级=58
-93,旁白,hide,,,,那张温和的脸从眉心开始裂成两半，正如他一分为二的人格那样。一半朝着悬在左侧的光圈滑去，另外一半则随着机关的启动缓慢移向了右侧的阴影。露出中间一道仅容一人通过的、向下延伸的通道入口。,,,,"parallel(bgfade(sntzm_gy(1)_93,1);shake(screen,0.5,5);playsfx(GearSpinning))",源类型=type:txt_pb; 层级=59
+93,旁白,hide,,,,那张温和的脸从眉心开始裂成两半，正如他一分为二的人格那样。一半朝着悬在左侧的光圈滑去，另外一半则随着机关的启动缓慢移向了右侧的阴影。露出中间一道仅容一人通过的、向下延伸的通道入口。,,,,"parallel(bgfade(sntzm_gy(1)_93,1);shake(screen,1,2);playsfx(GearSpinning))",源类型=type:txt_pb; 层级=59
 94,索菲亚,hide,Sophia_default,,,当然，这也和你们三个有一些小小的关系。现实里，那三台把你们送入这个梦境的造梦设备就存放在这里，所以也是你们的起点——真正的起点。,,,,"charfadein(L,1)",源类型=type:txt_Sophia; 层级=60
 95,旁白,hide,Sophia_default,,,她故作轻松地笑了笑，语气间丝毫不掩饰对你们方才冒犯的讥讽，却也藏着暗藏着一丝即将直面结果的忐忑。,,,,,源类型=type:txt_pb; 层级=61
 96,索菲亚,hide,Sophia_default,,,纳丁达克的人恐怕这辈子都不会想到，他们梦寐以求的盖亚之心就藏在“起点”，藏在他们现实位置的眼皮子底下，这的确像是亚波伦干得出来的事情......,,,,,源类型=type:txt_Sophia; 层级=62

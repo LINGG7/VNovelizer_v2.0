@@ -39,7 +39,7 @@ ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Comm
 92,亚波伦,hide,Abaddon_default,,,某种意义上的确如此，但我们之间的关系远不只是赞助这么简单。也许我应该感谢他们，在他们决定把盖曼脑子里的东西挖出来的时候，他们创造了我，去接管盖曼那宁顽不化的意识。,,,,"charfadein(L,1)",源类型=type:txt_Abaddon; 层级=37
 93,亚波伦,hide,Abaddon_default,,,但我同样也有理由恨他们，恨他们用造梦设备赋予了我虚假的身份和使命，还把我困在一个自己都不知道怎么离开的鬼地方。好在现在，我已经找到办法了。,,,,,源类型=type:txt_Abaddon; 层级=38
 94,旁白,hide,Abaddon_default,,,他并不在乎你们是否能够听懂自己在说些什么，只是把目光瞟向另一座隔间里的大卫，对着这名昏迷的警员邪魅一笑。,,,,"charfadeout(L,1)",源类型=type:txt_pb; 层级=39
-95,旁白,hide,,,,可即便如此，身为探员的敏锐还是让你迅速从中捕捉到了几个关键点——1、眼前有着盖曼外表的男人并不是当初那个盖曼.阿门努斯。2、纳丁达克公司很可能利用盖曼做了些什么，而且是他当年失踪案的元凶。,,,,"loadScript(克拉克线4层（终）_1, 1)",源类型=type:txt_pb; 层级=40; gotomainline= 克拉克线4层（终）_1
+95,旁白,hide,,,,可即便如此，身为探员的敏锐还是让你迅速从中捕捉到了几个关键点——1、眼前有着盖曼外表的男人并不是当初那个盖曼.阿门努斯。2、纳丁达克公司很可能利用盖曼做了些什么，而且是他当年失踪案的元凶。,,,,"loadScript(sntzm_clark4F(4), 1)",源类型=type:txt_pb; 层级=40; gotomainline= 克拉克线4层（终）_1
 54,你,hide,,,,你到底在说些什么？,,,,,"源类型=type:txt_You; 层级=35; wherelist={""wheretype"":""1"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""夜莺线"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}"
 55,旁白,hide,,,,毫无逻辑，而且前言不搭后语。彼时的你完全听不出他口中的一切，和你们所处的现实存在任何关联。只当是和杰森如出一辙的，来自精神病患的胡言乱语。,,,,,源类型=type:txt_pb; 层级=36
 65,旁白,hide,,,,亚波伦听完失望地摆了摆手，重新把后背靠回电椅的靠背上，他略显遗憾地叹了口气，似乎已经耗尽了对你们全部的耐心。,,,,,源类型=type:txt_pb; 层级=37
@@ -84,7 +84,7 @@ ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Comm
 86,你,hide,,,,盖亚之心？,,,,,源类型=type:txt_You; 层级=22
 87,旁白,hide,,,,只需轻轻一点，你便立刻联想到了此次任务的最终目标。,,,,,源类型=type:txt_pb; 层级=23
 88,旁白,hide,,,,虽然事到如今你依旧对这件任务简报里提到的“科技产物”一知半解，但如果有什么东西是索菲亚在伪装成夜莺时多次提及，且利用你们能事半功倍地接近的话，答案也只能是它了。,,,,,源类型=type:txt_pb; 层级=24
-89,亚波伦,hide,,,,反应很快，不愧是久经训练的探员。所以现在，你们应该知道我的好学生跟你们走这一趟背后到底打得什么算盘了吧。,,,,"loadScript(克拉克线4层（终）_1, 1)",源类型=type:txt_Abaddon; 层级=25; gotomainline= 克拉克线4层（终）_1
+89,亚波伦,hide,,,,反应很快，不愧是久经训练的探员。所以现在，你们应该知道我的好学生跟你们走这一趟背后到底打得什么算盘了吧。,,,,"loadScript(sntzm_clark4F(4), 1)",源类型=type:txt_Abaddon; 层级=25; gotomainline= 克拉克线4层（终）_1
 75,你,hide,,,,,,,,,源类型=type:txt_You; 层级=15
 97,旁白,hide,,,,不，她已经说得足够多了，关于这所医院的过去，关于造梦设备，还有关于你的事情。,,,,,源类型=type:txt_pb; 层级=16; tag=相信索菲亚
 79,旁白,hide,,,,你回握住索菲亚柔软的手指，眼神坚定地挡在她的身前。虽然你能感觉到她并未将所有事实和盘托出，但这并不是听信亚波伦的挑拨，而将她也当做敌人对待的理由。,,,,,源类型=type:txt_pb; 层级=17
@@ -92,4 +92,4 @@ ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Comm
 81,克拉克,hide,Clark_default,,,你窃听了我们谈话？,,,,"charfadein(L,1)",源类型=type:txt_Clark; 层级=19
 82,旁白,hide,Clark_default,,,克拉克警惕地扫视了一圈房间，并没有以肉眼发现任何监听设备的迹象，当时发生这段对话的场景是在外面的走廊，他不可能让自己的耳目遍布这里的每一个角落。,,,,"charfadeout(L,1)",源类型=type:txt_pb; 层级=20
 83,亚波伦,hide,Abaddon_default,,,或许我只是了解自己的学生，知道她会如何把混合了真相的谎言做成美味的糖饼，喂给两个心甘情愿被她牵着鼻子走的纯情大男孩罢了。,,,,"charfadein(L,1)",源类型=type:txt_Abaddon; 层级=21
-90,你,hide,Abaddon_default,,,够了，如果你没有任何可以辩驳的点，就乖乖闭上嘴，提出你的条件。或是在我们决定鱼死网破之前，把大卫放了。,,,,"charfadeout(L,1)&loadScript(克拉克线4层（终）_1, 1)",源类型=type:txt_You; 层级=22; gotomainline= 克拉克线4层（终）_1
+90,你,hide,Abaddon_default,,,够了，如果你没有任何可以辩驳的点，就乖乖闭上嘴，提出你的条件。或是在我们决定鱼死网破之前，把大卫放了。,,,,"charfadeout(L,1)&loadScript(sntzm_clark4F(4), 1)",源类型=type:txt_You; 层级=22; gotomainline= 克拉克线4层（终）_1

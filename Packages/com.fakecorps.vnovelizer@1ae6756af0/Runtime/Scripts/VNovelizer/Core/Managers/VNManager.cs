@@ -14,7 +14,7 @@ using System.Text.RegularExpressions;
 /// <summary>
 /// 视觉小说核心管理器 (终极预演版)
 /// </summary>
-public class VNManager : BaseManager<VNManager>
+public partial class VNManager : BaseManager<VNManager>
 {
     private const int AutoSaveSlotIndex = 0;
     private const string ToBeContinuedNoteFlag = "ToBeContinued";
@@ -92,6 +92,9 @@ public class VNManager : BaseManager<VNManager>
 
     public VNManager()
     {
+#if UNITY_EDITOR
+        DebugInstance = this;
+#endif
         if (!isListeningSceneLoad)
         {
             SceneManager.sceneLoaded += OnSceneLoaded;
@@ -111,6 +114,9 @@ public class VNManager : BaseManager<VNManager>
     public void StartGame(string scriptFileName, string startLineID = "", UnityAction onGameStarted = null, bool ignoreChoiceWhenFastForward = false)
     {
         this.pendingScriptName = scriptFileName;
+#if UNITY_EDITOR
+        DebugBeginLoading(scriptFileName);
+#endif
         this.pendingLineID = startLineID;
         this.pendingIgnoreChoiceWhenFastForward = ignoreChoiceWhenFastForward;
         this.onGameStartedCallback = onGameStarted;
@@ -135,6 +141,9 @@ public class VNManager : BaseManager<VNManager>
     public void StartGameOnScene(string scriptFileName, string startLineID = "", UnityAction onGameStarted = null, bool ignoreChoiceWhenFastForward = false)
     {
         this.pendingScriptName = scriptFileName;
+#if UNITY_EDITOR
+        DebugBeginLoading(scriptFileName);
+#endif
         this.pendingLineID = startLineID;
         this.pendingIgnoreChoiceWhenFastForward = ignoreChoiceWhenFastForward;
         this.onGameStartedCallback = onGameStarted;
@@ -730,6 +739,9 @@ public class VNManager : BaseManager<VNManager>
         this.selectBCRecordedTagSnapshots.Clear();
         ClearPendingPostTextCommand();
         this.currentScriptName = scriptName;
+#if UNITY_EDITOR
+        DebugSetScriptData();
+#endif
     }
 
     public string GetCurrentScriptName()
@@ -742,6 +754,9 @@ public class VNManager : BaseManager<VNManager>
     /// </summary>
     public void ContinueGame(SaveData saveData)
     {
+#if UNITY_EDITOR
+        DebugBeginLoading(saveData.ScriptFileName);
+#endif
         // 【核心修复】先检查场景，如果不在VNGamePlay场景，先加载场景
         if (SceneManager.GetActiveScene().name != "VNGamePlay")
         {
@@ -933,11 +948,22 @@ public class VNManager : BaseManager<VNManager>
 
     private void PlayCurrentLine()
     {
+#if UNITY_EDITOR
+        if (DebugIsWaitingForBranch) return;
+#endif
         if (!ResolveHiddenBranchControlLine())
+        {
+#if UNITY_EDITOR
+            if (!DebugIsWaitingForBranch) DebugEndExecution();
+#endif
             return;
+        }
 
         if (CurrentLineIndex < 0 || CurrentLineIndex >= StoryLines.Count)
         {
+#if UNITY_EDITOR
+            DebugEndExecution();
+#endif
             _usePersistedCharacterSlotsWhenCsvCharCellsEmpty = false;
 
             if (isReplayMode)
@@ -962,6 +988,9 @@ public class VNManager : BaseManager<VNManager>
         }
 
         StoryLine currentLine = StoryLines[CurrentLineIndex];
+#if UNITY_EDITOR
+        DebugBeginLine();
+#endif
         TrackSelectBCLine(currentLine);
         RecordScriptTagFromNote(currentLine.Note);
         ApplyInheritance(currentLine);
@@ -1046,6 +1075,9 @@ public class VNManager : BaseManager<VNManager>
 
     private void CheckAndTriggerAutoPlay()
     {
+#if UNITY_EDITOR
+        if (DebugIsWaitingForBranch) return;
+#endif
         GameStateManager stateManager = GameStateManager.GetInstance();
         if (stateManager != null && stateManager.CurrentState == GameState.Choice)
         {
@@ -1107,6 +1139,9 @@ public class VNManager : BaseManager<VNManager>
 
     private void AdvanceToNextLine(bool skipAnimations)
     {
+#if UNITY_EDITOR
+        if (DebugIsWaitingForBranch) return;
+#endif
         VNDebug.LogVerbose($"[VNManager] Max line" + StoryLines.Count);
         VNDebug.LogVerbose($"[TypingTrace][AdvanceToNextLine] enter skipAnimations={skipAnimations}, currentLineIndex={CurrentLineIndex}, isTextDisplaying={isTextDisplaying}, flowRunning={_flowCoroutine != null}, cmdRunning={CommandManager.GetInstance().IsRunning}");
         // 【修复】检查游戏状态，如果是 Choice 状态，不应该继续前进
@@ -1219,11 +1254,22 @@ public class VNManager : BaseManager<VNManager>
 
     private void PlayCurrentLineImmediately()
     {
-        if (!ResolveHiddenBranchControlLine())
+#if UNITY_EDITOR
+        if (DebugIsWaitingForBranch) return;
+#endif
+        if (!ResolveHiddenBranchControlLine(true))
+        {
+#if UNITY_EDITOR
+            if (!DebugIsWaitingForBranch) DebugEndExecution();
+#endif
             return;
+        }
 
         if (CurrentLineIndex < 0 || CurrentLineIndex >= StoryLines.Count)
         {
+#if UNITY_EDITOR
+            DebugEndExecution();
+#endif
             if (isReplayMode)
             {
                 EndReplay();
@@ -1245,6 +1291,9 @@ public class VNManager : BaseManager<VNManager>
         }
 
         StoryLine currentLine = StoryLines[CurrentLineIndex];
+#if UNITY_EDITOR
+        DebugBeginLine();
+#endif
         TrackSelectBCLine(currentLine);
         RecordScriptTagFromNote(currentLine.Note);
         ApplyInheritance(currentLine);
@@ -1660,7 +1709,7 @@ public class VNManager : BaseManager<VNManager>
             null);
     }
 
-    private bool ResolveHiddenBranchControlLine()
+    private bool ResolveHiddenBranchControlLine(bool skipAnimations = false)
     {
         if (CurrentLineIndex < 0 || CurrentLineIndex >= StoryLines.Count)
             return true;
@@ -1672,6 +1721,9 @@ public class VNManager : BaseManager<VNManager>
             StoryLine line = StoryLines[CurrentLineIndex];
             if (!IsHiddenBranchControlLine(line))
                 return true;
+#if UNITY_EDITOR
+            if (DebugTryPauseBranch(skipAnimations)) return false;
+#endif
 
             if (!TryGetLineLevel(line, out int parentLevel))
             {
@@ -2243,6 +2295,9 @@ public class VNManager : BaseManager<VNManager>
 
     public void ReturnToTitleFromEndingChoice()
     {
+#if UNITY_EDITOR
+        DebugEndExecution();
+#endif
         StopCurrentFlowForEndingChoice();
         GameStateManager.GetInstance().SetState(GameState.Gameplay);
 
@@ -2259,6 +2314,9 @@ public class VNManager : BaseManager<VNManager>
 
     public void ReturnToMainMenuFromToBeContinued()
     {
+#if UNITY_EDITOR
+        DebugEndExecution();
+#endif
         isToBeContinuedPanelShowing = false;
 
         StopCurrentFlowForEndingChoice();
@@ -2656,6 +2714,9 @@ public class VNManager : BaseManager<VNManager>
 
     public void ExecuteChoiceCommand(string command)
     {
+#if UNITY_EDITOR
+        if (DebugIsWaitingForBranch) return;
+#endif
         if (!string.IsNullOrEmpty(command))
             MonoManager.GetInstance().StartCoroutine(ExecuteActionsAndContinue(command));
         else
@@ -3477,6 +3538,9 @@ public class VNManager : BaseManager<VNManager>
     /// </summary>
     private void EndReplay()
     {
+#if UNITY_EDITOR
+        DebugEndExecution();
+#endif
         VNDebug.LogVerbose("[VNManager] 场景回放结束，开始清理状态");
 
 
