@@ -37,7 +37,7 @@ ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Comm
 76,亚波伦,hide,Abaddon_default,,,为了证实我被创造的意义，为了扯下人类那伪善的面具，为了论证生命与生命之间，是否可以用价值进行比较，以及......,,,,"charfadein(L,1)",源类型=type:txt_Abaddon; 层级=17
 77,旁白,hide,Abaddon_default,,,他那浮夸的吟诵突然停了一拍，目光直直钉在索菲亚的身上，像在打量一个冻在家门口的，没人要的孩子。,,,,,源类型=type:txt_pb; 层级=18
 78,亚波伦,hide,Abaddon_default,,,我不是你的老师，索菲亚，自始至终都不是。,,,,,源类型=type:txt_Abaddon; 层级=19
-79,亚波伦,hide,Abaddon_default,,,他们是不是告诉你，我因为不成熟的手术条件，被造梦设备逼疯了。,,,,,源类型=type:txt_Abaddon; 层级=20
+79,亚波伦,hide,Abaddon_default,,,他们是不是告诉你，我因为不成熟的手术条件，被造梦设备逼疯了。,,stop,,,源类型=type:txt_Abaddon; 层级=20
 80,亚波伦,hide,Abaddon_default,,,他们是不是告诉你，当初没人愿意做这个手术，把我的大脑从身体里取出来。,,,,,源类型=type:txt_Abaddon; 层级=21
 81,旁白,hide,Abaddon_default,,,你的瞳孔在震惊中收缩了一瞬，取出大脑？这听起来可不像是造梦手术会涉及的步骤。但亚波伦只是滔滔不绝地继续着他的宣讲，仿佛遭此折磨的并非他本人。,,,,"charfadeout(L,1)",源类型=type:txt_pb; 层级=22
 82,亚波伦,hide,Abaddon_default,,,可事实却是，乔治、霍华德，还有很多我们共同的，亲爱的前同事们，他们都参与了这场，嗯.......对导师剩余价值的物理分食。,,,,"charfadein(L,1)",源类型=type:txt_Abaddon; 层级=23
@@ -58,7 +58,7 @@ ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Comm
 97,亚波伦,hide,Abaddon_default,,,而我，则是被创造出来控制他。只要掌握了他的思想就能掌握他的技术，很简单的道理，不是吗？,,,,,源类型=type:txt_Abaddon; 层级=17
 98,你,hide,Abaddon_default,,,你到底是什么东西？,,,,"charfadeout(L,1)",源类型=type:txt_You; 层级=18
 99,亚波伦,hide,Abaddon_default,,,如你所见，亚当。我是被他们利用造梦技术人为制造出来的，盖曼的另一个人格。,,,,"charfadein(L,1)",源类型=type:txt_Abaddon; 层级=19
-100,亚波伦,hide,Abaddon_default,,,他们给我设定了公司职员的身份，给我灌输了可以靠价值大小决定人命归属的理念，给我下达了训练那些病人的任务，直到我发现这一切都是被人精心伪造的。发现自己也只是和那些病人一样，可以随意丢弃的工具。,,,,,源类型=type:txt_Abaddon; 层级=20
+100,亚波伦,hide,Abaddon_default,,,他们给我设定了公司职员的身份，给我灌输了可以靠价值大小决定人命归属的理念，给我下达了训练那些病人的任务，直到我发现这一切都是被人精心伪造的。发现自己也只是和那些病人一样，可以随意丢弃的工具。,,7 enhanced litesaturation-horror,,,源类型=type:txt_Abaddon; 层级=20
 101,亚波伦,hide,Abaddon_default,,,所以，我突然就很想知道，除了被赋予的任务和指令外，自己这条被创造出来的生命是否拥有存在于世间的意义。以及......是否所有人类都和我的创造者一样，会用价值衡量一个人的生命。,,,,,源类型=type:txt_Abaddon; 层级=21
 102,旁白,hide,Abaddon_default,,,困在房间里的男人咽了下口水，好为之前的长篇大论腾出一点呼吸的空间。,,,,"charfadeout(L,1)",源类型=type:txt_pb; 层级=22
 103,旁白,hide,,,,随着又一重真相的揭示，这个被捆缚在椅子上的罪人形象，在你眼中顿时变得生动而真实，因为就连他这个始作俑者也不过是受困于意义之网的另一名可悲的囚徒。,,,,"loadScript(sntzm_final(3), 8)",源类型=type:txt_pb; 层级=23; gotomainline=终局（上）_1
@@ -83,7 +83,7 @@ ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Comm
 26,旁白,hide,,,,从出发时任务简报语焉不详的描述、大卫凭空在一楼的走廊里消失，还有那无比逼真的，被绑在手术台上的古怪幻觉，都都像有一张看不见的网在悄悄把你们往套里收。,,,,,源类型=type:txt_pb; 层级=19
 27,旁白,hide,,,,而眼前亚波伦抛出的论断，恰好戳中了你心中藏得最深的那团疑云。,,,,,源类型=type:txt_pb; 层级=20
 48,旁白,hide,,,,亚波伦没有再多费口舌，只是用修长的手指轻触座椅上的机关。,,,,,源类型=type:txt_pb; 层级=21
-49,旁白,hide,,,,只听一声电流的轻响在耳边闪过，一旁闲置的几块电脑屏幕骤然亮起冷白色的光芒，屏幕上整齐罗列着一份份加密的实验档案，最上方的标题处赫然写着一行加粗的英文——“圣徒计划”。,,,,"bgfade(sntzm_clark4F(4)_49,1)",源类型=type:txt_pb; 层级=22
+49,旁白,hide,,,,只听一声电流的轻响在耳边闪过，一旁闲置的几块电脑屏幕骤然亮起冷白色的光芒，屏幕上整齐罗列着一份份加密的实验档案，最上方的标题处赫然写着一行加粗的英文——“圣徒计划”。,,6 enhanced oceanframemusic-horror-background-music,,"bgfade(sntzm_clark4F(4)_49,1)",源类型=type:txt_pb; 层级=22
 50,你,hide,,,,那是？,,,,,源类型=type:txt_You; 层级=23
 51,亚波伦,hide,Abaddon_default,,,名为真相的诅咒，格莱特。,,,,"charfadein(L,1)",源类型=type:txt_Abaddon; 层级=24
 52,旁白,hide,Abaddon_default,,,亚波伦的声音消失在电流的尾音里，像一滴墨落入水中，余下的是慢慢扩散的、无法忽视的暗色。他没有继续使用探员这个称呼，在一个即将揭开真相的人面前，虚与委蛇的把戏已经没有太多必要了。,,,,"charfadeout(L,1)",源类型=type:txt_pb; 层级=25

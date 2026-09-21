@@ -1,5 +1,5 @@
 ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Command,Note
-1,旁白,hide,,,,克拉克的无线电信号最后一次出现是在医院四层的位置，并且持续了大约2分钟才被掐断。尽管存在陷阱的可能，你们也愿意为了这个一同出生入死的同伴赌上一把。,,,false,,源类型=type:txt_pb; 层级=0
+1,旁白,hide,,,,克拉克的无线电信号最后一次出现是在医院四层的位置，并且持续了大约2分钟才被掐断。尽管存在陷阱的可能，你们也愿意为了这个一同出生入死的同伴赌上一把。,,14 enhanced_horror-free,false,,源类型=type:txt_pb; 层级=0
 93,旁白,hide,,,,你们并肩走入通往四层的楼梯转角，冷硬的水泥台阶积着薄薄一层灰，每一步踩上去都能留下清晰的脚印，像是在给隐藏在暗处的眼睛记录着你们的行踪。,,,,,源类型=type:txt_pb; 层级=1
 2,旁白,hide,,,,大卫的磁带和那块属于姐姐的记者证随着腰包的甩荡轻轻摇晃着，像两块沉甸甸的石头压在你们的胸口，没有人开口说多余的话，只有手电的光在斑驳的墙面上来回晃动，照得那些不知道是谁留下的涂鸦忽明忽暗。,,,,,源类型=type:txt_pb; 层级=2
 3,旁白,hide,,,,两双质地各异的靴子在坑洼的地面上不断撞出急促的轻响，如同某种致命的节拍在你们耳边回荡。,,,,,源类型=type:txt_pb; 层级=3
@@ -28,13 +28,13 @@ ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Comm
 31,旁白,hide,,,,大卫朝你做了个相当难看的鬼脸，那表情仿佛在说“这种话你是怎么想的出来的。”,,,,,源类型=type:txt_pb; 层级=26
 32,旁白,hide,,,,他的目光在你和那几道猩红的指印间游移了一瞬，最终还是松开放在扳机上的手指，耸了耸肩，无奈地顺从道。,,,,,源类型=type:txt_pb; 层级=27
 33,旁白,hide,,,,,,,,,源类型=type:exeBC; 层级=28
-34,大卫,hide,,,,行吧，好奇心害死猫，可别说我没提醒过你。要不是考虑到克拉克那小子，我才不会跟你搅这趟浑水。,,,,,"源类型=type:txt_David; 层级=29; wherelist={""wheretype"":""1"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""深入探究"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}"
-36,旁白,hide,,,,说完，他率先走下楼梯，循着飞蛾在空气中留下的淡白粉尘，往那片漆黑的角落走去。,,,,,源类型=type:txt_pb; 层级=30
+34,大卫,hide,David_bandage,,,行吧，好奇心害死猫，可别说我没提醒过你。要不是考虑到克拉克那小子，我才不会跟你搅这趟浑水。,,,,"charfadein(L,1)","源类型=type:txt_David; 层级=29; wherelist={""wheretype"":""1"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""深入探究"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}"
+36,旁白,hide,David_bandage,,,说完，他率先走下楼梯，循着飞蛾在空气中留下的淡白粉尘，往那片漆黑的角落走去。,,,,"charfadeout(L,1)",源类型=type:txt_pb; 层级=30
 37,旁白,hide,,,,这里的墙面早已被时间泡得发潮，墙皮一块块剥落卷翘，那几道带血的指纹就嵌在豁开的墙皮缝隙里，血痕早就干得发黑发脆，像是在这里留了有段时间。,,,,,源类型=type:txt_pb; 层级=31
 38,旁白,hide,,,,拐过转角，一道半掩的铁门映入眼帘，相框里的医生的头像已剥落大半，只剩下一行写着“阿门努斯”的性氏歪歪扭扭地横在门牌的一角，而姓名的部分则被那只悬停在半空的灰白色飞蛾刚好遮住。,,,,"bgfade(sntzm_clark3F(2)_36,1)",源类型=type:txt_pb; 层级=32
 39,旁白,hide,,,,,,,,,源类型=type:exeBC; 层级=33
-40,大卫,hide,,,,等等......这不是？,,,,,"源类型=type:txt_David; 层级=34; wherelist={""wheretype"":""1"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""飞蛾线"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}"
-42,你,hide,,,,盖曼......,,,,,源类型=type:txt_You; 层级=35
+40,大卫,hide,David_bandage,,,等等......这不是？,,,,"charfadein(L,1)","源类型=type:txt_David; 层级=34; wherelist={""wheretype"":""1"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""飞蛾线"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}"
+42,你,hide,David_bandage,,,盖曼......,,,,"charfadeout(L,1)",源类型=type:txt_You; 层级=35
 43,旁白,hide,,,,没错，你们记得他。这个独特姓氏的拥有者，正是一层角落里，位于那面照片墙正中央的医生——盖曼.阿门努斯。,,,,,源类型=type:txt_pb; 层级=36
 44,旁白,hide,,,,造梦设备的发明者，在数年前失踪的神经科主任，这里就是他曾经工作的地方。,,,,jump(41),源类型=type:txt_pb; 层级=37; gotomainline=41
 41,旁白,hide,,,,“B4-03”,,,,,源类型=type:txt_pb; 层级=34
@@ -81,13 +81,13 @@ ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Comm
 91,旁白,hide,,,,只听一块木板松动的声音自你们身后传来，紧接着是齿轮紧密咬合时发出的轻微响动，靠近墙角的那面书架缓缓朝着旁侧挪开半尺，露出一条只够一人通过的狭小暗道。,,,,"bgfade(sntzm_david3F(1)_91,1)",源类型=type:txt_pb; 层级=75
 92,旁白,hide,,,,暗道周围散落着几块反光的物体，手电一照才知道是碎了一地的镜子玻璃。,,,,"loadScript(sntzm_david3F(2), 1)",源类型=type:txt_pb; 层级=76; gotomainline=大卫线3层（中）_1
 85,旁白,hide,,,,但只有你自己知道，当“大脑适配”等词汇传入你的耳朵时，你胸中的那颗红桃跳得有多快——倘若那真的是B-315房间里那只头盔的真正功能，在那里发现姐姐的记者证又意味着什么呢？,,,,jump(86),"源类型=type:txt_pb; 层级=69; wherelist={""wheretype"":""1"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""视为陷阱"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}; gotomainline=86"
-69,大卫,hide,,,,我的意思是，就算真和他有关，背后也肯定有人指使，无论是抓走克拉克的事情，还是别的什么。,,,,jump(70),"源类型=type:txt_David; 层级=54; wherelist={""wheretype"":""1"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""视为陷阱"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}; gotomainline=70"
+69,大卫,hide,David_bandage,,,我的意思是，就算真和他有关，背后也肯定有人指使，无论是抓走克拉克的事情，还是别的什么。,,,,"charfadein(L,1)&jump(70)","源类型=type:txt_David; 层级=54; wherelist={""wheretype"":""1"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""视为陷阱"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}; gotomainline=70"
 54,旁白,hide,,,,你打开手机上网搜索，的确在一篇有关医学杂志的网页上找到了这个概念。,,,,,"源类型=type:txt_pb; 层级=42; wherelist={""wheretype"":""1"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""夜莺线"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}"
 55,旁白,hide,,,,“通过营造梦境来介入并干预患者的潜意识，从而引导其走出心理创伤。”,,,,,源类型=type:txt_pb; 层级=43
 56,旁白,hide,,,,这是文章摘要中的提出的一种新颖的治疗手段，看起来他们似乎取得了一些成果，并且极有可能已经在这所精神病院的某些患者身上完成了临床测试。,,,,jump(53),源类型=type:txt_pb; 层级=44; gotomainline=53
-35,大卫,hide,,,,行吧，最多5分钟，如果没有找到克拉克的下落，就算你坚持要调查，我也会拎着你的领口把你拖走。,,,,jump(36),"源类型=type:txt_David; 层级=29; wherelist={""wheretype"":""1"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""视为陷阱"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}; gotomainline=36"
+35,大卫,hide,David_bandage,,,行吧，最多5分钟，如果没有找到克拉克的下落，就算你坚持要调查，我也会拎着你的领口把你拖走。,,,,"charfadein(L,1)&jump(36)","源类型=type:txt_David; 层级=29; wherelist={""wheretype"":""1"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""视为陷阱"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}; gotomainline=36"
 30,你,hide,,,,要不要过去调查一下？万一是克拉克在被拖走时故意留下的记号呢？毕竟我们不能百分百相信那个人口中的话。,,,,jump(31),"源类型=type:txt_You; 层级=25; wherelist={""wheretype"":""1"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""视为陷阱"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}; gotomainline=31"
-22,大卫,hide,,,,没有，我只知道那家伙给我们的时间并不多，还有不到12分钟。,,,,jump(23),"源类型=type:txt_David; 层级=18; wherelist={""wheretype"":""1"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""视为陷阱"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}; gotomainline=23"
+22,大卫,hide,David_bandage,,,没有，我只知道那家伙给我们的时间并不多，还有不到12分钟。,,,,"charfadein(L,1)&jump(23)","源类型=type:txt_David; 层级=18; wherelist={""wheretype"":""1"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""视为陷阱"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}; gotomainline=23"
 14,旁白,hide,,,,,,,,,源类型=type:txt_pb; 层级=13
 94,你,hide,,,,没什么，大概是我听错了。,,,,,源类型=type:txt_You; 层级=14; 选项/备注=还是先救同伴要紧; tag=无视飞蛾（大卫）
 95,旁白,hide,,,,你摆了摆手，决定不再去管那只飞蛾或是脑海中的声音。,,,,,源类型=type:txt_pb; 层级=15

@@ -220,14 +220,6 @@ MonoBehaviour:
     - VNovelizerRes/Backgrounds
     - chapter1_required
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: e28b1dbf16e7d5b45951308969cd9b7a
-    m_Address: VNovelizerRes/Backgrounds/sntzm_main2_61
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - VNovelizerRes
-    - VNovelizerRes/Backgrounds
-    - chapter1_required
-    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: e05a7e7d0a4767d4dbd8053c426fbfd0, type: 2}
   m_SchemaSet:

@@ -11,7 +11,7 @@ ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Comm
 10,亚波伦,hide,Abaddon_default,,,同时也解决了最为关键的证人。,,,,"charfadein(L,1)",源类型=type:txt_Abaddon; 层级=9
 11,旁白,hide,Abaddon_default,,,亚波伦充满恶趣味地补充道。,,,,,源类型=type:txt_pb; 层级=10
 12,亚波伦,hide,Abaddon_default,,,如果我死了，你们还怎么完成任务？谁来告诉你们盖亚之心在哪儿？还有你们被人篡改的那段过去......你的姐姐是怎么死的，还有梅森探员曾经到底对阿兰先生做过什么......对此你们不会一点兴趣都没有吧。,,,,,源类型=type:txt_Abaddon; 层级=11
-13,你,hide,Abaddon_default,,,！,,,,"charfadeout(L,1)",源类型=type:txt_You; 层级=12
+13,你,hide,Abaddon_default,,,！,,5 enhanced leberch-suspense,,"charfadeout(L,1)",源类型=type:txt_You; 层级=12
 14,旁白,hide,,,,你攥紧了拳头，指节因为过度用力挤压出泛白的青色。你清楚他并未说谎，仅凭随口透露的只言片语，便已精准刺中你们内心最敏感的禁区。,,,,,源类型=type:txt_pb; 层级=13
 15,旁白,hide,,,,但这也是眼下最令人纠结的现实——一个疯子，手里却掌握着所有人都想要知道的真相和秘密，而现在他却以此为筹码，把这一切和你们最重要的朋友的生命放置于天平的两端。,,,,,源类型=type:txt_pb; 层级=14
 16,旁白,hide,,,,看着你布满血丝的双眼，亚波伦满足地靠在了并不柔软的椅背上，这份纠结和迟疑对此刻的他而言无疑是临走前最为美丽的景色。只有当天平的两端足够平衡，欣赏其中一边坠落的感觉才越是令人回味。,,,,,源类型=type:txt_pb; 层级=15
@@ -29,9 +29,9 @@ ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Comm
 28,你,hide,,,,所以你是要把这一切的罪责都归因于纳丁达克吗？,,,,,"源类型=type:txt_You; 层级=27; wherelist={""wheretype"":""1"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""端详飞蛾（大卫）"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}"
 31,亚波伦,hide,Abaddon_default,,,难道不是吗？一切因他们而起，若不是这群利欲熏心的军火商灵机一动，我这个原本就不应存在的生命，又怎么会在这具残破的躯壳里诞生？,,,,"charfadein(L,1)",源类型=type:txt_Abaddon; 层级=28
 32,亚波伦,hide,Abaddon_default,,,哦对了......,,,,,源类型=type:txt_Abaddon; 层级=29
-33,亚波伦,hide,Abaddon_default,,,他仿佛忽然忆起某件要事，刻意压低嗓音咳嗽了几下，似乎即将揭晓一个惊人的秘密。,,,,,源类型=type:txt_Abaddon; 层级=30
+33,亚波伦,hide,Abaddon_default,,,他仿佛忽然忆起某件要事，刻意压低嗓音咳嗽了几下，似乎即将揭晓一个惊人的秘密。,,stop,,,源类型=type:txt_Abaddon; 层级=30
 34,亚波伦,hide,Abaddon_default,,,还有你们，格莱特......你们三个。也都是纳丁达克公司得意的作品，否则你以为你们为什么能站在这里，站在我面前，和一个早就只剩下一颗大脑，却还顽强地和公司对抗的天才兼疯子在这里谈天说地？,,,,,源类型=type:txt_Abaddon; 层级=31
-35,旁白,hide,Abaddon_default,,,......,,,,"charfadeout(L,1)",源类型=type:txt_pb; 层级=32
+35,旁白,hide,Abaddon_default,,,......,,4 enhanced leberch-spooky-piano,,"charfadeout(L,1)",源类型=type:txt_pb; 层级=32
 36,旁白,hide,,,,你能感觉到周遭的空气瞬间凝固下来，那扇门后的撞门声不知何时停了，安静的房间里只剩下几人粗重不均的呼吸声，像是暴风雨来临前最后的沉寂。,,,,,源类型=type:txt_pb; 层级=33
 37,旁白,hide,,,,先前一切积压在胸腔的怀疑和恐惧，都像是找到了唯一的出口，在这短短几秒的压抑过后，争先恐后地涌向了你们的喉咙。,,,,,源类型=type:txt_pb; 层级=34
 38,大卫,hide,David_bandage,,,等等！什么叫只剩下大脑？！你不会真指望我们相信这种疯言疯语吧？,,,,"charfadein(L,1)",源类型=type:txt_David; 层级=35
@@ -39,18 +39,18 @@ ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Comm
 40,旁白,hide,,,,,,,,,源类型=type:exeBC; 层级=37
 41,旁白,hide,,,,但你的沉默却来得更加漫长，因为你切实看到过，听到过，在几乎每一层都会出现的幻觉里，你看到自己躺在手术台上，躺在病床上，像块等待着被解剖的标本被一群身着白大褂的男人来回审视。,,,,"bgfade(sntzm_david4F(4)_41,1)","源类型=type:txt_pb; 层级=38; wherelist={""wheretype"":""1"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""深入探究"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}"
 43,旁白,hide,,,,如果那并非只是醉宿后脑中涌现的幻影，如果这一切都是你真实经历的过去，那为什么你的脑海中没有关于这段经历的任何记忆？,,,,,源类型=type:txt_pb; 层级=39
-44,大卫（回忆）,hide,,,,我的确做过这些错事，但不知为何，找不到关于那件事情的清晰脉络，只留下自己曾经铸下大错的模糊印象。就像是......被人硬生生从脑子里挖走了一段记忆......,,,,,源类型=type:txt_大卫（回忆）; 层级=40
+44,大卫（回忆）,hide,David_bandage,,,我的确做过这些错事，但不知为何，找不到关于那件事情的清晰脉络，只留下自己曾经铸下大错的模糊印象。就像是......被人硬生生从脑子里挖走了一段记忆......,,,,"parallel(memoryon();bgfade(sntzm_david313-315(2)_33,1)))",源类型=type:txt_大卫（回忆）; 层级=40
 45,旁白,hide,,,,记忆——大卫在313病房时就提到过这种奇怪的感受，那模糊的、空落落的缺口，绝不可能是凭空出现的错觉。,,,,,源类型=type:txt_pb; 层级=41
-46,亚波伦（回忆）,hide,,,,他们给我设定了公司职员的身份，给我灌输了可以靠价值大小决定人命归属的理念，给我下达了训练那些病人的任务。,,,,,源类型=type:txt_亚波伦（回忆）; 层级=42
+46,亚波伦（回忆）,hide,Abaddon_default,,,他们给我设定了公司职员的身份，给我灌输了可以靠价值大小决定人命归属的理念，给我下达了训练那些病人的任务。,,,,"bgfade(sntzm_david4F(3)_60,1)",源类型=type:txt_亚波伦（回忆）; 层级=42
 47,旁白,hide,,,,任务——找到盖亚之心就是你们来这里的任务，如果将它完成，谁将为此受益......最想得到盖亚之心，最想获取盖曼脑子里关于造梦设备的核心数据的，到底是FBI，还是......纳丁达克？,,,,,源类型=type:txt_pb; 层级=43
 48,旁白,hide,,,,身份——如果身份是可以被设定的，那么此刻站在这里的到底是代表法律和正义的FBI探员，只是纳丁达克用造梦植入了探员设定，投放到这里，帮他们找到想要东西的棋子？,,,,,源类型=type:txt_pb; 层级=44
 49,旁白,hide,,,,无数念头像炸开的闪电瞬间劈过你的大脑，原本清晰的路线在这一刻突然变得面目全非，每一个你曾经笃定的结论，现在都蒙上了一层虚实难辨的灰雾。,,,,,源类型=type:txt_pb; 层级=45
 50,旁白,hide,,,,而落在这片迷雾中央的最后一道光，是来自夜莺临“走”前的没能说完的那半句话——,,,,,源类型=type:txt_pb; 层级=46
-51,索菲亚（回忆）,hide,,,,你们不是F......!,,,,,源类型=type:txt_索菲亚（回忆）; 层级=47
+51,索菲亚（回忆）,hide,Sophia_headcut,,,你们不是F......!,,,,"bgfade(sntzm_david3_38,1)",源类型=type:txt_索菲亚（回忆）; 层级=47
 52,你,hide,,,,FBI。,,,,,源类型=type:txt_You; 层级=48
 53,旁白,hide,,,,你在心中自动补全了这句话剩下的半块拼图，明明真相早已近在眼前，明明你们对此早有猜测，但没人愿意相信，或者说没人敢相信——,,,,,源类型=type:txt_pb; 层级=49
 54,旁白,hide,,,,自己从踏上这趟旅途开始，一路以来坚持的身份、背负的使命，从根源上就是一场精心编排的骗局。,,,,,源类型=type:txt_pb; 层级=50
-55,旁白,hide,,,,看到你恍然大悟的表情，亚波伦欣然一笑，就连门外的撞击声也随之按下了暂停键，像某种他可以随手开关的音效般消散在了沉默的空气之中。,,,,,源类型=type:txt_pb; 层级=51
+55,旁白,hide,,,,看到你恍然大悟的表情，亚波伦欣然一笑，就连门外的撞击声也随之按下了暂停键，像某种他可以随手开关的音效般消散在了沉默的空气之中。,,,,"memoryoff()&bgfade(sntzm_david4F(4)_41,1)",源类型=type:txt_pb; 层级=51
 56,亚波伦,hide,Abaddon_default,,,Well，看来某人已经多少意识到一些真相了。,,,,"charfadein(L,1)",源类型=type:txt_Abaddon; 层级=52
 57,旁白,hide,Abaddon_default,,,大卫脸上那故作冷静的讥笑随之僵住，他顺着亚波伦的目光看向你，原本绷紧的喉结滚了两下，声音也不由自主带上了几分颤抖。,,,,"charfadeout(L,1)",源类型=type:txt_pb; 层级=53
 58,大卫,hide,David_bandage,,,亚当？,,,,"charfadein(L,1)",源类型=type:txt_David; 层级=54
@@ -59,7 +59,7 @@ ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Comm
 61,大卫,hide,David_bandage,,,别犯傻了，你怎么能相信这种家伙口中的话，咱们拿着搜查令来的，你看......,,,,"charfadein(L,1)",源类型=type:txt_David; 层级=57
 62,旁白,hide,David_bandage,,,他慌慌张张地摸向内袋，却发现那本该揣着搜查令的地方空空如也，连半张纸片的影子都没有摸到。那支撑着他一路走到这里的身份凭证，就像这段被挖走的记忆一样，凭空消失在了他的手心。,,,,,源类型=type:txt_pb; 层级=58
 63,大卫,hide,David_bandage,,,什.....什么时候，应该是和那个怪物缠斗时弄丢了，当时我俩在地上滚了好几圈，肯定是那个时候.......,,,,,源类型=type:txt_David; 层级=59
-64,旁白,hide,David_bandage,,,,,,,"charfadeout(L,1)",源类型=type:exeBC; 层级=60
+64,旁白,hide,David_bandage,,,,,4 enhanced leberch-spooky-piano,,"charfadeout(L,1)",源类型=type:exeBC; 层级=60
 65,索菲亚,hide,Sophia_default,,,够了！,,,,"charfadein(L,1)","源类型=type:txt_Sophia; 层级=61; wherelist={""wheretype"":""1"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""端详飞蛾（大卫）"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}"
 67,旁白,hide,Sophia_default,,,沉寂许久的索菲亚突然猛地打断了大卫的辩解，纤细的手指紧紧扣着白大褂的衣角，力度大得几乎要把上面的布料扯烂。像是在长时间的隐瞒和压抑后终于迎来了最为彻底的爆发。,,,,,源类型=type:txt_pb; 层级=62
 68,索菲亚,hide,Sophia_default,,,他是对的。亚波伦没有说谎......,,,,,源类型=type:txt_Sophia; 层级=63
@@ -67,8 +67,8 @@ ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Comm
 70,索菲亚,hide,Sophia_default,,,你们从来都不是什么FBI......这里也根本不是什么医院，而是用造梦设备编织的虚假梦境，这里的所有人......,,,,,源类型=type:txt_Sophia; 层级=65
 71,旁白,hide,Sophia_default,,,她深吸一口气，只为支撑自己把这句话说完。,,,,,源类型=type:txt_pb; 层级=66
 72,索菲亚,hide,Sophia_default,,,全都站在盖曼的脑子里。,,,,,源类型=type:txt_Sophia; 层级=67
-73,旁白,hide,Sophia_default,,,？！,,,,"charfadeout(L,1)&shake(screen,0.2,10)",源类型=type:txt_pb; 层级=68
-74,旁白,hide,,,,？！,,,,"shake(screen,0.2,10)",源类型=type:txt_pb; 层级=69
+73,你,hide,Sophia_default,,,？！,,,,"charfadeout(L,1)&shake(screen,0.2,10)",源类型=type:txt_pb; 层级=68
+74,大卫,hide,,,,？！,,,,"shake(screen,0.2,10)",源类型=type:txt_pb; 层级=69
 75,旁白,hide,,,,你们设想过无数种可能，梦境自然也在最新诞生的猜想列表之内，可当这句话从索菲亚口中亲口说出时，你还是感觉自己梦境里的心脏一下子提到了嗓子眼。,,,,,源类型=type:txt_pb; 层级=70
 76,旁白,hide,,,,所有破碎的线索，那些不合常理的幻觉、凭空消失的记忆、与现实对不上的物件，全都在梦境中得到了合理的解释。,,,,,源类型=type:txt_pb; 层级=71
 77,旁白,hide,,,,就连门外来自“阿兰.斯科特”粗重的嘶吼也消失了，为什么不呢？那本就是身为梦主的亚波伦随时可以操控的杂音。,,,,,源类型=type:txt_pb; 层级=72

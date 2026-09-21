@@ -35,6 +35,9 @@ MonoBehaviour:
   - Element: withgun
     Sprite: {fileID: 21300000, guid: 77205b0590238064a8f57117ff0b9a83, type: 3}
     SpritePath: "VNovelizerRes/CharactersPic/\u514B\u62C9\u514B\u8868\u60C5/\u4E3E\u67AA"
+  - Element: blue
+    Sprite: {fileID: 21300000, guid: dd7a240205bfee14c9fcf5944e7464ac, type: 3}
+    SpritePath: "VNovelizerRes/CharactersPic/\u514B\u62C9\u514B_blue"
   HeadSprites:
   - Element: Default
     Sprite: {fileID: -5877402996184321189, guid: 2e92861f13a8d894ba25f4de1e4d6b27, type: 3}

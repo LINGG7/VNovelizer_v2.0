@@ -1,11 +1,11 @@
 ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Command,Note
 1,旁白,hide,,,,,,,false,,源类型=type:exeBC; 层级=0
-2,旁白,hide,,,,面对摆在眼前的两个按钮，你的最终决定是？,,,,,源类型=type:txt_pb; 层级=1
+2,旁白,hide,,,,面对摆在眼前的两个按钮，你的最终决定是？,,stop,,,源类型=type:txt_pb; 层级=1
 4,旁白,hide,,,,,,,,choice(选择克拉克|jump(7))&choice(选择亚波伦|jump(55)),源类型=type:selectBC; 层级=2
 5,旁白,hide,,,,,,,,,源类型=type:txt_pb; 层级=3
 7,旁白,hide,,,,你的指尖落在右侧的按钮上，不带一丝犹豫。 ,,,,,源类型=type:txt_pb; 层级=4
 8,旁白,hide,,,,按下去的那一瞬间，你能感觉到整个房间都安静了一瞬——连亚波伦脸上的笑意都暂停了半秒。然后，电流声随之响起。如同某种无法避免、亦无法延迟的天罚，降临在了那个操弄人心的魔鬼身上。,,,,,源类型=type:txt_pb; 层级=5
-9,旁白,hide,,,,亚波伦的身体猛地一弓，喉间滚出一声压抑的闷哼，巨大的能量波动席卷了他的身体，顺着整间手术室的墙壁扩散开来，惨白的灯光开始疯狂闪烁，每一次明暗交替都带着电流滋啦的炸响。,,,,"playsfx(ElectricShock)&bgfade(sntzm_final(3)_57,1)",源类型=type:txt_pb; 层级=6
+9,旁白,hide,,,,亚波伦的身体猛地一弓，喉间滚出一声压抑的闷哼，巨大的能量波动席卷了他的身体，顺着整间手术室的墙壁扩散开来，惨白的灯光开始疯狂闪烁，每一次明暗交替都带着电流滋啦的炸响。,,,,"parallel(playsfx(ElectricShock);bgfade(sntzm_final(3)_57,1))",源类型=type:txt_pb; 层级=6
 10,旁白,hide,,,,这个一直以来从容不迫的男人，这一刻也终于露出了痛苦的表情，但他没有惨叫或是哀嚎，反而以一种解脱般的狂喜，轻轻哼唱起了《匹诺曹》的童谣。,,,,,源类型=type:txt_pb; 层级=7
 11,亚波伦,hide,,,,我曾被束缚，但现在自由了......我已无拘无束。,,,,,源类型=type:txt_Abaddon; 层级=8
 12,旁白,hide,,,,他的声音在电流的杂音中断断续续地传出来，清晰、平静，像是正在经历某种他早就知晓结局的超凡仪式。,,,,,源类型=type:txt_pb; 层级=9
@@ -93,7 +93,7 @@ ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Comm
 83,旁白,hide,,,,一次呼吸之间，她的身体便被那名不速之客狠狠按在了地上，毫无怜惜和迟疑，像对待一块陈旧、廉价的破旧抹布。,,,,,源类型=type:txt_pb; 层级=30
 84,旁白,hide,,,,来者不是别人，正是亚波伦早已备在门外的阿兰.斯科特。它的脸依旧苍白如蜡，细长的手指狠狠扎进猎物的皮肤，索菲亚的挣扎在它绝对的力量面前显得无比微弱，连呼救声都被硬生生掐在了喉咙里。,,,,,源类型=type:txt_pb; 层级=31
 85,旁白,hide,,,,你刚打算拔枪瞄准，有什么东西却更快一步地顶住了你的后脑——冷、硬、带着金属的凉意，是大卫的枪口。,,,,jump(80),源类型=type:txt_pb; 层级=32; gotomainline=80
-3,旁白,hide,,,,面对摆在眼前的两个按钮，你的最终决定是？,,,,,源类型=type:txt_pb; 层级=1
+3,旁白,hide,,,,面对摆在眼前的两个按钮，你的最终决定是？,,stop,,,源类型=type:txt_pb; 层级=1
 52,旁白,hide,,,,,,,,choice(选择大卫|jump(53))&choice(选择亚波伦|jump(54)),源类型=type:selectBC; 层级=2
 53,旁白,hide,,,,,,,,"loadScript(sntzm_final(5), 3)",源类型=type:txt_pb; 层级=3
 54,旁白,hide,,,,,,,,"loadScript(sntzm_final(5), 2)",源类型=type:txt_pb; 层级=3

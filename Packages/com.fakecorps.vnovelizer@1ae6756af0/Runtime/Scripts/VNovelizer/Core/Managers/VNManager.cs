@@ -34,6 +34,7 @@ public partial class VNManager : BaseManager<VNManager>
     private string currentBGM = null;
     private string lastAutoSaveScreenshotPath = "";
     private string currentScriptName;
+    private int scriptLoadVersion;
     private Dictionary<string, string> currentCharacters = new Dictionary<string, string>();
     private Dictionary<string, float> currentCharactersScaleX = new Dictionary<string, float>();
     private readonly HashSet<string> recordedScriptTags = new HashSet<string>();
@@ -731,6 +732,7 @@ public partial class VNManager : BaseManager<VNManager>
 
     public void SetScriptData(List<StoryLine> lines, Dictionary<string, int> idMap, string scriptName)
     {
+        unchecked { scriptLoadVersion++; }
         this.StoryLines = lines;
         this.LineIDIndexMap = idMap;
         this.CurrentLineIndex = 0;
@@ -1313,12 +1315,13 @@ public partial class VNManager : BaseManager<VNManager>
         }
 
         int preIndex = CurrentLineIndex;
+        int preScriptLoadVersion = scriptLoadVersion;
         if (!string.IsNullOrEmpty(currentLine.Command))
         {
             CommandManager.GetInstance().SimulateCommands(currentLine.Command);
         }
 
-        if (CurrentLineIndex != preIndex)
+        if (scriptLoadVersion != preScriptLoadVersion || CurrentLineIndex != preIndex)
         {
             PlayCurrentLineImmediately();
         }
@@ -3303,6 +3306,7 @@ public partial class VNManager : BaseManager<VNManager>
     private IEnumerator ExecuteActionsAndContinue(string actionString)
     {
         int preIndex = CurrentLineIndex;
+        int preScriptLoadVersion = scriptLoadVersion;
         VNDebug.LogVerbose($"[TypingTrace][ExecuteActionsAndContinue] start currentLineIndex={CurrentLineIndex}, actionString={actionString}");
 
         yield return CommandManager.GetInstance().ExecuteCommandsAsync(actionString);
@@ -3319,8 +3323,8 @@ public partial class VNManager : BaseManager<VNManager>
             yield break;
         }
 
-        // 如果命令过程中已经改了行号（例如 jump），优先播放新位置
-        if (CurrentLineIndex != preIndex)
+        // 加载剧本后即使行索引相同，也必须执行目标行。
+        if (scriptLoadVersion != preScriptLoadVersion || CurrentLineIndex != preIndex)
         {
             PlayCurrentLine();
             yield break;

@@ -19,7 +19,7 @@ ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Comm
 67,旁白,hide,,,,说完，那张还未来得及发出最后一声悲鸣的嘴也随着身体的瓦解化为齑粉，残酷地剥夺了他说话的能力。,,,,,源类型=type:txt_pb; 层级=17
 68,旁白,hide,,,,随着最后一片身体组织在电流的贯穿下烟消云散，你们被动地以一种旁观者的视角见证了这头人造魔鬼的自取灭亡。,,,,,源类型=type:txt_pb; 层级=18
 69,旁白,hide,,,,在他的胸腔消散的那一刻，你清晰地注意到，那块原本应该有心脏存在的位置，从始至终都空无一物。,,,,,源类型=type:txt_pb; 层级=19
-70,旁白,hide,,,,整间手术室的震颤渐渐平息下来，惨白的灯光不再疯狂闪烁，只是依旧带着嗡嗡的电流声悬在你们头顶。,,,,"bgfade(sntzm_final(2)_88,1)",源类型=type:txt_pb; 层级=20
+70,旁白,hide,,,,整间手术室的震颤渐渐平息下来，惨白的灯光不再疯狂闪烁，只是依旧带着嗡嗡的电流声悬在你们头顶。,,17 enhanced_suspense-tense-background-music,,"bgfade(sntzm_final(2)_88,1)",源类型=type:txt_pb; 层级=20
 71,旁白,hide,,,,克拉克用力撞开那扇锁住的隔间铁门，门锁在“行刑”结束的一瞬自动弹开，使他舍身的这一撞在行进末端带上了一丝狼狈的趔趄。,,,,,源类型=type:txt_pb; 层级=21
 72,旁白,hide,,,,他飞快扑到大卫身边，颤抖着伸出手指探向男人的颈动脉，指腹下还能感受到微弱却清晰的搏动，只是那搏动带着不正常的急促，每一次跳动都在拉扯着紧绷的神经。,,,,"bgfade(sntzm_final(3)_72,1)",源类型=type:txt_pb; 层级=22
 73,克拉克,hide,,,,感谢上帝，他还活着。,,,,,源类型=type:txt_Clark; 层级=23
@@ -42,10 +42,11 @@ ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Comm
 90,旁白,hide,David_default,,,大卫的目光躲闪了一刹，似乎被这句话勾起了什么不好的回忆，他扶着座椅的扶手慢慢撑起身体，果然除了因为电击痉挛留下的酸痛之外，身上并没有太多新添的伤口。,,,,,源类型=type:txt_pb; 层级=40
 91,大卫,hide,David_default,,,一时间说不清楚......比起这个，现在那家伙在哪儿？我和他还有账没有算完。,,,,,源类型=type:txt_David; 层级=41
 92,旁白,hide,David_default,,,克拉克抬手指向原本亚波伦所在的位置，那里只剩下空荡荡的电刑椅，扶手上还留着几滴未消散的血沫，索菲亚从刚才开始就一直在检查他曾经存在过的这间隔间，仿佛在寻找什么重要的物件。,,,,"charfadeout(L,1)",源类型=type:txt_pb; 层级=42
-93,索菲亚,hide,Sophia_default,,,这不应该......,,,,"charfadein(L,1)",源类型=type:txt_Sophia; 层级=43
+93,索菲亚,hide,Sophia_default,,,这不应该......,,9 enhanced suspense tensions,,"charfadein(L,1)",源类型=type:txt_Sophia; 层级=43
 94,你,hide,Sophia_default,,,什么不应该？,,,,"charfadeout(L,1)",源类型=type:txt_You; 层级=44
 95,旁白,hide,,,,索菲亚蹲在空旷的电刑椅旁，纤细的手指抚过椅面上残留的血渍，眉头紧紧拧成一团。,,,,,源类型=type:txt_pb; 层级=45
-96,你,hide,,,,或许他并不是真正的梦主？,,,,,源类型=type:txt_You; 层级=46
+114,索菲亚,hide,Sophia_default,,,如果亚波伦没有撒谎，在他消散的那一刻，这个梦境就应该随之一起崩塌才对，可我感受不到任何波动，整个梦境的锚点还牢牢立在这周围。,,,,"charfadein(L,1)",源类型=type:txt_Sophia; 层级=114
+96,你,hide,,,,或许他并不是真正的梦主？,,,,"charfadeout(L,1)",源类型=type:txt_You; 层级=46
 97,索菲亚,hide,Sophia_default,,,如果不是的话就无法解释为什么刚才整个手术室都会随着他身体的瓦解而震颤，就像你在梦境中面临死亡或强烈的情绪波动，你的梦境也会随之受到影响。刚才发生的事情就属于这种情况。,,,,"charfadein(L,1)",源类型=type:txt_Sophia; 层级=47
 98,旁白,hide,Sophia_default,,,大卫在门旁的墙壁上靠了一会儿，身体在从电击中恢复后仍显得有些虚弱。你不知道亚波伦给他们各自设定了多少的电压。但对于一个刚经受过电刑的人类身体而言，他的恢复速度快得惊人。,,,,"charfadeout(L,1)",源类型=type:txt_pb; 层级=48
 99,大卫,hide,David_default,,,这个声音怎么听着这么熟悉......你是夜莺？,,,,"charfadein(L,1)",源类型=type:txt_David; 层级=49
@@ -60,6 +61,7 @@ ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Comm
 108,大卫,hide,Sophia_default,,David_default,这个混账东西，到死都要留这么一句没头没尾的谜语。,,,,"parallel(charfadeout(L,1)&charfadein(R,1))",源类型=type:txt_David; 层级=58
 109,旁白,hide,,,David_default,说罢，他一脚踹开那扇关了他近一小时的隔间的铁门，打算从这间封闭的手术室里找到更多线索。,,,,"charfadeout(R,1)",源类型=type:txt_pb; 层级=59
 110,旁白,hide,,,,但就在他踏出隔间的那一刻，整间手术室的灯光猛地一暗，原本还平稳运行的供电系统突然中断，应急灯在三秒的延迟后才亮起幽幽的暗红。,,,,"bgfade(sntzm_final(3)_110,1)",源类型=type:txt_pb; 层级=60
+115,旁白,hide,,,,正当你们以为这又是他布置的某种陷阱时，脚下的地面却突然剧烈震颤起来，四周的墙壁开始以肉眼可见的速度开裂、剥落，像一团被揉碎的废纸，一点点向内坍缩。,,5 enhanced leberch-suspense,,,
 111,索菲亚,hide,,,,这个梦境块支撑不下去了，但......为什么是现在？,,,,,源类型=type:txt_Sophia; 层级=61
 112,你,hide,,,,大卫？！,,,,,源类型=type:txt_You; 层级=62
 113,大卫,hide,,,,不是我！,,,,"loadScript(sntzm_gy(1), 2)",源类型=type:txt_David; 层级=63; gotomainline=盖亚之心（上）_3

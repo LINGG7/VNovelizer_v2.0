@@ -1,5 +1,5 @@
 ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Command,Note
-1,旁白,hide,,,,伴随着一阵刺耳的拖地声，这扇标有B-512的沉重铁门应声弹开，手电光柱如利刃般劈开室内的黑暗，跟着的着是你们紧随其后的两支枪口。,,,false,"bgfade(sntzm_david4F(2)_1,1)",源类型=type:txt_pb; 层级=0
+1,旁白,hide,,,,伴随着一阵刺耳的拖地声，这扇标有B-512的沉重铁门应声弹开，手电光柱如利刃般劈开室内的黑暗，跟着的着是你们紧随其后的两支枪口。,,8 enhanced suspence-horror,false,"bgfade(sntzm_david4F(2)_1,1)",源类型=type:txt_pb; 层级=0
 66,旁白,hide,,,,房间比想象中大得多，与其说是一间电击治疗室，倒更像是一间审讯室。,,,,,源类型=type:txt_pb; 层级=1
 65,旁白,hide,,,,两侧墙壁上各挂着一张闪着花白乱码的监视器屏幕，粗粝的防静电橡胶垫从角落一直延伸到房门，几根断裂的线缆从天花板无力地垂下，如同被手术刀斩断的神经末梢。,,,,,源类型=type:txt_pb; 层级=2
 67,旁白,hide,,,,但最为显眼的，还是嵌在房间内侧的两间隔舱，隔间的铁门被电子锁紧紧咬住，只留出一块不到10英寸的半透明玻璃，让你们勉强看清里面的景象。,,,,,源类型=type:txt_pb; 层级=3

@@ -1,14 +1,14 @@
 ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Command,Note
 1,旁白,hide,,,,1,,,false,,源类型=type:txt_pb; 层级=0
-2,旁白,hide,,,,,,,,"bgfade(sntzm_david4F(3)_1,1)",源类型=type:exeBC; 层级=1
+2,旁白,hide,,,,,,stop,,"bgfade(sntzm_david4F(3)_1,1)",源类型=type:exeBC; 层级=1
 3,亚波伦,hide,Abaddon_default,,,开门见山是个好习惯，格莱特探员，尤其是在这种......我们双方的时间都并不充裕的场景下。,,,,"charfadein(L,1)","源类型=type:txt_Abaddon; 层级=2; wherelist={""wheretype"":""1"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""无视飞蛾（大卫）"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]},{""sortnum"":""2"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""立刻离开"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}"
 4,你,hide,Abaddon_default,,,什么意思？,,,,"charfadeout(L,1)",源类型=type:txt_You; 层级=3
 25,旁白,hide,,,,你赶紧盯了眼手机上的时间，电子指示器上数字停在22:35分的位置，乍一看似乎并没有什么特别要紧的事件。,,,,,源类型=type:txt_pb; 层级=4
 26,旁白,hide,,,,大卫则一脸紧绷地环视四周，试图搜刮出任何带有倒计时之类的物件，但这种最浅层的洞察，显然无法参透这头恶魔的真正的诡计。,,,,,源类型=type:txt_pb; 层级=5
-27,旁白,hide,,,,“噗呲......”,,,,,源类型=type:txt_pb; 层级=6
+27,旁白,hide,,,,“噗呲......”,,stop,,,源类型=type:txt_pb; 层级=6
 28,旁白,hide,,,,只见两侧监控屏幕中央忽然泛起一阵短促的波动，从花白的闪频逐渐还原为清晰的画面。左侧是医院外围的影像，右侧则是你们不久前刚刚通过的楼梯口。,,,,"bgfade(sntzm_david4F(3)_28,1)",源类型=type:txt_pb; 层级=7
 29,你,hide,,,,？,,,,,源类型=type:txt_You; 层级=8
-30,旁白,hide,,,,没等你来得及发出一句疑问，两张屏幕上便各自闪出一只人影，它们就像后台准备就绪的演员，在观众目光就位的那一刻准时出现在属于自己的位置——,,,,,源类型=type:txt_pb; 层级=9
+30,旁白,hide,,,,没等你来得及发出一句疑问，两张屏幕上便各自闪出一只人影，它们就像后台准备就绪的演员，在观众目光就位的那一刻准时出现在属于自己的位置——,,18 enhanced_APPLE,,,源类型=type:txt_pb; 层级=9
 31,旁白,hide,,,,左侧的屏幕上人影只有小小的一只，在偏低的分辨率下看得有些不太真切。直到一阵清脆的解锁声伴随着转向灯的闪烁一同响起，大卫的喉咙里才终于响起一声滑稽的哀嚎。,,,,,源类型=type:txt_pb; 层级=10
 32,大卫,hide,David_bandage,,,靠！我们的车！,,,,"charfadein(L,1)",源类型=type:txt_David; 层级=11
 33,旁白,hide,David_bandage,,,没等他话音落下，那个戴着兜帽的小个子就抬手掀开了主驾驶侧的车门，一猫腰钻了进去。,,,,"charfadeout(L,1)&bgfade(sntzm_david4F(3)_33,1)",源类型=type:txt_pb; 层级=12
@@ -21,8 +21,8 @@ ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Comm
 40,你,hide,,,,让它停下！否则就算要花上一段时间，我们也不介意来个鱼死网破！,,,,,源类型=type:txt_You; 层级=19
 41,旁白,hide,,,,你咬着牙，重新把枪口对准隔间里的那名始作俑者的脑袋。这种厚度的防弹玻璃一般能抵挡大约两到三发的9mm的鲁格弹，但你们弹夹里可显然不止这么点余量。,,,,,源类型=type:txt_pb; 层级=20
 42,亚波伦,hide,Abaddon_default,,,别那么激动，亚当。我会给你们杀我的机会，但不是以这种......毫无美感的方式。,,,,"charfadein(L,1)",源类型=type:txt_Abaddon; 层级=21
-60,旁白,hide,Abaddon_default,,,他抬起一根被绑在椅子扶手上的手指，指向房间中央两个凸起的小平台。一束白光自平台正上方垂直洒下，宛如舞台的聚光灯，把按钮的表面打得熠熠生辉。,,,,"bgfade(sntzm_david4F(3)_60,1)",源类型=type:txt_pb; 层级=22
-56,亚波伦,hide,Abaddon_default,,,看到房间中央的两个按钮了吗？,,,,,源类型=type:txt_Abaddon; 层级=23
+60,旁白,hide,Abaddon_default,,,他抬起一根被绑在椅子扶手上的手指，指向房间中央两个凸起的小平台。一束白光自平台正上方垂直洒下，宛如舞台的聚光灯，把按钮的表面打得熠熠生辉。,,stop,,"bgfade(sntzm_david4F(3)_60,1)",源类型=type:txt_pb; 层级=22
+56,亚波伦,hide,Abaddon_default,,,看到房间中央的两个按钮了吗？,,7 enhanced litesaturation-horror,,,源类型=type:txt_Abaddon; 层级=23
 57,亚波伦,hide,Abaddon_default,,,这悬在我和克拉克两人头顶的，达摩克利斯之剑。按下其中任一一个，都会给对应隔间里的人接通电流，将他在五秒之内电成一坨散发着焦臭味的烂肉。,,,,,源类型=type:txt_Abaddon; 层级=24
 58,旁白,hide,Abaddon_default,,,他的目光依次扫过你和大卫的脸，像是在欣赏一幅后现代的抽象画作。,,,,,源类型=type:txt_pb; 层级=25
 59,亚波伦,hide,Abaddon_default,,,你们有十分钟，来选择谁可以活，谁需要死。如果过了这个时间还无法做出决定，那届时两个座椅就会同时通电，也许到时候我和海尔特探员还能竞争一下，谁能在这3000伏电流下撑得更久一些。,,,,,源类型=type:txt_Abaddon; 层级=26

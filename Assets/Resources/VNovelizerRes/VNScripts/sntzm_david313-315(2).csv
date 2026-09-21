@@ -1,5 +1,5 @@
 ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Command,Note
-1,旁白,hide,,,,不是从窗户外面、也不是从你们腰间的无线电，而是来自床头柜上的一台老式录音机。,,,false,"bgfade(sntzm_david313-315(2)_1,1)",源类型=type:txt_pb; 层级=0
+1,旁白,hide,,,,不是从窗户外面、也不是从你们腰间的无线电，而是来自床头柜上的一台老式录音机。,,7 enhanced litesaturation-horror,false,"bgfade(sntzm_david313-315(2)_1,1)",源类型=type:txt_pb; 层级=0
 2,大卫,hide,David_bandage,,,搞什么？,,,,"charfadein(L,1)",源类型=type:txt_David; 层级=1
 3,旁白,hide,David_bandage,,,他正想上去检查，床头的录音机却自顾自地转动起来——没有触碰，没有开关按下，像是某个早已设定好的程序，在这一刻被你们的存在唤醒。,,,,"charfadeout(L,1)",源类型=type:txt_pb; 层级=2
 4,旁白,hide,,,,磁带缓缓转动，先是一阵沙沙的底噪，然后是人声。那声音经过岁月的磨损变得有些失真，但你仍能辨认出说话的人——,,,,playsfx(Sizzle),源类型=type:txt_pb; 层级=3
@@ -60,8 +60,8 @@ ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Comm
 59,旁白,hide,,,,你在心中默念着这个本该熟悉，此刻却有些陌生的词汇，不知为何，你突然感觉它离你很远，仿佛就连手中的枪械都因为这个想法变得飘忽不定。,,,,,源类型=type:txt_pb; 层级=55
 60,旁白,hide,,,,那些关于同伴、训练和任务的记忆还在，但它们就像被塞进了一个不属于你的柜子，尺寸对不上，边缘全是毛刺。,,,,,源类型=type:txt_pb; 层级=56
 61,旁白,hide,,,,你想到楼下储藏室里的那台连着黑色线缆的“游戏机”。那只怪物闪避子弹的方式——不是靠传统的训练，而是“编程”。如果人的身体可以被改造成躲避子弹的机器，那人的记忆……,,,,,源类型=type:txt_pb; 层级=57
-62,旁白,hide,,,,“啪嗒。”,,,,"bgfade(sntzm_david313-315(2)_62,1)",源类型=type:txt_pb; 层级=58
-63,旁白,hide,,,,一声轻响，从床头柜的方向传来。,,,,,源类型=type:txt_pb; 层级=59
+62,旁白,hide,,,,“啪嗒。”,,stop,,"parallel(playsfx(Kata);bgfade(sntzm_david313-315(2)_62,1))",源类型=type:txt_pb; 层级=58
+63,旁白,hide,,,,一声轻响，从床头柜的方向传来。,,8 enhanced suspence-horror,,,源类型=type:txt_pb; 层级=59
 64,旁白,hide,,,,你猛地转头——那台录音机的磁带已经停止了转动，可柜面上不知何时多了一只灰白的飞蛾。它停在磁带盒的边沿，翅膀微微张开，像是在等待什么。,,,,,源类型=type:txt_pb; 层级=60
 65,大卫,hide,David_bandage,,,怎么了？,,,,"charfadein(L,1)",源类型=type:txt_David; 层级=61
 66,旁白,hide,David_bandage,,,大卫的声音再经过罪恶感洗礼后显得有些疲惫，但还是打起了12分精神警惕地扫视着周围。,,,,"charfadeout(L,1)",源类型=type:txt_pb; 层级=62

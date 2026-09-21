@@ -25,7 +25,7 @@ ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Comm
 49,旁白,hide,,,,片刻的沉寂后，他的声音重新响起，语气里的笑意已然不见踪迹，但却多了几分被冒犯后的冰冷。,,,,,源类型=type:txt_pb; 层级=23
 50,亚波伦,hide,Abaddon_default,,,只可惜结局恐怕不会如你所预料的那般发展，我的徒弟。,,,,"charfadein(L,1)",源类型=type:txt_Abaddon; 层级=24
 51,旁白,hide,Abaddon_default,,,说完，他语气中的阴冷的寒意稍纵即逝，取而代之的是捏到软柿子后的从容和慵懒。他又恢复了最初那副阴谋家和谈判家的状态，把视线转向了两名还沉浸在真相余韵中的刚刚‘失业’的前FBI探员。,,,,,源类型=type:txt_pb; 层级=25
-52,亚波伦,hide,Abaddon_default,,,来做个交易吧，亚当。选择让我活下来，我便会大方地将你，还有梅森过去的被纳丁达克夺走的记忆完完整整地交还给你们。,,,,,源类型=type:txt_Abaddon; 层级=26
+52,亚波伦,hide,Abaddon_default,,,来做个交易吧，亚当。选择让我活下来，我便会大方地将你，还有梅森过去的被纳丁达克夺走的记忆完完整整地交还给你们。,,7 enhanced litesaturation-horror,,,源类型=type:txt_Abaddon; 层级=26
 53,亚波伦,hide,Abaddon_default,,,不仅如此，我还能带着你们找到盖曼真正的意识核心，拿到盖亚之心。比起旁边那个早就被榨干价值的，甚至可能都不是你们兄弟的男人，这个价格应该足够诱人了吧？,,,,,源类型=type:txt_Abaddon; 层级=27
 54,你,hide,Abaddon_default,,,！,,,,"charfadeout(L,1)",源类型=type:txt_You; 层级=28
 55,旁白,hide,,,,你心中一惊，之前所有的真相——无论是FBI的虚假身份，还是眼下所在的虚假梦境，在他那句“甚至可能不是你们兄弟”的杀伤力面前几乎不值一提。,,,,,源类型=type:txt_pb; 层级=29
@@ -90,8 +90,8 @@ ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Comm
 94,亚波伦,hide,Abaddon_default,,,所以他们才想到这个办法——找到三个和盖曼大脑适配度高的人，把你们的意识送进这片梦境，让你们以为自己是在执行什么‘FBI的回收任务’。,,,,,源类型=type:txt_Abaddon; 层级=21
 95,亚波伦,hide,Abaddon_default,,,事情就是这样。,,,,,源类型=type:txt_Abaddon; 层级=22
 96,旁白,hide,Abaddon_default,,,他摊了摊手，像一个结束了讲课的导师，重新靠回到那并不舒服的椅背上。,,,,"charfadeout(L,1)",源类型=type:txt_Abaddon; 层级=23
-97,旁白,hide,,,,空气在这一刻变得黏稠而沉重，仿佛有无数看不见的虫子在周围的墙壁里蠕动，让呼吸都成为了一种代价高昂的奢求。,,,,,源类型=type:txt_pb; 层级=24
-98,你,hide,,,,为什么要告诉我们这一切？,,,,,源类型=type:txt_You; 层级=25
+97,旁白,hide,,,,空气在这一刻变得黏稠而沉重，仿佛有无数看不见的虫子在周围的墙壁里蠕动，让呼吸都成为了一种代价高昂的奢求。,,stop,,,源类型=type:txt_pb; 层级=24
+98,你,hide,,,,为什么要告诉我们这一切？,,19 enhanced_suspense-tension-background-music,,,源类型=type:txt_You; 层级=25
 99,旁白,hide,,,,你提出了自己最后的疑问，在他将名为真相的利刃尽数倾洒于你们之后，唯一可疑的便只剩下这份慷慨本身。,,,,,源类型=type:txt_pb; 层级=26
 100,你,hide,,,,你绑架了大卫，用各种方式把我们钓到了这里，难道只是为了揭穿纳丁达克公司的阴谋，让我们认清自己的身份吗？,,,,,源类型=type:txt_You; 层级=27
 101,旁白,hide,,,,亚波伦的嘴角勾起一抹嘲弄的弧度，他敲了敲电刑椅旁边的金属扶手，声音里带着一丝天性使然的蛊惑：,,,,,源类型=type:txt_pb; 层级=28

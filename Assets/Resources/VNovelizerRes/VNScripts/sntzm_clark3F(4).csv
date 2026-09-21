@@ -1,5 +1,5 @@
 ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Command,Note
-1,旁白,hide,,,,,,,false,,源类型=type:exeBC; 层级=0
+1,旁白,hide,,,,,,22 the_mountain-horror,false,,源类型=type:exeBC; 层级=0
 2,你,hide,,,,夜莺？,,,,,"源类型=type:txt_You; 层级=1; wherelist={""wheretype"":""1"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""夜莺线"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}"
 4,旁白,hide,,,,你试探性地询问出声，依旧对她的身份保留了最后的一丝基于谨慎的怀疑，因为眼前的女人并非你们想象中的FBI文员打扮。,,,,,源类型=type:txt_pb; 层级=2
 5,旁白,hide,,,,相反，她穿着和这里的医生款式一致的白大褂，领口系得整整齐齐，只有露出的手腕上沾了几点淡褐色的污渍，把冷白的皮肤衬得格外醒目。,,,,,源类型=type:txt_pb; 层级=3
@@ -16,7 +16,8 @@ ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Comm
 18,索菲亚,hide,Sophia_default,,,最开始接触造梦技术的时候，一切都还很单纯。无论是研发这项技术的初衷、还是它最后的应用图景。,,,,"charfadein(L,1)",源类型=type:txt_Sophia; 层级=14
 19,索菲亚,hide,Sophia_default,,,老师说过：“研发的经费中的绝大部分都是从病人和他们家属的口袋的掏的，因此......无论最后取得了什么样的成果，它最后的用途都必须落回到那些饱受折磨的病人身上，这才符合我们作为一名医生的初衷。”,,,,,源类型=type:txt_Sophia; 层级=15
 20,索菲亚,hide,Sophia_default,,,然而......,,,,,源类型=type:txt_Sophia; 层级=16
-21,旁白,hide,Sophia_default,,,“哒哒哒......”,,,,"parallel(charfadeout(L,1);playsfx(FootStep))",源类型=type:txt_pb; 层级=17
+21,旁白,hide,Sophia_default,,,“哒哒哒......”,,18 enhanced_APPLE,,"parallel(charfadeout(L,1);playsfx(FootStep))",源类型=type:txt_pb; 层级=17
+97,旁白,hide,,,,就在故事迎来至关重要的转折之际，走廊深处突然传来了由远及近的脚步声，像某种死亡的鼓点，一步一步地踩在你们的心跳上。索菲亚的身体骤然绷紧，先前松弛下来的肩背再次绷成了一道紧绷的直线。,,,,,源类型=type:txt_pb; 层级=97
 22,索菲亚,hide,Sophia_default,,,他来找我了......,,,,"charfadein(L,1)",源类型=type:txt_Sophia; 层级=18
 23,你,hide,Sophia_default,,,等等......谁？,,,,"charfadeout(L,1)",源类型=type:txt_You; 层级=19
 24,旁白,hide,,,,尽管彼此间的立场仍有出入，你们还是以一种近乎滑稽的默契，迅速压低了声音，克拉克按着索菲娅的双臂微微一松，不由分说地拉着她躲到了暗室的角落。,,,,"bgfade(sntzm_clark3F(4)_24,1)",源类型=type:txt_pb; 层级=20
