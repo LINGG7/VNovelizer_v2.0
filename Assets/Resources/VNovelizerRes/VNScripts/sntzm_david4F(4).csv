@@ -11,7 +11,7 @@ ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Comm
 10,亚波伦,hide,Abaddon_default,,,同时也解决了最为关键的证人。,,,,"charfadein(L,1)",源类型=type:txt_Abaddon; 层级=9
 11,旁白,hide,Abaddon_default,,,亚波伦充满恶趣味地补充道。,,,,,源类型=type:txt_pb; 层级=10
 12,亚波伦,hide,Abaddon_default,,,如果我死了，你们还怎么完成任务？谁来告诉你们盖亚之心在哪儿？还有你们被人篡改的那段过去......你的姐姐是怎么死的，还有梅森探员曾经到底对阿兰先生做过什么......对此你们不会一点兴趣都没有吧。,,,,,源类型=type:txt_Abaddon; 层级=11
-13,你,hide,Abaddon_default,,,！,,5 enhanced leberch-suspense,,"charfadeout(L,1)",源类型=type:txt_You; 层级=12
+13,你,hide,Abaddon_default,,,！,,5 enhanced leberch-suspense,,"charfadeout(L,1)&unlockmusic(Music5)",源类型=type:txt_You; 层级=12
 14,旁白,hide,,,,你攥紧了拳头，指节因为过度用力挤压出泛白的青色。你清楚他并未说谎，仅凭随口透露的只言片语，便已精准刺中你们内心最敏感的禁区。,,,,,源类型=type:txt_pb; 层级=13
 15,旁白,hide,,,,但这也是眼下最令人纠结的现实——一个疯子，手里却掌握着所有人都想要知道的真相和秘密，而现在他却以此为筹码，把这一切和你们最重要的朋友的生命放置于天平的两端。,,,,,源类型=type:txt_pb; 层级=14
 16,旁白,hide,,,,看着你布满血丝的双眼，亚波伦满足地靠在了并不柔软的椅背上，这份纠结和迟疑对此刻的他而言无疑是临走前最为美丽的景色。只有当天平的两端足够平衡，欣赏其中一边坠落的感觉才越是令人回味。,,,,,源类型=type:txt_pb; 层级=15
@@ -39,7 +39,7 @@ ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Comm
 40,旁白,hide,,,,,,,,,源类型=type:exeBC; 层级=37
 41,旁白,hide,,,,但你的沉默却来得更加漫长，因为你切实看到过，听到过，在几乎每一层都会出现的幻觉里，你看到自己躺在手术台上，躺在病床上，像块等待着被解剖的标本被一群身着白大褂的男人来回审视。,,,,"bgfade(sntzm_david4F(4)_41,1)","源类型=type:txt_pb; 层级=38; wherelist={""wheretype"":""1"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""深入探究"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}"
 43,旁白,hide,,,,如果那并非只是醉宿后脑中涌现的幻影，如果这一切都是你真实经历的过去，那为什么你的脑海中没有关于这段经历的任何记忆？,,,,,源类型=type:txt_pb; 层级=39
-44,大卫（回忆）,hide,David_bandage,,,我的确做过这些错事，但不知为何，找不到关于那件事情的清晰脉络，只留下自己曾经铸下大错的模糊印象。就像是......被人硬生生从脑子里挖走了一段记忆......,,,,"parallel(memoryon();bgfade(sntzm_david313-315(2)_33,1)))",源类型=type:txt_大卫（回忆）; 层级=40
+44,大卫（回忆）,hide,David_bandage,,,我的确做过这些错事，但不知为何，找不到关于那件事情的清晰脉络，只留下自己曾经铸下大错的模糊印象。就像是......被人硬生生从脑子里挖走了一段记忆......,,,,"parallel(memoryon();bgfade(sntzm_david313-315(2)_33,1))",源类型=type:txt_大卫（回忆）; 层级=40
 45,旁白,hide,,,,记忆——大卫在313病房时就提到过这种奇怪的感受，那模糊的、空落落的缺口，绝不可能是凭空出现的错觉。,,,,,源类型=type:txt_pb; 层级=41
 46,亚波伦（回忆）,hide,Abaddon_default,,,他们给我设定了公司职员的身份，给我灌输了可以靠价值大小决定人命归属的理念，给我下达了训练那些病人的任务。,,,,"bgfade(sntzm_david4F(3)_60,1)",源类型=type:txt_亚波伦（回忆）; 层级=42
 47,旁白,hide,,,,任务——找到盖亚之心就是你们来这里的任务，如果将它完成，谁将为此受益......最想得到盖亚之心，最想获取盖曼脑子里关于造梦设备的核心数据的，到底是FBI，还是......纳丁达克？,,,,,源类型=type:txt_pb; 层级=43

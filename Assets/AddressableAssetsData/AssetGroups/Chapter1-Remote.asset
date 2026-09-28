@@ -94,14 +94,6 @@ MonoBehaviour:
     - VNovelizerRes/Backgrounds
     - chapter1_required
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 7aee953c20a478842b25fabbc9bc7a9e
-    m_Address: VNovelizerRes/Backgrounds/sntzm_main2_1
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - VNovelizerRes
-    - VNovelizerRes/Backgrounds
-    - chapter1_required
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 8216156f7f7c93948b38f83b91316dee
     m_Address: VNovelizerRes/Backgrounds/sntzm_main1_10
     m_ReadOnly: 0

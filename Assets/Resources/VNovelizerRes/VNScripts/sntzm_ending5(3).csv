@@ -1,5 +1,5 @@
 ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Command,Note
-1,旁白,hide,,,,三个月后。,black,,false,,源类型=type:txt_pb; 层级=0
+1,旁白,hide,,,,三个月后。,black,6 enhanced oceanframemusic-horror-background-music,false,unlockmusic(Music6),源类型=type:txt_pb; 层级=0
 2,旁白,hide,,,,你坐在特别行动小组指挥部的办公室里，桌上摊着一份尚未完成的训练报告。晋升令是两个月前下来的，连同新的证件、新的权限、新的办公桌和一堆你还没来得及仔细看的内部文件。,,,,"bgfade(sntzm_ending5(3)_2,1)",源类型=type:txt_pb; 层级=1
 3,旁白,hide,,,,你成了指挥官，负责训练新一批特工。新人们看你的眼神里满是崇拜，那种混杂着敬畏和好奇的目光，让你有时会想起自己刚入行时的样子——虽然那段记忆现在回想起来，边缘总有些发虚。,,,,,源类型=type:txt_pb; 层级=2
 4,旁白,hide,,,,你曾试图调阅过“夜莺”的资料。查询系统里没有这个人。名字、代号、联络记录，全部空白。,,,,,源类型=type:txt_pb; 层级=3
@@ -30,4 +30,4 @@ ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Comm
 29,旁白,hide,,,,无论是在医院的手术室、还是FBI的训练场。无论是在梦境，还是现实。,,,,,源类型=type:txt_pb; 层级=28
 30,旁白,hide,,,,镜子里的脸问你：“你知道自己是谁吗？”,,,,,源类型=type:txt_pb; 层级=29
 31,旁白,hide,,,,你想回答。但你已经不记得答案了。,,,,,源类型=type:txt_pb; 层级=30
-32,旁白,hide,,,,达成结局：【梦之渊】,,,,,源类型=type:txt_pb; 层级=31
+32,旁白,hide,,,,达成结局：【梦之渊】,,,,unlockending(Ending3),源类型=type:txt_pb; 层级=31

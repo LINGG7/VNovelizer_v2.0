@@ -43,7 +43,7 @@ ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Comm
 30,旁白,hide,,,,而现在......线断了，墙倒了，只剩下你在瓦砾里站着，等着那把枪把你最后的呼吸也收走。 ,,,,,源类型=type:txt_pb; 层级=29
 31,旁白,hide,,,,,,,,,源类型=type:exeBC; 层级=30
 32,旁白,hide,,,,你们创造了恶魔，然后你们用自己的选择告诉我——恶魔是对的。,,,,,源类型=type:txt_pb; 层级=31
-33,旁白,hide,,,,无论是那些满口大义、视人命为筹码的的野心家，还有.....像你这样自诩正义，却会在关键时刻背信弃义的骗子。每当到了需要做出决定的时刻，价值永远被排在生命之前。,,,,,源类型=type:txt_pb; 层级=32
+33,大卫//亚波伦,hide,,,,无论是那些满口大义、视人命为筹码的的野心家，还有.....像你这样自诩正义，却会在关键时刻背信弃义的骗子。每当到了需要做出决定的时刻，价值永远被排在生命之前。,,,,,源类型=type:txt_pb; 层级=32
 34,旁白,hide,,,,他轻轻摇了摇头，像是感到有些遗憾，又像是自我陶醉于这个完美自洽的逻辑闭环之中。,,,,,源类型=type:txt_pb; 层级=33
 35,大卫//亚波伦,hide,,,,我感激你......亚当。 ,,,,,源类型=type:txt_DVABL; 层级=34
 36,旁白,hide,,,,亚波伦用大卫的眼睛看着你，语气温和得像在给一个即将入睡的孩子掖被角。 ,,,,,源类型=type:txt_pb; 层级=35
@@ -60,14 +60,14 @@ ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Comm
 47,大卫//亚波伦,hide,,,,不只是纳丁达克。 ,,,,,源类型=type:txt_DVABL; 层级=42
 48,旁白,hide,,,,他的手指慢慢扣紧扳机。 ,,,,,源类型=type:txt_pb; 层级=43
 49,大卫//亚波伦,hide,,,,所有人。,,,,,源类型=type:txt_DVABL; 层级=44
-50,旁白,hide,,,,“Bang!”,black,,,"parallel(shake(screen,10,0.5);playsfx(GunShot))",源类型=type:txt_pb; 层级=45
+50,旁白,hide,,,,“Bang!”,black,stop,,"parallel(shake(screen,10,0.5);playsfx(GunShot))",源类型=type:txt_pb; 层级=45
 51,旁白,hide,,,,枪声在他声音中断的那一刻响起，没有延迟、没有意外，如同一场早已安排好的处刑，在你选择按下按钮的那一刻便早已注定。,,,,,源类型=type:txt_pb; 层级=46
 52,旁白,hide,,,,意识的撕裂如期降临，仿佛一颗太阳被硬生生塞进你的大脑。所有支撑着你走到现在的，坚实、有力的东西都在钻心的痛苦中一点点溶解了，先是关于同伴们的记忆，然后是维系这一切的宝贵生命。,,,,"bgfade(sntzm_ending3_52,1)&playsfx(EarRinging)",源类型=type:txt_pb; 层级=47
 53,旁白,hide,,,,它们最终都化作温热黏腻的混沌，从你后脑的巨大缺口中如排泄物般缓缓流出。你感觉自己正顺着一条冰冷漆黑的通道往下掉，上面是逐渐变暗的视野，下面是没有尽头的深渊。,,,,,源类型=type:txt_pb; 层级=48
 54,旁白,hide,,,,那些被层层迷雾裹着的过往碎片擦着你的21克的灵魂划过——,,,,,源类型=type:txt_pb; 层级=49
 55,旁白,hide,,,,以一个未满18的孩子捏着姐姐染血记者证时，眼中浮现的决心为起点、以在河谷郡记事报的办公室里与两位同伴的结识为发展、以一场针对圣诺汀医院的卧底调查为高潮、最终...以你亲手按下电椅开关的动作落下帷幕。,black,,,,源类型=type:txt_pb; 层级=50
 56,旁白,hide,,,,你是扑向烈焰的飞蛾，亦是自缚于茧的囚徒。当托举你腾空的双翼化作穿越火海的代价，那束名为真相的光，留给你的唯有与姐姐如出一辙的坠落。,,,,"bgfade(sntzm_ending3_56,1)",源类型=type:txt_pb; 层级=51
-57,旁白,hide,,,,达成结局——【弃翼者的陨落】,,,,,源类型=type:txt_pb; 层级=52
+57,旁白,hide,,,,达成结局——【弃翼者的陨落】,,22 the_mountain-horror,,unlockending(Ending1)&unlockmusic(Music22),源类型=type:txt_pb; 层级=52
 58,旁白,hide,,,,索菲亚在地上活鱼般地扭动了几下，似乎还打算作出最后的挣扎，但换来的只有阿兰.斯科特更用力的抓握，那力度几乎要将她的脖子扭断。,,,,"bgfade(sntzm_ending3_42,1)","源类型=type:txt_pb; 层级=31; wherelist={""wheretype"":""2"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""端详飞蛾（大卫）"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]},{""sortnum"":""2"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""立刻离开"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""0"",""dowlist4"":[]}]}]}"
 59,旁白,hide,,,,而你也早已无暇他顾，抵在你身后的枪口此刻反而成为了最不值一提的威胁，因为还没等到那颗子弹贯穿内脏，你的内心就已经快被那无处安放的负罪感压垮了。,,,,jump(43),源类型=type:txt_pb; 层级=32; gotomainline=43
 60,旁白,hide,,,,你猛地回想起在B315号病房的幻觉中看到的画面，当你以现实中自己的视角躺在那张病床上时，那群在你身旁走动的，身着白大褂的医生似乎谈起过类似的话题——,,,,,"源类型=type:txt_pb; 层级=20; wherelist={""wheretype"":""1"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""深入探究"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}; gotomainline=31"

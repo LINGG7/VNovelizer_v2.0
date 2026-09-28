@@ -2,7 +2,7 @@ ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Comm
 1,旁白,hide,,,,你的目光落在那颗正规律搏动的机械心脏上，在过去的几个小时里对它外形的种种想象在这一刻敲碎又重组，直至于与眼前活物的轮廓完全重合。,,,false,"bgfade(sntzm_gy(2)_62,1)",源类型=type:txt_pb; 层级=0
 2,旁白,hide,,,,那是一种很难描述的感觉，明明只是一颗泡在营养液里的器官，其背后投射出的却是一个公司钻营数年的野心，无数条生命、无数的真相都系于这颗心脏之上。,,,,,源类型=type:txt_pb; 层级=1
 3,旁白,hide,,,,每一次搏动都像是某个躲在幕布后的操盘手，不紧不慢地拨动着所有人的命运齿轮。,,,,,源类型=type:txt_pb; 层级=2
-4,旁白,hide,,,,就在这时，一阵轻微的脚步声自培养罐后突兀地响起。先是一道阴影浮现，继而显现出一名男子的轮廓。,,,,"bgfade(sntzm_gy(2)_80,1)",源类型=type:txt_pb; 层级=3
+4,旁白,hide,,,,就在这时，一阵轻微的脚步声自培养罐后突兀地响起。先是一道阴影浮现，继而显现出一名男子的轮廓。,,9 enhanced suspense tensions,,"bgfade(sntzm_gy(2)_80,1)&unlockmusic(Music9)",源类型=type:txt_pb; 层级=3
 5,旁白,hide,,,,这张面孔你们并不陌生，他简直就像是从外面那张照片里走出来的，无论是容貌举止，还是那抹淡淡的忧伤气息，都与照片中的盖曼别无二致。,,,,,源类型=type:txt_pb; 层级=4
 6,旁白,hide,,,,那只灰白色的飞蛾不知何时已经飞到了他的肩上，翅膀缓缓张开又合拢，像是一枚完成任务后凯旋而归的信使，在自己主人的身上邀功。,,,,,源类型=type:txt_pb; 层级=5
 7,旁白,hide,,,,克拉克向前走了两步，一如在3楼的幻觉中看到的那样，用自己高大的躯体将你们护在身后。套筒和枪身在片刻间便完成了分离，枪口稳稳指向来者，脸上写满了戒备。,,,,,源类型=type:txt_pb; 层级=6
@@ -28,10 +28,10 @@ ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Comm
 38,你,hide,,,,我应该将其理解为他使用了某种幻术从电刑椅上逃掉，然后又跑到这里假扮该盖曼骗我们，还是说你们自始至终就是长相相似的两个完全不同的人？,,,,,源类型=type:txt_You; 层级=26
 39,旁白,hide,,,,说着，他从背对你们的姿态下缓缓转过身，影子在玻璃容器的表面拉出长长的一条，恍惚间似乎闪出了两道重叠的轮廓。,,,,,源类型=type:txt_pb; 层级=27
 40,盖曼,hide,Gaiman_default,,,他的确向你们隐瞒了一些重要的信息，但不是靠什么幻术，也不存在什么长相相似的骗局。你们会看到我和他在不同的地点相继出现的理由只有一个——,,,,"charfadein(L,1)",源类型=type:txt_Gaiman; 层级=28
-41,盖曼,hide,Gaiman_default,,,这里，准确来说是整个医院，自始至终都是一场人为营造的梦境。,,,,,源类型=type:txt_Gaiman; 层级=29
+41,盖曼,hide,Gaiman_default,,,这里，准确来说是整个医院，自始至终都是一场人为营造的梦境。,,stop,,,源类型=type:txt_Gaiman; 层级=29
 42,你&克拉克&大卫,hide,Gaiman_default,,,！！,,,,"charfadeout(L,1)",源类型=type:txt_你&克拉克&大卫; 层级=30
 43,旁白,hide,,,,这个消息像一块投入深潭的石子，在三人的心头砸开了满圈惊惶的涟漪。你死死盯着盖曼平静的脸，下意识向后退了半步。后背贴住冰凉的金属，触感却走神似得迟迟没有传来，仿佛有什么东西把周围一切都阻隔在了感知之外。,,,,,源类型=type:txt_pb; 层级=31
-44,克拉克,hide,Clark_default,,,荒诞至极，我们是身负任务来这里回收盖亚之心的特工，如果你试图以这种方式故弄玄虚，妨碍我们完成公务，它通常不会奏效。,,,,"charfadein(L,1)",源类型=type:txt_Clark; 层级=32
+44,克拉克,hide,Clark_default,,,荒诞至极，我们是身负任务来这里回收盖亚之心的特工，如果你试图以这种方式故弄玄虚，妨碍我们完成公务，它通常不会奏效。,,4 enhanced leberch-spooky-piano,,"charfadein(L,1)&unlockmusic(Music4)",源类型=type:txt_Clark; 层级=32
 45,旁白,hide,Clark_default,,,克拉克把手中的配枪握得死紧，像溺水之人在涨潮时拼命抓紧一块浮木。理智、任务，还有手中毋庸置疑的暴力工具，是他此刻唯一能把自己锚定在“现实”这片土地上的抓手。,,,,"charfadeout(L,1)",源类型=type:txt_pb; 层级=33
 46,大卫,hide,David_default,,,亚波伦......他也对我这么说过，在我被抓住的那段时间里......,,,,"charfadein(L,1)",源类型=type:txt_David; 层级=34
 47,旁白,hide,David_default,,,大卫低垂的声线中显然夹带了比前者更多的迷茫，和他以往大大咧咧却向来斩钉截铁的样子判若两人。他没有立刻把这件事告诉你们，与其说是不信，不如说是不愿相信。,,,,"charfadeout(L,1)",源类型=type:txt_pb; 层级=35
@@ -64,8 +64,8 @@ ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Comm
 78,旁白,hide,Gaiman_default,,,克拉克重新抬起头看了过来，手中的枪口在颤抖中悬而未决。大卫攥着口袋里早已被捏变形的任务简报，他的目光在你和克拉克只见来回扫动。两束目光终是汇聚于你的颈间，默契地静候那最后的裁决。,,,,"charfadeout(L,1)",源类型=type:txt_pb; 层级=64
 84,旁白,hide,,,,你选择：,,,,,源类型=type:txt_pb; 层级=65
 85,旁白,hide,,,,,,,,choice(相信盖曼|jump(86))&choice(不相信盖曼|jump(87)),源类型=type:selectBC; 层级=66
-86,旁白,hide,,,,,,,,"loadScript(sntzm_gy(ns2), 2)",源类型=type:txt_pb; 层级=67
-87,旁白,hide,,,,,,,,"loadScript(sntzm_gy(ns2), 4)",源类型=type:txt_pb; 层级=67
+86,旁白,hide,,,,,,stop,,"loadScript(sntzm_gy(ns2), 2)",源类型=type:txt_pb; 层级=67
+87,旁白,hide,,,,,,stop,,"loadScript(sntzm_gy(ns2), 4)",源类型=type:txt_pb; 层级=67
 23,大卫,hide,David_default,,,……如果盖亚之心就在那罐子里，那就算你在这儿守着又有什么用？别人想拿，直接砸开不就行了？,,,,"charfadein(L,1)","源类型=type:txt_David; 层级=21; wherelist={""wheretype"":""1"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""无视飞蛾（大卫）"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]},{""sortnum"":""2"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""立刻离开"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}"
 24,旁白,hide,David_default,,,盖曼没有立即回答。他微微侧过头，看向那颗正在缓慢跳动的容器，嘴唇轻轻动了一下，像是在默数它的搏动次数。,,,,"charfadeout(L,1)",源类型=type:txt_pb; 层级=22
 25,盖曼,hide,Gaiman_default,,,……眼见不一定为实，年轻人。,,,,"charfadein(L,1)",源类型=type:txt_Gaiman; 层级=23

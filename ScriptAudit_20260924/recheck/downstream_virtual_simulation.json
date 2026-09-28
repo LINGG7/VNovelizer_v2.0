@@ -1,0 +1,120 @@
+{
+  "states": 196590,
+  "visited_rows": 3483,
+  "visited_scripts": 43,
+  "issues": [
+    {
+      "script": "sntzm_final(6)",
+      "ID": "100",
+      "row": 73,
+      "type": "no_matching_branch",
+      "tags": [
+        "不开枪",
+        "先发制人",
+        "克拉克线",
+        "夜莺线",
+        "暂且作罢",
+        "相信索菲亚",
+        "端详飞蛾（克拉克）",
+        "选择大卫",
+        "问艾米丽",
+        "隐瞒"
+      ],
+      "choices": [
+        "sntzm_intro:6 → 不是",
+        "sntzm_intro:11 → 接听无线电",
+        "sntzm_intro:18 → 跟上克拉克",
+        "sntzm_intro:33 → 询问了关于艾米丽的问题",
+        "sntzm_intro:41 → 开枪故意射偏",
+        "sntzm_clark3F(2):15 → 仔细端详飞蛾",
+        "sntzm_clark3F(3):65 → 优先应对外部威胁，协助队友",
+        "sntzm_clark3F(4):36 → 先发制人，果断逃跑",
+        "sntzm_clark4F(1):19 → 暂且作罢，专注眼前",
+        "sntzm_clark4F(3):73 → 相信索菲亚",
+        "sntzm_final(4):52 → 选择大卫"
+      ],
+      "trace": [
+        "sntzm_final(6):72",
+        "sntzm_final(6):73",
+        "sntzm_final(6):74",
+        "sntzm_final(6):75",
+        "sntzm_final(6):76",
+        "sntzm_final(6):77",
+        "sntzm_final(6):78",
+        "sntzm_final(6):79",
+        "sntzm_final(6):80",
+        "sntzm_final(6):81",
+        "sntzm_final(6):82",
+        "sntzm_final(6):83",
+        "sntzm_final(6):84",
+        "sntzm_final(6):85",
+        "sntzm_final(6):100"
+      ]
+    }
+  ],
+  "cycles": [],
+  "endings": [
+    {
+      "script": "sntzm_ending3",
+      "ID": "57",
+      "text": "达成结局——【弃翼者的陨落】",
+      "choices": [
+        "sntzm_intro:6 → 不是",
+        "sntzm_intro:11 → 接听无线电",
+        "sntzm_intro:18 → 与大卫随行",
+        "sntzm_david313-315(1):42 → 就此作罢",
+        "sntzm_david313-315(3):2 → 沉默不语",
+        "sntzm_david313-315(4):2 → 视为陷阱",
+        "sntzm_david313-315(5):31 → 你就是亚波伦，对吧？",
+        "sntzm_david3F(1):12 → 装作无事离开",
+        "sntzm_final(4):4 → 选择亚波伦"
+      ]
+    },
+    {
+      "script": "sntzm_truth(3)",
+      "ID": "40",
+      "text": "达成结局——【罪之焰】",
+      "choices": [
+        "sntzm_intro:6 → 不是",
+        "sntzm_intro:11 → 接听无线电",
+        "sntzm_intro:18 → 与大卫随行",
+        "sntzm_david313-315(1):42 → 就此作罢",
+        "sntzm_david313-315(3):2 → 沉默不语",
+        "sntzm_david313-315(4):2 → 视为陷阱",
+        "sntzm_david313-315(5):31 → 你就是亚波伦，对吧？",
+        "sntzm_david3F(1):12 → 装作无事离开",
+        "sntzm_final(4):4 → 选择克拉克"
+      ]
+    },
+    {
+      "script": "sntzm_ending4(2)",
+      "ID": "57",
+      "text": "达成结局——【恶魔的双翼】",
+      "choices": [
+        "sntzm_intro:6 → 不是",
+        "sntzm_intro:11 → 接听无线电",
+        "sntzm_intro:18 → 跟上克拉克",
+        "sntzm_intro:33 → 询问了关于艾米丽的问题",
+        "sntzm_intro:41 → 开枪故意射偏",
+        "sntzm_clark3F(2):15 → 这一定有什么古怪",
+        "sntzm_final(4):52 → 选择亚波伦"
+      ]
+    },
+    {
+      "script": "sntzm_ending5(3)",
+      "ID": "32",
+      "text": "达成结局：【梦之渊】",
+      "choices": [
+        "sntzm_intro:6 → 不是",
+        "sntzm_intro:11 → 接听无线电",
+        "sntzm_intro:18 → 跟上克拉克",
+        "sntzm_intro:33 → 询问了关于艾米丽的问题",
+        "sntzm_intro:41 → 开枪故意射偏",
+        "sntzm_clark3F(2):15 → 这一定有什么古怪",
+        "sntzm_final(4):52 → 选择大卫",
+        "sntzm_gy(ns1):85 → 不相信盖曼"
+      ]
+    }
+  ],
+  "unvisited_scripts": []
+}

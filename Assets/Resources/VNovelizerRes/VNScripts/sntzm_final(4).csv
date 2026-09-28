@@ -3,7 +3,7 @@ ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Comm
 2,旁白,hide,,,,面对摆在眼前的两个按钮，你的最终决定是？,,stop,,,源类型=type:txt_pb; 层级=1
 4,旁白,hide,,,,,,,,choice(选择克拉克|jump(7))&choice(选择亚波伦|jump(55)),源类型=type:selectBC; 层级=2
 5,旁白,hide,,,,,,,,,源类型=type:txt_pb; 层级=3
-7,旁白,hide,,,,你的指尖落在右侧的按钮上，不带一丝犹豫。 ,,,,,源类型=type:txt_pb; 层级=4
+7,旁白,hide,,,,你的指尖落在右侧的按钮上，不带一丝犹豫。 ,,17 enhanced_suspense-tense-background-music,,unlockmusic(Music17),源类型=type:txt_pb; 层级=4
 8,旁白,hide,,,,按下去的那一瞬间，你能感觉到整个房间都安静了一瞬——连亚波伦脸上的笑意都暂停了半秒。然后，电流声随之响起。如同某种无法避免、亦无法延迟的天罚，降临在了那个操弄人心的魔鬼身上。,,,,,源类型=type:txt_pb; 层级=5
 9,旁白,hide,,,,亚波伦的身体猛地一弓，喉间滚出一声压抑的闷哼，巨大的能量波动席卷了他的身体，顺着整间手术室的墙壁扩散开来，惨白的灯光开始疯狂闪烁，每一次明暗交替都带着电流滋啦的炸响。,,,,"parallel(playsfx(ElectricShock);bgfade(sntzm_final(3)_57,1))",源类型=type:txt_pb; 层级=6
 10,旁白,hide,,,,这个一直以来从容不迫的男人，这一刻也终于露出了痛苦的表情，但他没有惨叫或是哀嚎，反而以一种解脱般的狂喜，轻轻哼唱起了《匹诺曹》的童谣。,,,,,源类型=type:txt_pb; 层级=7
@@ -32,7 +32,7 @@ ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Comm
 33,旁白,hide,,,,大卫补充道，那令人熟悉的毒舌让维持了许久的压抑氛围终于得以稍稍放松，除了外面正仔细检查着另一个隔间的索菲亚。,,,,,"源类型=type:txt_pb; 层级=30; wherelist={""wheretype"":""2"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""端详飞蛾（大卫）"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]},{""sortnum"":""2"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""立刻离开"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""0"",""dowlist4"":[]}]}]}"
 35,索菲亚,hide,,,,这不应该......,,,,"loadScript(sntzm_final(5), 5)",源类型=type:txt_Sophia; 层级=31; gotomainline=终局（终2）_5
 34,旁白,hide,,,,大卫适时地补充道，然后一脚踹开了那扇把你们隔离数十分钟的铁门。在你选择让克拉克的那一刻，无论物理上的隔阂还是记忆上的虚假，都已无法再切断这份被你重新建立起来的羁绊。,,,,,"源类型=type:txt_pb; 层级=30; wherelist={""wheretype"":""1"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""无视飞蛾（大卫）"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]},{""sortnum"":""2"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""立刻离开"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}"
-36,旁白,hide,,,,克拉克顺着扶手慢慢站直，目光从你们搀扶的躯体间向隔壁的包间漏出些许。或许是基于“探员”被训练出来的警惕，亦或是被迫害后积蓄未发的愤怒，他都无法立刻忽视这个曾让自己和同伴身处险境的威胁。,,,,,源类型=type:txt_pb; 层级=31
+36,旁白,hide,,,,克拉克顺着扶手慢慢站直，目光从你们搀扶的躯体间向隔壁的包间漏出些许。或许是基于“探员”被训练出来的警惕，亦或是被迫害后积蓄未发的愤怒，他都无法立刻忽视这个曾让自己和同伴身处险境的威胁。,,stop,,,源类型=type:txt_pb; 层级=31
 37,克拉克,hide,Clark_default,,,......他不见了。,,,,"charfadein(L,1)",源类型=type:txt_Clark; 层级=32
 38,旁白,hide,Clark_default,,,事实正如他所说，那个本应躺着一具焦尸的电椅上，此刻竟空无一物。他的生命，以及他存在的过的痕迹，都在这场并不光彩的审判中一并蒸发了。,,,,"parallel(charfadeout(L,1);bgfade(sntzm_final(4)_38,1))",源类型=type:txt_pb; 层级=33
 39,旁白,hide,,,,只在椅面留下一滩带着焦糊味的浅褐色血渍，证明刚才那场触目惊心的行刑真的发生过。,,,,,源类型=type:txt_pb; 层级=34
@@ -46,7 +46,7 @@ ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Comm
 47,大卫,hide,David_default,,,毕竟那是我们现在唯一还缺少的东西，如果那东西真像亚波伦说的那么玄乎，说不定能带我们从这场梦境中走出去。,,,,,源类型=type:txt_David; 层级=42
 48,你,hide,David_default,,,但它应该在哪儿？或者说它可能在哪儿？假设盖亚之心就是我们此程的终点，那起点指的又该是哪里？,,,,"charfadeout(L,1)&loadScript(sntzm_final(5), 4)",源类型=type:txt_You; 层级=43; gotomainline=终局（终2）_4
 6,旁白,hide,,,,,,,,,源类型=type:txt_pb; 层级=3
-55,旁白,hide,,,,你的指尖在左侧按钮的上方悬停了半秒——然后，在大卫来得及阻止你之前，迅速落了下去。,,,,,源类型=type:txt_pb; 层级=4
+55,旁白,hide,,,,你的指尖在左侧按钮的上方悬停了半秒——然后，在大卫来得及阻止你之前，迅速落了下去。,,4 enhanced leberch-spooky-piano,,,源类型=type:txt_pb; 层级=4
 56,旁白,hide,,,,按下去的那一瞬间，一种近乎麻木的清醒裹挟了你全身的感官，左边是大卫惊怒的喝止，身后亚波伦带着了然的轻笑，只有时钟滴答声还在空旷的房间里清晰地回荡。,,,,,源类型=type:txt_pb; 层级=5
 57,旁白,hide,,,,你知道自己依旧在乎克拉克，即便是在得知你们共同经历的过去只是一场彻头彻尾的谎言......但你实在太需要真相了——,,,,,源类型=type:txt_pb; 层级=6
 58,旁白,hide,,,,关于姐姐的死因、关于你自己的真实过去，旧的伤疤和新的疑惑全都需要亚波伦的亲口解答才能被彻底抚平，而克拉克......这个在现实中可能根本和你毫无联系的陌生人，此刻已经再也没法给出任何回应了。,,,,,源类型=type:txt_pb; 层级=7
@@ -68,7 +68,7 @@ ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Comm
 74,旁白,hide,,,,没有声音，没有话语，没有秘密——你像是把一枚硬币投进了一台早已被搬空的自动贩卖机里，却连回弹的声响都听不见。,,,,,源类型=type:txt_pb; 层级=23
 75,旁白,hide,,,,你听见自己的呼吸开始变重。一种钝痛从胸腔深处慢慢胀开，像是什么东西被这份承诺勾住，又被沉默松开后的，反弹的余震。,,,,,源类型=type:txt_pb; 层级=24
 76,旁白,hide,,,,你付出了克拉克。你付出了他。而亚波伦只是像一场梦一样散开了，留给你一把还带着余温的、空无一人的椅子。,,,,,源类型=type:txt_pb; 层级=25
-77,旁白,hide,,,,,,,,,源类型=type:exeBC; 层级=26
+77,旁白,hide,,,,,,10 enhanced suspense,,unlockmusic(Music10),源类型=type:exeBC; 层级=26
 78,旁白,hide,,,,可还未等你从这份强烈到足以把你碾碎的失落中缓过气来，有什么东西便悄无生息地顶住了你的后脑——冷、硬、带着金属的凉意，是大卫的枪口。,,,,"bgfade(sntzm_final(4)_78,1)","源类型=type:txt_pb; 层级=27; wherelist={""wheretype"":""1"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""无视飞蛾（大卫）"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]},{""sortnum"":""2"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""立刻离开"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}"
 80,你,hide,,,,大卫？,,,,,源类型=type:txt_You; 层级=28
 86,旁白,hide,,,,你的声音比预想中更轻，更低，带着自知犯错后基于愧疚的软弱。,,,,,源类型=type:txt_pb; 层级=29
@@ -95,5 +95,5 @@ ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Comm
 85,旁白,hide,,,,你刚打算拔枪瞄准，有什么东西却更快一步地顶住了你的后脑——冷、硬、带着金属的凉意，是大卫的枪口。,,,,jump(80),源类型=type:txt_pb; 层级=32; gotomainline=80
 3,旁白,hide,,,,面对摆在眼前的两个按钮，你的最终决定是？,,stop,,,源类型=type:txt_pb; 层级=1
 52,旁白,hide,,,,,,,,choice(选择大卫|jump(53))&choice(选择亚波伦|jump(54)),源类型=type:selectBC; 层级=2
-53,旁白,hide,,,,,,,,"loadScript(sntzm_final(5), 3)",源类型=type:txt_pb; 层级=3
-54,旁白,hide,,,,,,,,"loadScript(sntzm_final(5), 2)",源类型=type:txt_pb; 层级=3
+53,旁白,hide,,,,,,,,"loadScript(sntzm_final(5), 3)",源类型=type:txt_pb; 层级=3;tag=选择大卫
+54,旁白,hide,,,,,,,,"loadScript(sntzm_final(5), 2)",源类型=type:txt_pb; 层级=3;tag=选择亚波伦

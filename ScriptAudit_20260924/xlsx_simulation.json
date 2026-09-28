@@ -1,0 +1,117 @@
+{
+  "states": 11086,
+  "visited_rows": 675,
+  "visited_scripts": 10,
+  "issues": [
+    {
+      "script": "sntzm_david313-315(2)",
+      "ID": "45",
+      "row": 46,
+      "type": "no_matching_branch",
+      "tags": [
+        "夜莺线",
+        "大卫线",
+        "隐瞒"
+      ],
+      "choices": [
+        "sntzm_intro:6 → 不是",
+        "sntzm_intro:11 → 接听无线电",
+        "sntzm_intro:18 → 与大卫随行",
+        "sntzm_david313-315(1):42 → 就此作罢"
+      ],
+      "trace": [
+        "sntzm_david313-315(2):31",
+        "sntzm_david313-315(2):32",
+        "sntzm_david313-315(2):33",
+        "sntzm_david313-315(2):34",
+        "sntzm_david313-315(2):35",
+        "sntzm_david313-315(2):36",
+        "sntzm_david313-315(2):37",
+        "sntzm_david313-315(2):38",
+        "sntzm_david313-315(2):39",
+        "sntzm_david313-315(2):40",
+        "sntzm_david313-315(2):41",
+        "sntzm_david313-315(2):42",
+        "sntzm_david313-315(2):43",
+        "sntzm_david313-315(2):44",
+        "sntzm_david313-315(2):45"
+      ]
+    },
+    {
+      "script": "sntzm_david4F(3)",
+      "ID": "2",
+      "row": 3,
+      "type": "no_matching_branch",
+      "tags": [
+        "不开枪",
+        "克拉克线",
+        "夜莺线",
+        "无视飞蛾（克拉克）",
+        "问艾米丽",
+        "隐瞒"
+      ],
+      "choices": [
+        "sntzm_intro:6 → 不是",
+        "sntzm_intro:11 → 接听无线电",
+        "sntzm_intro:18 → 跟上克拉克",
+        "sntzm_intro:33 → 询问了关于艾米丽的问题",
+        "sntzm_intro:41 → 开枪故意射偏",
+        "sntzm_clark3F(2):15 → 这一定有什么古怪"
+      ],
+      "trace": [
+        "sntzm_clark4F(2):61",
+        "sntzm_clark4F(2):62",
+        "sntzm_clark4F(2):63",
+        "sntzm_clark4F(2):64",
+        "sntzm_clark4F(2):13",
+        "sntzm_clark4F(2):14",
+        "sntzm_clark4F(2):15",
+        "sntzm_clark4F(2):38",
+        "sntzm_clark4F(2):77",
+        "sntzm_clark4F(2):78",
+        "sntzm_clark4F(2):89",
+        "sntzm_clark4F(2):90",
+        "sntzm_clark4F(2):91",
+        "sntzm_david4F(3):1",
+        "sntzm_david4F(3):2"
+      ]
+    }
+  ],
+  "cycles": [],
+  "endings": [],
+  "unvisited_scripts": [
+    "sntzm_clark4F(3)",
+    "sntzm_clark4F(4)",
+    "sntzm_david313-315(3)",
+    "sntzm_david313-315(4)",
+    "sntzm_david313-315(5)",
+    "sntzm_david313-315(6)",
+    "sntzm_david3F(1)",
+    "sntzm_david3F(2)",
+    "sntzm_david3F(3)",
+    "sntzm_david4F(1)",
+    "sntzm_david4F(2)",
+    "sntzm_david4F(4)",
+    "sntzm_ending3",
+    "sntzm_ending4(1)",
+    "sntzm_ending4(2)",
+    "sntzm_ending5(1)",
+    "sntzm_ending5(2)",
+    "sntzm_ending5(3)",
+    "sntzm_final(1)",
+    "sntzm_final(2)",
+    "sntzm_final(3)",
+    "sntzm_final(4)",
+    "sntzm_final(5)",
+    "sntzm_final(6)",
+    "sntzm_gy(1)",
+    "sntzm_gy(2)",
+    "sntzm_gy(ns1)",
+    "sntzm_gy(ns2)",
+    "sntzm_gy(s1)",
+    "sntzm_gy(s2)",
+    "sntzm_truth(1)",
+    "sntzm_truth(2)",
+    "sntzm_truth(3)"
+  ]
+}

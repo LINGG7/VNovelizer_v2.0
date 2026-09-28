@@ -20,7 +20,7 @@ ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Comm
 21,克拉克,hide,Clark_default,,,他们都是被你控制的病人？你这头禽兽，居然连小孩子都不放过。,,,,"charfadein(L,1)",源类型=type:txt_Clark; 层级=18
 30,旁白,hide,Clark_default,,,克拉克咬牙切齿地咒骂道，以大卫作为人质进行要挟的行为本就已经让这名年轻的警官极为愤怒.......,,,,"charfadeout(L,1)",源类型=type:txt_pb; 层级=19
 31,旁白,hide,,,,再一想到那个不满18岁便遭到残酷改造，一度出现精神癔症，甚至被拖进犯罪伸冤的孩子，他便忍不住想要用手中的配枪将这头玩世不恭的恶魔就地正法。,,,,,源类型=type:txt_pb; 层级=20
-32,亚波伦,hide,Abaddon_default,,,控制？这个词用的实在有失水准，海尔特探员。曾经，的确有人要求我做这样的事情——把这些病人当成可以随意摆弄的木偶，把他们的脑子拆开，再往里面塞满火药和弹片......,,16 enhanced_suspence,,"charfadein(L,1)",源类型=type:txt_Abaddon; 层级=21
+32,亚波伦,hide,Abaddon_default,,,控制？这个词用的实在有失水准，海尔特探员。曾经，的确有人要求我做这样的事情——把这些病人当成可以随意摆弄的木偶，把他们的脑子拆开，再往里面塞满火药和弹片......,,16 enhanced_suspence,,"charfadein(L,1)&unlockmusic(Music16)",源类型=type:txt_Abaddon; 层级=21
 33,克拉克,hide,Abaddon_default,,Clark_default,那你还狡辩什么.....,,,,"charfadein(R,1)",源类型=type:txt_Clark; 层级=22
 34,亚波伦,hide,Abaddon_default,,Clark_default,但那已经是很久远的往事了，自从我看穿了他们在我脑子里放进的那些谎言，自从我意识到自己也不过是任他们使唤的工具，我就果断放弃了这种无趣的把戏。,,,,"charfadeout(R,1)",源类型=type:txt_Abaddon; 层级=23
 35,旁白,hide,Abaddon_default,,,男人粗鲁地打断了克拉克的质问，戏谑的笑容从他脸上消失了，取而代之的是一种被误解触怒后的认真与执着。他坦然承认自己的邪恶，却又极为抵触被与那些他所蔑视的存在混为一谈。,,,,"charfadeout(L,1)",源类型=type:txt_pb; 层级=24
@@ -46,7 +46,7 @@ ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Comm
 66,亚波伦,hide,Abaddon_default,,,罢了，就算说了你们也不会理解，我以为楼下的诸多提示已经足够你们解开部分谜底了，不过你们似乎还是遗漏了相当多重要的信息。,,,,"charfadein(L,1)",源类型=type:txt_Abaddon; 层级=38
 67,亚波伦,hide,Abaddon_default,,,好在，这和我要实现的目的并无本质上的冲突。现在，让我正式进入今晚的正题吧。,,,,,源类型=type:txt_Abaddon; 层级=39
 68,旁白,hide,Abaddon_default,,,说着，他抬起一根被绑在椅子扶手上的手指，指向房间中央两个凸起的小平台。一束白光自平台正上方垂直洒下，宛如舞台的聚光灯，把按钮的表面打得熠熠生辉。,,,,"charfadeout(L,1)",源类型=type:txt_pb; 层级=40
-69,亚波伦,hide,Abaddon_default,,,看到房间中央的两个按钮了吗？,,5 enhanced leberch-suspense,,"charfadein(L,1)",源类型=type:txt_Abaddon; 层级=41
+69,亚波伦,hide,Abaddon_default,,,看到房间中央的两个按钮了吗？,,5 enhanced leberch-suspense,,"charfadein(L,1)&unlockmusic(Music5)",源类型=type:txt_Abaddon; 层级=41
 70,亚波伦,hide,Abaddon_default,,,这悬在我和大卫两人头顶的，达摩克利斯之剑。按下其中任一一个，都会给对应隔间里的人接通电流，将他在五秒之内电成一坨散发着焦臭味的烂肉。,,,,"bgfade(sntzm_david4F(3)_60,1)",源类型=type:txt_Abaddon; 层级=42
 71,旁白,hide,Abaddon_default,,,他的目光依次扫过你和克拉克的脸，像是在欣赏一幅后现代的抽象画作。,,,,"charfadeout(L,1)",源类型=type:txt_pb; 层级=43
 72,亚波伦,hide,Abaddon_default,,,你们有十分钟，来选择谁可以活，谁需要死。如果过了这个时间还无法做出决定，那届时两个座椅就会同时通电，也许到时候我和梅森探员还能竞争一下，谁能在这3000伏电流下撑得更久一些。,,,,"charfadein(L,1)&loadScript(sntzm_clark4F(4), 3)",源类型=type:txt_Abaddon; 层级=44
@@ -62,7 +62,7 @@ ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Comm
 3,你,hide,,,,你到底在说什么？,,,,jump(55),"源类型=type:txt_You; 层级=1; wherelist={""wheretype"":""2"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""无视飞蛾（克拉克）"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]},{""sortnum"":""2"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""夜莺线"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]},{""sortnum"":""3"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""不开枪"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}; gotomainline=55"
 23,亚波伦,hide,,,,在揭晓谜底之前，不妨先让站在门口那位一起过来听听吧。,,,,"bgfade(sntzm_david4F(3)_1,1)","源类型=type:txt_Abaddon; 层级=1; wherelist={""wheretype"":""1"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""端详飞蛾（克拉克）"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}"
 24,你,hide,,,,？！,,stop,,,源类型=type:txt_You; 层级=2
-25,旁白,hide,,,,你转头一看，这才注意到索菲亚从始至终都没有进入房间的深处，她只是扶着冰冷的门框，既不敢靠近，也没有悄声离开。像被钉住了双腿，一动不动地伫立在门旁的角落里。,,7 enhanced litesaturation-horror,,,源类型=type:txt_pb; 层级=3
+25,旁白,hide,,,,你转头一看，这才注意到索菲亚从始至终都没有进入房间的深处，她只是扶着冰冷的门框，既不敢靠近，也没有悄声离开。像被钉住了双腿，一动不动地伫立在门旁的角落里。,,7 enhanced litesaturation-horror,,unlockmusic(Music7),源类型=type:txt_pb; 层级=3
 26,亚波伦,hide,Abaddon_default,,,在费尽心思，逼问我的“邪恶计划”之前。为什么不稍微提防一下这位新认识的朋友呢？,,,,"charfadein(L,1)",源类型=type:txt_Abaddon; 层级=4
 27,旁白,hide,Abaddon_default,,,这是显而易见挑拨离间，可面对她如此诡异的站位，很难让你们不心生疑虑。,,,,"charfadeout(L,1)",源类型=type:txt_pb; 层级=5
 29,你,hide,,,,进来吧，我们都在这里。他现在被困在里面，威胁不到你的安全。,,,,,源类型=type:txt_You; 层级=6

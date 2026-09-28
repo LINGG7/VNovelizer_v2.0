@@ -516,22 +516,6 @@ public partial class VNManager : BaseManager<VNManager>
             if (i >= StoryLines.Count) break;
             StoryLine line = StoryLines[i];
 
-            if (IsHiddenBranchControlLine(line) && TryGetLineLevel(line, out int hiddenLevel))
-            {
-                int hiddenTargetIndex = FindMatchedChildBranchIndex(i, hiddenLevel);
-                if (hiddenTargetIndex < 0)
-                    hiddenTargetIndex = FindNextSameLevelIndex(i, hiddenLevel);
-                if (hiddenTargetIndex < 0 && !HasChildBranchConditions(i, hiddenLevel))
-                    hiddenTargetIndex = FindFirstChildLevelIndex(i, hiddenLevel);
-
-                if (hiddenTargetIndex < 0)
-                    break;
-
-                Debug.Log($"[VNManager][NoteBranch][FastForward] Hidden line ID={line.ID}, index={i}, level={hiddenLevel}, tags=[{GetRecordedScriptTagsForDebug()}], resolvedIndex={hiddenTargetIndex}, resolvedID={(hiddenTargetIndex >= 0 && hiddenTargetIndex < StoryLines.Count ? StoryLines[hiddenTargetIndex].ID : "")}");
-                i = hiddenTargetIndex - 1;
-                continue;
-            }
-
             // 【修复】检查是否包含 choice 命令，如果包含则停止快进（除非 ignoreChoice 为 true）
             if (!ignoreChoice && !string.IsNullOrEmpty(line.Command) && ContainsChoiceCommand(line.Command))
             {
@@ -591,6 +575,23 @@ public partial class VNManager : BaseManager<VNManager>
             }
 
             lastLine = line;
+
+            if (IsHiddenBranchControlLine(line) && TryGetLineLevel(line, out int hiddenLevel))
+            {
+                int hiddenTargetIndex = FindMatchedChildBranchIndex(i, hiddenLevel);
+                if (hiddenTargetIndex < 0)
+                    hiddenTargetIndex = FindNextSameLevelIndex(i, hiddenLevel);
+                if (hiddenTargetIndex < 0 && !HasChildBranchConditions(i, hiddenLevel))
+                    hiddenTargetIndex = FindFirstChildLevelIndex(i, hiddenLevel);
+
+                if (hiddenTargetIndex < 0)
+                    break;
+
+                Debug.Log($"[VNManager][NoteBranch][FastForward] Hidden line ID={line.ID}, index={i}, level={hiddenLevel}, tags=[{GetRecordedScriptTagsForDebug()}], resolvedIndex={hiddenTargetIndex}, resolvedID={(hiddenTargetIndex >= 0 && hiddenTargetIndex < StoryLines.Count ? StoryLines[hiddenTargetIndex].ID : "")}");
+                i = hiddenTargetIndex - 1;
+                continue;
+            }
+
         }
 
         // 预演结束，应用 BGM 和 特效（只有完全快进到目标行时才应用）
@@ -953,14 +954,6 @@ public partial class VNManager : BaseManager<VNManager>
 #if UNITY_EDITOR
         if (DebugIsWaitingForBranch) return;
 #endif
-        if (!ResolveHiddenBranchControlLine())
-        {
-#if UNITY_EDITOR
-            if (!DebugIsWaitingForBranch) DebugEndExecution();
-#endif
-            return;
-        }
-
         if (CurrentLineIndex < 0 || CurrentLineIndex >= StoryLines.Count)
         {
 #if UNITY_EDITOR
@@ -1008,6 +1001,16 @@ public partial class VNManager : BaseManager<VNManager>
 
         if (TryShowToBeContinuedPanelForLine(currentLine))
         {
+            _usePersistedCharacterSlotsWhenCsvCharCellsEmpty = false;
+            return;
+        }
+
+        if (IsHiddenBranchControlLine(currentLine))
+        {
+            ClearPendingPostTextCommand();
+            ClearAdvanceAfterCommandsRequest();
+            ClearStopCommandsForEndingChoiceRequest();
+            _flowCoroutine = MonoManager.GetInstance().StartCoroutine(ExecuteActionsAndContinue(currentLine.Command));
             _usePersistedCharacterSlotsWhenCsvCharCellsEmpty = false;
             return;
         }
@@ -1259,14 +1262,13 @@ public partial class VNManager : BaseManager<VNManager>
 #if UNITY_EDITOR
         if (DebugIsWaitingForBranch) return;
 #endif
-        if (!ResolveHiddenBranchControlLine(true))
+        // Control rows need real command execution (including choice/wait) before branching.
+        if (CurrentLineIndex >= 0 && CurrentLineIndex < StoryLines.Count &&
+            IsHiddenBranchControlLine(StoryLines[CurrentLineIndex]))
         {
-#if UNITY_EDITOR
-            if (!DebugIsWaitingForBranch) DebugEndExecution();
-#endif
+            PlayCurrentLine();
             return;
         }
-
         if (CurrentLineIndex < 0 || CurrentLineIndex >= StoryLines.Count)
         {
 #if UNITY_EDITOR
@@ -1712,51 +1714,30 @@ public partial class VNManager : BaseManager<VNManager>
             null);
     }
 
+    // Resolve only the row that has finished executing; child control rows run separately.
     private bool ResolveHiddenBranchControlLine(bool skipAnimations = false)
     {
         if (CurrentLineIndex < 0 || CurrentLineIndex >= StoryLines.Count)
             return true;
-
-        int guard = StoryLines.Count + 1;
-
-        while (CurrentLineIndex >= 0 && CurrentLineIndex < StoryLines.Count && guard-- > 0)
-        {
-            StoryLine line = StoryLines[CurrentLineIndex];
-            if (!IsHiddenBranchControlLine(line))
-                return true;
+        StoryLine line = StoryLines[CurrentLineIndex];
+        if (!IsHiddenBranchControlLine(line))
+            return true;
 #if UNITY_EDITOR
-            if (DebugTryPauseBranch(skipAnimations)) return false;
+        if (DebugTryPauseBranch(skipAnimations)) return false;
 #endif
-
-            if (!TryGetLineLevel(line, out int parentLevel))
-            {
-                CurrentLineIndex++;
-                continue;
-            }
-
-            int targetIndex = FindMatchedChildBranchIndex(CurrentLineIndex, parentLevel);
-            if (targetIndex < 0)
-                targetIndex = FindNextSameLevelIndex(CurrentLineIndex, parentLevel);
-            if (targetIndex < 0 && !HasChildBranchConditions(CurrentLineIndex, parentLevel))
-                targetIndex = FindFirstChildLevelIndex(CurrentLineIndex, parentLevel);
-
-            if (targetIndex < 0)
-            {
-                CurrentLineIndex = StoryLines.Count;
-                return true;
-            }
-
-            VNDebug.LogVerbose($"[VNManager] Hidden branch line {line.ID} resolved to index {targetIndex}");
-            Debug.Log($"[VNManager][NoteBranch] Hidden line ID={line.ID}, index={CurrentLineIndex}, level={parentLevel}, tags=[{GetRecordedScriptTagsForDebug()}], resolvedIndex={targetIndex}, resolvedID={(targetIndex >= 0 && targetIndex < StoryLines.Count ? StoryLines[targetIndex].ID : "")}");
-            CurrentLineIndex = targetIndex;
+        if (!TryGetLineLevel(line, out int parentLevel))
+        {
+            CurrentLineIndex++;
+            return true;
         }
-
-        if (guard <= 0)
-            Debug.LogError("[VNManager] Hidden branch resolution exceeded guard limit.");
-
-        return CurrentLineIndex >= 0 && CurrentLineIndex < StoryLines.Count;
+        int targetIndex = FindMatchedChildBranchIndex(CurrentLineIndex, parentLevel);
+        if (targetIndex < 0)
+            targetIndex = FindNextSameLevelIndex(CurrentLineIndex, parentLevel);
+        if (targetIndex < 0 && !HasChildBranchConditions(CurrentLineIndex, parentLevel))
+            targetIndex = FindFirstChildLevelIndex(CurrentLineIndex, parentLevel);
+        CurrentLineIndex = targetIndex < 0 ? StoryLines.Count : targetIndex;
+        return true;
     }
-
     private bool IsHiddenBranchControlLine(StoryLine line)
     {
         if (line == null)
@@ -3309,7 +3290,22 @@ public partial class VNManager : BaseManager<VNManager>
         int preScriptLoadVersion = scriptLoadVersion;
         VNDebug.LogVerbose($"[TypingTrace][ExecuteActionsAndContinue] start currentLineIndex={CurrentLineIndex}, actionString={actionString}");
 
-        yield return CommandManager.GetInstance().ExecuteCommandsAsync(actionString);
+        bool isControlLine = preIndex >= 0 && preIndex < StoryLines.Count &&
+            IsHiddenBranchControlLine(StoryLines[preIndex]);
+        // Avoid recursively starting a chain of commandless control rows in one frame.
+        if (isControlLine) yield return null;
+        if (!string.IsNullOrEmpty(actionString))
+            yield return CommandManager.GetInstance().ExecuteCommandsAsync(actionString);
+
+        if (isControlLine && scriptLoadVersion == preScriptLoadVersion && CurrentLineIndex == preIndex)
+        {
+            var panel = UIManager.GetInstance().GetPanel<VNGameplayPanel>("VNGameplayPanel");
+            while (panel != null && panel.IsTextTyping())
+            {
+                yield return null;
+                panel = UIManager.GetInstance().GetPanel<VNGameplayPanel>("VNGameplayPanel");
+            }
+        }
 
         _flowCoroutine = null;
 
@@ -3327,6 +3323,12 @@ public partial class VNManager : BaseManager<VNManager>
         if (scriptLoadVersion != preScriptLoadVersion || CurrentLineIndex != preIndex)
         {
             PlayCurrentLine();
+            yield break;
+        }
+
+        if (isControlLine)
+        {
+            if (ResolveHiddenBranchControlLine()) PlayCurrentLine();
             yield break;
         }
 

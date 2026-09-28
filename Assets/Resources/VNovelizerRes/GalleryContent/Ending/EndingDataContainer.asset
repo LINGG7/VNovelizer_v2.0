@@ -13,19 +13,35 @@ MonoBehaviour:
   m_Name: EndingDataContainer
   m_EditorClassIdentifier: 
   endingList:
-  - EndingID: Ending_1
+  - EndingID: Ending1
     LockedText: "\u7ED3\u5C40\u4E00\uFF1A\uFF1F\uFF1F\uFF1F"
-    UnlockedText: "\u7ED3\u5C40\u4E00\uFF1A\u3010\u8FF7\u5931\u7684\u810F\u5F39\u3011"
+    UnlockedText: "\u7ED3\u5C40\u4E00\uFF1A\u3010\u5F03\u7FFC\u8005\u7684\u9668\u843D\u3011"
     LockedSprite: {fileID: 21300000, guid: 8a2c0e00c8eed5640b1c6f435d8446e1, type: 3}
     LockedSpritePath: 
-    UnLockedSprite: {fileID: 21300000, guid: 830a501c408f82c42bcf3f979de3fe1e, type: 3}
-    UnLockedSpritePath: VNovelizerRes/Backgrounds/sntzm_david2_58
+    UnLockedSprite: {fileID: 21300000, guid: 2571d0b624d60eb4aa08940a22fa3122, type: 3}
+    UnLockedSpritePath: VNovelizerRes/Backgrounds/sntzm_ending3_56
     isUnLocked: 0
-  - EndingID: Ending_2
+  - EndingID: Ending2
     LockedText: "\u7ED3\u5C40\u4E8C\uFF1A\uFF1F\uFF1F\uFF1F"
-    UnlockedText: "\u7ED3\u5C40\u4E8C\uFF1A\u3010\u7070\u767D\u7684\u671D\u5723\u3011"
+    UnlockedText: "\u7ED3\u5C40\u4E8C\uFF1A\u3010\u6076\u9B54\u7684\u53CC\u7FFC\u3011"
     LockedSprite: {fileID: 21300000, guid: 8a2c0e00c8eed5640b1c6f435d8446e1, type: 3}
     LockedSpritePath: 
-    UnLockedSprite: {fileID: 21300000, guid: 7c15d1acf19b8ae4eb84f3ca9d54217e, type: 3}
-    UnLockedSpritePath: VNovelizerRes/Backgrounds/sntzm_david4_59
+    UnLockedSprite: {fileID: 21300000, guid: 4960cd2a77dc690438abcbfaf60ccf03, type: 3}
+    UnLockedSpritePath: VNovelizerRes/Backgrounds/sntzm_ending4(2)_56
+    isUnLocked: 0
+  - EndingID: Ending3
+    LockedText: "\u7ED3\u5C40\u4E09\uFF1A\uFF1F\uFF1F\uFF1F"
+    UnlockedText: "\u7ED3\u5C40\u4E09\uFF1A\u3010\u68A6\u4E4B\u6E0A\u3011"
+    LockedSprite: {fileID: 21300000, guid: 8a2c0e00c8eed5640b1c6f435d8446e1, type: 3}
+    LockedSpritePath: 
+    UnLockedSprite: {fileID: 21300000, guid: 5e43db9c840ace442b4ae210a9ca625d, type: 3}
+    UnLockedSpritePath: VNovelizerRes/Backgrounds/sntzm_ending5(3)_28
+    isUnLocked: 0
+  - EndingID: Ending4
+    LockedText: "\u7ED3\u5C40\u56DB\uFF1A\uFF1F\uFF1F\uFF1F"
+    UnlockedText: "\u7ED3\u5C40\u56DB\uFF1A\u3010\u7F6A\u4E4B\u7130\u3011"
+    LockedSprite: {fileID: 21300000, guid: 8a2c0e00c8eed5640b1c6f435d8446e1, type: 3}
+    LockedSpritePath: 
+    UnLockedSprite: {fileID: 21300000, guid: af85cf078e60bcc4984f39a9822a142f, type: 3}
+    UnLockedSpritePath: VNovelizerRes/Backgrounds/sntzm_truth(3)_39
     isUnLocked: 0

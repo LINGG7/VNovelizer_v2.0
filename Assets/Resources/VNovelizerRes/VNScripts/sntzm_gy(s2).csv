@@ -24,10 +24,10 @@ ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Comm
 23,你,hide,,,,我们得离开了。哪怕是为了盖曼，为了他的遗愿，你也要坚强地活下去。,,,,,源类型=type:txt_You; 层级=22
 24,旁白,hide,,,,索菲亚点了点头，硕大的泪珠随着她起身的动作一颗颗砸在盖曼逐渐冰冷的手背上，砸在那片还在慢慢向上蔓延的火苗边缘。像是给这位已经走到了终点的旅者，添上最后一抔送行的尘土。,,,,,源类型=type:txt_pb; 层级=23
 25,旁白,hide,,,,你能感觉到她整个人的重量都靠在了你的手臂上，整个人软得像是抽掉了支撑骨架的棉絮，只有双腿在老师遗志的驱使下一点点地挪向那三台连接着梦境出口的冰冷设备。,,,,"bgfade(sntzm_gy(s2)_25,1)",源类型=type:txt_pb; 层级=24
-26,旁白,hide,,,,克拉克已经躺入了其中的一台，戴上了头盔，却没有立刻按下那个红色的启动按钮，而是等你一起做好返回现实的准备。但有一个人却没有跟过来——大卫仍站在盖曼倒下去的地方，背对着出口的方向，身影立在跳动的火光里。,,,,,源类型=type:txt_pb; 层级=25
+26,旁白,hide,,,,克拉克已经躺入了其中的一台，戴上了头盔，却没有立刻按下那个红色的启动按钮，而是等你一起做好返回现实的准备。但有一个人却没有跟过来——大卫仍站在盖曼倒下去的地方，背对着出口的方向，身影立在跳动的火光里。,,stop,,,源类型=type:txt_pb; 层级=25
 27,旁白,hide,,,,你出声唤他的名字，他却对此充耳不闻，只是站在那里垂着头，看着地面上跳动的火光倒影，手指无意识地摩挲着右肩那片早已凝固的深色印记。,,,,,源类型=type:txt_pb; 层级=26
 29,你,hide,,,,大卫！你疯了吗？这片火焰是盖曼梦境崩解的表现，再不离开我们都只能留下来和他陪葬！,,,,,源类型=type:txt_You; 层级=27
-30,旁白,hide,,,,只见他站在离你们几步远的位置，目光正落在那片火焰上方，像是盯着某个正在缓慢成形的东西。,,,,,源类型=type:txt_pb; 层级=28
+30,旁白,hide,,,,只见他站在离你们几步远的位置，目光正落在那片火焰上方，像是盯着某个正在缓慢成形的东西。,,17 enhanced_suspense-tense-background-music,,,源类型=type:txt_pb; 层级=28
 31,旁白,hide,,,,火焰的光在他侧脸上投下明暗交错的轮廓，他肩膀在听到你的声音后朝你的方向微微偏了偏，声音隔着一层跳动的火幕，被烈焰燃烧的爆裂声割裂得支离破碎。,,,,,源类型=type:txt_pb; 层级=29
 32,大卫,hide,David_default,,,我不能走。,,,,"charfadein(L,1)",源类型=type:txt_David; 层级=30
 33,旁白,hide,David_default,,,你愣在原地，一时以为是自己听错了。,,,,,源类型=type:txt_pb; 层级=31
@@ -52,7 +52,7 @@ ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Comm
 51,旁白,hide,,,,他嘴角浮起一丝极淡的弧度，没有说话，只是面朝你松开紧握成拳的左手，一只黑色的飞蛾在他的掌心慢慢凝聚成形，它的轮廓与盖曼所化的那只灰白色飞蛾几乎完全一致，只在色泽上完全相反，就像一枚硬币的另一面。,,,,"bgfade(sntzm_gy(s2)_51,1)",源类型=type:txt_pb; 层级=50
 52,旁白,hide,,,,这只生物仿佛受到了某种惊吓似得从他手中弹起，慌不择路地躲避着四周肆虐的火舌，最后竟直直扑向了那只容纳着泛黄液体的容器，“啪”地一声撞碎在了培养罐冰凉的玻璃壁上。,,,,,源类型=type:txt_pb; 层级=51
 53,旁白,hide,,,,当温暖鲜活的生命与冰冷僵硬的器械彼此交融之时，那块泛着火光的玻璃上倒映出了一张熟悉的脸——他的半边身形和死去的盖曼重叠在一起，但神态和气质却和他大相径庭，那是属于亚波伦的扭曲冰冷的面部轮廓。,,,,"bgfade(sntzm_gy(s2)_53,1)",源类型=type:txt_pb; 层级=52
-54,亚波伦,hide,,,,大卫，你这是什么意思？放着好好的命不要，非得和我玩什么同归于尽的幼稚戏码？,,,,,源类型=type:txt_Abaddon; 层级=53
+54,亚波伦,hide,,,,大卫，你这是什么意思？放着好好的命不要，非得和我玩什么同归于尽的幼稚戏码？,,7 enhanced litesaturation-horror,,,源类型=type:txt_Abaddon; 层级=53
 55,旁白,hide,,,,他枯瘦的手指按在培养罐的玻璃上，指腹蹭过那道还在往下蔓延的裂纹，像一个被囚禁在玻璃中的幽灵，隔着一层透明的壁垒，贪婪地嗅着外面空气里弥漫的血腥与火焰,,,,,源类型=type:txt_pb; 层级=54
 56,亚波伦,hide,,,,你可别忘了，现在我们共同的敌人是纳丁达克，要是因为你我之间的‘内部矛盾’导致盖曼的计划泡汤了，你还有你的朋友，就算出去了也只是他们案板上的鱼肉。,,,,,源类型=type:txt_Abaddon; 层级=55
 60,你,hide,,,,这是怎么回事？你到底是什么时候进入的他的意识！,,,,,源类型=type:txt_You; 层级=56
@@ -62,7 +62,7 @@ ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Comm
 57,旁白,hide,,,,,,,,,源类型=type:exeBC; 层级=60
 58,旁白,hide,,,,你的思绪在这一连串问题的炮轰下，迅速飘回到十几分钟前。当你亲自按下那个处刑亚波伦的开关，看着他在电刑椅上消散之时，他的遗言不是不甘心的诅咒或哀嚎，而是“现实里见。”,,,,,"源类型=type:txt_pb; 层级=61; wherelist={""wheretype"":""1"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""相信亚波伦"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}"
 65,旁白,hide,,,,再结合那两台电刑椅彼此相连的线路，以及大卫明明承受了电击却平安生还的事实。一个可怕的猜想顿时在你脑海中勾勒出清晰的轮廓——或许当时连接着两人的设备并不只是电刑椅，而是亚波伦用来转移意识的设备。,,,,jump(68),源类型=type:txt_pb; 层级=62; gotomainline=68
-59,旁白,hide,,,,你的思绪在这一连串问题的炮轰下，迅速飘回到十几分钟前。当你亲自按下那个处刑亚波伦的开关，看着他在电刑椅上消散之时，他的遗言不是不甘心的诅咒或哀嚎，而是“我自由了。”,,,,,"源类型=type:txt_pb; 层级=61; wherelist={""wheretype"":""1"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""端详飞蛾（大卫）"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}"
+59,旁白,hide,,,,你的思绪在这一连串问题的炮轰下，迅速飘回到十几分钟前。当你亲自按下那个处刑亚波伦的开关，看着他在电刑椅上消散之时，他的遗言不是不甘心的诅咒或哀嚎，而是“我自由了。”,,,,,"源类型=type:txt_pb; 层级=61; wherelist={""wheretype"":""1"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""端详飞蛾（克拉克）"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]},{""sortnum"":""2"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""无视飞蛾（克拉克）"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}"
 66,旁白,hide,,,,再结合后来你们解开捆绑克拉克的绳子，打算将他救下时，大卫突然产生的剧烈头痛，一个可怕的猜想顿时在你脑海中勾勒出清晰的轮廓——或许早在那时候起，亚波伦就已经通过某种手段把自己藏进了大卫的意识深处。,,,,jump(68),源类型=type:txt_pb; 层级=62; gotomainline=68
 68,旁白,hide,,,,为的就是搭乘大卫的便车，逃离这个囚禁了自己无数日月的梦境，再靠着这具新取得的身体在现实中苏醒。,,,,,源类型=type:txt_pb; 层级=63
 69,你,hide,,,,那两台设备，它们并不是电刑椅对不对？你是在给自己争取转移意识的时间，所以才用关于纳丁达克真相拖延我们。,,,,,源类型=type:txt_You; 层级=64
@@ -76,7 +76,6 @@ ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Comm
 77,大卫,hide,,,,你害怕了？,,,,"bgfade(sntzm_gy(s2)_82,1)",源类型=type:txt_David; 层级=72
 78,亚波伦,hide,,,,什么？,,,,,源类型=type:txt_Abaddon; 层级=73
 79,旁白,hide,,,,亚波伦的眼睛在玻璃反射的火光下猛地一缩，两双愈发相似的赤色瞳孔一明一暗地隔着那道裂纹对峙着，一个来自躯体，一个来自罐中，在空气中撕扯出一股尖锐的张力。,,,,,源类型=type:txt_pb; 层级=74
-80,大卫,hide,,,,亚波伦的眼睛在玻璃反射的火光下猛地一缩，两双愈发相似的赤色瞳孔一明一暗地隔着那道裂纹对峙着，一个来自躯体，一个来自罐中，在空气中撕扯出一股尖锐的张力。,,,,,源类型=type:txt_David; 层级=75
 81,大卫,hide,,,,你之所以会在现在委屈求和，不是因为有共同的敌人，而是因为你比任何人都更清楚我此刻的心思——拉着你在这里和盖曼陪葬！,,,,,源类型=type:txt_David; 层级=76
 82,旁白,hide,,,,话音刚落，周围的火焰猛地窜起半米多高，赤红的火舌舔过房间的天花板，被烧得发脆的墙皮簌簌往下掉。,,,,,源类型=type:txt_pb; 层级=77
 83,旁白,hide,,,,大卫的半个身子已经被火光照得通透，额角的汗顺着下颌线往下滑，滴在滚烫的地面上，但他知道，躲在自己身体里的那头的恶魔比自己还慌，如果要追溯这些汗液的来源，那它们中每一滴，都必然只会来自亚波伦自己。,,,,,源类型=type:txt_pb; 层级=78
@@ -85,15 +84,15 @@ ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Comm
 86,亚波伦,hide,,,,你以为你这样做就能洗清那些事了？你以为带着我死在火里，就能把过去一笔勾销？没人会知道你做出的牺牲，大卫。,,,,,源类型=type:txt_Abaddon; 层级=81
 98,旁白,hide,,,,,,,,,源类型=type:exeBC; 层级=82
 87,亚波伦,hide,,,,当你的死讯传出，当初因你而陷入不幸的仇家只会认为你罪有应得。至于那些曾经让你做过假报道的公司和企业，他们只会松一口气，权当世上又少了一个知道他们肮脏秘密的麻烦。,,,,,源类型=type:txt_Abaddon; 层级=83
-88,索菲亚,hide,Sophia_default,,,但我们会记得他。,,,,"charfadein(L,1)",源类型=type:txt_Sophia; 层级=84
+88,索菲亚,hide,Sophia_default,,,但我们会记得他。,,19 enhanced_suspense-tension-background-music,,"charfadein(L,1)&unlockmusic(Music19)",源类型=type:txt_Sophia; 层级=84
 89,旁白,hide,Sophia_default,,,索菲亚拖着虚软的双腿向前迈了一步，手中紧握着那把曾夺去恩师性命的枪械。在承受了与导师生离死别的剧痛后，她终于积攒起直面这个拥有与盖曼相同面容的恶魔的勇气。,,,,,源类型=type:txt_pb; 层级=85
 90,索菲亚,hide,Sophia_default,,,每一个在这片梦境里受害、牺牲的人，都会在真相大白的那一刻迎来属于他们的昭雪。他们的故事需要有人来铭记，而你......会葬身在这里，和你制造的噩梦一起。,,,,,源类型=type:txt_Sophia; 层级=86
 91,旁白,hide,Sophia_default,,,那双青蓝色的眼睛里燃着和当初盖曼拒绝和他合作时，如出一辙的决绝，让亚波伦原本带着蛊惑的笑意僵在了嘴角。,,,,"charfadeout(L,1)",源类型=type:txt_pb; 层级=87
-92,旁白,hide,,,,这是他此生第三次感受到名为盛怒的情绪——第一次是发现自己被纳丁达克欺骗、第二次是被意识中的盖曼拒绝。,,,,,源类型=type:txt_pb; 层级=88
+92,旁白,hide,,,,这是他此生第三次感受到名为盛怒的情绪——第一次是发现自己被纳丁达克欺骗、第二次是被意识中的盖曼拒绝。,,19 enhanced_suspense-tension-background-music,,,源类型=type:txt_pb; 层级=88
 93,旁白,hide,,,,而着最后一次——便是被这个本该任他拿捏的小姑娘，顶着和她老师一样令人生厌的眼神，让他重获自由的机会眼睁睁地在他面前一点点流逝。,,,,,源类型=type:txt_pb; 层级=89
 94,亚波伦,hide,,,,你这不知天高地厚的蠢材！,,,,,源类型=type:txt_Abaddon; 层级=90
 95,旁白,hide,,,,只见玻璃中的倒影猛扑向大卫，在与本体结合的一瞬粗暴地占据了他持枪的那半截身体，枪口在他手中硬生生地被调转方向，对着索菲亚的脸便是一发干净利落地射击。,,,,"bgfade(sntzm_gy(s2)_95,1)&playsfx(GunShot)&loadScript(sntzm_truth(1), 1)",源类型=type:txt_pb; 层级=91; gotomainline=真结局分支_1
 99,亚波伦,hide,,,,当你的死讯传出，当初因你而陷入不幸的仇家只会认为你罪有应得。至于那些曾经让你做过假报道的公司和企业，他们只会松一口气，权当世上又少了一个知道他们肮脏秘密的麻烦。,,,,"loadScript(sntzm_gy(ns2), 92)","源类型=type:txt_Abaddon; 层级=83; wherelist={""wheretype"":""1"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""无视飞蛾（克拉克）"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]},{""sortnum"":""2"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""无视飞蛾（大卫）"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]},{""sortnum"":""3"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""立刻离开"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}; gotomainline=盖亚之心（无索菲亚线下）_92"
-64,旁白,hide,,,,你的思绪在这一连串问题的炮轰下，迅速飘回到十几分钟前。当你亲自按下那个处刑亚波伦的开关，看着他在电刑椅上消散之时，他的遗言不是不甘心的诅咒或哀嚎，而是“我自由了。”,,,,,"源类型=type:txt_pb; 层级=61; wherelist={""wheretype"":""1"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""端详飞蛾（大卫）"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}"
+64,旁白,hide,,,,你的思绪在这一连串问题的炮轰下，迅速飘回到十几分钟前。当你亲自按下那个处刑亚波伦的开关，看着他在电刑椅上消散之时，他的遗言不是不甘心的诅咒或哀嚎，而是“我自由了。”,,,,,"源类型=type:txt_pb; 层级=61; wherelist={""wheretype"":""1"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""端详飞蛾（大卫）"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]},{""sortnum"":""2"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""无视飞蛾（大卫）"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}"
 67,旁白,hide,,,,再结合那两台电刑椅彼此相连的线路，和大卫被抓后如同被催眠一般的长时间昏迷。一个可怕的猜想顿时在你脑海中勾勒出清晰的轮廓——或许当时连接着两人的设备并不只是电刑椅，而是亚波伦用来转移意识的设备。,,,,jump(68),源类型=type:txt_pb; 层级=62; gotomainline=68
 97,你,hide,,,,他？你指的是谁？,,,,jump(51),"源类型=type:txt_You; 层级=48; wherelist={""wheretype"":""1"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""无视飞蛾（克拉克）"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]},{""sortnum"":""2"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""无视飞蛾（大卫）"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]},{""sortnum"":""3"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""立刻离开"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}; gotomainline=51"

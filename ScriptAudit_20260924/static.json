@@ -1,0 +1,575 @@
+{
+  "csv_files": 43,
+  "xlsx_files": 43,
+  "csv_rows": 3568,
+  "xlsx_rows": 3570,
+  "csv_only": [],
+  "xlsx_only": [],
+  "parsebad": [],
+  "csv_static": {
+    "issues": [
+      [
+        "sntzm_clark4F(4)",
+        "92",
+        "missing load ID",
+        "sntzm_final(3), 8)",
+        53
+      ],
+      [
+        "sntzm_truth(3)",
+        "38",
+        "missing jump ID",
+        "17",
+        35
+      ]
+    ],
+    "counts": {
+      "bgfade": 345,
+      "loadscript": 89,
+      "charfadein": 399,
+      "charfadeout": 384,
+      "parallel": 69,
+      "jump": 136,
+      "choice": 42,
+      "playsfx": 49,
+      "shake": 25,
+      "memoryon": 5,
+      "memoryoff": 6,
+      "tapeon": 1,
+      "tapeoff": 1
+    },
+    "undefined_tags": [
+      "忽视",
+      "深入探究",
+      "视为陷阱",
+      "追问",
+      "选择亚波伦",
+      "选择大卫"
+    ]
+  },
+  "xlsx_static": {
+    "issues": [
+      [
+        "sntzm_clark4F(4)",
+        "92",
+        "missing load ID",
+        "sntzm_final(3), 8)",
+        53
+      ],
+      [
+        "sntzm_final(6)",
+        "52",
+        "missing script",
+        "终局（下）, 84",
+        34
+      ],
+      [
+        "sntzm_final(6)",
+        "87",
+        "missing script",
+        "盖亚之心（上）, 3",
+        76
+      ],
+      [
+        "sntzm_final(6)",
+        "103",
+        "missing script",
+        "终局（下）, 92",
+        78
+      ],
+      [
+        "sntzm_final(6)",
+        "99",
+        "missing script",
+        "盖亚之心（上）, 4",
+        91
+      ],
+      [
+        "sntzm_truth(3)",
+        "38",
+        "missing jump ID",
+        "17",
+        35
+      ]
+    ],
+    "counts": {
+      "bgfade": 331,
+      "loadscript": 90,
+      "charfadein": 386,
+      "charfadeout": 372,
+      "parallel": 65,
+      "jump": 136,
+      "choice": 42,
+      "playsfx": 47,
+      "shake": 24,
+      "memoryon": 5,
+      "memoryoff": 6,
+      "tapeon": 1,
+      "tapeoff": 1
+    },
+    "undefined_tags": [
+      "忽视",
+      "深入探究",
+      "视为陷阱",
+      "追问",
+      "选择亚波伦",
+      "选择大卫"
+    ]
+  },
+  "sync_diffs": {
+    "sntzm_clark4F(1)": [
+      [
+        "16",
+        "Note",
+        "源类型=type:txt_Sophia; 层级=12; wherelist={\"wheretype\":\"1\",\"wheredatas\":[{\"sortnum\":\"1\",\"way\":\"=\",\"conditions\":[{\"algorithm\":\"+\",\"valuetype\":\"4\",\"valuekey\":\"\",\"valuedata\":\"试图活捉\",\"dowlist4\":[]}],\"targets\":[{\"algorithm\":\"+\",\"valuetype\":\"1\",\"valuekey\":\"\",\"valuedata\":\"0\",\"dowlist4\":[]}]}]}",
+        "源类型=type:txt_Sophia; 层级=12; wherelist={\"wheretype\":\"1\",\"wheredatas\":[{\"sortnum\":\"1\",\"way\":\"=\",\"conditions\":[{\"algorithm\":\"+\",\"valuetype\":\"4\",\"valuekey\":\"\",\"valuedata\":\"试图活捉\",\"dowlist4\":[]}],\"targets\":[{\"algorithm\":\"+\",\"valuetype\":\"1\",\"valuekey\":\"\",\"valuedata\":\"1\",\"dowlist4\":[]}]}]}"
+      ],
+      [
+        "11",
+        "Note",
+        "源类型=type:txt_pb; 层级=1; wherelist={\"wheretype\":\"1\",\"wheredatas\":[{\"sortnum\":\"1\",\"way\":\"=\",\"conditions\":[{\"algorithm\":\"+\",\"valuetype\":\"4\",\"valuekey\":\"\",\"valuedata\":\"无视飞蛾（克拉克）\",\"dowlist4\":[]}],\"targets\":[{\"algorithm\":\"+\",\"valuetype\":\"1\",\"valuekey\":\"\",\"valuedata\":\"0\",\"dowlist4\":[]}]}]}",
+        "源类型=type:txt_pb; 层级=1; wherelist={\"wheretype\":\"1\",\"wheredatas\":[{\"sortnum\":\"1\",\"way\":\"=\",\"conditions\":[{\"algorithm\":\"+\",\"valuetype\":\"4\",\"valuekey\":\"\",\"valuedata\":\"无视飞蛾（克拉克）\",\"dowlist4\":[]}],\"targets\":[{\"algorithm\":\"+\",\"valuetype\":\"1\",\"valuekey\":\"\",\"valuedata\":\"1\",\"dowlist4\":[]}]}]}"
+      ]
+    ],
+    "sntzm_gy(s2)": [
+      [
+        "59",
+        "Note",
+        "源类型=type:txt_pb; 层级=61; wherelist={\"wheretype\":\"1\",\"wheredatas\":[{\"sortnum\":\"1\",\"way\":\"=\",\"conditions\":[{\"algorithm\":\"+\",\"valuetype\":\"4\",\"valuekey\":\"\",\"valuedata\":\"端详飞蛾（大卫）\",\"dowlist4\":[]}],\"targets\":[{\"algorithm\":\"+\",\"valuetype\":\"1\",\"valuekey\":\"\",\"valuedata\":\"1\",\"dowlist4\":[]}]}]}",
+        "源类型=type:txt_pb; 层级=61; wherelist={\"wheretype\":\"1\",\"wheredatas\":[{\"sortnum\":\"1\",\"way\":\"=\",\"conditions\":[{\"algorithm\":\"+\",\"valuetype\":\"4\",\"valuekey\":\"\",\"valuedata\":\"端详飞蛾（克拉克）\",\"dowlist4\":[]}],\"targets\":[{\"algorithm\":\"+\",\"valuetype\":\"1\",\"valuekey\":\"\",\"valuedata\":\"1\",\"dowlist4\":[]}]},{\"sortnum\":\"2\",\"way\":\"=\",\"conditions\":[{\"algorithm\":\"+\",\"valuetype\":\"4\",\"valuekey\":\"\",\"valuedata\":\"无视飞蛾（克拉克）\",\"dowlist4\":[]}],\"targets\":[{\"algorithm\":\"+\",\"valuetype\":\"1\",\"valuekey\":\"\",\"valuedata\":\"1\",\"dowlist4\":[]}]}]}"
+      ],
+      [
+        "64",
+        "Note",
+        "源类型=type:txt_pb; 层级=61; wherelist={\"wheretype\":\"1\",\"wheredatas\":[{\"sortnum\":\"1\",\"way\":\"=\",\"conditions\":[{\"algorithm\":\"+\",\"valuetype\":\"4\",\"valuekey\":\"\",\"valuedata\":\"端详飞蛾（大卫）\",\"dowlist4\":[]}],\"targets\":[{\"algorithm\":\"+\",\"valuetype\":\"1\",\"valuekey\":\"\",\"valuedata\":\"1\",\"dowlist4\":[]}]}]}",
+        "源类型=type:txt_pb; 层级=61; wherelist={\"wheretype\":\"1\",\"wheredatas\":[{\"sortnum\":\"1\",\"way\":\"=\",\"conditions\":[{\"algorithm\":\"+\",\"valuetype\":\"4\",\"valuekey\":\"\",\"valuedata\":\"端详飞蛾（大卫）\",\"dowlist4\":[]}],\"targets\":[{\"algorithm\":\"+\",\"valuetype\":\"1\",\"valuekey\":\"\",\"valuedata\":\"1\",\"dowlist4\":[]}]},{\"sortnum\":\"2\",\"way\":\"=\",\"conditions\":[{\"algorithm\":\"+\",\"valuetype\":\"4\",\"valuekey\":\"\",\"valuedata\":\"无视飞蛾（大卫）\",\"dowlist4\":[]}],\"targets\":[{\"algorithm\":\"+\",\"valuetype\":\"1\",\"valuekey\":\"\",\"valuedata\":\"1\",\"dowlist4\":[]}]}]}"
+      ]
+    ],
+    "sntzm_final(1)": [
+      [
+        "3",
+        "Note",
+        "源类型=type:txt_pb; 层级=1; wherelist={\"wheretype\":\"2\",\"wheredatas\":[{\"sortnum\":\"1\",\"way\":\"=\",\"conditions\":[{\"algorithm\":\"+\",\"valuetype\":\"4\",\"valuekey\":\"\",\"valuedata\":\"相信亚波伦\",\"dowlist4\":[]}],\"targets\":[{\"algorithm\":\"+\",\"valuetype\":\"1\",\"valuekey\":\"\",\"valuedata\":\"1\",\"dowlist4\":[]}]},{\"sortnum\":\"2\",\"way\":\"=\",\"conditions\":[{\"algorithm\":\"+\",\"valuetype\":\"4\",\"valuekey\":\"\",\"valuedata\":\"端详飞蛾（克拉克）\",\"dowlist4\":[]}],\"targets\":[{\"algorithm\":\"+\",\"valuetype\":\"1\",\"valuekey\":\"\",\"valuedata\":\"1\",\"dowlist4\":[]}]}]}",
+        "源类型=type:txt_pb; 层级=1"
+      ]
+    ],
+    "sntzm_clark4F(2)": [
+      [
+        "59",
+        "Note",
+        "源类型=type:txt_pb; 层级=16; wherelist={\"wheretype\":\"2\",\"wheredatas\":[{\"sortnum\":\"1\",\"way\":\"=\",\"conditions\":[{\"algorithm\":\"+\",\"valuetype\":\"4\",\"valuekey\":\"\",\"valuedata\":\"夜莺线\",\"dowlist4\":[]}],\"targets\":[{\"algorithm\":\"+\",\"valuetype\":\"1\",\"valuekey\":\"\",\"valuedata\":\"1\",\"dowlist4\":[]}]},{\"sortnum\":\"2\",\"way\":\"=\",\"conditions\":[{\"algorithm\":\"+\",\"valuetype\":\"4\",\"valuekey\":\"\",\"valuedata\":\"端详飞蛾（大卫）\",\"dowlist4\":[]}],\"targets\":[{\"algorithm\":\"+\",\"valuetype\":\"1\",\"valuekey\":\"\",\"valuedata\":\"1\",\"dowlist4\":[]}]}]}; gotomainline=10",
+        "源类型=type:txt_pb; 层级=16; wherelist={\"wheretype\":\"2\",\"wheredatas\":[{\"sortnum\":\"1\",\"way\":\"=\",\"conditions\":[{\"algorithm\":\"+\",\"valuetype\":\"4\",\"valuekey\":\"\",\"valuedata\":\"夜莺线\",\"dowlist4\":[]}],\"targets\":[{\"algorithm\":\"+\",\"valuetype\":\"1\",\"valuekey\":\"\",\"valuedata\":\"1\",\"dowlist4\":[]}]},{\"sortnum\":\"2\",\"way\":\"=\",\"conditions\":[{\"algorithm\":\"+\",\"valuetype\":\"4\",\"valuekey\":\"\",\"valuedata\":\"端详飞蛾（克拉克）\",\"dowlist4\":[]}],\"targets\":[{\"algorithm\":\"+\",\"valuetype\":\"1\",\"valuekey\":\"\",\"valuedata\":\"1\",\"dowlist4\":[]}]}]}; gotomainline=10"
+      ],
+      [
+        "9",
+        "Note",
+        "源类型=type:txt_pb; 层级=16; wherelist={\"wheretype\":\"2\",\"wheredatas\":[{\"sortnum\":\"1\",\"way\":\"=\",\"conditions\":[{\"algorithm\":\"+\",\"valuetype\":\"4\",\"valuekey\":\"\",\"valuedata\":\"飞蛾线\",\"dowlist4\":[]}],\"targets\":[{\"algorithm\":\"+\",\"valuetype\":\"1\",\"valuekey\":\"\",\"valuedata\":\"1\",\"dowlist4\":[]}]},{\"sortnum\":\"2\",\"way\":\"=\",\"conditions\":[{\"algorithm\":\"+\",\"valuetype\":\"4\",\"valuekey\":\"\",\"valuedata\":\"端详飞蛾（大卫）\",\"dowlist4\":[]}],\"targets\":[{\"algorithm\":\"+\",\"valuetype\":\"1\",\"valuekey\":\"\",\"valuedata\":\"1\",\"dowlist4\":[]}]}]}",
+        "源类型=type:txt_pb; 层级=16; wherelist={\"wheretype\":\"2\",\"wheredatas\":[{\"sortnum\":\"1\",\"way\":\"=\",\"conditions\":[{\"algorithm\":\"+\",\"valuetype\":\"4\",\"valuekey\":\"\",\"valuedata\":\"飞蛾线\",\"dowlist4\":[]}],\"targets\":[{\"algorithm\":\"+\",\"valuetype\":\"1\",\"valuekey\":\"\",\"valuedata\":\"1\",\"dowlist4\":[]}]},{\"sortnum\":\"2\",\"way\":\"=\",\"conditions\":[{\"algorithm\":\"+\",\"valuetype\":\"4\",\"valuekey\":\"\",\"valuedata\":\"端详飞蛾（克拉克）\",\"dowlist4\":[]}],\"targets\":[{\"algorithm\":\"+\",\"valuetype\":\"1\",\"valuekey\":\"\",\"valuedata\":\"1\",\"dowlist4\":[]}]}]}"
+      ],
+      [
+        "60",
+        "Note",
+        "源类型=type:txt_pb; 层级=14; wherelist={\"wheretype\":\"2\",\"wheredatas\":[{\"sortnum\":\"1\",\"way\":\"=\",\"conditions\":[{\"algorithm\":\"+\",\"valuetype\":\"4\",\"valuekey\":\"\",\"valuedata\":\"夜莺线\",\"dowlist4\":[]}],\"targets\":[{\"algorithm\":\"+\",\"valuetype\":\"1\",\"valuekey\":\"\",\"valuedata\":\"1\",\"dowlist4\":[]}]},{\"sortnum\":\"2\",\"way\":\"=\",\"conditions\":[{\"algorithm\":\"+\",\"valuetype\":\"4\",\"valuekey\":\"\",\"valuedata\":\"无视飞蛾（大卫）\",\"dowlist4\":[]}],\"targets\":[{\"algorithm\":\"+\",\"valuetype\":\"1\",\"valuekey\":\"\",\"valuedata\":\"1\",\"dowlist4\":[]}]}]}",
+        "源类型=type:txt_pb; 层级=14; wherelist={\"wheretype\":\"2\",\"wheredatas\":[{\"sortnum\":\"1\",\"way\":\"=\",\"conditions\":[{\"algorithm\":\"+\",\"valuetype\":\"4\",\"valuekey\":\"\",\"valuedata\":\"夜莺线\",\"dowlist4\":[]}],\"targets\":[{\"algorithm\":\"+\",\"valuetype\":\"1\",\"valuekey\":\"\",\"valuedata\":\"1\",\"dowlist4\":[]}]},{\"sortnum\":\"2\",\"way\":\"=\",\"conditions\":[{\"algorithm\":\"+\",\"valuetype\":\"4\",\"valuekey\":\"\",\"valuedata\":\"无视飞蛾（克拉克）\",\"dowlist4\":[]}],\"targets\":[{\"algorithm\":\"+\",\"valuetype\":\"1\",\"valuekey\":\"\",\"valuedata\":\"1\",\"dowlist4\":[]}]}]}"
+      ],
+      [
+        "4",
+        "Note",
+        "源类型=type:txt_pb; 层级=14; wherelist={\"wheretype\":\"1\",\"wheredatas\":[{\"sortnum\":\"1\",\"way\":\"=\",\"conditions\":[{\"algorithm\":\"+\",\"valuetype\":\"4\",\"valuekey\":\"\",\"valuedata\":\"飞蛾线\",\"dowlist4\":[]}],\"targets\":[{\"algorithm\":\"+\",\"valuetype\":\"1\",\"valuekey\":\"\",\"valuedata\":\"1\",\"dowlist4\":[]}]},{\"sortnum\":\"2\",\"way\":\"=\",\"conditions\":[{\"algorithm\":\"+\",\"valuetype\":\"4\",\"valuekey\":\"\",\"valuedata\":\"端详飞蛾（大卫）\",\"dowlist4\":[]}],\"targets\":[{\"algorithm\":\"+\",\"valuetype\":\"1\",\"valuekey\":\"\",\"valuedata\":\"1\",\"dowlist4\":[]}]}]}",
+        "源类型=type:txt_pb; 层级=14; wherelist={\"wheretype\":\"1\",\"wheredatas\":[{\"sortnum\":\"1\",\"way\":\"=\",\"conditions\":[{\"algorithm\":\"+\",\"valuetype\":\"4\",\"valuekey\":\"\",\"valuedata\":\"飞蛾线\",\"dowlist4\":[]}],\"targets\":[{\"algorithm\":\"+\",\"valuetype\":\"1\",\"valuekey\":\"\",\"valuedata\":\"1\",\"dowlist4\":[]}]},{\"sortnum\":\"2\",\"way\":\"=\",\"conditions\":[{\"algorithm\":\"+\",\"valuetype\":\"4\",\"valuekey\":\"\",\"valuedata\":\"端详飞蛾（克拉克）\",\"dowlist4\":[]}],\"targets\":[{\"algorithm\":\"+\",\"valuetype\":\"1\",\"valuekey\":\"\",\"valuedata\":\"1\",\"dowlist4\":[]}]}]}"
+      ]
+    ],
+    "sntzm_david313-315(3)": [
+      [
+        "41",
+        "Note",
+        "源类型=type:txt_pb; 层级=26; wherelist={\"wheretype\":\"1\",\"wheredatas\":[{\"sortnum\":\"1\",\"way\":\"=\",\"conditions\":[{\"algorithm\":\"+\",\"valuetype\":\"4\",\"valuekey\":\"\",\"valuedata\":\"追问\",\"dowlist4\":[]}],\"targets\":[{\"algorithm\":\"+\",\"valuetype\":\"1\",\"valuekey\":\"\",\"valuedata\":\"0\",\"dowlist4\":[]}]}]}; gotomainline=43",
+        "源类型=type:txt_pb; 层级=26; wherelist={\"wheretype\":\"1\",\"wheredatas\":[{\"sortnum\":\"1\",\"way\":\"=\",\"conditions\":[{\"algorithm\":\"+\",\"valuetype\":\"4\",\"valuekey\":\"\",\"valuedata\":\"追问\",\"dowlist4\":[]}],\"targets\":[{\"algorithm\":\"+\",\"valuetype\":\"1\",\"valuekey\":\"\",\"valuedata\":\"1\",\"dowlist4\":[]}]}]}; gotomainline=43"
+      ]
+    ],
+    "sntzm_gy(s1)": [
+      [
+        "61",
+        "Note",
+        "源类型=type:txt_pb; 层级=55; wherelist={\"wheretype\":\"1\",\"wheredatas\":[{\"sortnum\":\"1\",\"way\":\"=\",\"conditions\":[{\"algorithm\":\"+\",\"valuetype\":\"4\",\"valuekey\":\"\",\"valuedata\":\"无视飞蛾（大卫）\",\"dowlist4\":[]}],\"targets\":[{\"algorithm\":\"+\",\"valuetype\":\"1\",\"valuekey\":\"\",\"valuedata\":\"1\",\"dowlist4\":[]}]}]}",
+        "源类型=type:txt_pb; 层级=55; wherelist={\"wheretype\":\"1\",\"wheredatas\":[{\"sortnum\":\"1\",\"way\":\"=\",\"conditions\":[{\"algorithm\":\"+\",\"valuetype\":\"4\",\"valuekey\":\"\",\"valuedata\":\"大卫线\",\"dowlist4\":[]}],\"targets\":[{\"algorithm\":\"+\",\"valuetype\":\"1\",\"valuekey\":\"\",\"valuedata\":\"1\",\"dowlist4\":[]}]}]}"
+      ]
+    ],
+    "sntzm_final(6)": [
+      [
+        "62",
+        "Command",
+        "charfadein(L,1)",
+        ""
+      ],
+      [
+        "87",
+        "Command",
+        "loadScript(sntzm_gy(1), 3)",
+        "loadScript(盖亚之心（上）, 3)"
+      ],
+      [
+        "87",
+        "Note",
+        "源类型=type:txt_pb; 层级=54; gotomainline=盖亚之心（上）_3",
+        "源类型=type:txt_pb; 层级=55; gotomainline=盖亚之心（上）_3"
+      ],
+      [
+        "73",
+        "Command",
+        "charfadeout(R,1)",
+        ""
+      ],
+      [
+        "73",
+        "Note",
+        "源类型=type:txt_pb; 层级=39",
+        "源类型=type:txt_pb; 层级=40"
+      ],
+      [
+        "86",
+        "Command",
+        "bgfade(sntzm_final(6)_86,1)",
+        ""
+      ],
+      [
+        "86",
+        "Note",
+        "源类型=type:txt_pb; 层级=53; wherelist={\"wheretype\":\"1\",\"wheredatas\":[{\"sortnum\":\"1\",\"way\":\"=\",\"conditions\":[{\"algorithm\":\"+\",\"valuetype\":\"4\",\"valuekey\":\"\",\"valuedata\":\"无视飞蛾（克拉克）\",\"dowlist4\":[]}],\"targets\":[{\"algorithm\":\"+\",\"valuetype\":\"1\",\"valuekey\":\"\",\"valuedata\":\"1\",\"dowlist4\":[]}]}]}",
+        "源类型=type:txt_pb; 层级=54; wherelist={\"wheretype\":\"1\",\"wheredatas\":[{\"sortnum\":\"1\",\"way\":\"=\",\"conditions\":[{\"algorithm\":\"+\",\"valuetype\":\"4\",\"valuekey\":\"\",\"valuedata\":\"无视飞蛾（克拉克）\",\"dowlist4\":[]}],\"targets\":[{\"algorithm\":\"+\",\"valuetype\":\"1\",\"valuekey\":\"\",\"valuedata\":\"1\",\"dowlist4\":[]}]}]}"
+      ],
+      [
+        "72",
+        "Command",
+        "parallel(charfadeout(L,1);charfadein(R,1))",
+        ""
+      ],
+      [
+        "72",
+        "Note",
+        "源类型=type:txt_David; 层级=38",
+        "源类型=type:txt_David; 层级=39"
+      ],
+      [
+        "101",
+        "Command",
+        "bgfade(sntzm_final(6)_86,1)&jump(87)",
+        "jump(87)"
+      ],
+      [
+        "101",
+        "Note",
+        "源类型=type:txt_pb; 层级=53; wherelist={\"wheretype\":\"1\",\"wheredatas\":[{\"sortnum\":\"1\",\"way\":\"=\",\"conditions\":[{\"algorithm\":\"+\",\"valuetype\":\"4\",\"valuekey\":\"\",\"valuedata\":\"无视飞蛾（大卫）\",\"dowlist4\":[]}],\"targets\":[{\"algorithm\":\"+\",\"valuetype\":\"1\",\"valuekey\":\"\",\"valuedata\":\"1\",\"dowlist4\":[]}]},{\"sortnum\":\"2\",\"way\":\"=\",\"conditions\":[{\"algorithm\":\"+\",\"valuetype\":\"4\",\"valuekey\":\"\",\"valuedata\":\"立刻离开\",\"dowlist4\":[]}],\"targets\":[{\"algorithm\":\"+\",\"valuetype\":\"1\",\"valuekey\":\"\",\"valuedata\":\"1\",\"dowlist4\":[]}]}]}; gotomainline=87",
+        "源类型=type:txt_pb; 层级=54; wherelist={\"wheretype\":\"1\",\"wheredatas\":[{\"sortnum\":\"1\",\"way\":\"=\",\"conditions\":[{\"algorithm\":\"+\",\"valuetype\":\"4\",\"valuekey\":\"\",\"valuedata\":\"无视飞蛾（大卫）\",\"dowlist4\":[]}],\"targets\":[{\"algorithm\":\"+\",\"valuetype\":\"1\",\"valuekey\":\"\",\"valuedata\":\"1\",\"dowlist4\":[]}]},{\"sortnum\":\"2\",\"way\":\"=\",\"conditions\":[{\"algorithm\":\"+\",\"valuetype\":\"4\",\"valuekey\":\"\",\"valuedata\":\"立刻离开\",\"dowlist4\":[]}],\"targets\":[{\"algorithm\":\"+\",\"valuetype\":\"1\",\"valuekey\":\"\",\"valuedata\":\"1\",\"dowlist4\":[]}]}]}; gotomainline=87"
+      ],
+      [
+        "100",
+        "Note",
+        "源类型=type:exeBC; 层级=52",
+        "源类型=type:exeBC; 层级=53"
+      ],
+      [
+        "70",
+        "Command",
+        "charfadeout(L,1)",
+        ""
+      ],
+      [
+        "70",
+        "Note",
+        "源类型=type:txt_pb; 层级=36",
+        "源类型=type:txt_pb; 层级=37"
+      ],
+      [
+        "98",
+        "Command",
+        "charfadeout(R,1)",
+        ""
+      ],
+      [
+        "96",
+        "Command",
+        "parallel(charfadeout(L,1);charfadein(R,1))",
+        ""
+      ],
+      [
+        "67",
+        "Command",
+        "charfadeout(L,1)",
+        ""
+      ],
+      [
+        "67",
+        "Note",
+        "源类型=type:txt_pb; 层级=33",
+        "源类型=type:txt_pb; 层级=34"
+      ],
+      [
+        "69",
+        "Command",
+        "charfadein(L,1)",
+        ""
+      ],
+      [
+        "69",
+        "Note",
+        "源类型=type:txt_Clark; 层级=35",
+        "源类型=type:txt_Clark; 层级=36"
+      ],
+      [
+        "102",
+        "Excel only"
+      ],
+      [
+        "82",
+        "Command",
+        "charfadeout(L,1)",
+        ""
+      ],
+      [
+        "82",
+        "Note",
+        "源类型=type:txt_You; 层级=48",
+        "源类型=type:txt_You; 层级=49"
+      ],
+      [
+        "68",
+        "Command",
+        "bgfade(sntzm_final(4)_38,1)",
+        ""
+      ],
+      [
+        "68",
+        "Note",
+        "源类型=type:txt_pb; 层级=34",
+        "源类型=type:txt_pb; 层级=35"
+      ],
+      [
+        "81",
+        "Command",
+        "charfadein(L,1)",
+        ""
+      ],
+      [
+        "81",
+        "Note",
+        "源类型=type:txt_Clark; 层级=47",
+        "源类型=type:txt_Clark; 层级=48"
+      ],
+      [
+        "103",
+        "Excel only"
+      ],
+      [
+        "63",
+        "Command",
+        "charfadeout(L,1)",
+        ""
+      ],
+      [
+        "85",
+        "Note",
+        "源类型=type:txt_pb; 层级=51",
+        "源类型=type:txt_pb; 层级=52"
+      ],
+      [
+        "31",
+        "Command",
+        "bgfade(sntzm_final(3)_65,1)",
+        ""
+      ],
+      [
+        "14",
+        "Command",
+        "bgfade(sntzm_final(6)_14,1)&jump(4)",
+        "jump(4)"
+      ],
+      [
+        "75",
+        "Note",
+        "源类型=type:txt_pb; 层级=41",
+        "源类型=type:txt_pb; 层级=42"
+      ],
+      [
+        "93",
+        "Command",
+        "charfadein(L,1)",
+        ""
+      ],
+      [
+        "90",
+        "Command",
+        "charfadeout(R,1)",
+        ""
+      ],
+      [
+        "99",
+        "Command",
+        "charfadein(L,1)&loadScript(sntzm_gy(1), 4)",
+        "loadScript(盖亚之心（上）, 4)"
+      ],
+      [
+        "36",
+        "Command",
+        "bgfade(sntzm_final(3)_72,1)",
+        ""
+      ],
+      [
+        "83",
+        "Note",
+        "源类型=type:txt_pb; 层级=49",
+        "源类型=type:txt_pb; 层级=50"
+      ],
+      [
+        "56",
+        "Command",
+        "bgfade(sntzm_final(4)_28,1)",
+        ""
+      ],
+      [
+        "91",
+        "Command",
+        "charfadein(L,1)",
+        ""
+      ],
+      [
+        "84",
+        "Note",
+        "源类型=type:txt_pb; 层级=50",
+        "源类型=type:txt_pb; 层级=51"
+      ],
+      [
+        "89",
+        "Command",
+        "parallel(charfadeout(L,1);charfadein(R,1))",
+        ""
+      ],
+      [
+        "65",
+        "Command",
+        "bgfade(sntzm_final(6)_65,1)",
+        ""
+      ],
+      [
+        "77",
+        "Note",
+        "源类型=type:txt_pb; 层级=43",
+        "源类型=type:txt_pb; 层级=44"
+      ],
+      [
+        "52",
+        "Command",
+        "loadScript(sntzm_final(3), 84)",
+        "loadScript(终局（下）, 84)"
+      ],
+      [
+        "80",
+        "Command",
+        "charfadeout(L,1)&playsfx(RubbleCrash)&parallel(bgfade(sntzm_final(6)_80,1);shake(screen,10,0.5))",
+        ""
+      ],
+      [
+        "80",
+        "Note",
+        "源类型=type:txt_pb; 层级=46",
+        "源类型=type:txt_pb; 层级=47"
+      ],
+      [
+        "27",
+        "Command",
+        "playsfx(ElectricShock)&bgfade(sntzm_final(3)_57,1)",
+        ""
+      ],
+      [
+        "71",
+        "Command",
+        "charfadein(L,1)",
+        ""
+      ],
+      [
+        "71",
+        "Note",
+        "源类型=type:txt_Clark; 层级=37",
+        "源类型=type:txt_Clark; 层级=38"
+      ],
+      [
+        "49",
+        "Command",
+        "bgfade(sntzm_final(6)_44,1)",
+        ""
+      ],
+      [
+        "76",
+        "Note",
+        "源类型=type:txt_pb; 层级=42",
+        "源类型=type:txt_pb; 层级=43"
+      ],
+      [
+        "54",
+        "Note",
+        "源类型=type:txt_pb; 层级=21",
+        "源类型=type:txt_David; 层级=21"
+      ],
+      [
+        "78",
+        "Command",
+        "bgfade(sntzm_final(3)_110,1)",
+        ""
+      ],
+      [
+        "78",
+        "Note",
+        "源类型=type:txt_pb; 层级=44",
+        "源类型=type:txt_pb; 层级=45"
+      ],
+      [
+        "79",
+        "Command",
+        "charfadein(L,1)",
+        ""
+      ],
+      [
+        "79",
+        "Note",
+        "源类型=type:txt_David; 层级=45",
+        "源类型=type:txt_David; 层级=46"
+      ],
+      [
+        "44",
+        "Command",
+        "bgfade(sntzm_final(6)_44,1)",
+        ""
+      ],
+      [
+        "92",
+        "Command",
+        "charfadeout(L,1)",
+        ""
+      ],
+      [
+        "74",
+        "Note",
+        "源类型=type:txt_You; 层级=40",
+        "源类型=type:txt_You; 层级=41"
+      ],
+      [
+        "88",
+        "Command",
+        "charfadein(L,1)",
+        ""
+      ],
+      [
+        "57",
+        "Command",
+        "bgfade(sntzm_final(6)_57,1)",
+        ""
+      ],
+      [
+        "66",
+        "Command",
+        "charfadein(L,1)",
+        ""
+      ]
+    ]
+  }
+}

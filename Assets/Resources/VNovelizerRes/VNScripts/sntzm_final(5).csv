@@ -2,8 +2,8 @@ ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Comm
 1,旁白,hide,,,,,,,false,,源类型=type:exeBC; 层级=0
 2,旁白,hide,,,,你的指尖在左侧按钮的上方悬停了半秒——然后，在克拉克来得及阻止你之前，迅速落了下去。,,,,,源类型=type:txt_pb; 层级=1
 19,旁白,hide,,,,,,,,,源类型=type:exeBC; 层级=2
-20,旁白,hide,,,,按下去的那一瞬间，一种近乎麻木的清醒裹挟了你全身的感官，左边是克拉克惊怒的喝止，身后亚波伦带着了然的轻笑，只有时钟滴答声还在空旷的房间里清晰地回荡。,,,,"loadScript(sntzm_ending4(1), 1)","源类型=type:txt_pb; 层级=3; wherelist={""wheretype"":""1"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""无视飞蛾（克拉克）"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}; gotomainline=结局4_1"
-21,旁白,hide,,,,“啪”,,,,,"源类型=type:txt_pb; 层级=3; wherelist={""wheretype"":""1"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""相信索菲亚"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}"
+20,旁白,hide,,,,按下去的那一瞬间，一种近乎麻木的清醒裹挟了你全身的感官，左边是克拉克惊怒的喝止，身后亚波伦带着了然的轻笑，只有时钟滴答声还在空旷的房间里清晰地回荡。,,4 enhanced leberch-spooky-piano,,"loadScript(sntzm_ending4(1), 1)&unlockmusic(Music4)","源类型=type:txt_pb; 层级=3; wherelist={""wheretype"":""1"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""无视飞蛾（克拉克）"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}; gotomainline=结局4_1"
+21,旁白,hide,,,,“啪”,,19 enhanced_suspense-tension-background-music,,unlockmusic(Music19),"源类型=type:txt_pb; 层级=3; wherelist={""wheretype"":""1"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""相信索菲亚"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}"
 51,旁白,hide,,,,耳畔骤然响起一声脆响，那并非指尖触碰按键的动静，而是掌心与手背相互撞击、血肉相撞所发出的声响。,,,,,源类型=type:txt_pb; 层级=4
 52,旁白,hide,,,,它的力度不大，但速度很快，带着和你一样的不容动摇的决心，一巴掌拍开了你按向按钮的手手心。,,,,,源类型=type:txt_pb; 层级=5
 53,索菲亚,hide,Sophia_default,,,别按。,,,,"charfadein(L,1)",源类型=type:txt_Sophia; 层级=6
@@ -71,7 +71,7 @@ ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Comm
 113,旁白,hide,David_default,,,大卫的语气笃定得让你有些惊讶，或许是疑心作祟，亦或是别的什么理由。他似乎已经接受了亚波伦在这场博弈里留下的思想种子，只等最后找到答案的那一刻破土发芽。,,,,,源类型=type:txt_pb; 层级=9
 114,大卫,hide,David_default,,,总之，我更倾向于认为盖亚之心在楼下，在我们出发时经过的某个地方。而且......万一踏出这家医院也能离开梦境呢？哪怕是出于对替代选项的考虑，咱们也该往低处走。,,,,,源类型=type:txt_David; 层级=10
 115,旁白,hide,David_default,,,克拉克皱起眉，还想再争辩两句。,,,,"charfadeout(L,1)&loadScript(sntzm_final(6), 2)",源类型=type:txt_pb; 层级=11; gotomainline=终局3_2
-5,你,hide,,,,什么不应该？,,,,,源类型=type:txt_You; 层级=1
+5,你,hide,,,,什么不应该？,,stop,,,源类型=type:txt_You; 层级=1
 116,旁白,hide,,,,索菲亚蹲在空旷的电刑椅旁，纤细的手指抚过椅面上残留的血渍，眉头紧紧拧成了一团：,,,,"bgfade(sntzm_final(5)_116,1)",源类型=type:txt_pb; 层级=2
 117,索菲亚,hide,,,,如果亚波伦没有撒谎，在他消散的那一刻，这个梦境就应该随之一起崩塌才对，可我感受不到任何波动，整个梦境的锚点还牢牢立在这周围。,,,,,源类型=type:txt_Sophia; 层级=3
 118,你,hide,,,,或许他并不是真正的梦主？,,,,,源类型=type:txt_You; 层级=4

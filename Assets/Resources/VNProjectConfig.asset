@@ -43,7 +43,7 @@ MonoBehaviour:
   DefaultHeadFrameSprite: {fileID: 0}
   SoundObjPath: VNovelizerRes/VNPrefabs/Gameplay/SoundObj
   VideoObjPath: VNovelizerRes/VNPrefabs/Gameplay/VideoObj
-  DefaultScriptName: sntzm_main1
+  DefaultScriptName: sntzm_intro
   DefaultLineID: 
   EnableLocalization: 0
   LocalizationCollectionName: VN_Scripts

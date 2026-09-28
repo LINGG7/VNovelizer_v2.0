@@ -1,6 +1,6 @@
 ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Command,Note
 1,旁白,hide,,,,,,,false,,源类型=type:exeBC; 层级=0
-3,旁白,hide,,,,项目代号：圣徒计划（Project Sanctus）,,,,,"源类型=type:txt_pb; 层级=1; wherelist={""wheretype"":""2"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""相信亚波伦"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]},{""sortnum"":""2"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""端详飞蛾（克拉克）"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}"
+3,旁白,hide,,,,项目代号：圣徒计划（Project Sanctus）,,,,,源类型=type:txt_pb; 层级=1
 4,旁白,hide,,,,项目目标：利用“造梦者”系统的神经适配技术，通过意识编码与梦境干预，将人类中枢神经系统改造为可植入军事设备的生物智控芯片。 ,,,,,源类型=type:txt_pb; 层级=2
 5,旁白,hide,,,,预期成果：单机突破防空系统、精准斩首行动、无人武器系统的意识化协同作战。,,,,,源类型=type:txt_pb; 层级=3
 6,旁白,hide,,,,核心优势：在AI产业全面禁止军用化的时代，作为强人工智能在复杂战场中的替代品，将人类直觉、判断力与应激反应直接嵌入武器系统，实现“人与武器的一体化”。,,,,,源类型=type:txt_pb; 层级=4
@@ -72,9 +72,9 @@ ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Comm
 72,克莱蒙斯上校,hide,Clemons_default,,,明天下午，我的副官会把场地交接文件送到你们法务部。,,,,"charfadein(L,1)",源类型=type:txt_Clemons; 层级=70
 73,旁白,hide,Clemons_default,,,随着这个简单的动作，视频画面渐渐暗了下去，最后一帧定格在他按下免提键时，手指停留在键面上的姿态。,,,,"charfadeout(L,1)",源类型=type:txt_pb; 层级=71
 74,旁白,hide,,,,屏幕暗下去之前，索菲亚的声音从你身后传来，细得几乎被散热风扇的嗡鸣盖过。她没有看着屏幕，她看着地面，指尖按在桌沿，指节发白。,,stop,,"parallel(memoryoff();bgfade(sntzm_final(1)_73,1))",源类型=type:txt_pb; 层级=72
-75,索菲亚,hide,Sophia_default,,,这是真的......,,7 enhanced litesaturation-horror,,"charfadein(L,1)",源类型=type:txt_Sophia; 层级=73
+75,索菲亚,hide,Sophia_default,,,这是真的......,,7 enhanced litesaturation-horror,,"charfadein(L,1)&unlockmusic(Music7)",源类型=type:txt_Sophia; 层级=73
 76,索菲亚,hide,Sophia_default,,,这就是他们一直利用老师的技术做着的事情，将活人做成兵器，你们遇到的那些怪物，都是试验体中未完成或者已经完成的一员。,,,,,源类型=type:txt_Sophia; 层级=74
-77,旁白,hide,Sophia_default,,,如果这里的试验体都是为了被做成芯片，成为武器而诞生的话，那么这里也就不再是什么精神病院，而是一个被机械设备、试验体以及层层谎言所包裹的“生物兵工厂”。,,,,"charfadeout(L,1)",源类型=type:txt_pb; 层级=75
+77,旁白,hide,Sophia_default,,,如果这里的试验体都是为了被做成芯片，成为武器而诞生的话，那么这里也就不再是什么精神病院，而是一个被机械设备、试验体以及层层谎言所包裹的“生物兵工厂”。,,,,"charfadeout(L,1)&unlockscene(scene6)",源类型=type:txt_pb; 层级=75
 78,克拉克,hide,Clark_default,,,为什么不早点告诉我们？,,,,"charfadein(L,1)",源类型=type:txt_Clark; 层级=76
 79,克拉克,hide,Clark_default,,,亚波伦说你和这些人是一伙的，这是真的吗？,,,,,源类型=type:txt_Clark; 层级=77
 80,旁白,hide,Clark_default,,,克拉克朝着索菲亚前倾了半个身子，高大的体魄从视觉上便传递着不怒自威的压迫感，眼神中滚烫的火焰无时无刻不在炙烤着她的灵魂。,,,,"charfadeout(L,1)",源类型=type:txt_pb; 层级=78

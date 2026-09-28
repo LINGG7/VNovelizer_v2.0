@@ -56,7 +56,7 @@ ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Comm
 59,旁白,hide,,,,,,,,,源类型=type:exeBC; 层级=54
 60,旁白,hide,,,,克拉克的枪口不自觉地放了下来，他看着那只安安静静停在手背的灰白色飞蛾，眉头渐渐舒展，他回想起在B2-15号病房，当自己扑向门外那颗弹壳时的场景——,,,,,"源类型=type:txt_pb; 层级=55; wherelist={""wheretype"":""1"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""克拉克线"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}"
 62,旁白,hide,,,,当那条甩动的机械臂试图阻拦自己离开房间时，这只灰白的飞蛾就停在它的正上方。或许从那时候开始，盖曼就在以自己的方式，尝试提醒他们远离杰森布置的陷阱。,,,,jump(64),源类型=type:txt_pb; 层级=56; gotomainline=64
-61,旁白,hide,,,,克拉克的枪口不自觉地放了下来，他看着那只安安静静停在手背的灰白色飞蛾，眉头渐渐舒展。,,,,,"源类型=type:txt_pb; 层级=55; wherelist={""wheretype"":""1"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""无视飞蛾（大卫）"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}"
+61,旁白,hide,,,,克拉克的枪口不自觉地放了下来，他看着那只安安静静停在手背的灰白色飞蛾，眉头渐渐舒展。,,,,,"源类型=type:txt_pb; 层级=55; wherelist={""wheretype"":""1"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""大卫线"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}"
 63,旁白,hide,,,,所有过去捋不清的疑惑此刻突然有了清晰的答案：每一次迷路时的引路、每一次遭遇危险前的预警，甚至每一次帮你们避开亚波伦布下的陷阱，全都出自眼前这只不起眼的飞蛾之手。,,,,,源类型=type:txt_pb; 层级=56
 64,旁白,hide,,,,大卫一直站在角落里，背靠着墙壁，双手交叉抱在胸前。把身体的重量交给墙壁，好让自己不需要为站姿分出额外的注意力。,,,,,源类型=type:txt_pb; 层级=57
 97,旁白,hide,,,,,,,,,源类型=type:exeBC; 层级=58

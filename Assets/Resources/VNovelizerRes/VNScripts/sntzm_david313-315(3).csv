@@ -37,7 +37,7 @@ ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Comm
 38,旁白,hide,,,,大卫左侧的眉毛跳动了几下，手电随着身体的摇晃扫向靠墙摆着的病床，床架上锈迹爬满了每一道焊缝，没有束缚带，也没有被爪子撕扯过的挖痕，有的只是一床烧烂的被子，以及压在上面的一只造型奇特的头盔。,,,,"bgfade(sntzm_david313-315(3)_38,1)",源类型=type:txt_pb; 层级=23
 39,大卫,hide,David_bandage,,,人不见了，只留下一双烂鞋，看上去就像是利用鞋印故意把我们引到这里。,,,,"charfadein(L,1)",源类型=type:txt_David; 层级=24
 40,旁白,hide,David_bandage,,,,,,,"charfadeout(L,1)",源类型=type:exeBC; 层级=25
-41,旁白,hide,,,,你猛地回头，预料中的袭击并未出现，走廊里只有飞蛾经过时留下的细碎振翅声，与屋内甜腻的药香混在一起，像一首醉人的催眠曲，持续冲击着你们紧绷的神经。,,,,jump(43),"源类型=type:txt_pb; 层级=26; wherelist={""wheretype"":""1"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""追问"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""0"",""dowlist4"":[]}]}]}; gotomainline=43"
+41,旁白,hide,,,,你猛地回头，预料中的袭击并未出现，走廊里只有飞蛾经过时留下的细碎振翅声，与屋内甜腻的药香混在一起，像一首醉人的催眠曲，持续冲击着你们紧绷的神经。,,,,jump(43),"源类型=type:txt_pb; 层级=26; wherelist={""wheretype"":""1"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""追问"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}; gotomainline=43"
 42,旁白,hide,,,,你的视线猛地刺向窗户，不同于B3-13完全损毁的护栏，这里的护栏除了被大火刮落的大片油漆外，其本身并未发生严重的形变，这意味着至少那个怪物很难像之前那般从窗户外发动袭击。,,,,,"源类型=type:txt_pb; 层级=26; wherelist={""wheretype"":""1"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""忽视"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}"
 43,旁白,hide,,,,你屏住呼吸挪步上前，手电光在那只造型奇特的头盔上停留了片刻——在储藏室里见识了那台插满线缆的“游戏机”后，你已经很难再将这里的任何一个物件当成普通的医疗器械来看待。,,,,,源类型=type:txt_pb; 层级=27
 44,旁白,hide,,,,大卫正欲凑近检查，朝前脚步却在某个不经意的瞬间戛然而止，像是被什么东西绊住了腿。,,,,,源类型=type:txt_pb; 层级=28
@@ -49,7 +49,7 @@ ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Comm
 50,旁白,hide,,,,她留着一头利落的长发，嘴角抿成一道锋利的直线，一双和某人极其相似的绿眼睛，正隔着十余年的光阴，与他隔空相望。,,stop,,,源类型=type:txt_pb; 层级=34
 51,你,hide,,,,姐......姐？,,,,,源类型=type:txt_You; 层级=35
 52,旁白,hide,,,,还未等大卫因证件上照片的不是自己而暗自窃喜，你那声失了魂儿似的呓语便再一次扼住了他的咽喉。,,,,,源类型=type:txt_pb; 层级=36
-53,旁白,hide,,,,他难以置信地看着你，视线在你和照片上的女性之间来回游移，仿佛正确认你是否又一次陷入了那危险的幻觉。,,11 enhanced the_mountain-hope-background,,,源类型=type:txt_pb; 层级=37
+53,旁白,hide,,,,他难以置信地看着你，视线在你和照片上的女性之间来回游移，仿佛正确认你是否又一次陷入了那危险的幻觉。,,11 enhanced the_mountain-hope-background,,unlockmusic(Music11),源类型=type:txt_pb; 层级=37
 54,大卫,hide,David_bandage,,,你确定吗？她......,,,,"charfadein(L,1)",源类型=type:txt_David; 层级=38
 55,旁白,hide,David_bandage,,,他又端详了一眼，这一次照片里的身影终于在他乱如牛毛的记忆中找到了对应的轮廓，尽管他并未见过活着的本人，但在和你共事的几年里，他无数次从你的办公桌上见过那张被你压在玻璃下的合照。,,,,"charfadeout(L,1)",源类型=type:txt_pb; 层级=39
 56,旁白,hide,,,,他记得在一个炎热的午后，自己曾带着一丝偷挪地问过你，她是谁？,,,,,源类型=type:txt_pb; 层级=40
@@ -74,6 +74,6 @@ ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Comm
 74,旁白,hide,David_bandage,,,你的目光钉在磁带的缝隙之间游移，脑中细细咀嚼着他这番话中的深意。从逻辑上来说，比起另一颗子弹，一盘表面平整的磁带的确更有可能成为那张为他挡下子弹的盾牌。,,,,"charfadeout(L,1)",源类型=type:txt_pb; 层级=58
 75,旁白,hide,,,,可物品固然可以被替换、乃至复制，但记忆呢？关于“幸运”子弹的故事，如果它是假的，那么它是怎么进入的大卫的脑海？还有大卫忘却的那段身为记者的过往，如果不是刻意为之，又为什么会丢掉如此重要的回忆？,,,,,源类型=type:txt_pb; 层级=59
 76,旁白,hide,,,,你甚至忍不住开始怀疑，丢失重要记忆的是否只有大卫一个？如果那盘磁带代表着被他遗忘的那场官司的话，那么姐姐的死会否和这里留下的记者证有关？甚至也是你本该记得，却被人为抹去的一段记忆？,,,,,源类型=type:txt_pb; 层级=60
-77,旁白,hide,,,,随着疑点的逐步增加，那些原本脉络清晰的线索，此刻突然全都拧成了一团解不开的乱麻，让你渐渐分不清眼前一切中到底哪些是真，哪些是假。,,,,"loadScript(sntzm_david313-315(4), 1)",源类型=type:txt_pb; 层级=61; gotomainline=大卫线313-315（下）_1
+77,旁白,hide,,,,随着疑点的逐步增加，那些原本脉络清晰的线索，此刻突然全都拧成了一团解不开的乱麻，让你渐渐分不清眼前一切中到底哪些是真，哪些是假。,,,,"loadScript(sntzm_david313-315(4), 1)&unlockscene(scene5)",源类型=type:txt_pb; 层级=61; gotomainline=大卫线313-315（下）_1
 25,旁白,hide,,,,大卫寸步不离地护在你身后，平日里生龙活虎的闹腾劲因为刚才的变故消却了大半，只有那冰冷的枪口依旧稳稳地扫视着周围的每一片阴影。,,,,,"源类型=type:txt_pb; 层级=11; wherelist={""wheretype"":""1"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""沉默"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}"
 26,大卫,hide,David_bandage,,,小心点，这破蛾子先前已经出现过好几回了，我不认为它只是恰好从这里飞过。,,,,"jump(28)&charfadein(L,1)",源类型=type:txt_David; 层级=12; gotomainline=28

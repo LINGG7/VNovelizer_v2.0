@@ -13,123 +13,93 @@ MonoBehaviour:
   m_Name: SceneDataContainer
   m_EditorClassIdentifier: 
   sceneList:
-  - VNscriptID: main1_12
+  - VNscriptID: scene1
     ScriptName: 
     StartLineID: 
     EndLineID: 
-    DetailText: "\u5979\u7684\u79BB\u5F00"
+    DetailText: "\u9694\u5899\u6709\u68A6"
     LockedSprite: {fileID: 21300000, guid: 8a2c0e00c8eed5640b1c6f435d8446e1, type: 3}
     LockedSpritePath: 
-    UnLockedSprite: {fileID: 21300000, guid: d33513d77160883419872c4e20b554dd, type: 3}
-    UnLockedSpritePath: VNovelizerRes/Backgrounds/sntzm_main1_12
+    UnLockedSprite: {fileID: 21300000, guid: 969ad7fad0f3f934188ae8f40f758c7c, type: 3}
+    UnLockedSpritePath: VNovelizerRes/Backgrounds/sntzm_clark3F(3)_2
     isUnLocked: 0
-  - VNscriptID: main1_13
+  - VNscriptID: scene2
     ScriptName: 
     StartLineID: 
     EndLineID: 
-    DetailText: "\u96E8\u591C\uFF0C\u5C71\u8DEF\uFF0C\u798F\u7279"
+    DetailText: "\u95E8\u5916\u6709\u58F0\uFF0C\u7EB8\u4E0A\u6709\u7F6A"
     LockedSprite: {fileID: 21300000, guid: 8a2c0e00c8eed5640b1c6f435d8446e1, type: 3}
     LockedSpritePath: 
-    UnLockedSprite: {fileID: 21300000, guid: 75b6496865d3d424fb8071cdbcb76d58, type: 3}
-    UnLockedSpritePath: VNovelizerRes/Backgrounds/sntzm_main1_13
+    UnLockedSprite: {fileID: 21300000, guid: 6f54300a02322a14db7b61c05fc8d8b7, type: 3}
+    UnLockedSpritePath: VNovelizerRes/Backgrounds/sntzm_clark3F(3)_70
     isUnLocked: 0
-  - VNscriptID: main1_32
+  - VNscriptID: scene3
     ScriptName: 
     StartLineID: 
     EndLineID: 
-    DetailText: "\u8BB0\u5FC6\u4E2D\u7684\u5979"
+    DetailText: "\u591C\u83BA\u843D\u5730"
     LockedSprite: {fileID: 21300000, guid: 8a2c0e00c8eed5640b1c6f435d8446e1, type: 3}
     LockedSpritePath: 
-    UnLockedSprite: {fileID: 21300000, guid: 495d67b7d4f1f4a4780c8a74cb9a598c, type: 3}
-    UnLockedSpritePath: VNovelizerRes/Backgrounds/sntzm_main1_32
+    UnLockedSprite: {fileID: 21300000, guid: f3a0ebd270bfb5d419463d8376a2bc99, type: 3}
+    UnLockedSpritePath: VNovelizerRes/Backgrounds/sntzm_david3F(2)_24
     isUnLocked: 0
-  - VNscriptID: main2_1
+  - VNscriptID: scene4
     ScriptName: 
     StartLineID: 
     EndLineID: 
-    DetailText: "\u5723\u8BFA\u6C40\u533B\u9662"
+    DetailText: "\u4E24\u4EFD\u9057\u7269\uFF0C\u4E00\u4E2A\u7591\u95EE"
     LockedSprite: {fileID: 21300000, guid: 8a2c0e00c8eed5640b1c6f435d8446e1, type: 3}
     LockedSpritePath: 
-    UnLockedSprite: {fileID: 21300000, guid: 7aee953c20a478842b25fabbc9bc7a9e, type: 3}
-    UnLockedSpritePath: VNovelizerRes/Backgrounds/sntzm_main2_1
+    UnLockedSprite: {fileID: 21300000, guid: b5538e9429500914a8d8005979454554, type: 3}
+    UnLockedSpritePath: VNovelizerRes/Backgrounds/sntzm_david313-315(3)_67
     isUnLocked: 0
-  - VNscriptID: main2_61
+  - VNscriptID: scene5
     ScriptName: 
     StartLineID: 
     EndLineID: 
-    DetailText: "\u4EE5\u5149\u4E3A\u5F15\uFF0C\u5411\u6697\u800C\u751F"
+    DetailText: "\u75C5\u5E8A\u4E0A\u662F\u6211\uFF1F"
     LockedSprite: {fileID: 21300000, guid: 8a2c0e00c8eed5640b1c6f435d8446e1, type: 3}
     LockedSpritePath: 
-    UnLockedSprite: {fileID: 21300000, guid: e28b1dbf16e7d5b45951308969cd9b7a, type: 3}
-    UnLockedSpritePath: VNovelizerRes/Backgrounds/sntzm_main2_61
+    UnLockedSprite: {fileID: 21300000, guid: 574eaae471115c74893bbf962e0a6e10, type: 3}
+    UnLockedSpritePath: VNovelizerRes/Backgrounds/sntzm_david313-315(4)_19
     isUnLocked: 0
-  - VNscriptID: fe_9
+  - VNscriptID: scene6
     ScriptName: 
     StartLineID: 
     EndLineID: 
-    DetailText: "\u76D6\u66FC.\u963F\u95E8\u52AA\u65AF"
+    DetailText: "\u5723\u5F92\u7684\u4EF7\u7801"
     LockedSprite: {fileID: 21300000, guid: 8a2c0e00c8eed5640b1c6f435d8446e1, type: 3}
     LockedSpritePath: 
-    UnLockedSprite: {fileID: 21300000, guid: cf8f73ab9ad18b243a400316cad98888, type: 3}
-    UnLockedSpritePath: VNovelizerRes/Backgrounds/sntzm_fe_9
+    UnLockedSprite: {fileID: 21300000, guid: d6e5b7be45069cc42b3926af8097da43, type: 3}
+    UnLockedSpritePath: VNovelizerRes/Backgrounds/sntzm_final(1)_73
     isUnLocked: 0
-  - VNscriptID: main3_6
+  - VNscriptID: scene7
     ScriptName: 
     StartLineID: 
     EndLineID: 
-    DetailText: "\u533B\u9662\u8D70\u5ECA"
+    DetailText: B-512
     LockedSprite: {fileID: 21300000, guid: 8a2c0e00c8eed5640b1c6f435d8446e1, type: 3}
     LockedSpritePath: 
-    UnLockedSprite: {fileID: 21300000, guid: b8298b621f4313744ae0bc61b3ee8a39, type: 3}
-    UnLockedSpritePath: VNovelizerRes/Backgrounds/sntzm_main3_6
+    UnLockedSprite: {fileID: 21300000, guid: e00bfb3014b0b0242b9aac2f7606a321, type: 3}
+    UnLockedSpritePath: VNovelizerRes/Backgrounds/sntzm_david4F(3)_1
     isUnLocked: 0
-  - VNscriptID: main3_28
+  - VNscriptID: scene8
     ScriptName: 
     StartLineID: 
     EndLineID: 
-    DetailText: "\u7834\u65E7\u75C5\u623F"
+    DetailText: "\u6E90\u5934"
     LockedSprite: {fileID: 21300000, guid: 8a2c0e00c8eed5640b1c6f435d8446e1, type: 3}
     LockedSpritePath: 
-    UnLockedSprite: {fileID: 21300000, guid: e767f53fbf108b64b998bb4434554023, type: 3}
-    UnLockedSpritePath: VNovelizerRes/Backgrounds/sntzm_main3_28
+    UnLockedSprite: {fileID: 21300000, guid: 920bf21024db1b949afd6f816dd6fae6, type: 3}
+    UnLockedSpritePath: VNovelizerRes/Backgrounds/sntzm_gy(2)_66
     isUnLocked: 0
-  - VNscriptID: david2_9
+  - VNscriptID: scene9
     ScriptName: 
     StartLineID: 
     EndLineID: 
-    DetailText: "B2\u201410"
+    DetailText: "\u9ECE\u660E"
     LockedSprite: {fileID: 21300000, guid: 8a2c0e00c8eed5640b1c6f435d8446e1, type: 3}
     LockedSpritePath: 
-    UnLockedSprite: {fileID: 21300000, guid: 492cd2b006ef11744aed4061cde7e511, type: 3}
-    UnLockedSpritePath: VNovelizerRes/Backgrounds/sntzm_david2_9
-    isUnLocked: 0
-  - VNscriptID: david4_59
-    ScriptName: 
-    StartLineID: 
-    EndLineID: 
-    DetailText: "\u771F\u76F8\u4E4B\u95E8"
-    LockedSprite: {fileID: 21300000, guid: 8a2c0e00c8eed5640b1c6f435d8446e1, type: 3}
-    LockedSpritePath: 
-    UnLockedSprite: {fileID: 21300000, guid: 7c15d1acf19b8ae4eb84f3ca9d54217e, type: 3}
-    UnLockedSpritePath: VNovelizerRes/Backgrounds/sntzm_david4_59
-    isUnLocked: 0
-  - VNscriptID: clark3_2
-    ScriptName: 
-    StartLineID: 
-    EndLineID: 
-    DetailText: "\u533B\u9662\u697C\u68AF\u95F4"
-    LockedSprite: {fileID: 21300000, guid: 8a2c0e00c8eed5640b1c6f435d8446e1, type: 3}
-    LockedSpritePath: 
-    UnLockedSprite: {fileID: 21300000, guid: 2576028e3f498fd41aa6d7e5d58cf5f7, type: 3}
-    UnLockedSpritePath: VNovelizerRes/Backgrounds/sntzm_clark3_2
-    isUnLocked: 0
-  - VNscriptID: emily_14
-    ScriptName: 
-    StartLineID: 
-    EndLineID: 
-    DetailText: "\u7F51\u6212\u4E2D\u5FC3"
-    LockedSprite: {fileID: 21300000, guid: 8a2c0e00c8eed5640b1c6f435d8446e1, type: 3}
-    LockedSpritePath: 
-    UnLockedSprite: {fileID: 21300000, guid: 42ae85d02eafd15428a26e08ef858cbe, type: 3}
-    UnLockedSpritePath: VNovelizerRes/Backgrounds/sntzm_emily_14
+    UnLockedSprite: {fileID: 21300000, guid: 5c92329ffc0d8454bb70ede68cc69a8c, type: 3}
+    UnLockedSpritePath: VNovelizerRes/Backgrounds/sntzm_truth(3)_31
     isUnLocked: 0

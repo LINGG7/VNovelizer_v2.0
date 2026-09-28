@@ -237,7 +237,12 @@ public partial class VNManager
         DebugCancelBranchRequest();
         debugPhase = null;
         if (target.HasValue) CurrentLineIndex = target.Value;
-        else debugBypassBranchIndex = parent;
+        else
+        {
+            debugBypassBranchIndex = parent;
+            // The control row already ran before the debug pause; only resolve its branch.
+            if (!ResolveHiddenBranchControlLine(skipAnimations)) return;
+        }
         if (skipAnimations) PlayCurrentLineImmediately();
         else PlayCurrentLine();
     }

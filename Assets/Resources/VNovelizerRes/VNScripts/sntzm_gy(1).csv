@@ -16,7 +16,7 @@ ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Comm
 21,旁白,hide,,,,一种前所未有的熟悉感攫住了你的思绪，不是具体的回忆，而是某种似曾相识的肢体语言在同样的场景下迎来了一次戏剧性的重演。,,,,,源类型=type:txt_pb; 层级=5
 22,旁白,hide,,,,逃——逃离什么？为何而逃？这些零碎的记忆在你一片混沌的大脑内早已无迹可寻。,,,,,源类型=type:txt_pb; 层级=6
 23,旁白,hide,,,,然而，这副曾经如此刻般奔跑过的身体，以及那如蛆附骨，如梦魇缠身般的恐惧和凉意却时刻提醒着你，有一场追猎曾真实发生过。位置是在这里……猎物正是你们。,,,,,源类型=type:txt_pb; 层级=7
-24,旁白,hide,,,,当视线、脚步、地点与回忆在三楼的走廊处如同最精密的齿轮般彼此咬合之时，记忆的水晶球终于转到了它相对清晰的一面。其折射出的微光在日益坍塌的楼道间勾勒出数道朦胧白影，宛若被疾风卷起的陈旧相片。,,,,,源类型=type:txt_pb; 层级=8
+24,旁白,hide,,,,当视线、脚步、地点与回忆在三楼的走廊处如同最精密的齿轮般彼此咬合之时，记忆的水晶球终于转到了它相对清晰的一面。其折射出的微光在日益坍塌的楼道间勾勒出数道朦胧白影，宛若被疾风卷起的陈旧相片。,,14 enhanced_horror-free,,,源类型=type:txt_pb; 层级=8
 25,旁白,hide,,,,那是三名身着白大褂的男子，在走廊尽头竭力狂奔，恰似一组正与你们逐步重合的镜像。紧随其后的不仅是无边扩散的黑暗，更有一群身穿制服、手持警棍与泰瑟枪的黑色身影。,,,,"bgfade(sntzm_gy(1)_25,1)",源类型=type:txt_pb; 层级=9
 26,旁白,hide,,,,跑在最前面的那个人手里攥着一沓文件，纸张在跑动中翻飞。他的侧脸让你愣了一下，和你有着七分相似，只是轮廓更硬朗些，眉眼间还裹挟着被岁月磨掉的、那份年少轻狂的冲劲。,,,,,源类型=type:txt_pb; 层级=10
 27,旁白,hide,,,,小个子的男人被夹在中间，就像现在的大卫——他的脸上混合着汗水和血污，手里的那台相机却始终保持着高举。快门声在剧烈晃动中接连响起，如同催命的鼓点，每一次按下都让身后的人影在镜头中放大了些许。,,,,,源类型=type:txt_pb; 层级=11
@@ -55,7 +55,7 @@ ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Comm
 61,旁白,hide,,,,每往前一步，身后可供回身的空间便窄上一分。每往前一步，身后可供回身的空间便窄上一分。,,,,,源类型=type:txt_pb; 层级=44
 62,旁白,hide,,,,你跟在索菲亚身后，手电光束在墙壁上急剧跳跃。走廊两侧的病房门一扇扇从余光中飞掠而过，门牌上的编号模糊成一串无法辨认的墨痕。,,,,,源类型=type:txt_pb; 层级=45
 63,旁白,hide,,,,你来不及去数自己经过了多少扇门，只觉得这条走廊比你记忆中更长、更弯折，像是一根被人反复折叠又展开的线缆——直到她在一面似曾相识的照片墙面前停下脚步。,,,,,源类型=type:txt_pb; 层级=46
-64,旁白,hide,,,,,,,,,源类型=type:exeBC; 层级=47
+64,旁白,hide,,,,,,7 enhanced litesaturation-horror,,,源类型=type:exeBC; 层级=47
 65,旁白,hide,,,,那是你们在医院大厅里见过的医生照片墙——但此刻它看起来比你们一小时前的记忆中更加陈旧，相框的边缘已经卷曲起翘，玻璃上覆着一层朦胧的雾霭，好似刚从逝去的岁月中打捞而出。,,,,"bgfade(sntzm_gy(1)_65,1)&jump(67)","源类型=type:txt_pb; 层级=48; wherelist={""wheretype"":""1"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""飞蛾线"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}; gotomainline=67"
 66,旁白,hide,,,,那是一面你们先前从未探索过的医生照片墙——大多数照片都已经因为烈火的肆虐变色脱落，相框的边缘已经卷曲起翘，玻璃上覆着一层朦胧的雾霭，好似刚从逝去的岁月中打捞而出。,,,,,"源类型=type:txt_pb; 层级=48; wherelist={""wheretype"":""1"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""夜莺线"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}"
 67,索菲亚,hide,Sophia_default,,,就是这里。,,,,"charfadein(L,1)",源类型=type:txt_Sophia; 层级=49
@@ -84,7 +84,7 @@ ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Comm
 80,旁白,hide,Clark_default,,,他说这句话的时候，语气很稳，但他的目光没有从你身上移开，像在确认你是否同意。 ,,,,"charfadeout(L,1)",源类型=type:txt_pb; 层级=39
 81,你,hide,,,,你正想开口应答，一道极轻的振翅声从你身侧擦过。那只灰白的飞蛾，它从大卫背后的阴影里滑出来，翅膀在暗淡的应急灯光中泛起一层薄薄的、近乎透明的光晕。,,,,,源类型=type:txt_You; 层级=40
 82,旁白,hide,,,,它飞得很慢，像是刻意在等你们注意到它，然后它朝着左侧走廊的深处飞去。,,,,,源类型=type:txt_pb; 层级=41
-83,旁白,hide,,,,大卫看着那只飞蛾，他的下颌线绷紧了一瞬，然后他转过头来看你，语气里带着一种像他这般在生死边缘走过的人特有的、近乎莽撞的平静。,,,,,源类型=type:txt_pb; 层级=42
+83,旁白,hide,,,,大卫看着那只飞蛾，他的下颌线绷紧了一瞬，然后他转过头来看你，语气里带着一种像他这般在生死边缘走过的人特有的、近乎莽撞的平静。,,1 enhanced alex-morgan-dark-suspense-thriller,,unlockmusic(Music1),源类型=type:txt_pb; 层级=42
 86,大卫,hide,David_default,,,咱们应该跟着这只小东西走，别忘了......飞蛾可是趋光的动物。,,,,"charfadein(L,1)",源类型=type:txt_David; 层级=43
 84,旁白,hide,David_default,,,,,,,,源类型=type:exeBC; 层级=44
 85,大卫,hide,David_default,,,我猜亚波伦应该对我们用了致幻剂之类的东西，所以我们才会像一群磕了药的瘾君子，看到这种超现实的画面，以及刚才从眼前闪过的那些奇怪的幻觉。他以为自己能骗的了咱们的眼睛，但他骗不过飞蛾的生物传感器。,,,,,"源类型=type:txt_David; 层级=45; wherelist={""wheretype"":""1"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""无视飞蛾（克拉克）"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}"

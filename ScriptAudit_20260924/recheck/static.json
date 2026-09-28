@@ -1,0 +1,24 @@
+{
+  "files": 43,
+  "nodes": 3571,
+  "parse_errors": [],
+  "checks": {
+    "issues": [],
+    "counts": {
+      "bgfade": 345,
+      "loadscript": 92,
+      "charfadein": 398,
+      "charfadeout": 383,
+      "parallel": 69,
+      "jump": 138,
+      "choice": 42,
+      "playsfx": 49,
+      "shake": 25,
+      "memoryon": 5,
+      "memoryoff": 6,
+      "tapeon": 1,
+      "tapeoff": 1
+    },
+    "undefined_tags": []
+  }
+}

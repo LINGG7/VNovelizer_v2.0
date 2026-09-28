@@ -1,6 +1,6 @@
 ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Command,Note
 1,旁白,hide,,,,,,,false,,源类型=type:exeBC; 层级=0
-2,你,hide,,,,那我们该怎么做？,,,,,源类型=type:txt_You; 层级=1
+2,你,hide,,,,那我们该怎么做？,,9 enhanced suspense tensions,,,源类型=type:txt_You; 层级=1
 5,旁白,hide,,,,你率先开口打破了房间里凝固的沉默，指尖抵着额头消化了好半天，才勉强把铺天盖地的震惊压回胸口。,,,,,源类型=type:txt_pb; 层级=2
 6,你,hide,,,,既然纳丁达克想要从你这里拿走盖亚之心，我们为什么不直接将其摧毁？,,,,,源类型=type:txt_You; 层级=3
 7,旁白,hide,,,,说着，你举起配枪，枪口牢牢对准培养罐里搏动的心脏。,,,,,源类型=type:txt_pb; 层级=4
@@ -12,8 +12,8 @@ ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Comm
 13,旁白,hide,,,David_default,大卫挑了挑眉，原本拧成一团的眉头稍稍舒缓松了几分。这份放松不止是基于眼下还留有能返回现实的方法，更因为这个方法能让那群自以为是的人渣付出意想不到的代价。,,,,"charfadeout(R,1)",源类型=type:txt_pb; 层级=10
 14,盖曼,hide,Gaiman_default,,,你可以这么理解，但我并不能保证这颗炸弹能百分百生效。因此，为了避免真正的盖亚之心落入纳丁达克的手里，你们还需要做一件事。,,,,"charfadein(L,1)",源类型=type:txt_Gaiman; 层级=11
 15,旁白,hide,Gaiman_default,,,他抬手指向自己胸口的位置，那只飞蛾正安静地停在他的指节上，翅膀微微合拢，像一片折叠起来的信纸。 ,,,,,源类型=type:txt_pb; 层级=12
-16,盖曼,hide,Gaiman_default,,,我希望你们能在这里结束我的生命。,,,,,源类型=type:txt_Gaiman; 层级=13
-17,旁白,hide,Gaiman_default,,,众人的呼吸骤地冻在了原地，连培养罐内心脏规律的搏动也跟着顿住，仿佛被死亡掐住了血管。,,,,"charfadeout(L,1)",源类型=type:txt_pb; 层级=14
+16,盖曼,hide,Gaiman_default,,,我希望你们能在这里结束我的生命。,,stop,,,源类型=type:txt_Gaiman; 层级=13
+17,旁白,hide,Gaiman_default,,,众人的呼吸骤地冻在了原地，连培养罐内心脏规律的搏动也跟着顿住，仿佛被死亡掐住了血管。,,11 enhanced the_mountain-hope-background,,"charfadeout(L,1)&unlockmusic(Music11)",源类型=type:txt_pb; 层级=14
 18,旁白,hide,,,,但他的话语没有停下，就像一盘正在播放遗言的录音带，按键里没有暂停的选项。,,,,,源类型=type:txt_pb; 层级=15
 19,盖曼,hide,Gaiman_default,,,因为只要我还活着，盖亚之心就始终存在于这颗大脑内，也就存在被人抢走的风险，这一点你们应该十分清楚。,,,,"charfadein(L,1)",源类型=type:txt_Gaiman; 层级=16
 20,旁白,hide,Gaiman_default,,,他的视线越过你们，落在房间深处那三台静默的造梦设备上：,,,,,源类型=type:txt_pb; 层级=17
@@ -85,8 +85,8 @@ ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Comm
 86,旁白,hide,,,,你看着克拉克扣好身边的安全束带，头盔缓缓降下，一阵微弱的电击感顺着线路流遍他的全身，直至亲身走完这套设备的所有预备步骤，他这才向你们比出一个一切安全的手势。示意你们赶快就位，准备返程。,,,,,源类型=type:txt_pb; 层级=81
 87,旁白,hide,,,,你没有犹豫，立刻把那只装有机械心脏的小铁盒放到造梦设备的储物格中，转身便要抬腿迈入。,,,,,源类型=type:txt_pb; 层级=82
 88,旁白,hide,,,,但有一个人却没有跟过来——大卫仍站在盖曼倒下去的地方，背对着出口的方向，身影立在跳动的火光里。,,,,,源类型=type:txt_pb; 层级=83
-91,你,hide,,,,大卫？,,,,,源类型=type:txt_You; 层级=84
+91,你,hide,,,,大卫？,,stop,,,源类型=type:txt_You; 层级=84
 89,旁白,hide,,,,你出声唤他的名字，他却对此充耳不闻，只是站在那里垂着头，看着地面上跳动的火光倒影，手指无意识地摩挲着右肩那片早已凝固的深色印记。,,,,,源类型=type:txt_pb; 层级=85
 90,你,hide,,,,这片梦境快要坍塌了，再不离开我们都只能留下，盖曼的遗愿也没办法完成。,,,,"loadScript(sntzm_gy(s2), 30)",源类型=type:txt_You; 层级=86; gotomainline=盖亚之心（索菲亚线下）_30
-92,你,hide,,,,不，我们会记得。,,,,"loadScript(sntzm_truth(1), 1)",源类型=type:txt_You; 层级=87; gotomainline=真结局分支_1
-4,旁白,hide,,,,就在你即将做出回答的那一刻，一股熟悉的味道扼住了你的喉咙，不是福尔马林的刺鼻性气息，而是一种甜腻的，如同发酵过度的蜜糖一样的诡异药水味。,,,,"loadScript(sntzm_ending5(1), 1)",源类型=type:txt_pb; 层级=1; gotomainline=结局5_1
+92,你,hide,,,,不，我们会记得。,,stop,,"loadScript(sntzm_truth(1), 1)",源类型=type:txt_You; 层级=87; gotomainline=真结局分支_1
+4,旁白,hide,,,,就在你即将做出回答的那一刻，一股熟悉的味道扼住了你的喉咙，不是福尔马林的刺鼻性气息，而是一种甜腻的，如同发酵过度的蜜糖一样的诡异药水味。,,leberch-horror-dark-375194,,"loadScript(sntzm_ending5(1), 1)&unlockmusic(Music2)",源类型=type:txt_pb; 层级=1; gotomainline=结局5_1

@@ -1,5 +1,5 @@
 ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Command,Note
-1,旁白,hide,,,,,,22 the_mountain-horror,false,,源类型=type:exeBC; 层级=0
+1,旁白,hide,,,,,,22 the_mountain-horror,false,unlockmusic(Music22),源类型=type:exeBC; 层级=0
 2,你,hide,,,,夜莺？,,,,,"源类型=type:txt_You; 层级=1; wherelist={""wheretype"":""1"",""wheredatas"":[{""sortnum"":""1"",""way"":""="",""conditions"":[{""algorithm"":""+"",""valuetype"":""4"",""valuekey"":"""",""valuedata"":""夜莺线"",""dowlist4"":[]}],""targets"":[{""algorithm"":""+"",""valuetype"":""1"",""valuekey"":"""",""valuedata"":""1"",""dowlist4"":[]}]}]}"
 4,旁白,hide,,,,你试探性地询问出声，依旧对她的身份保留了最后的一丝基于谨慎的怀疑，因为眼前的女人并非你们想象中的FBI文员打扮。,,,,,源类型=type:txt_pb; 层级=2
 5,旁白,hide,,,,相反，她穿着和这里的医生款式一致的白大褂，领口系得整整齐齐，只有露出的手腕上沾了几点淡褐色的污渍，把冷白的皮肤衬得格外醒目。,,,,,源类型=type:txt_pb; 层级=3
