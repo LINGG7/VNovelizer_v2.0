@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: huizi888
-  productName: "\u5723\u8BFA\u6C40\u4E4B\u68A6"
+  productName: "\u5723\u8BFA\u6C40\u4E4B\u68A6\uFF1A\u76D6\u4E9A\u4E4B\u5FC3"
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -141,7 +141,7 @@ PlayerSettings:
   loadStoreDebugModeEnabled: 0
   visionOSBundleVersion: 1.0
   tvOSBundleVersion: 1.0
-  bundleVersion: 1.1.3
+  bundleVersion: 1.0.0
   preloadedAssets:
   - {fileID: 11400000, guid: 48f560ddac896654293b434858bf5038, type: 2}
   metroInputSource: 0
@@ -292,7 +292,7 @@ PlayerSettings:
   - m_BuildTarget: 
     m_Icons:
     - serializedVersion: 2
-      m_Icon: {fileID: 2800000, guid: 91b5e1780c2cc054d8730bb818f98467, type: 3}
+      m_Icon: {fileID: 2800000, guid: c6ccb09ffee7f7c47a04e405b45ddb60, type: 3}
       m_Width: 128
       m_Height: 128
       m_Kind: 0

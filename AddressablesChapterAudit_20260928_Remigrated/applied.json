@@ -1,0 +1,16 @@
+{
+  "changed_groups": [
+    "Chapter1-Remote",
+    "Chapter2-Remote",
+    "Default Local Group"
+  ],
+  "moved": 268,
+  "counts": {
+    "Chapter1-Remote": 40,
+    "Default Local Group": 219,
+    "Chapter2-Remote": 237
+  },
+  "shared": 8,
+  "addresses_preserved": true,
+  "unrelated_entries_preserved": true
+}

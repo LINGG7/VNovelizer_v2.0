@@ -51,6 +51,11 @@ public sealed class MainMenuBurnTransition : MonoBehaviour
     private Canvas charOverlayCanvas;
     private Image charOverlay;
     private Material charMaterial;
+    private Image sourceBackground;
+    private Image burnedBackground;
+    private Material revealMaterial;
+    private bool revealWarningLogged;
+
     private Material fallingFlameMaterial;
     private Material sparkMaterial;
     private Material smokeMaterial;
@@ -67,6 +72,7 @@ public sealed class MainMenuBurnTransition : MonoBehaviour
     private ParticleSystem smoke;
     private ParticleSystem embers;
 
+    private float boundaryTimeSeconds;
     private float visibleWidth;
     private float visibleHeight;
     private float particleDepth;
@@ -75,6 +81,80 @@ public sealed class MainMenuBurnTransition : MonoBehaviour
     private int emissionIndex;
     private bool impactEmitted;
     private bool isPlaying;
+
+    public void BindBackground(Image original, Sprite burnedSprite)
+    {
+        if (burnedBackground != null)
+            burnedBackground.gameObject.SetActive(false);
+        sourceBackground = original;
+        Shader shader = Resources.Load<Shader>("VNovelizerRes/Materials/S_UI_MainMenuBurnReveal");
+        if (original == null || burnedSprite == null || shader == null)
+        {
+            if (!revealWarningLogged)
+                Debug.LogWarning("[MainMenuBurnTransition] Background reveal resources missing; keeping original background.");
+            revealWarningLogged = true;
+            sourceBackground = null;
+            return;
+        }
+
+        if (revealMaterial == null)
+            revealMaterial = new Material(shader) { name = "M_MainMenuBurnReveal_Runtime", hideFlags = HideFlags.DontSave };
+        if (burnedBackground == null)
+        {
+            GameObject layer = new GameObject("MainMenuBurnedBackground", typeof(RectTransform), typeof(CanvasRenderer), typeof(Image), typeof(LayoutElement));
+            layer.hideFlags = HideFlags.DontSave;
+            layer.GetComponent<LayoutElement>().ignoreLayout = true;
+            burnedBackground = layer.GetComponent<Image>();
+            burnedBackground.raycastTarget = false;
+        }
+        burnedBackground.sprite = burnedSprite;
+        burnedBackground.material = revealMaterial;
+        SyncBackgroundLayout();
+        burnedBackground.gameObject.SetActive(false);
+    }
+
+    private void SyncBackgroundLayout()
+    {
+        if (sourceBackground == null || burnedBackground == null)
+            return;
+        RectTransform source = sourceBackground.rectTransform;
+        RectTransform target = burnedBackground.rectTransform;
+        if (target.parent != source.parent)
+            target.SetParent(source.parent, false);
+        if (target.GetSiblingIndex() != source.GetSiblingIndex() + 1)
+            target.SetSiblingIndex(source.GetSiblingIndex() + 1);
+        target.anchorMin = source.anchorMin;
+        target.anchorMax = source.anchorMax;
+        target.pivot = source.pivot;
+        target.sizeDelta = source.sizeDelta;
+        target.anchoredPosition3D = source.anchoredPosition3D;
+        target.localRotation = source.localRotation;
+        target.localScale = source.localScale;
+        burnedBackground.gameObject.layer = sourceBackground.gameObject.layer;
+        burnedBackground.color = sourceBackground.color;
+        burnedBackground.type = sourceBackground.type;
+        burnedBackground.preserveAspect = sourceBackground.preserveAspect;
+        burnedBackground.fillCenter = sourceBackground.fillCenter;
+        burnedBackground.fillMethod = sourceBackground.fillMethod;
+        burnedBackground.fillAmount = sourceBackground.fillAmount;
+        burnedBackground.fillClockwise = sourceBackground.fillClockwise;
+        burnedBackground.fillOrigin = sourceBackground.fillOrigin;
+        burnedBackground.pixelsPerUnitMultiplier = sourceBackground.pixelsPerUnitMultiplier;
+        burnedBackground.useSpriteMesh = sourceBackground.useSpriteMesh;
+        burnedBackground.maskable = sourceBackground.maskable;
+        burnedBackground.enabled = sourceBackground.enabled;
+    }
+
+    private void UpdateRevealMaterial(Material material, float spread, float impact, float aspect)
+    {
+        material.SetFloat(ProgressId, spread);
+        material.SetVector(CenterId, burnCenter);
+        material.SetFloat(AspectId, aspect);
+        material.SetFloat(NoiseStrengthId, noiseStrength);
+        material.SetFloat(RadiusScaleId, maxRadius);
+        material.SetFloat(ImpactId, impact);
+        material.SetFloat(SequenceTimeId, boundaryTimeSeconds);
+    }
 
     public void Configure(float newDuration, float newDensity, float newMaxRadius, Vector2 center,
         float newNoiseStrength, float newFlameHeight, float newFlameCurlStrength,
@@ -149,6 +229,8 @@ public sealed class MainMenuBurnTransition : MonoBehaviour
         isPlaying = false;
         SetParticleFade(1f);
         ResetRibbons();
+        if (burnedBackground != null)
+            burnedBackground.gameObject.SetActive(false);
 
         if (charMaterial != null)
         {
@@ -394,12 +476,27 @@ public sealed class MainMenuBurnTransition : MonoBehaviour
 
     private void UpdateMask(float timeline)
     {
+        boundaryTimeSeconds = timeline * duration;
         float spread = EvaluateSpread(timeline);
         float impact = Mathf.SmoothStep(0f, 1f, Mathf.InverseLerp(ToTimeline(0.8f), ToTimeline(0.9f), timeline)) *
                        (1f - Mathf.SmoothStep(0f, 1f, Mathf.InverseLerp(ToTimeline(1f), ToTimeline(1.2f), timeline)));
         float finalCover = Mathf.SmoothStep(0f, 1f,
             Mathf.InverseLerp(ToTimeline(FadeStartTime), 1f, timeline));
         float aspect = Screen.height > 0 ? (float)Screen.width / Screen.height : 1.77778f;
+        if (sourceBackground != null && burnedBackground != null && revealMaterial != null)
+        {
+            SyncBackgroundLayout();
+            bool visible = spread + impact > 0.0001f && sourceBackground.gameObject.activeInHierarchy;
+            burnedBackground.gameObject.SetActive(visible);
+            UpdateRevealMaterial(revealMaterial, spread, impact, aspect);
+            // Mask components may use a cached stencil material rather than the source material.
+            if (visible)
+            {
+                Material rendered = burnedBackground.materialForRendering;
+                if (rendered != null && rendered != revealMaterial)
+                    UpdateRevealMaterial(rendered, spread, impact, aspect);
+            }
+        }
 
         if (charMaterial != null)
         {
@@ -411,7 +508,7 @@ public sealed class MainMenuBurnTransition : MonoBehaviour
             charMaterial.SetFloat(RadiusScaleId, maxRadius);
             charMaterial.SetFloat(ImpactId, impact);
             charMaterial.SetFloat(FinalCoverId, finalCover);
-            charMaterial.SetFloat(SequenceTimeId, timeline);
+            charMaterial.SetFloat(SequenceTimeId, boundaryTimeSeconds);
         }
         else if (charOverlay != null)
         {
@@ -458,13 +555,13 @@ public sealed class MainMenuBurnTransition : MonoBehaviour
 
         outerRibbon = CreateRibbonLayer("OuterFlameRibbon", ribbonShader, ribbonTexture, 22,
             new Color(0.72f, 0.055f, 0.002f, 1f), new Color(0.16f, 0.003f, 0.001f, 1f),
-            0.92f, 1.08f, 1.34f, 1.12f, 0.35f, visibleHeight * 0.032f);
+            0.62f, 1.08f, 1.34f, 1.12f, 0.35f, visibleHeight * 0.032f);
         bodyRibbon = CreateRibbonLayer("BodyFlameRibbon", ribbonShader, ribbonTexture, 24,
             new Color(1f, 0.72f, 0.08f, 1f), new Color(0.95f, 0.045f, 0.001f, 1f),
-            1.22f, 1f, 1f, 1f, 1.7f, 0f);
+            0.86f, 1f, 1f, 1f, 1.7f, 0f);
         coreRibbon = CreateRibbonLayer("CoreFlameRibbon", ribbonShader, ribbonTexture, 26,
             new Color(1f, 1f, 0.82f, 1f), new Color(1f, 0.28f, 0.008f, 1f),
-            1.55f, 0.64f, 0.52f, 0.72f, 3.1f, -visibleHeight * 0.025f);
+            0.92f, 0.64f, 0.52f, 0.72f, 3.1f, -visibleHeight * 0.025f);
     }
 
     private RibbonLayerVisual CreateRibbonLayer(string objectName, Shader shader, Texture texture, int sortingOrder,
@@ -532,7 +629,7 @@ public sealed class MainMenuBurnTransition : MonoBehaviour
         {
             float angle = i / (float)RibbonSegments * Mathf.PI * 2f;
             float radius = Mathf.Max(visibleHeight * 0.035f,
-                frontProgress * maxRadius * cornerRadius + BoundaryProfile(angle) * noiseStrength * visibleHeight);
+                frontProgress * maxRadius * cornerRadius) + BoundaryProfile(angle) * noiseStrength * visibleHeight * Mathf.Clamp01(frontProgress / 0.08f);
             ribbonBasePoints[i] = new Vector3(Mathf.Cos(angle) * radius, Mathf.Sin(angle) * radius, 0f);
             if (i > 0)
                 ribbonArcLengths[i] = ribbonArcLengths[i - 1] + Vector3.Distance(ribbonBasePoints[i - 1], ribbonBasePoints[i]);
@@ -541,7 +638,7 @@ public sealed class MainMenuBurnTransition : MonoBehaviour
 
     private void PrepareTongueField(float sequenceSeconds)
     {
-        int clusterCount = Mathf.Clamp(Mathf.RoundToInt(10f * tongueActivity), 8, 12);
+        int clusterCount = Mathf.Clamp(Mathf.RoundToInt(18f * tongueActivity), 14, 26);
         float animatedTime = sequenceSeconds * tongueSpeed;
 
         for (int i = 0; i <= RibbonSegments; i++)
@@ -574,7 +671,7 @@ public sealed class MainMenuBurnTransition : MonoBehaviour
 
                 int generationSeed = seed + generation * 977;
                 float center = Hash01(generationSeed + 17);
-                float halfWidth = Mathf.Lerp(0.018f, 0.038f, Hash01(generationSeed + 23));
+                float halfWidth = Mathf.Lerp(0.022f, 0.045f, Hash01(generationSeed + 23));
                 float wrappedDistance = Mathf.Abs(Mathf.Repeat(position - center + 0.5f, 1f) - 0.5f);
                 float spatial = 1f - Mathf.SmoothStep(0f, 1f, wrappedDistance / halfWidth);
                 float amplitude = Mathf.Lerp(0.78f, 1.08f, Hash01(generationSeed + 29));
@@ -598,7 +695,7 @@ public sealed class MainMenuBurnTransition : MonoBehaviour
             return;
 
         float totalArc = Mathf.Max(0.001f, ribbonArcLengths[RibbonSegments]);
-        float matureHeight = visibleHeight * flameHeight * Mathf.Lerp(0.16f, 1f, growth);
+        float matureHeight = visibleHeight * flameHeight * Mathf.Lerp(0.48f, 1f, growth);
         float rootWidth = visibleHeight * Mathf.Lerp(0.0045f, 0.011f, growth) * layer.WidthScale;
 
         for (int i = 0; i <= RibbonSegments; i++)
@@ -611,7 +708,7 @@ public sealed class MainMenuBurnTransition : MonoBehaviour
             float pulse = ribbonTonguePulses[i];
             float lowFlameVariation = 0.025f * Mathf.Sin(angle * 13f - sequenceSeconds * 4.1f + layer.Phase)
                 + 0.018f * Mathf.Sin(angle * 23f + sequenceSeconds * 6.3f);
-            float lowFlame = 0.21f + lowFlameVariation;
+            float lowFlame = 0.52f + lowFlameVariation;
             float highTongue = pulse * (0.78f + topBias * 0.14f);
             float height = matureHeight * layer.HeightScale * Mathf.Max(0.14f, lowFlame + highTongue);
             float screenTop = visibleHeight * (1f - burnCenter.y) - visibleHeight * 0.018f;
@@ -800,19 +897,21 @@ public sealed class MainMenuBurnTransition : MonoBehaviour
         float verticalReach = visibleHeight * Mathf.Max(burnCenter.y, 1f - burnCenter.y);
         float cornerRadius = Mathf.Sqrt(horizontalReach * horizontalReach + verticalReach * verticalReach);
         float radius = Mathf.Max(visibleHeight * 0.035f,
-            frontProgress * maxRadius * cornerRadius + BoundaryProfile(angle) * noiseStrength * visibleHeight);
+            frontProgress * maxRadius * cornerRadius) + BoundaryProfile(angle) * noiseStrength * visibleHeight * Mathf.Clamp01(frontProgress / 0.08f);
         float x = Mathf.Cos(angle) * radius;
         float y = Mathf.Sin(angle) * radius;
         float z = HashSigned(index * 97 + 19) * visibleHeight * 0.075f;
         return new Vector3(x, y, z);
     }
 
-    private static float BoundaryProfile(float angle)
+    private float BoundaryProfile(float angle)
     {
-        return (Mathf.Sin(angle * 5f + 1.7f) * 0.28f
-              + Mathf.Sin(angle * 9f - 0.8f) * 0.22f
-              + Mathf.Sin(angle * 17f + 2.4f) * 0.16f
-              + Mathf.Sin(angle * 29f - 1.1f) * 0.10f) * 0.46f;
+        // Keep this profile identical to S_UI_MainMenuBurnMask.shader.
+        float t = boundaryTimeSeconds;
+        return (Mathf.Sin(angle * 5f + 1.7f + t * 0.85f) * 0.28f
+              + Mathf.Sin(angle * 9f - 0.8f - t * 1.15f) * 0.22f
+              + Mathf.Sin(angle * 17f + 2.4f + t * 1.6f) * 0.16f
+              + Mathf.Sin(angle * 29f - 1.1f - t * 2.1f) * 0.10f) * 0.72f;
     }
 
     private ParticleSystem CreateSystem(string objectName, Material material, int maxParticles, int sortingOrder)
@@ -976,6 +1075,9 @@ public sealed class MainMenuBurnTransition : MonoBehaviour
     private void OnDestroy()
     {
         DestroyMaterial(charMaterial);
+        DestroyMaterial(revealMaterial);
+        if (burnedBackground != null)
+            Destroy(burnedBackground.gameObject);
         DestroyRibbon(outerRibbon);
         DestroyRibbon(bodyRibbon);
         DestroyRibbon(coreRibbon);

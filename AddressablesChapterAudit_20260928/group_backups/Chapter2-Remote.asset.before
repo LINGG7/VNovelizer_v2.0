@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Chapter2-Remote
+  m_EditorClassIdentifier: 
+  m_GroupName: Chapter2-Remote
+  m_Data:
+    m_SerializedData: []
+  m_GUID: c098f5dd781f7694392fc98334da1106
+  m_SerializeEntries:
+  - m_GUID: 1dd10b443b5f8db4c9899bcf2258fbed
+    m_Address: "VNovelizerRes/CharactersPic/\u7D22\u83F2\u4E9A"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/CharactersPic
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2ea7765ab709a2a469a7840e342c8613
+    m_Address: "VNovelizerRes/CharactersPic/\u7F51\u763E\u5B66\u5F92/\u65E0"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/CharactersPic
+    - "VNovelizerRes/CharactersPic/\u7F51\u763E\u5B66\u5F92"
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 358ed20ec9742ac47bd5f52d34bf129a
+    m_Address: "VNovelizerRes/CharactersPic/\u76D6\u66FC\u9634"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/CharactersPic
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5aa33c853d9cf9544b4110da53d9c5fc
+    m_Address: "VNovelizerRes/CharactersPic/\u514B\u83B1\u8499\u65AF\u4E0A\u6821\u8868\u60C5/\u526A\u5F71"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/CharactersPic
+    - "VNovelizerRes/CharactersPic/\u514B\u83B1\u8499\u65AF\u4E0A\u6821\u8868\u60C5"
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5db840cb4ecb4574f8968b1b0c1cc846
+    m_Address: "VNovelizerRes/CharactersPic/\u7F51\u763E\u5B66\u5F92/\u7EF7\u5E26"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/CharactersPic
+    - "VNovelizerRes/CharactersPic/\u7F51\u763E\u5B66\u5F92"
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5fe119f69f1166d4ea0b8abf30902f2a
+    m_Address: "VNovelizerRes/CharactersPic/\u5927\u536B\u8868\u60C5/\u7EF7\u5E26"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/CharactersPic
+    - "VNovelizerRes/CharactersPic/\u5927\u536B\u8868\u60C5"
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6a860a41684ce8246bef337f926845ab
+    m_Address: "VNovelizerRes/CharactersPic/\u4E9A\u5F53"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/CharactersPic
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: e05a7e7d0a4767d4dbd8053c426fbfd0, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 3dbf28f21861ee547945d805c933517b, type: 2}
+    - {fileID: 11400000, guid: aa7bb1b4ce7ed404cb45facf602c06a0, type: 2}

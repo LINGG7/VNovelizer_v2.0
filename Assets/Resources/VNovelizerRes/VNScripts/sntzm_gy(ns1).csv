@@ -55,7 +55,7 @@ ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Comm
 67,旁白,hide,Gaiman_default,,,这不是你第一次听到“梦境设定”这个概念，第一次是在亚波伦那里——在四层的那间手术室中。那段对话依旧记忆犹新，随着盖曼的陈述，再次于你脑海中浮现——,,,,"charfadeout(L,1)",源类型=type:txt_pb; 层级=53
 68,你,hide,,,,不可能，大卫这些年一直在FBI服役，可没那个闲心思做什么记者。,,,,"parallel(memoryon();bgfade(sntzm_clark4F(3)_19,1))",源类型=type:txt_You; 层级=54
 69,亚波伦（回忆）,hide,,,,那么也许你们应该在他苏醒后好好问问，毕竟在发现有关这里的真相之前，我也和你们一样，坚定地认为自己是纳丁达克公司的一名CEO。,,,,,源类型=type:txt_YBLHY; 层级=55
-72,旁白,hide,,,,两个相似的声音在你耳边交错略过，盖曼的告诫，还有亚波伦辛辣的讥讽。一白一黑的影子在你意识里不断盘旋碰撞，渐渐勾勒这张阴谋大网的真实轮廓。,,,,"parallel(memoryoff();bgfade(bgfade(sntzm_gy(2)_66,1),1))",源类型=type:txt_pb; 层级=58
+72,旁白,hide,,,,两个相似的声音在你耳边交错略过，盖曼的告诫，还有亚波伦辛辣的讥讽。一白一黑的影子在你意识里不断盘旋碰撞，渐渐勾勒这张阴谋大网的真实轮廓。,,,,"parallel(memoryoff();bgfade(sntzm_gy(2)_66,1))",源类型=type:txt_pb; 层级=58
 73,克拉克,hide,Clark_default,,,你的意思是，要我们相信这一切都是假的吗？从身份、经历，再到我们一路走来经历的所有事情。还有杰森和那个怪物......他们看上去都那样的真实。,,,,"charfadein(L,1)",源类型=type:txt_Clark; 层级=59
 74,旁白,hide,Clark_default,,,盖曼缓缓摇了摇头，抬起手按在了自己的胸口上：,,,,"charfadeout(L,1)",源类型=type:txt_pb; 层级=60
 75,盖曼,hide,Gaiman_default,,,我知道这一切难以接受，可真相从来不会因为你难以接受就变成谎言。,,,,"charfadein(L,1)",源类型=type:txt_Gaiman; 层级=61

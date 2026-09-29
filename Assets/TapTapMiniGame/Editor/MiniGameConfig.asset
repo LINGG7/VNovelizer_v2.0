@@ -13,12 +13,12 @@ MonoBehaviour:
   m_Name: MiniGameConfig
   m_EditorClassIdentifier: 
   ProjectConf:
-    Appid: 852739
-    CDN: https://res.huizi888.com/vnovelizer/prod/1.1.3/WebGL/
+    Appid: 950343
+    CDN: https://res.huizhihudongtech.com/vn/sntzm2/1.0.0/WebGL/
     assetLoadType: 1
     compressDataPackage: 1
     VideoUrl: 
-    DST: E:/Unity Projects/VNovelizerTest_v1.0/TaptapTest/000
+    DST: E:/Unity Projects/VNovelizerTest_v1.0/TaptapTest/2.0.0
     StreamCDN: 
     bundleHashLength: 32
     bundlePathIdentifier: StreamingAssets;

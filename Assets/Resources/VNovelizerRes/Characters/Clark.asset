@@ -17,24 +17,6 @@ MonoBehaviour:
   - Element: default
     Sprite: {fileID: 21300000, guid: d5a93460516e4f44b9e62f873eae1e1e, type: 3}
     SpritePath: "VNovelizerRes/CharactersPic/\u514B\u62C9\u514B"
-  - Element: dislike
-    Sprite: {fileID: 21300000, guid: 4cae055109dc9aa4dbec56928cfd2726, type: 3}
-    SpritePath: "VNovelizerRes/CharactersPic/\u514B\u62C9\u514B\u8868\u60C5/\u5ACC\u5F03"
-  - Element: scared
-    Sprite: {fileID: 21300000, guid: 7467e4584c755b74c92cea7a47e459c6, type: 3}
-    SpritePath: "VNovelizerRes/CharactersPic/\u514B\u62C9\u514B\u8868\u60C5/\u5BB3\u6015"
-  - Element: angry
-    Sprite: {fileID: 21300000, guid: 60f1fcbc2c9f8f542a5f3f597550caf8, type: 3}
-    SpritePath: "VNovelizerRes/CharactersPic/\u514B\u62C9\u514B\u8868\u60C5/\u751F\u6C14"
-  - Element: nervous
-    Sprite: {fileID: 21300000, guid: e4f730d332806554f9b118bbdf40d88c, type: 3}
-    SpritePath: "VNovelizerRes/CharactersPic/\u514B\u62C9\u514B\u8868\u60C5/\u7D27\u5F20"
-  - Element: confused
-    Sprite: {fileID: 21300000, guid: 48a4780f265fb114180a84405e107436, type: 3}
-    SpritePath: "VNovelizerRes/CharactersPic/\u514B\u62C9\u514B\u8868\u60C5/\u7591\u60D1"
-  - Element: withgun
-    Sprite: {fileID: 21300000, guid: 77205b0590238064a8f57117ff0b9a83, type: 3}
-    SpritePath: "VNovelizerRes/CharactersPic/\u514B\u62C9\u514B\u8868\u60C5/\u4E3E\u67AA"
   - Element: blue
     Sprite: {fileID: 21300000, guid: dd7a240205bfee14c9fcf5944e7464ac, type: 3}
     SpritePath: "VNovelizerRes/CharactersPic/\u514B\u62C9\u514B_blue"

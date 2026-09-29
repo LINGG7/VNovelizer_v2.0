@@ -102,7 +102,7 @@ Shader "VNovelizer/MainMenuBurn/FlameRibbon"
                     * _Distortion * upperMotion * _TongueActivity;
 
                 float2 uvA = float2(MirroredRepeat(u + curlA + _SequenceTime * 0.035),
-                                    lerp(0.09, 0.93, v));
+                                    lerp(0.09, 0.93, saturate(v + sin(u * 3.1 - _SequenceTime * 5.0) * 0.055 * upperMotion)));
                 float periodicOffset = sin(input.uv.x * 6.2831853) * 0.17;
                 float2 uvB = float2(MirroredRepeat(u + periodicOffset - curlB - _SequenceTime * 0.026 + _LayerPhase * 0.13),
                                     lerp(0.075, 0.9, saturate(v * 1.015)));
@@ -124,7 +124,7 @@ Shader "VNovelizer/MainMenuBurn/FlameRibbon"
                     + sin(u * 11.3h + _SequenceTime * 4.6h) * 0.48h;
                 half animatedCutoff = _Cutoff + upperBlend * saturate(0.045h - breakup * 0.018h);
                 half mask = smoothstep(animatedCutoff, animatedCutoff + max(_Softness * lerp(1.0h, 0.68h, upperBlend), 0.001h), luminance);
-                mask = max(mask, rootGlow);
+                mask = max(mask, rootGlow * 0.16h * smoothstep(0.08h, 0.42h, luminance));
                 half tonguePulse = saturate(input.tongueData.x);
                 half proceduralNoise = saturate(0.64h
                     + sin(u * 7.3h - _SequenceTime * 8.7h + v * 5.1h) * 0.22h
@@ -133,7 +133,7 @@ Shader "VNovelizer/MainMenuBurn/FlameRibbon"
                 half verticalWindow = smoothstep(0.1h, 0.3h, v) * (1.0h - smoothstep(0.89h, 0.98h, v));
                 half proceduralTongue = tongueColumn * verticalWindow * lerp(0.24h, 0.56h, tonguePulse);
                 mask = max(mask, proceduralTongue);
-                half heat = saturate(luminance * 1.75h + rootGlow * 0.65h + proceduralTongue * 0.58h);
+                half heat = saturate(luminance * 1.35h + rootGlow * 0.12h + proceduralTongue * 0.58h);
                 half3 gradient = lerp(_EdgeColor.rgb, _CoreColor.rgb, smoothstep(0.08h, 0.78h, heat));
                 half3 authoredShape = authored * lerp(_EdgeColor.rgb * 1.6h, _CoreColor.rgb, heat);
                 half flicker = lerp(1.0h, 0.82h + 0.18h * sin(u * 3.9h - _SequenceTime * 8.2h + v * 7.0h), upperBlend);

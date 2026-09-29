@@ -17,8 +17,104 @@ MonoBehaviour:
     m_SerializedData: []
   m_GUID: c098f5dd781f7694392fc98334da1106
   m_SerializeEntries:
-  - m_GUID: 0308f3f1aa81ff448afc46a87b0719b1
-    m_Address: VNovelizerRes/Audio/Music/BGM/oceanframemusic-horror-background-music
+  - m_GUID: 001d154a01b48194d9941423c55899fd
+    m_Address: VNovelizerRes/Backgrounds/sntzm_gy(s2)_4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 02510cb50aea1c749b260281f376cfe6
+    m_Address: VNovelizerRes/Backgrounds/sntzm_david313-315(2)_62
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 02723c5e693d7c6449e632049f46b42f
+    m_Address: VNovelizerRes/Backgrounds/sntzm_final(4)_28
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 027f5f140909cf74f9b5293f61186ddb
+    m_Address: VNovelizerRes/Backgrounds/sntzm_david313-315(4)_33
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 03c276b452ccdb2419704327aaabf7d7
+    m_Address: VNovelizerRes/Backgrounds/sntzm_truth(1)_7
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 03d542df93ce85144aa5a97571e22dfc
+    m_Address: VNovelizerRes/Backgrounds/sntzm_clark4F(2)_68
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 048f6ef40c6a46d48bf781d3ca6c4425
+    m_Address: VNovelizerRes/Backgrounds/sntzm_david313-315(2)_33
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 05463e87e24fba44a86851c396d40a02
+    m_Address: VNovelizerRes/Backgrounds/sntzm_final(3)_57
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 07683654bdfc0b14d8d181d97062a129
+    m_Address: VNovelizerRes/Backgrounds/sntzm_clark3F(3)_19
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 076aed1620b29af478a48c3c152aea28
+    m_Address: VNovelizerRes/Backgrounds/sntzm_clark3F(4)_74
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 07c386c7bf9a59c4cbeafdcce7be4989
+    m_Address: VNovelizerRes/Backgrounds/sntzm_david313-315(4)_27
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 07f77f7243fb8f141b9aa841c26fe0f3
+    m_Address: VNovelizerRes/Backgrounds/sntzm_truth(3)_21
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 08a58ea281f0ddf4986ecfe9809cd4e8
+    m_Address: VNovelizerRes/Audio/Music/BGM/19 enhanced_suspense-tension-background-music
     m_ReadOnly: 0
     m_SerializedLabels:
     - VNovelizerRes
@@ -27,53 +123,198 @@ MonoBehaviour:
     - VNovelizerRes/Audio/Music/BGM
     - chapter2_optional
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 0addf4544e391a54ba21b2d56985863d
-    m_Address: "VNovelizerRes/CharactersPic/\u5927\u536B\u8868\u60C5/\u4E3E\u67AA"
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - VNovelizerRes
-    - VNovelizerRes/CharactersPic
-    - "VNovelizerRes/CharactersPic/\u5927\u536B\u8868\u60C5"
-    - chapter2_optional
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 0afcf63773e096c408613b62bdb45337
-    m_Address: VNovelizerRes/Backgrounds/sntzm_david2_1
+  - m_GUID: 092f0c3f7c02c7f459d15f4f0dbba3de
+    m_Address: VNovelizerRes/Backgrounds/sntzm_david313-315(3)_13
     m_ReadOnly: 0
     m_SerializedLabels:
     - VNovelizerRes
     - VNovelizerRes/Backgrounds
     - chapter2_optional
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 1381091f8755b554ea321b1fa117d58a
-    m_Address: VNovelizerRes/Backgrounds/sntzm_clark3_64
+  - m_GUID: 097e6469a61793c4689088f5b54cea1b
+    m_Address: VNovelizerRes/Backgrounds/sntzm_gy(1)_8
     m_ReadOnly: 0
     m_SerializedLabels:
     - VNovelizerRes
     - VNovelizerRes/Backgrounds
     - chapter2_optional
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 14f3a016e7063974c9ac4d427eaf9b2a
-    m_Address: VNovelizerRes/Backgrounds/sntzm_david4_84
+  - m_GUID: 09fa9b70ff871304eae9e9b5a6a22cae
+    m_Address: VNovelizerRes/Backgrounds/sntzm_final(1)_37
     m_ReadOnly: 0
     m_SerializedLabels:
     - VNovelizerRes
     - VNovelizerRes/Backgrounds
     - chapter2_optional
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 17405eaa2c717e54a827cec4a0300fe4
-    m_Address: VNovelizerRes/Backgrounds/sntzm_david2_77
+  - m_GUID: 0b6fb2d8776003f47b3b03be151e7d02
+    m_Address: VNovelizerRes/Backgrounds/sntzm_final(6)_80
     m_ReadOnly: 0
     m_SerializedLabels:
     - VNovelizerRes
     - VNovelizerRes/Backgrounds
     - chapter2_optional
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 17be5088f4e67214dade21dc03413a53
-    m_Address: VNovelizerRes/Backgrounds/sntzm_david2_48
+  - m_GUID: 0d0838d70b777fa47b77985ef065a36c
+    m_Address: VNovelizerRes/Backgrounds/sntzm_gy(ns2)_71
     m_ReadOnly: 0
     m_SerializedLabels:
     - VNovelizerRes
     - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0fdcfafde380082468b29573247f2305
+    m_Address: VNovelizerRes/Backgrounds/sntzm_david4F(1)_1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 10bc7b3f8dd286e408bb86e7965df592
+    m_Address: VNovelizerRes/Backgrounds/sntzm_david313-315(3)_45
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 113c5371c5654704388cc010e11a0ddc
+    m_Address: VNovelizerRes/Backgrounds/sntzm_david313-315(5)_3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1160c6ab702073e44924697757191bb3
+    m_Address: VNovelizerRes/Backgrounds/sntzm_david4F(2)_32
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 156b461b51d353241b194c131678031f
+    m_Address: VNovelizerRes/Backgrounds/sntzm_gy(s2)_13
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 15e803c4e37a2ea46bd98cfe865bea6a
+    m_Address: VNovelizerRes/Backgrounds/sntzm_truth(2)_22
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 165ac8b0a46d07c4686877f42d3bbf4b
+    m_Address: VNovelizerRes/Backgrounds/sntzm_final(4)_15
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 17ca2b5c92476344f9ca017792f9147b
+    m_Address: VNovelizerRes/Backgrounds/sntzm_truth(1)_56
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 187f74507cbd9764cbfad92d3c4c3f5a
+    m_Address: VNovelizerRes/Backgrounds/sntzm_truth(1)_11
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 199eedc306ca8d84bba39c278851bfe9
+    m_Address: VNovelizerRes/Backgrounds/sntzm_truth(1)_69
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 19a8eb51786a3d44395ef2622306f853
+    m_Address: VNovelizerRes/Backgrounds/sntzm_ending3_42
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1a500b3f767eeac4d801a9d87ca58730
+    m_Address: VNovelizerRes/Backgrounds/sntzm_david3F(2)_44
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1a52d027146e1f34ca75732ffd157323
+    m_Address: VNovelizerRes/Backgrounds/sntzm_clark3F(4)_24
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1adcb9f24aecc0f48b2656799f585c57
+    m_Address: VNovelizerRes/Backgrounds/sntzm_ending5(2)_29
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1b888aac9a7a0f940a7603b20321486a
+    m_Address: VNovelizerRes/Backgrounds/sntzm_ending5(1)_61
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1bdda11245259a543b1f0d03d77b01c4
+    m_Address: VNovelizerRes/Backgrounds/sntzm_clark3F(4)_94
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1c2884f726d699749828876f8442d3a3
+    m_Address: VNovelizerRes/Backgrounds/sntzm_clark3F(4)_65
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1d35c436a6842ab4ba76ecfbb35f5ca0
+    m_Address: VNovelizerRes/Backgrounds/sntzm_truth(1)_34
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1dc1791b22aff584a940c88753edd7f7
+    m_Address: VNovelizerRes/Audio/Music/BGM/10 enhanced suspense
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Audio
+    - VNovelizerRes/Audio/Music
+    - VNovelizerRes/Audio/Music/BGM
     - chapter2_optional
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 1dd10b443b5f8db4c9899bcf2258fbed
@@ -84,49 +325,16 @@ MonoBehaviour:
     - VNovelizerRes/CharactersPic
     - chapter2_optional
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 2152a899940799648850e54f9fd2c42d
-    m_Address: VNovelizerRes/Backgrounds/sntzm_david4_55
+  - m_GUID: 1e4ecf85eaebcab42a2b943a6b55c0da
+    m_Address: VNovelizerRes/Backgrounds/sntzm_david313-315(3)_64
     m_ReadOnly: 0
     m_SerializedLabels:
     - VNovelizerRes
     - VNovelizerRes/Backgrounds
     - chapter2_optional
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 224658f72978bac48a2f78cc690d77f8
-    m_Address: VNovelizerRes/Backgrounds/sntzm_david2_75
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - VNovelizerRes
-    - VNovelizerRes/Backgrounds
-    - chapter2_optional
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 22ab77fe3f18bfa428027350ce4ba3b0
-    m_Address: "VNovelizerRes/CharactersPic/\u6559\u5B98"
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - VNovelizerRes
-    - VNovelizerRes/CharactersPic
-    - chapter2_optional
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 23e1869ab7b831241b1a127833801a69
-    m_Address: VNovelizerRes/Backgrounds/sntzm_david4_57
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - VNovelizerRes
-    - VNovelizerRes/Backgrounds
-    - chapter2_optional
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 2b2c108cf554d0b4cb5b1f5831260b9d
-    m_Address: "VNovelizerRes/CharactersPic/\u7F51\u763E\u5B66\u5F92/\u515C\u5E3D"
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - VNovelizerRes
-    - VNovelizerRes/CharactersPic
-    - "VNovelizerRes/CharactersPic/\u7F51\u763E\u5B66\u5F92"
-    - chapter2_optional
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 2b2d651d622e59649a3e4f23c765ecdb
-    m_Address: VNovelizerRes/Audio/Music/BGM/suspense-tense-background-music
+  - m_GUID: 1ecbd5382758f4b4d8019da64a171e85
+    m_Address: VNovelizerRes/Audio/Music/BGM/16 enhanced_suspence
     m_ReadOnly: 0
     m_SerializedLabels:
     - VNovelizerRes
@@ -135,8 +343,96 @@ MonoBehaviour:
     - VNovelizerRes/Audio/Music/BGM
     - chapter2_optional
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 2c7a317f7034ba7479b979c9dacb3e2e
-    m_Address: VNovelizerRes/Audio/Music/BGM/leberch-horror-night
+  - m_GUID: 1f72c2700881d8e4180ec8090d747579
+    m_Address: VNovelizerRes/Backgrounds/sntzm_final(6)_44
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2177e041acb6a5347b74fcdf26d136b1
+    m_Address: VNovelizerRes/Backgrounds/sntzm_truth(1)_55
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 228225ca39a4b0149a6186f464722b76
+    m_Address: VNovelizerRes/Backgrounds/sntzm_truth(2)_1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 237e9cb2f5210bd428debc20bc9df5c9
+    m_Address: VNovelizerRes/Backgrounds/sntzm_truth(3)_29
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2571d0b624d60eb4aa08940a22fa3122
+    m_Address: VNovelizerRes/Backgrounds/sntzm_ending3_56
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 26b7a5743fe4de84787d8a078acdb811
+    m_Address: VNovelizerRes/Backgrounds/sntzm_ending4(1)_36
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 287d9cfa19f94e14fa03f38741ad6acf
+    m_Address: VNovelizerRes/Backgrounds/sntzm_truth(2)_20
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2b3e77052c330b04bb3fac364e8cb186
+    m_Address: VNovelizerRes/Backgrounds/sntzm_clark3F(4)_49
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2ddb7ee7e0a8b444181c8df3dc19fe45
+    m_Address: VNovelizerRes/Backgrounds/sntzm_gy(ns2)_72
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2e8a420ab376ca04bb1350bee22ea113
+    m_Address: VNovelizerRes/Backgrounds/sntzm_truth(1)_15
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2ebc639ebd992c14093c6a85329dcf0b
+    m_Address: VNovelizerRes/Backgrounds/sntzm_clark4F(2)_22
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 30452c7bdd3afd944a060a885b467e69
+    m_Address: VNovelizerRes/Audio/Music/BGM/leberch-horror-dark-375194
     m_ReadOnly: 0
     m_SerializedLabels:
     - VNovelizerRes
@@ -145,62 +441,28 @@ MonoBehaviour:
     - VNovelizerRes/Audio/Music/BGM
     - chapter2_optional
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 2d31c48ea04c0c640b0efcce25a8c9af
-    m_Address: VNovelizerRes/Backgrounds/sntzm_emily_29
+  - m_GUID: 30b041e4e2d23d3469887a9be3818b1a
+    m_Address: VNovelizerRes/Backgrounds/sntzm_david313-315(5)_49
     m_ReadOnly: 0
     m_SerializedLabels:
     - VNovelizerRes
     - VNovelizerRes/Backgrounds
     - chapter2_optional
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 2ea7765ab709a2a469a7840e342c8613
-    m_Address: "VNovelizerRes/CharactersPic/\u7F51\u763E\u5B66\u5F92/\u65E0"
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - VNovelizerRes
-    - VNovelizerRes/CharactersPic
-    - "VNovelizerRes/CharactersPic/\u7F51\u763E\u5B66\u5F92"
-    - chapter2_optional
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 2f755bd878736d34fa20b04e7f302211
-    m_Address: VNovelizerRes/Backgrounds/sntzm_david4_49
+  - m_GUID: 33cac89c992c00f408d016e15e1e1160
+    m_Address: VNovelizerRes/Backgrounds/sntzm_truth(3)_33
     m_ReadOnly: 0
     m_SerializedLabels:
     - VNovelizerRes
     - VNovelizerRes/Backgrounds
     - chapter2_optional
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 30a8d30b05426ca4689828b10d0e66bf
-    m_Address: VNovelizerRes/Backgrounds/sntzm_ss_9
+  - m_GUID: 33dc6647f01a95746b86a9dd275a2362
+    m_Address: VNovelizerRes/Backgrounds/sntzm_final(5)_116
     m_ReadOnly: 0
     m_SerializedLabels:
     - VNovelizerRes
     - VNovelizerRes/Backgrounds
-    - chapter2_optional
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 3136d630ecc4d0845bb3db7d7e48013f
-    m_Address: VNovelizerRes/Backgrounds/sntzm_david2_40
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - VNovelizerRes
-    - VNovelizerRes/Backgrounds
-    - chapter2_optional
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 32832716a8d798b4c8be3d183189d2af
-    m_Address: VNovelizerRes/Backgrounds/sntzm_davidBranch_28
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - VNovelizerRes
-    - VNovelizerRes/Backgrounds
-    - chapter2_optional
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 33e0fb6cd2092a3489464019c7814a9e
-    m_Address: "VNovelizerRes/CharactersPic/\u7F51\u763E\u5B66\u5F92/hurt"
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - VNovelizerRes
-    - VNovelizerRes/CharactersPic
-    - "VNovelizerRes/CharactersPic/\u7F51\u763E\u5B66\u5F92"
     - chapter2_optional
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 358ed20ec9742ac47bd5f52d34bf129a
@@ -211,73 +473,200 @@ MonoBehaviour:
     - VNovelizerRes/CharactersPic
     - chapter2_optional
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 35f48f30033c102489ace75382d61c3f
-    m_Address: VNovelizerRes/Backgrounds/sntzm_david1_107
+  - m_GUID: 35e7c7709f686b6418a39809fcba674f
+    m_Address: VNovelizerRes/Backgrounds/sntzm_david313-315(2)_8
     m_ReadOnly: 0
     m_SerializedLabels:
     - VNovelizerRes
     - VNovelizerRes/Backgrounds
     - chapter2_optional
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 361fc47d0efc7ea469162d0c3bc53692
-    m_Address: VNovelizerRes/Backgrounds/sntzm_david2_42
+  - m_GUID: 3982d7bb54676394b9e878509b1ff9fc
+    m_Address: VNovelizerRes/Backgrounds/sntzm_david3F(1)_91
     m_ReadOnly: 0
     m_SerializedLabels:
     - VNovelizerRes
     - VNovelizerRes/Backgrounds
     - chapter2_optional
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 3a53aef11e41a7a4c9c19ae8cd6267b2
-    m_Address: VNovelizerRes/Backgrounds/sntzm_main3_8
+  - m_GUID: 3a9984a6baf895840adafbdea2ebd771
+    m_Address: VNovelizerRes/Backgrounds/sntzm_clark3F(2)_24
     m_ReadOnly: 0
     m_SerializedLabels:
     - VNovelizerRes
     - VNovelizerRes/Backgrounds
     - chapter2_optional
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 408725c4d23a0d24588964f1188a337b
-    m_Address: "VNovelizerRes/CharactersPic/\u5927\u536B\u8868\u60C5/\u6D41\u8840"
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - VNovelizerRes
-    - VNovelizerRes/CharactersPic
-    - "VNovelizerRes/CharactersPic/\u5927\u536B\u8868\u60C5"
-    - chapter2_optional
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 42579e4e9d6cdd245aa2437f9e8bce88
-    m_Address: VNovelizerRes/Backgrounds/sntzm_david4_72
+  - m_GUID: 3b1efdb7523be0a4186de1691d2187b7
+    m_Address: VNovelizerRes/Backgrounds/sntzm_gy(s2)_1
     m_ReadOnly: 0
     m_SerializedLabels:
     - VNovelizerRes
     - VNovelizerRes/Backgrounds
     - chapter2_optional
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 42ae85d02eafd15428a26e08ef858cbe
-    m_Address: VNovelizerRes/Backgrounds/sntzm_emily_14
+  - m_GUID: 3b5ff386bc606704995730f3f29e5b1b
+    m_Address: VNovelizerRes/Backgrounds/sntzm_truth(2)_82
     m_ReadOnly: 0
     m_SerializedLabels:
     - VNovelizerRes
     - VNovelizerRes/Backgrounds
     - chapter2_optional
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 45be6d1b59899624f82eea017801c4ee
-    m_Address: VNovelizerRes/Backgrounds/sntzm_clark3_12
+  - m_GUID: 3c6ed88d9294f444898a1937438260a6
+    m_Address: VNovelizerRes/Backgrounds/sntzm_david4F(4)_19
     m_ReadOnly: 0
     m_SerializedLabels:
     - VNovelizerRes
     - VNovelizerRes/Backgrounds
     - chapter2_optional
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 461277fbc72098c479a7e27bc13b97ff
-    m_Address: VNovelizerRes/Backgrounds/sntzm_fourBranch1_15
+  - m_GUID: 3ce16464686778548a0fa9051fbf24ad
+    m_Address: VNovelizerRes/Backgrounds/sntzm_david4F(3)_60
     m_ReadOnly: 0
     m_SerializedLabels:
     - VNovelizerRes
     - VNovelizerRes/Backgrounds
     - chapter2_optional
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 47ec111889aa07746bed35c318d2e8d1
-    m_Address: VNovelizerRes/Audio/Music/BGM/alex-morgan-dark-suspense-thriller
+  - m_GUID: 3d3346b10e19a9147aebab637f63230a
+    m_Address: VNovelizerRes/Backgrounds/sntzm_final(1)_89
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3d6814eed4513374f80e53293ae6da38
+    m_Address: VNovelizerRes/Backgrounds/sntzm_david4F(3)_28
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3ebaf4f296adb2f4fb8f5c8a50b7f966
+    m_Address: VNovelizerRes/Backgrounds/sntzm_final(4)_81
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3fe8952bfaed7ab49b219bae5c49a6e6
+    m_Address: VNovelizerRes/Backgrounds/sntzm_final(6)_86
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 410e5470f398290448c4212f210a16a2
+    m_Address: VNovelizerRes/Backgrounds/sntzm_clark3F(3)_63
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 412529aa9beefbe4589d61d8d8f866ae
+    m_Address: VNovelizerRes/Backgrounds/sntzm_gy(1)_3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 421771b33470aa945ae2ff0d7c96e501
+    m_Address: VNovelizerRes/Backgrounds/sntzm_clark3F(2)_80
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 422a01fef9e647c43a64ad5233f9308e
+    m_Address: VNovelizerRes/Backgrounds/sntzm_gy(2)_62
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4272480cb0ac900498bac4de8f8c91d8
+    m_Address: VNovelizerRes/Backgrounds/sntzm_final(3)_104
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 42d94b54e34d1e54bba9e061631f186f
+    m_Address: VNovelizerRes/Backgrounds/sntzm_gy(s2)_95
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 446b22ef73fdda94cbccfd66d6440143
+    m_Address: VNovelizerRes/Backgrounds/sntzm_david313-315(3)_10
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 459bcf3b9b3a13b4997871d2805008de
+    m_Address: VNovelizerRes/Backgrounds/sntzm_david313-315(3)_35
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 46940a02c66d1784e8606d339ae8d94d
+    m_Address: VNovelizerRes/Backgrounds/sntzm_final(3)_110
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 48b068a08d3f07c4980e31b424f6b305
+    m_Address: VNovelizerRes/Backgrounds/sntzm_clark4F(4)_47
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 48ede1bebe306f34e9705fb1788717ed
+    m_Address: VNovelizerRes/Backgrounds/sntzm_ending5(3)_15
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4960cd2a77dc690438abcbfaf60ccf03
+    m_Address: VNovelizerRes/Backgrounds/sntzm_ending4(2)_56
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4a330f7685463e74eb129fe00548595f
+    m_Address: VNovelizerRes/Backgrounds/sntzm_ending5(3)_20
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4c09dab3bcd8fe746a6b7feeb2f873ed
+    m_Address: VNovelizerRes/Audio/Music/BGM/13 enhanced_audioatlant-total-war-epic-action-cinematic-trailer-main
     m_ReadOnly: 0
     m_SerializedLabels:
     - VNovelizerRes
@@ -286,67 +675,104 @@ MonoBehaviour:
     - VNovelizerRes/Audio/Music/BGM
     - chapter2_optional
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 48ff59b9601bf6e4a8bef90f4fc3b060
-    m_Address: VNovelizerRes/Backgrounds/sntzm_davidBranch_6
+  - m_GUID: 4d3f7f394f149f649bd4ebcdf8965f6c
+    m_Address: VNovelizerRes/Backgrounds/sntzm_ending5(3)_2
     m_ReadOnly: 0
     m_SerializedLabels:
     - VNovelizerRes
     - VNovelizerRes/Backgrounds
     - chapter2_optional
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 492cd2b006ef11744aed4061cde7e511
-    m_Address: VNovelizerRes/Backgrounds/sntzm_david2_9
+  - m_GUID: 4d9e0575c179eaa45ba6c9e88fb264e2
+    m_Address: VNovelizerRes/Backgrounds/sntzm_david313-315(3)_23
     m_ReadOnly: 0
     m_SerializedLabels:
     - VNovelizerRes
     - VNovelizerRes/Backgrounds
     - chapter2_optional
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 4c1c9b635b1f85f41ac495267812fa64
-    m_Address: "VNovelizerRes/CharactersPic/\u827E\u7C73\u8389/child"
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - VNovelizerRes
-    - VNovelizerRes/CharactersPic
-    - "VNovelizerRes/CharactersPic/\u827E\u7C73\u8389"
-    - chapter2_optional
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 4cae055109dc9aa4dbec56928cfd2726
-    m_Address: "VNovelizerRes/CharactersPic/\u514B\u62C9\u514B\u8868\u60C5/\u5ACC\u5F03"
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - VNovelizerRes
-    - VNovelizerRes/CharactersPic
-    - "VNovelizerRes/CharactersPic/\u514B\u62C9\u514B\u8868\u60C5"
-    - chapter2_optional
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 4f6daf3fc8f888849b6d6ff7a160f7de
-    m_Address: VNovelizerRes/Backgrounds/sntzm_david4_42
+  - m_GUID: 4f554842bbd83974a9dad87f5f09fad2
+    m_Address: VNovelizerRes/Backgrounds/sntzm_gy(s1)_90
     m_ReadOnly: 0
     m_SerializedLabels:
     - VNovelizerRes
     - VNovelizerRes/Backgrounds
     - chapter2_optional
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 5232d137a3979bd4fa68079af6bddca7
-    m_Address: "VNovelizerRes/CharactersPic/\u7D22\u83F2\u4E9A\u8868\u60C5/\u526A\u5F71"
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - VNovelizerRes
-    - VNovelizerRes/CharactersPic
-    - "VNovelizerRes/CharactersPic/\u7D22\u83F2\u4E9A\u8868\u60C5"
-    - chapter2_optional
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 527dac6364d0ef64d938de879a644d04
-    m_Address: VNovelizerRes/Backgrounds/sntzm_clark5_38
+  - m_GUID: 50811b2a3eb298947881b13a5d5e4683
+    m_Address: VNovelizerRes/Backgrounds/sntzm_david3F(1)_76
     m_ReadOnly: 0
     m_SerializedLabels:
     - VNovelizerRes
     - VNovelizerRes/Backgrounds
     - chapter2_optional
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 57f189a7f3aba8540b88e94d9e2498bf
-    m_Address: VNovelizerRes/Audio/Music/BGM/the-mountain-hope-background
+  - m_GUID: 50c66c7713bfba248a22768e3f44c523
+    m_Address: VNovelizerRes/Backgrounds/sntzm_david4F(2)_26
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5239bdff226b8d241b5f33761d187da3
+    m_Address: VNovelizerRes/Backgrounds/sntzm_david4F(4)_41
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5275c55ec4765ef4995ddb1b5c2d3fcc
+    m_Address: VNovelizerRes/Backgrounds/sntzm_truth(2)_49
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 527b8724c19939442ae56e5b123a39a8
+    m_Address: VNovelizerRes/Backgrounds/sntzm_david3F(2)_73
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 555c8f8b1cd60104d986d55969bb832d
+    m_Address: VNovelizerRes/Backgrounds/sntzm_david313-315(6)_50
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 571632c1049b16342a409326333c6c7b
+    m_Address: VNovelizerRes/Backgrounds/sntzm_clark3F(4)_41
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 574eaae471115c74893bbf962e0a6e10
+    m_Address: VNovelizerRes/Backgrounds/sntzm_david313-315(4)_19
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 57b031cba161e0d48a7a49cdf116c0f8
+    m_Address: VNovelizerRes/Backgrounds/sntzm_gy(ns2)_82
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 596d2f7fcc896e9459e60a8763947f3d
+    m_Address: VNovelizerRes/Audio/Music/BGM/8 enhanced suspence-horror
     m_ReadOnly: 0
     m_SerializedLabels:
     - VNovelizerRes
@@ -355,14 +781,28 @@ MonoBehaviour:
     - VNovelizerRes/Audio/Music/BGM
     - chapter2_optional
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 5a010b4a3057c0244b95f5346b76032c
-    m_Address: VNovelizerRes/Audio/Music/BGM/horror-free
+  - m_GUID: 5a05465c320e9ab4583b3c9b93e905f6
+    m_Address: VNovelizerRes/Backgrounds/sntzm_david4F(3)_33
     m_ReadOnly: 0
     m_SerializedLabels:
     - VNovelizerRes
-    - VNovelizerRes/Audio
-    - VNovelizerRes/Audio/Music
-    - VNovelizerRes/Audio/Music/BGM
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5a35b3aa727100048999c286e36d72bd
+    m_Address: VNovelizerRes/Backgrounds/sntzm_gy(1)_93
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5a3ab06628e413945a162c1d3446c0ea
+    m_Address: VNovelizerRes/Backgrounds/sntzm_ending5(1)_72
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
     - chapter2_optional
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 5aa33c853d9cf9544b4110da53d9c5fc
@@ -374,22 +814,46 @@ MonoBehaviour:
     - "VNovelizerRes/CharactersPic/\u514B\u83B1\u8499\u65AF\u4E0A\u6821\u8868\u60C5"
     - chapter2_optional
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 5b5dafe3a2afccd44bafc9584e610a4d
-    m_Address: "VNovelizerRes/CharactersPic/\u5927\u536B\u8868\u60C5/\u574F\u7B11"
+  - m_GUID: 5c92329ffc0d8454bb70ede68cc69a8c
+    m_Address: VNovelizerRes/Backgrounds/sntzm_truth(3)_31
     m_ReadOnly: 0
     m_SerializedLabels:
     - VNovelizerRes
-    - VNovelizerRes/CharactersPic
-    - "VNovelizerRes/CharactersPic/\u5927\u536B\u8868\u60C5"
+    - VNovelizerRes/Backgrounds
     - chapter2_optional
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 5db840cb4ecb4574f8968b1b0c1cc846
-    m_Address: "VNovelizerRes/CharactersPic/\u7F51\u763E\u5B66\u5F92/\u7EF7\u5E26"
+  - m_GUID: 5cdde3b8c1da2ee458a708e7667e25d5
+    m_Address: VNovelizerRes/Backgrounds/sntzm_david3F(2)_18
     m_ReadOnly: 0
     m_SerializedLabels:
     - VNovelizerRes
-    - VNovelizerRes/CharactersPic
-    - "VNovelizerRes/CharactersPic/\u7F51\u763E\u5B66\u5F92"
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5d2a721de6bce0d47a6b18e69e98fddc
+    m_Address: VNovelizerRes/Backgrounds/sntzm_gy(s2)_53
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5e43db9c840ace442b4ae210a9ca625d
+    m_Address: VNovelizerRes/Backgrounds/sntzm_ending5(3)_28
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5eeb522c12d5fb644b2b145022b303bd
+    m_Address: VNovelizerRes/Audio/Music/BGM/22 the_mountain-horror
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Audio
+    - VNovelizerRes/Audio/Music
+    - VNovelizerRes/Audio/Music/BGM
     - chapter2_optional
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 5fe119f69f1166d4ea0b8abf30902f2a
@@ -401,8 +865,40 @@ MonoBehaviour:
     - "VNovelizerRes/CharactersPic/\u5927\u536B\u8868\u60C5"
     - chapter2_optional
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 6038a34214bf5d34e974cdca24265d52
-    m_Address: VNovelizerRes/Audio/Music/BGM/yy1-69
+  - m_GUID: 5fe3ed084f754714fb8a5019d78bcd92
+    m_Address: VNovelizerRes/Backgrounds/sntzm_truth(1)_45
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 66108bde4f88fa843958bc09146e6a58
+    m_Address: VNovelizerRes/Backgrounds/sntzm_david313-315(6)_84
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 66a5907f51c802d4fa59f2a569860223
+    m_Address: VNovelizerRes/Backgrounds/sntzm_clark3F(3)_13
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 682fcb4c7908de64ba73f434cbc26c43
+    m_Address: VNovelizerRes/Backgrounds/sntzm_final(1)_85
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 691d09451133b75469b5a94965e652ad
+    m_Address: VNovelizerRes/Audio/Music/BGM/3 enhanced leberch-horror-night
     m_ReadOnly: 0
     m_SerializedLabels:
     - VNovelizerRes
@@ -411,82 +907,12 @@ MonoBehaviour:
     - VNovelizerRes/Audio/Music/BGM
     - chapter2_optional
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 60bb99d41f0fc1944b238553805c8fcf
-    m_Address: VNovelizerRes/Backgrounds/sntzm_david4_64
+  - m_GUID: 69285751f96b35a4092c9cb26cb42ca9
+    m_Address: VNovelizerRes/Backgrounds/sntzm_clark3F(2)_72
     m_ReadOnly: 0
     m_SerializedLabels:
     - VNovelizerRes
     - VNovelizerRes/Backgrounds
-    - chapter2_optional
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 60f1fcbc2c9f8f542a5f3f597550caf8
-    m_Address: "VNovelizerRes/CharactersPic/\u514B\u62C9\u514B\u8868\u60C5/\u751F\u6C14"
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - VNovelizerRes
-    - VNovelizerRes/CharactersPic
-    - "VNovelizerRes/CharactersPic/\u514B\u62C9\u514B\u8868\u60C5"
-    - chapter2_optional
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 63d4935f5604b594ab38fa75075a0b74
-    m_Address: VNovelizerRes/Audio/Music/BGM/universfield-suspenseful-dark-atmosphere-231510
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - VNovelizerRes
-    - VNovelizerRes/Audio
-    - VNovelizerRes/Audio/Music
-    - VNovelizerRes/Audio/Music/BGM
-    - chapter2_optional
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 651d2b27cf8352547a443a7d00cdb351
-    m_Address: "VNovelizerRes/CharactersPic/\u5927\u536B\u8868\u60C5/\u5206\u6790"
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - VNovelizerRes
-    - VNovelizerRes/CharactersPic
-    - "VNovelizerRes/CharactersPic/\u5927\u536B\u8868\u60C5"
-    - chapter2_optional
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 67a345d1aba892a49be9894cad6a9fd6
-    m_Address: VNovelizerRes/Backgrounds/sntzm_main3_0
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - VNovelizerRes
-    - VNovelizerRes/Backgrounds
-    - chapter2_optional
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 68eef7ad97c38e649b69d93524e3f3d8
-    m_Address: VNovelizerRes/Backgrounds/sntzm_david2_68
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - VNovelizerRes
-    - VNovelizerRes/Backgrounds
-    - chapter2_optional
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 692c75bba404a9342a9b57107ff4dc16
-    m_Address: VNovelizerRes/Backgrounds/sntzm_ss_64
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - VNovelizerRes
-    - VNovelizerRes/Backgrounds
-    - chapter2_optional
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 6986427316bcbd84ea7ed9560fba2b42
-    m_Address: VNovelizerRes/Backgrounds/sntzm_clark4_45
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - VNovelizerRes
-    - VNovelizerRes/Backgrounds
-    - chapter2_optional
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 6a65682829b94424396f9b3c7415b5f1
-    m_Address: VNovelizerRes/Audio/Music/BGM/the-mountain-horror
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - VNovelizerRes
-    - VNovelizerRes/Audio
-    - VNovelizerRes/Audio/Music
-    - VNovelizerRes/Audio/Music/BGM
     - chapter2_optional
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 6a860a41684ce8246bef337f926845ab
@@ -497,91 +923,120 @@ MonoBehaviour:
     - VNovelizerRes/CharactersPic
     - chapter2_optional
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 6d112ffe4133663479d41ba72e11be37
-    m_Address: VNovelizerRes/Backgrounds/sntzm_yy_1
+  - m_GUID: 6b3f959863a2bef4583ce22d32f92c8e
+    m_Address: VNovelizerRes/Backgrounds/sntzm_ending3_9
     m_ReadOnly: 0
     m_SerializedLabels:
     - VNovelizerRes
     - VNovelizerRes/Backgrounds
     - chapter2_optional
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 6f959650899883f4fa17079bd21d328a
-    m_Address: "VNovelizerRes/CharactersPic/\u5927\u536B\u8868\u60C5/\u5FE7\u8651"
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - VNovelizerRes
-    - VNovelizerRes/CharactersPic
-    - "VNovelizerRes/CharactersPic/\u5927\u536B\u8868\u60C5"
-    - chapter2_optional
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 71499abcc14af4849b2ff1a13b160cd3
-    m_Address: VNovelizerRes/Backgrounds/sntzm_david1_124
+  - m_GUID: 6c2030a88aac068408e4b9fc635eef0c
+    m_Address: VNovelizerRes/Backgrounds/sntzm_gy(s2)_17
     m_ReadOnly: 0
     m_SerializedLabels:
     - VNovelizerRes
     - VNovelizerRes/Backgrounds
     - chapter2_optional
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 72b1ac877d127144797cf6f43a3463c3
-    m_Address: VNovelizerRes/Backgrounds/sntzm_clark2_33
+  - m_GUID: 6c4c090745ddc634aacb0680cdf4dc95
+    m_Address: VNovelizerRes/Backgrounds/sntzm_clark4F(3)_19
     m_ReadOnly: 0
     m_SerializedLabels:
     - VNovelizerRes
     - VNovelizerRes/Backgrounds
     - chapter2_optional
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 7467e4584c755b74c92cea7a47e459c6
-    m_Address: "VNovelizerRes/CharactersPic/\u514B\u62C9\u514B\u8868\u60C5/\u5BB3\u6015"
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - VNovelizerRes
-    - VNovelizerRes/CharactersPic
-    - "VNovelizerRes/CharactersPic/\u514B\u62C9\u514B\u8868\u60C5"
-    - chapter2_optional
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 762b6e3d5a6c5864bbb1b27b8323be1f
-    m_Address: VNovelizerRes/Backgrounds/sntzm_fe_32
+  - m_GUID: 6d65ade9c903e30458a173ee1a04c0bf
+    m_Address: VNovelizerRes/Backgrounds/sntzm_gy(s2)_7
     m_ReadOnly: 0
     m_SerializedLabels:
     - VNovelizerRes
     - VNovelizerRes/Backgrounds
     - chapter2_optional
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 77205b0590238064a8f57117ff0b9a83
-    m_Address: "VNovelizerRes/CharactersPic/\u514B\u62C9\u514B\u8868\u60C5/\u4E3E\u67AA"
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - VNovelizerRes
-    - VNovelizerRes/CharactersPic
-    - "VNovelizerRes/CharactersPic/\u514B\u62C9\u514B\u8868\u60C5"
-    - chapter2_optional
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 7c15d1acf19b8ae4eb84f3ca9d54217e
-    m_Address: VNovelizerRes/Backgrounds/sntzm_david4_59
+  - m_GUID: 6e9b0ae1262cdad4baf5ef130a28cc97
+    m_Address: VNovelizerRes/Backgrounds/sntzm_gy(ns2)_42
     m_ReadOnly: 0
     m_SerializedLabels:
     - VNovelizerRes
     - VNovelizerRes/Backgrounds
     - chapter2_optional
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 811949b486035cf45bd690986c6445fb
-    m_Address: VNovelizerRes/Backgrounds/sntzm_david1_63
+  - m_GUID: 6f1eed1793bce1448a2d6979cffe923d
+    m_Address: VNovelizerRes/Backgrounds/sntzm_david3F(2)_20
     m_ReadOnly: 0
     m_SerializedLabels:
     - VNovelizerRes
     - VNovelizerRes/Backgrounds
     - chapter2_optional
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 81ac7124128be0e4293ba4980702add1
-    m_Address: VNovelizerRes/Backgrounds/sntzm_clark3_11
+  - m_GUID: 6f54300a02322a14db7b61c05fc8d8b7
+    m_Address: VNovelizerRes/Backgrounds/sntzm_clark3F(3)_70
     m_ReadOnly: 0
     m_SerializedLabels:
     - VNovelizerRes
     - VNovelizerRes/Backgrounds
     - chapter2_optional
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 81b9f0b5738f8d94292ec1add06efd95
-    m_Address: VNovelizerRes/Audio/Music/BGM/litesaturation-horror
+  - m_GUID: 6f8ec3e656c8bcc4a973d093f6b2114c
+    m_Address: VNovelizerRes/Backgrounds/sntzm_ending5(2)_14
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6fc6f4c046fd6674c98e7d2c2ad582c2
+    m_Address: VNovelizerRes/Backgrounds/sntzm_gy(s1)_49
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6fd39e1822135cf43bffe0375b855726
+    m_Address: VNovelizerRes/Backgrounds/sntzm_truth(1)_9
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7318dac22b0b43444b4eba4e71a6dafe
+    m_Address: VNovelizerRes/Backgrounds/sntzm_truth(2)_13
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 74e7d6d8f3793234680b9e327d6ad726
+    m_Address: VNovelizerRes/Backgrounds/sntzm_truth(2)_26
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 751882a8392336c4ea63889b798ba4ae
+    m_Address: VNovelizerRes/Backgrounds/sntzm_clark3F(4)_68
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 76469fab173833b4fa3ebcf47375f762
+    m_Address: VNovelizerRes/Backgrounds/sntzm_david4F(2)_15
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 780014a3dc2bfcf498919ce4311dbdfd
+    m_Address: VNovelizerRes/Audio/Music/BGM/9 enhanced suspense tensions
     m_ReadOnly: 0
     m_SerializedLabels:
     - VNovelizerRes
@@ -590,48 +1045,392 @@ MonoBehaviour:
     - VNovelizerRes/Audio/Music/BGM
     - chapter2_optional
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 830a501c408f82c42bcf3f979de3fe1e
-    m_Address: VNovelizerRes/Backgrounds/sntzm_david2_58
+  - m_GUID: 79b04808c704456488724a687c921dff
+    m_Address: VNovelizerRes/Backgrounds/sntzm_ending5(2)_46
     m_ReadOnly: 0
     m_SerializedLabels:
     - VNovelizerRes
     - VNovelizerRes/Backgrounds
     - chapter2_optional
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 838f956e02ba3d6418039c5c80de78fd
-    m_Address: VNovelizerRes/Backgrounds/sntzm_main3_53
+  - m_GUID: 7c00cdae3a954f54bbda1bae97e6a237
+    m_Address: VNovelizerRes/Backgrounds/sntzm_gy(1)_37
     m_ReadOnly: 0
     m_SerializedLabels:
     - VNovelizerRes
     - VNovelizerRes/Backgrounds
     - chapter2_optional
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 843b467b14993ec47936e7cd11c62e10
-    m_Address: VNovelizerRes/Backgrounds/sntzm_david4_66
+  - m_GUID: 7fe5e17b78aa5fa42a35da10b6c49ab4
+    m_Address: VNovelizerRes/Backgrounds/sntzm_clark4F(1)_41
     m_ReadOnly: 0
     m_SerializedLabels:
     - VNovelizerRes
     - VNovelizerRes/Backgrounds
     - chapter2_optional
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 88447cd1a98f25a4ab06e38d559975bb
-    m_Address: VNovelizerRes/Backgrounds/sntzm_clark2_42
+  - m_GUID: 8080f28bd134f8f4f987a98e19e04807
+    m_Address: VNovelizerRes/Backgrounds/sntzm_ending3_52
     m_ReadOnly: 0
     m_SerializedLabels:
     - VNovelizerRes
     - VNovelizerRes/Backgrounds
     - chapter2_optional
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 8d10d527d19739849bfc74aec78bd327
-    m_Address: VNovelizerRes/Backgrounds/sntzm_david2_45
+  - m_GUID: 81758cdab8946b24bb2ba3401e532706
+    m_Address: VNovelizerRes/Backgrounds/sntzm_david4F(3)_39
     m_ReadOnly: 0
     m_SerializedLabels:
     - VNovelizerRes
     - VNovelizerRes/Backgrounds
     - chapter2_optional
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 8ec5dfa3f366c4c46b524975be13faee
-    m_Address: VNovelizerRes/Audio/Music/BGM/audioatlant-total-war-epic-action-cinematic-trailer-main
+  - m_GUID: 81c0cacafb78d4c4e8f8f371d71dee72
+    m_Address: VNovelizerRes/Backgrounds/sntzm_clark4F(3)_13
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 824dd18bde049704896d4c8846045297
+    m_Address: VNovelizerRes/Backgrounds/sntzm_gy(s2)_38
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 844a5281462b66f4a95284da68179e0d
+    m_Address: VNovelizerRes/Backgrounds/sntzm_clark4F(4)_49
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8502e29e84de1884caa678bf12739e16
+    m_Address: VNovelizerRes/Backgrounds/sntzm_truth(1)_4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 861e803ffe012b84d90e74d5b3e36baa
+    m_Address: VNovelizerRes/Backgrounds/sntzm_david313-315(4)_1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 86c2314757b991440a12a62a57376b25
+    m_Address: VNovelizerRes/Backgrounds/sntzm_gy(s2)_25
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 87bb06d8b2ca0fa4983176cca50ed6b8
+    m_Address: VNovelizerRes/Backgrounds/sntzm_clark3F(2)_18
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 890ed6ee5576d9649b3b678d620431b4
+    m_Address: VNovelizerRes/Backgrounds/sntzm_final(4)_61
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 89a57ba9eab35d54c8129851989c1de8
+    m_Address: VNovelizerRes/Backgrounds/sntzm_clark4F(1)_81
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8a0fd0d4a528d664ab328805e9216b75
+    m_Address: VNovelizerRes/Backgrounds/sntzm_clark3F(2)_90
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8bd90ed5d065c3a4e889a754497c0fe6
+    m_Address: VNovelizerRes/Backgrounds/sntzm_truth(2)_53
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8d33191bcb5dbf14d9d452850c213c0f
+    m_Address: VNovelizerRes/Backgrounds/sntzm_gy(1)_25
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8e47727fb0685c047bd72292f385d6ea
+    m_Address: VNovelizerRes/Backgrounds/sntzm_truth(3)_23
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8e92346213cbb4343804ab04518577be
+    m_Address: VNovelizerRes/Backgrounds/sntzm_final(1)_21
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8f4958496508ace45abff9090b8eb5ed
+    m_Address: VNovelizerRes/Backgrounds/sntzm_ending4(2)_53
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 90abaddc97b8f234aab54a9a5b47ce68
+    m_Address: VNovelizerRes/Backgrounds/sntzm_truth(1)_48
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 90bd575605bedfb478b8dfe419f56357
+    m_Address: VNovelizerRes/Backgrounds/sntzm_david4F(2)_5
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 90f072407e617144ca4b1eec9cd3f62b
+    m_Address: VNovelizerRes/Backgrounds/sntzm_final(6)_65
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 920bf21024db1b949afd6f816dd6fae6
+    m_Address: VNovelizerRes/Backgrounds/sntzm_gy(2)_66
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 941fa1718ec3f1840b4db57c916519b0
+    m_Address: VNovelizerRes/Backgrounds/sntzm_clark3F(2)_36
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 944329b37a58af84e8c232414fe5fc6c
+    m_Address: VNovelizerRes/Backgrounds/sntzm_david313-315(4)_78
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 946065044380fdb4c9df463edea10ab4
+    m_Address: VNovelizerRes/Backgrounds/sntzm_gy(s1)_92
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 955bbbe29a9316c4e93602cff5616a5a
+    m_Address: VNovelizerRes/Backgrounds/sntzm_gy(s2)_40
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9599a9052771cdf4b8a81d1242fc0a9d
+    m_Address: VNovelizerRes/Backgrounds/sntzm_ending5(3)_25
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 963e9086a187eb7458c5e5a15068a368
+    m_Address: VNovelizerRes/Backgrounds/sntzm_clark3F(2)_40
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 965a4cd38a4d5a242a4da972e96555ee
+    m_Address: VNovelizerRes/Backgrounds/sntzm_clark3F(3)_80
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 965d42f19b330434390aac15f0831b50
+    m_Address: VNovelizerRes/Backgrounds/sntzm_gy(s2)_82
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 969ad7fad0f3f934188ae8f40f758c7c
+    m_Address: VNovelizerRes/Backgrounds/sntzm_clark3F(3)_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 98a90db0076273d45b8fc04d11a1d219
+    m_Address: VNovelizerRes/Backgrounds/sntzm_david3F(3)_71
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 995ba1e7492723d40a46dfcb28ff06e3
+    m_Address: VNovelizerRes/Backgrounds/sntzm_david313-315(3)_38
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9b9801f32706f1146b78fa4e91d8e1e4
+    m_Address: VNovelizerRes/Backgrounds/sntzm_david313-315(2)_1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9f1616e2e56d1e84b85e069735ab82a2
+    m_Address: VNovelizerRes/Backgrounds/sntzm_final(3)_65
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a0fe7cd3439cbbb439be33b818b2d5c1
+    m_Address: VNovelizerRes/Backgrounds/sntzm_david4F(1)_35
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a1280e273029eb34894738bb1dacad7a
+    m_Address: VNovelizerRes/Backgrounds/sntzm_truth(3)_24
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a6133b41a4588a046a73df8b6326fbe5
+    m_Address: VNovelizerRes/Backgrounds/sntzm_gy(s2)_51
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a6dea99b932b86347b0b50b6baea9a5c
+    m_Address: VNovelizerRes/Backgrounds/sntzm_gy(2)_47
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a7625a36e861d3847bbc01da2c6deac2
+    m_Address: VNovelizerRes/Backgrounds/sntzm_final(4)_38
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a86051a249b298946bebac770ad05634
+    m_Address: VNovelizerRes/Backgrounds/sntzm_clark3F(2)_42
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a98873f03a45f354786fd9c70302cd45
+    m_Address: VNovelizerRes/Backgrounds/sntzm_david4F(1)_27
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ab173eaa2c0b4a6419cbec00cb73b96f
+    m_Address: VNovelizerRes/Backgrounds/sntzm_truth(1)_43
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ab62c749f616b6f4a95ff916876bd8c7
+    m_Address: VNovelizerRes/Backgrounds/sntzm_clark4F(1)_73
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ad2b4bae970dedf4d85bb720c0565465
+    m_Address: VNovelizerRes/Backgrounds/sntzm_clark3F(3)_94
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: af85cf078e60bcc4984f39a9822a142f
+    m_Address: VNovelizerRes/Backgrounds/sntzm_truth(3)_39
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b428f3dfd1792d6458c28fbfcfd3e41f
+    m_Address: VNovelizerRes/Audio/Music/BGM/6 enhanced oceanframemusic-horror-background-music
     m_ReadOnly: 0
     m_SerializedLabels:
     - VNovelizerRes
@@ -640,8 +1439,32 @@ MonoBehaviour:
     - VNovelizerRes/Audio/Music/BGM
     - chapter2_optional
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 8f2c4fdb0de970240a454845f645e7ed
-    m_Address: VNovelizerRes/Audio/Music/BGM/suspense-tension-background-music
+  - m_GUID: b5538e9429500914a8d8005979454554
+    m_Address: VNovelizerRes/Backgrounds/sntzm_david313-315(3)_67
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b827b455b6ae0d64693f71a9f9a0df17
+    m_Address: VNovelizerRes/Backgrounds/sntzm_truth(1)_3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b993ff7c0d60f9e4580f7808aaae6288
+    m_Address: VNovelizerRes/Backgrounds/sntzm_truth(2)_73
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ba06a348987c3f448aaadedc921ea5c5
+    m_Address: VNovelizerRes/Audio/Music/BGM/11 enhanced the_mountain-hope-background
     m_ReadOnly: 0
     m_SerializedLabels:
     - VNovelizerRes
@@ -650,81 +1473,40 @@ MonoBehaviour:
     - VNovelizerRes/Audio/Music/BGM
     - chapter2_optional
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 90d193200cd97ba46984f265231d60e8
-    m_Address: VNovelizerRes/Backgrounds/sntzm_fe_4
+  - m_GUID: bb047c6380bd01245ac77d02cc29cd52
+    m_Address: VNovelizerRes/Backgrounds/sntzm_ending5(3)_23
     m_ReadOnly: 0
     m_SerializedLabels:
     - VNovelizerRes
     - VNovelizerRes/Backgrounds
     - chapter2_optional
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 9464e55c98b00214aa66a2a6158804e9
-    m_Address: VNovelizerRes/Backgrounds/sntzm_main3_26
+  - m_GUID: befa80ab519209e4cb9e2ff5a914824c
+    m_Address: VNovelizerRes/Backgrounds/sntzm_truth(1)_51
     m_ReadOnly: 0
     m_SerializedLabels:
     - VNovelizerRes
     - VNovelizerRes/Backgrounds
     - chapter2_optional
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 9bcb0b38ece6264459d15d3000f43710
-    m_Address: VNovelizerRes/Backgrounds/sntzm_yy_60
+  - m_GUID: c158c2f703f7b1742bd21a3034e94ba5
+    m_Address: VNovelizerRes/Backgrounds/sntzm_final(2)_88
     m_ReadOnly: 0
     m_SerializedLabels:
     - VNovelizerRes
     - VNovelizerRes/Backgrounds
     - chapter2_optional
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 9c39ae2b0c75e174bb2c35e10dbfdf3b
-    m_Address: "VNovelizerRes/CharactersPic/\u5927\u536B\u8868\u60C5/\u4E0D\u77E5\u540D\u8868\u60C52"
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - VNovelizerRes
-    - VNovelizerRes/CharactersPic
-    - "VNovelizerRes/CharactersPic/\u5927\u536B\u8868\u60C5"
-    - chapter2_optional
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 9c94d08797e19864f9735a09c813fcd5
-    m_Address: VNovelizerRes/Backgrounds/sntzm_fourBranch2_2
+  - m_GUID: c1798230b5133904bbe2e1943215368c
+    m_Address: VNovelizerRes/Backgrounds/sntzm_ending5(2)_12
     m_ReadOnly: 0
     m_SerializedLabels:
     - VNovelizerRes
     - VNovelizerRes/Backgrounds
     - chapter2_optional
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: a881f17e44c9998448f6001cffee9a2e
-    m_Address: VNovelizerRes/Backgrounds/sntzm_clark3_25
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - VNovelizerRes
-    - VNovelizerRes/Backgrounds
-    - chapter2_optional
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: aa6ec07b92f399145b838a462f7b1a11
-    m_Address: VNovelizerRes/Backgrounds/sntzm_david2_23
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - VNovelizerRes
-    - VNovelizerRes/Backgrounds
-    - chapter2_optional
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: b22b6b1f735559f47814bbb04a9294b7
-    m_Address: VNovelizerRes/Backgrounds/sntzm_fourBranch1_48
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - VNovelizerRes
-    - VNovelizerRes/Backgrounds
-    - chapter2_optional
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: b3fbeebaca99a794daccd3de0b03bbb6
-    m_Address: VNovelizerRes/Backgrounds/sntzm_david4_11
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - VNovelizerRes
-    - VNovelizerRes/Backgrounds
-    - chapter2_optional
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: b5124285e4bb27241b0e1945bdf8adb2
-    m_Address: VNovelizerRes/Audio/Music/BGM/suspense2
+  - m_GUID: c268dd4671126c548a171723bb0a95b8
+    m_Address: VNovelizerRes/Audio/Music/BGM/17 enhanced_suspense-tense-background-music
     m_ReadOnly: 0
     m_SerializedLabels:
     - VNovelizerRes
@@ -733,33 +1515,248 @@ MonoBehaviour:
     - VNovelizerRes/Audio/Music/BGM
     - chapter2_optional
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: b67879a6d45f71e41a73f09b867c8725
-    m_Address: "VNovelizerRes/CharactersPic/\u5927\u536B\u8868\u60C5/\u7EF7\u5E26_\u751F\u6C14"
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - VNovelizerRes
-    - VNovelizerRes/CharactersPic
-    - "VNovelizerRes/CharactersPic/\u5927\u536B\u8868\u60C5"
-    - chapter2_optional
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: b8298b621f4313744ae0bc61b3ee8a39
-    m_Address: VNovelizerRes/Backgrounds/sntzm_main3_6
+  - m_GUID: c3f6628d557a37145be624cbbf52f297
+    m_Address: VNovelizerRes/Backgrounds/sntzm_ending5(2)_61
     m_ReadOnly: 0
     m_SerializedLabels:
     - VNovelizerRes
     - VNovelizerRes/Backgrounds
     - chapter2_optional
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: beceb170e1d8d194a8fde986d0d18c5b
-    m_Address: VNovelizerRes/Backgrounds/sntzm_fe_47
+  - m_GUID: c4d3b6d0fcc6c5943960d23929e0f809
+    m_Address: VNovelizerRes/Backgrounds/sntzm_final(6)_14
     m_ReadOnly: 0
     m_SerializedLabels:
     - VNovelizerRes
     - VNovelizerRes/Backgrounds
     - chapter2_optional
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: beeba011650f78b43ae989cffa1de4d9
-    m_Address: VNovelizerRes/Audio/Music/BGM/suspence
+  - m_GUID: c95cc8c114bcfa946b2c8c66eb5e08ed
+    m_Address: VNovelizerRes/Backgrounds/sntzm_truth(1)_72
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c9c9bcc6044678b4eb925bd28d29bf01
+    m_Address: VNovelizerRes/Backgrounds/sntzm_david4F(3)_36
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cc13860c025ed604c9e0e32dab73a80e
+    m_Address: VNovelizerRes/Backgrounds/sntzm_clark3F(3)_86
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d019620b36f58894993d5ce2549b1ea4
+    m_Address: VNovelizerRes/Backgrounds/sntzm_ending4(1)_21
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d02651d1f5bfd204cb390145ef5c390c
+    m_Address: VNovelizerRes/Backgrounds/sntzm_david4F(2)_11
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d106c2932e354af418c133a0635715a6
+    m_Address: VNovelizerRes/Backgrounds/sntzm_truth(3)_27
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d21d7dea306364342899bb225a39e204
+    m_Address: VNovelizerRes/Backgrounds/sntzm_gy(ns2)_68
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d24897294e00c93488868b8d6ae2e169
+    m_Address: VNovelizerRes/Backgrounds/sntzm_david3F(3)_43
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d37a2b7a77096844085fd380b1b516ad
+    m_Address: VNovelizerRes/Backgrounds/sntzm_clark3F(3)_77
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d39b330c51939454fb41bf49308a7414
+    m_Address: VNovelizerRes/Backgrounds/sntzm_ending4(1)_44
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d6961fa3702281f488c8470485d37b35
+    m_Address: VNovelizerRes/Backgrounds/sntzm_david313-315(6)_45
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d6d6e1528dfd89149b781bc0778ba28a
+    m_Address: VNovelizerRes/Backgrounds/sntzm_ending5(2)_4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d6e5b7be45069cc42b3926af8097da43
+    m_Address: VNovelizerRes/Backgrounds/sntzm_final(1)_73
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d70d270067cff33478109310107a519f
+    m_Address: VNovelizerRes/Backgrounds/sntzm_ending3_21
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d9129f10c4b719a41ad7b3421b21dc34
+    m_Address: VNovelizerRes/Backgrounds/sntzm_truth(1)_58
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d95e26c2ba9a29f4a8edcf4e936c4308
+    m_Address: VNovelizerRes/Backgrounds/sntzm_gy(1)_41
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dd46bb487f316b54db31fffbce38752a
+    m_Address: VNovelizerRes/Backgrounds/sntzm_final(4)_78
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ddef37f75902f53499504dd8c3f53eb6
+    m_Address: VNovelizerRes/Backgrounds/sntzm_ending5(2)_37
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: de4628d40fb2f374a880c1375d771c40
+    m_Address: VNovelizerRes/Backgrounds/sntzm_ending4(1)_18
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e00bfb3014b0b0242b9aac2f7606a321
+    m_Address: VNovelizerRes/Backgrounds/sntzm_david4F(3)_1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e0c7d45043050944389e52e6554df578
+    m_Address: VNovelizerRes/Backgrounds/sntzm_final(6)_57
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e313482378f9fa64f858c530fdbe76b2
+    m_Address: VNovelizerRes/Backgrounds/sntzm_gy(2)_6
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e598bf2f5c8e9084986f4d115dff83bd
+    m_Address: VNovelizerRes/Backgrounds/sntzm_ending5(2)_45
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e5ab178da5286224e9c326942d6de2ce
+    m_Address: VNovelizerRes/Backgrounds/sntzm_david313-315(2)_69
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e7a4854b66e33e549871df4ea84b5752
+    m_Address: VNovelizerRes/Backgrounds/sntzm_david3F(2)_66
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e7c74940da0ac0b4db60de728f9aabf4
+    m_Address: VNovelizerRes/Backgrounds/sntzm_truth(2)_11
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e82ed0b0d6b1c1d41b7cb623c6f6fb0c
+    m_Address: VNovelizerRes/Backgrounds/sntzm_gy(ns2)_65
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e87e4ec220afbab47973e7501aeb76cd
+    m_Address: VNovelizerRes/Backgrounds/sntzm_ending4(2)_54
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ea7622a6942ab414eb137a82e7bf2cf8
+    m_Address: VNovelizerRes/Audio/Music/BGM/20 leberch-suspense
     m_ReadOnly: 0
     m_SerializedLabels:
     - VNovelizerRes
@@ -768,133 +1765,23 @@ MonoBehaviour:
     - VNovelizerRes/Audio/Music/BGM
     - chapter2_optional
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: c1359e4cc9c3a2443a722c50e264498a
-    m_Address: VNovelizerRes/Audio/Music/BGM/leberch-spooky-piano
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - VNovelizerRes
-    - VNovelizerRes/Audio
-    - VNovelizerRes/Audio/Music
-    - VNovelizerRes/Audio/Music/BGM
-    - chapter2_optional
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: c199f4af7f7a0bc49ab252e431cddd0f
-    m_Address: VNovelizerRes/Backgrounds/sntzm_fourBranch2_33
+  - m_GUID: eb309916a128b594bb68386a79047cbc
+    m_Address: VNovelizerRes/Backgrounds/sntzm_gy(1)_65
     m_ReadOnly: 0
     m_SerializedLabels:
     - VNovelizerRes
     - VNovelizerRes/Backgrounds
     - chapter2_optional
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: c1db6bdb0eaa881409a4ec575fe9fa29
-    m_Address: VNovelizerRes/Backgrounds/sntzm_emily_18
+  - m_GUID: ec698904f9c83954ebd3a9d19244f612
+    m_Address: VNovelizerRes/Backgrounds/sntzm_truth(3)_16
     m_ReadOnly: 0
     m_SerializedLabels:
     - VNovelizerRes
     - VNovelizerRes/Backgrounds
     - chapter2_optional
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: c47caffac2382594a86e9a15ea774588
-    m_Address: VNovelizerRes/Backgrounds/sntzm_clark2_27
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - VNovelizerRes
-    - VNovelizerRes/Backgrounds
-    - chapter2_optional
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: cabb5d11907d7e44aa781eabcb8fe8a5
-    m_Address: VNovelizerRes/Backgrounds/sntzm_david4_53
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - VNovelizerRes
-    - VNovelizerRes/Backgrounds
-    - chapter2_optional
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: cd2f66040fd79df4bac28631ca103f13
-    m_Address: VNovelizerRes/Backgrounds/sntzm_emily_51
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - VNovelizerRes
-    - VNovelizerRes/Backgrounds
-    - chapter2_optional
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: cdb020dd8d1e9dd48ad487b799f03977
-    m_Address: VNovelizerRes/Backgrounds/sntzm_clark3_14
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - VNovelizerRes
-    - VNovelizerRes/Backgrounds
-    - chapter2_optional
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: ce156bfa860c7cb43beb0e206f7eab56
-    m_Address: VNovelizerRes/Backgrounds/sntzm_david3_26
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - VNovelizerRes
-    - VNovelizerRes/Backgrounds
-    - chapter2_optional
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: ce8ffba87a3c64a43a4baeb9bdaea7b8
-    m_Address: VNovelizerRes/Backgrounds/sntzm_clark2_48
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - VNovelizerRes
-    - VNovelizerRes/Backgrounds
-    - chapter2_optional
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: d11425d99372f2f4ca06ed21dc38603d
-    m_Address: VNovelizerRes/Audio/Music/BGM/leberch-suspense
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - VNovelizerRes
-    - VNovelizerRes/Audio
-    - VNovelizerRes/Audio/Music
-    - VNovelizerRes/Audio/Music/BGM
-    - chapter2_optional
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: d1b71f230da2bff49a638399d62bb22b
-    m_Address: VNovelizerRes/Backgrounds/sntzm_david2_26
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - VNovelizerRes
-    - VNovelizerRes/Backgrounds
-    - chapter2_optional
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: d3675e49a6505a3429a0bf2664cbc70d
-    m_Address: VNovelizerRes/Backgrounds/sntzm_david1_64
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - VNovelizerRes
-    - VNovelizerRes/Backgrounds
-    - chapter2_optional
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: d3834efcfaba85344acb83b05bba70b4
-    m_Address: VNovelizerRes/Backgrounds/sntzm_emily_30
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - VNovelizerRes
-    - VNovelizerRes/Backgrounds
-    - chapter2_optional
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: d483b455708524f4dae73d127b36ce62
-    m_Address: VNovelizerRes/Audio/Music/BGM/ikoliks_aj-sad-sorrowful-documentary-music
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - VNovelizerRes
-    - VNovelizerRes/Audio
-    - VNovelizerRes/Audio/Music
-    - VNovelizerRes/Audio/Music/BGM
-    - chapter2_optional
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: d55341e90f29f01449388f8d3a0b92b0
-    m_Address: VNovelizerRes/Backgrounds/sntzm_ss_49
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - VNovelizerRes
-    - VNovelizerRes/Backgrounds
-    - chapter2_optional
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: d5a4f0771a4d7b045910805bb19c6cd0
+  - m_GUID: ec746d540939acc47b1fa4886eba5a27
     m_Address: VNovelizerRes/Backgrounds/sntzm_david3_81
     m_ReadOnly: 0
     m_SerializedLabels:
@@ -902,154 +1789,140 @@ MonoBehaviour:
     - VNovelizerRes/Backgrounds
     - chapter2_optional
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: d65d0527a544d6b4cb51b347c47ec385
-    m_Address: VNovelizerRes/Backgrounds/sntzm_clark3_32
+  - m_GUID: ec8c4ae0b8bb4f945866d40f575ebd9b
+    m_Address: VNovelizerRes/Backgrounds/sntzm_final(3)_72
     m_ReadOnly: 0
     m_SerializedLabels:
     - VNovelizerRes
     - VNovelizerRes/Backgrounds
     - chapter2_optional
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: dc6178823a5b25f4aadee50a50aea0aa
-    m_Address: VNovelizerRes/Backgrounds/sntzm_clark3_53
+  - m_GUID: ed25c55958d148043bfee16010d34fc8
+    m_Address: VNovelizerRes/Backgrounds/sntzm_clark3F(3)_6
     m_ReadOnly: 0
     m_SerializedLabels:
     - VNovelizerRes
     - VNovelizerRes/Backgrounds
     - chapter2_optional
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: df7ffcfada141724084e78a314e94edd
-    m_Address: VNovelizerRes/Backgrounds/sntzm_david3_33
+  - m_GUID: ed2b3f1137390fc44a1c72689d1c955b
+    m_Address: VNovelizerRes/Backgrounds/sntzm_truth(2)_56
     m_ReadOnly: 0
     m_SerializedLabels:
     - VNovelizerRes
     - VNovelizerRes/Backgrounds
     - chapter2_optional
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: e130b444b98ad1f449e361701f5d4636
-    m_Address: VNovelizerRes/Backgrounds/sntzm_clark3_41
+  - m_GUID: efc0ce8750fa6cc4ea492539ff5a9367
+    m_Address: VNovelizerRes/Backgrounds/sntzm_ending4(1)_4
     m_ReadOnly: 0
     m_SerializedLabels:
     - VNovelizerRes
     - VNovelizerRes/Backgrounds
     - chapter2_optional
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: e4f730d332806554f9b118bbdf40d88c
-    m_Address: "VNovelizerRes/CharactersPic/\u514B\u62C9\u514B\u8868\u60C5/\u7D27\u5F20"
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - VNovelizerRes
-    - VNovelizerRes/CharactersPic
-    - "VNovelizerRes/CharactersPic/\u514B\u62C9\u514B\u8868\u60C5"
-    - chapter2_optional
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: e639b7a2656ef3b48b14bd225c1f86d9
-    m_Address: VNovelizerRes/Backgrounds/sntzm_main3_37
+  - m_GUID: f221bd105247dbc44863a5d951d8893a
+    m_Address: VNovelizerRes/Backgrounds/sntzm_gy(1)_2
     m_ReadOnly: 0
     m_SerializedLabels:
     - VNovelizerRes
     - VNovelizerRes/Backgrounds
     - chapter2_optional
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: e767f53fbf108b64b998bb4434554023
-    m_Address: VNovelizerRes/Backgrounds/sntzm_main3_28
+  - m_GUID: f2cb12129647dac4aad392a2858210de
+    m_Address: VNovelizerRes/Backgrounds/sntzm_david4F(2)_1
     m_ReadOnly: 0
     m_SerializedLabels:
     - VNovelizerRes
     - VNovelizerRes/Backgrounds
     - chapter2_optional
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: e827a65a3ca9ecd4590631511a303708
-    m_Address: VNovelizerRes/Backgrounds/sntzm_david2_37
+  - m_GUID: f3a0ebd270bfb5d419463d8376a2bc99
+    m_Address: VNovelizerRes/Backgrounds/sntzm_david3F(2)_24
     m_ReadOnly: 0
     m_SerializedLabels:
     - VNovelizerRes
     - VNovelizerRes/Backgrounds
     - chapter2_optional
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: eaba2f7ab70002c478cfb56d784f938f
-    m_Address: VNovelizerRes/Audio/Music/BGM/leberch-suspense2
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - VNovelizerRes
-    - VNovelizerRes/Audio
-    - VNovelizerRes/Audio/Music
-    - VNovelizerRes/Audio/Music/BGM
-    - chapter2_optional
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: eeaa25d7fb033354a89ab61f3770a20a
-    m_Address: "VNovelizerRes/CharactersPic/\u5927\u536B\u8868\u60C5/\u5ACC\u5F03"
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - VNovelizerRes
-    - VNovelizerRes/CharactersPic
-    - "VNovelizerRes/CharactersPic/\u5927\u536B\u8868\u60C5"
-    - chapter2_optional
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: f0b26f4f22f602d4ea10df0173a6ace3
-    m_Address: VNovelizerRes/Backgrounds/sntzm_david2_52
+  - m_GUID: f6290ee27a636e84d95d175a5c543281
+    m_Address: VNovelizerRes/Backgrounds/sntzm_final(1)_18
     m_ReadOnly: 0
     m_SerializedLabels:
     - VNovelizerRes
     - VNovelizerRes/Backgrounds
     - chapter2_optional
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: f0d0acbbae9cd8c449ae0cd513dec393
-    m_Address: VNovelizerRes/Backgrounds/sntzm_david4_61
+  - m_GUID: f70d78442e8aad54eaac60b7287740b3
+    m_Address: VNovelizerRes/Backgrounds/sntzm_ending5(1)_81
     m_ReadOnly: 0
     m_SerializedLabels:
     - VNovelizerRes
     - VNovelizerRes/Backgrounds
     - chapter2_optional
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: f529ba6b2dab97d4a9eb1ac4f4e1b999
-    m_Address: VNovelizerRes/Backgrounds/sntzm_david2_4
+  - m_GUID: f8486fe28de757e4eb546f8ff8466ca5
+    m_Address: VNovelizerRes/Backgrounds/sntzm_gy(2)_42
     m_ReadOnly: 0
     m_SerializedLabels:
     - VNovelizerRes
     - VNovelizerRes/Backgrounds
     - chapter2_optional
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: f7b5da0878a9d514cb0bc422fa218f91
-    m_Address: VNovelizerRes/Backgrounds/sntzm_clark4_71
+  - m_GUID: f93e12d797460074494158921a8e887f
+    m_Address: VNovelizerRes/Backgrounds/sntzm_clark4F(1)_9
     m_ReadOnly: 0
     m_SerializedLabels:
     - VNovelizerRes
     - VNovelizerRes/Backgrounds
     - chapter2_optional
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: f97b717301554564aab3b57e027a6242
-    m_Address: VNovelizerRes/Backgrounds/sntzm_david3_22
+  - m_GUID: f98ae3620a5a732448e2a9a6bed8288d
+    m_Address: VNovelizerRes/Backgrounds/sntzm_david3F(1)_88
     m_ReadOnly: 0
     m_SerializedLabels:
     - VNovelizerRes
     - VNovelizerRes/Backgrounds
     - chapter2_optional
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: f9e27e3b255f02f4cb46503a48ac8301
-    m_Address: VNovelizerRes/Backgrounds/sntzm_david3_17
+  - m_GUID: f9b1aca17d7b12245a324d7f2bcded12
+    m_Address: VNovelizerRes/Backgrounds/sntzm_david313-315(4)_48
     m_ReadOnly: 0
     m_SerializedLabels:
     - VNovelizerRes
     - VNovelizerRes/Backgrounds
     - chapter2_optional
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: fea61ded085fcb64fa578e110c74f3cd
-    m_Address: "VNovelizerRes/CharactersPic/\u5927\u536B\u8868\u60C5/\u5BB3\u6015"
+  - m_GUID: fb8a811d0cc6afb48b7894c87ccda552
+    m_Address: VNovelizerRes/Backgrounds/sntzm_truth(1)_73
     m_ReadOnly: 0
     m_SerializedLabels:
     - VNovelizerRes
-    - VNovelizerRes/CharactersPic
-    - "VNovelizerRes/CharactersPic/\u5927\u536B\u8868\u60C5"
+    - VNovelizerRes/Backgrounds
     - chapter2_optional
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: ff95381d4e709b141bceebd27233c9fe
-    m_Address: "VNovelizerRes/CharactersPic/\u7F51\u763E\u5B66\u5F92/child"
+  - m_GUID: fd3e4d7f784a5bb4788a7e0a73a9bdfb
+    m_Address: VNovelizerRes/Backgrounds/sntzm_gy(2)_80
     m_ReadOnly: 0
     m_SerializedLabels:
     - VNovelizerRes
-    - VNovelizerRes/CharactersPic
-    - "VNovelizerRes/CharactersPic/\u7F51\u763E\u5B66\u5F92"
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fe916ba81cfd1384b92e0de61374cdef
+    m_Address: VNovelizerRes/Backgrounds/sntzm_gy(1)_47
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
+    - chapter2_optional
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ff70c5ead58fbec438b9f30e9be420a3
+    m_Address: VNovelizerRes/Backgrounds/sntzm_clark3F(3)_91
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Backgrounds
     - chapter2_optional
     FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0

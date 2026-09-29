@@ -6,7 +6,7 @@ Shader "VNovelizer/UI/MainMenuBurnMask"
         _CharEdgeTex ("Charred Edge", 2D) = "black" {}
         _Color ("Tint", Color) = (1,1,1,1)
         _Progress ("Progress", Range(0,1)) = 0
-        _SequenceTime ("Sequence Time", Range(0,1)) = 0
+        _SequenceTime ("Sequence Seconds", Float) = 0
         _Center ("Center", Vector) = (0.5,0.5,0,0)
         _Aspect ("Aspect", Float) = 1.777778
         _NoiseStrength ("Irregularity", Range(0,0.2)) = 0.075
@@ -54,7 +54,7 @@ Shader "VNovelizer/UI/MainMenuBurnMask"
             HLSLPROGRAM
             #pragma vertex vert
             #pragma fragment frag
-            #pragma target 2.0
+            #pragma target 3.5
             #include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/Core.hlsl"
 
             TEXTURE2D(_CharEdgeTex);
@@ -82,6 +82,7 @@ Shader "VNovelizer/UI/MainMenuBurnMask"
             struct Varyings
             {
                 float4 positionCS : SV_POSITION;
+                float4 screenPosition : TEXCOORD1;
                 float2 uv : TEXCOORD0;
                 half4 color : COLOR;
             };
@@ -90,90 +91,92 @@ Shader "VNovelizer/UI/MainMenuBurnMask"
             {
                 Varyings output;
                 output.positionCS = TransformObjectToHClip(input.positionOS.xyz);
+                output.screenPosition = ComputeScreenPos(output.positionCS);
                 output.uv = input.uv;
                 output.color = input.color * _Color;
                 return output;
             }
 
-            // This exact angular profile is mirrored in MainMenuBurnTransition.
-            float BoundaryProfile(float angle)
-            {
-                return (sin(angle * 5.0 + 1.7) * 0.28
-                      + sin(angle * 9.0 - 0.8) * 0.22
-                      + sin(angle * 17.0 + 2.4) * 0.16
-                      + sin(angle * 29.0 - 1.1) * 0.10) * 0.46;
-            }
+            #include "MainMenuBurnBoundary.hlsl"
 
             float SignedDistanceToBurn(float2 uv)
             {
-                float2 p = uv - _Center.xy;
-                p.x *= max(_Aspect, 0.01);
-                float angle = atan2(p.y, p.x);
-                float cornerRadius = length(float2(max(_Center.x, 1.0 - _Center.x) * _Aspect,
-                                                   max(_Center.y, 1.0 - _Center.y)));
-                float ignitionRadius = _Impact * 0.035;
-                float radius = max(_Progress * cornerRadius * _RadiusScale, ignitionRadius);
-                radius += BoundaryProfile(angle) * _NoiseStrength;
-                return length(p) - max(radius, 0.0);
+                return BurnSignedDistance(uv, _Center.xy, _Aspect, _Progress,
+                                          _RadiusScale, _NoiseStrength, _SequenceTime);
+            }
+            // Integer lattice hashing gives shared corners identical values.
+            // A floating-point frac hash can disagree after shader multiply-add
+            // optimization and expose the rectangular interpolation cells.
+            float BurnLatticeHash(int2 cell)
+            {
+                uint2 bits = asuint(cell);
+                uint hash = (bits.x * 1597334677u) ^ (bits.y * 3812015801u);
+                hash ^= hash >> 16;
+                hash *= 2246822519u;
+                hash ^= hash >> 13;
+                hash *= 3266489917u;
+                hash ^= hash >> 16;
+                return float(hash & 0x00ffffffu) * (1.0 / 16777216.0);
             }
 
-            float MirroredRepeat(float value)
+            float Noise(float2 p)
             {
-                float f = frac(value);
-                return 1.0 - abs(f * 2.0 - 1.0);
+                int2 cell = (int2)floor(p);
+                float2 f = frac(p);
+                f = f * f * f * (f * (f * 6.0 - 15.0) + 10.0);
+                return lerp(lerp(BurnLatticeHash(cell), BurnLatticeHash(cell + int2(1, 0)), f.x),
+                            lerp(BurnLatticeHash(cell + int2(0, 1)), BurnLatticeHash(cell + int2(1, 1)), f.x), f.y);
+            }
+
+            float Turbulence(float2 p)
+            {
+                return Noise(p) * 0.57 + Noise(p * 2.03 + 17.1) * 0.29
+                     + Noise(p * 4.11 + 9.2) * 0.14;
             }
 
             half4 frag(Varyings input) : SV_Target
             {
-                float sd = SignedDistanceToBurn(input.uv);
-                float2 texel = float2(0.0025 / max(_Aspect, 0.01), 0.0025);
-                float dx = SignedDistanceToBurn(input.uv + float2(texel.x, 0.0))
-                         - SignedDistanceToBurn(input.uv - float2(texel.x, 0.0));
-                float dy = SignedDistanceToBurn(input.uv + float2(0.0, texel.y))
-                         - SignedDistanceToBurn(input.uv - float2(0.0, texel.y));
-                float3 fakeNormal = normalize(float3(-dx, -dy, 0.018));
-                float bevelLight = saturate(dot(fakeNormal, normalize(float3(-0.35, 0.62, 0.70))));
-
-                float2 p = input.uv - _Center.xy;
-                p.x *= max(_Aspect, 0.01);
-                float angle = atan2(p.y, p.x);
-                float angularU = MirroredRepeat(angle * 0.477465 + 0.31);
-                float edgeV = saturate(0.5 + sd * 18.0);
-                half3 edgeSample = SAMPLE_TEXTURE2D(_CharEdgeTex, sampler_CharEdgeTex, float2(angularU, edgeV)).rgb;
-                half edgeLuma = dot(edgeSample, half3(0.299h, 0.587h, 0.114h));
-                half textureMask = smoothstep(0.018h, 0.22h, edgeLuma);
-
-                float hole = 1.0 - smoothstep(-0.0025, 0.0035, sd);
-                float hotLip = smoothstep(-0.012, -0.004, sd) * (1.0 - smoothstep(0.001, 0.005, sd));
-                float crust = smoothstep(-0.002, 0.004, sd) * (1.0 - smoothstep(0.024, 0.038, sd));
-                float soot = smoothstep(0.012, 0.025, sd) * (1.0 - smoothstep(0.052, 0.082, sd));
                 float ignition = step(0.0001, _Progress + _Impact);
-                hole *= ignition;
-                hotLip *= ignition;
-                crust *= ignition;
-                soot *= ignition;
+                if (ignition < 0.5 && _FinalCover < 0.0001)
+                    return half4(0, 0, 0, 0);
 
-                half emberPulse = 0.82h + 0.18h * sin(_SequenceTime * 61.0 + angle * 11.0);
-                half3 holeColor = half3(0.0003h, 0.00015h, 0.00008h);
-                half3 sootColor = half3(0.018h, 0.012h, 0.009h);
-                half3 crustColor = lerp(half3(0.010h, 0.004h, 0.001h), edgeSample * 0.20h,
-                                        textureMask * (0.18h + 0.26h * bevelLight));
-                half crackBreakup = smoothstep(0.48h, 0.78h,
-                    0.55h + 0.30h * sin(angle * 37.0h + 0.8h) + 0.15h * sin(angle * 61.0h));
-                half3 lipColor = lerp(half3(0.18h, 0.004h, 0.001h), half3(1.0h, 0.12h, 0.002h),
-                                      saturate(edgeLuma * 1.4h) * crackBreakup) * emberPulse;
+                float2 screenUv = input.screenPosition.xy / input.screenPosition.w;
+                float2 p = screenUv - _Center.xy;
+                p.x *= max(_Aspect, 0.01);
+                float sd = SignedDistanceToBurn(screenUv);
+                float seconds = _SequenceTime;
 
-                half alpha = saturate(hole + hotLip * 0.88 + crust * (0.72 + textureMask * 0.12) + soot * 0.22);
-                half3 color = sootColor;
-                color = lerp(color, crustColor, saturate(crust));
-                color = lerp(color, lipColor, saturate(hotLip));
-                color = lerp(color, holeColor, saturate(hole));
-                float impactFlash = smoothstep(0.065, 0.0, length(p)) * _Impact;
-                color += impactFlash * half3(1.0h, 0.25h, 0.008h) * (1.0h - hole * 0.75h);
-                alpha = max(alpha, impactFlash * 0.72h);
+                // Advect elongated detail upward; domain warping breaks up straight columns.
+                float2 flow = p * float2(13.0, 5.0) - float2(0.0, seconds * 2.4);
+                float warp = Turbulence(flow * 0.63 + float2(0.0, seconds * 0.35));
+                flow.x += (warp - 0.5) * 2.8;
+                float fuel = Turbulence(flow);
+                float detail = Noise(flow * float2(2.1, 1.4) - float2(0.0, seconds));
+                float flameField = fuel * 0.8 + detail * 0.2;
+                float coverage = (1.0 - smoothstep(-0.05, 0.025, sd)) * ignition;
+                float fire = smoothstep(0.25, 0.70, flameField);
+                float heat = smoothstep(0.42, 0.86, flameField);
+                half3 fireColor = lerp(half3(0.32h, 0.014h, 0.001h),
+                                      half3(1.0h, 0.25h, 0.008h), fire);
+                fireColor = lerp(fireColor, half3(1.0h, 0.88h, 0.40h), heat * heat);
 
-                color = lerp(color, holeColor, _FinalCover);
-                alpha = lerp(alpha, 1.0h, _FinalCover);
+                // A translucent warm halo ties the advancing fire to the menu.
+                float halo = (1.0 - smoothstep(0.0, 0.14, max(sd, 0.0)))
+                           * (1.0 - coverage) * ignition * (0.07 + fuel * 0.09);
+                float fireAlpha = coverage * lerp(0.30, 0.96, fire) * 0.20;
+                float alpha = fireAlpha + halo * (1.0 - fireAlpha);
+                half3 premultiplied = fireColor * fireAlpha
+                    + half3(0.9h, 0.19h, 0.012h) * halo * (1.0 - fireAlpha);
+                float impactFlash = (1.0 - smoothstep(0.0, 0.065, length(p))) * _Impact;
+                float flashAlpha = impactFlash * 0.72;
+                premultiplied = half3(1.0h, 0.65h, 0.12h) * flashAlpha
+                    + premultiplied * (1.0 - flashAlpha);
+                alpha = flashAlpha + alpha * (1.0 - flashAlpha);
+                half3 color = premultiplied / max(alpha, 0.0001);
+
+                // Only the final handoff becomes opaque black.
+                color = lerp(color, half3(0, 0, 0), _FinalCover);
+                alpha = lerp(alpha, 1.0, _FinalCover);
                 return half4(color * input.color.rgb, saturate(alpha * input.color.a));
             }
             ENDHLSL

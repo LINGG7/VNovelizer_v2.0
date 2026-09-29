@@ -1,0 +1,5357 @@
+{
+  "files": 43,
+  "plan": [
+    {
+      "guid": "45b522f3688d13947ac44d9b48fe9e3f",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Audio\\Music\\BGM\\1 enhanced alex-morgan-dark-suspense-thriller.wav",
+      "address": "VNovelizerRes/Audio/Music/BGM/1 enhanced alex-morgan-dark-suspense-thriller",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Audio/Music/BGM/1 enhanced alex-morgan-dark-suspense-thriller",
+      "new_group": "Chapter1-Remote",
+      "kind": "bgm",
+      "shared": true,
+      "refs": [
+        {
+          "script": "sntzm_david313-315(1)",
+          "ID": "1",
+          "kind": "bgm"
+        },
+        {
+          "script": "sntzm_gy(1)",
+          "ID": "83",
+          "kind": "bgm"
+        }
+      ]
+    },
+    {
+      "guid": "1dc1791b22aff584a940c88753edd7f7",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Audio\\Music\\BGM\\10 enhanced suspense.wav",
+      "address": "VNovelizerRes/Audio/Music/BGM/10 enhanced suspense",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Audio/Music/BGM/10 enhanced suspense",
+      "new_group": "Chapter2-Remote",
+      "kind": "bgm",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_clark3F(2)",
+          "ID": "79",
+          "kind": "bgm"
+        },
+        {
+          "script": "sntzm_ending4(1)",
+          "ID": "35",
+          "kind": "bgm"
+        },
+        {
+          "script": "sntzm_ending5(1)",
+          "ID": "18",
+          "kind": "bgm"
+        },
+        {
+          "script": "sntzm_final(4)",
+          "ID": "77",
+          "kind": "bgm"
+        }
+      ]
+    },
+    {
+      "guid": "ba06a348987c3f448aaadedc921ea5c5",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Audio\\Music\\BGM\\11 enhanced the_mountain-hope-background.wav",
+      "address": "VNovelizerRes/Audio/Music/BGM/11 enhanced the_mountain-hope-background",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Audio/Music/BGM/11 enhanced the_mountain-hope-background",
+      "new_group": "Chapter2-Remote",
+      "kind": "bgm",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_clark3F(3)",
+          "ID": "21",
+          "kind": "bgm"
+        },
+        {
+          "script": "sntzm_david313-315(3)",
+          "ID": "53",
+          "kind": "bgm"
+        },
+        {
+          "script": "sntzm_david3F(3)",
+          "ID": "17",
+          "kind": "bgm"
+        },
+        {
+          "script": "sntzm_gy(2)",
+          "ID": "78",
+          "kind": "bgm"
+        },
+        {
+          "script": "sntzm_gy(ns2)",
+          "ID": "17",
+          "kind": "bgm"
+        },
+        {
+          "script": "sntzm_truth(2)",
+          "ID": "25",
+          "kind": "bgm"
+        },
+        {
+          "script": "sntzm_truth(3)",
+          "ID": "40",
+          "kind": "bgm"
+        }
+      ]
+    },
+    {
+      "guid": "4c09dab3bcd8fe746a6b7feeb2f873ed",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Audio\\Music\\BGM\\13 enhanced_audioatlant-total-war-epic-action-cinematic-trailer-main.wav",
+      "address": "VNovelizerRes/Audio/Music/BGM/13 enhanced_audioatlant-total-war-epic-action-cinematic-trailer-main",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Audio/Music/BGM/13 enhanced_audioatlant-total-war-epic-action-cinematic-trailer-main",
+      "new_group": "Chapter2-Remote",
+      "kind": "bgm",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_ending5(1)",
+          "ID": "69",
+          "kind": "bgm"
+        }
+      ]
+    },
+    {
+      "guid": "0b8b91cad8715ab4f8ffb3392dba8a89",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Audio\\Music\\BGM\\14 enhanced_horror-free.wav",
+      "address": "VNovelizerRes/Audio/Music/BGM/14 enhanced_horror-free",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Audio/Music/BGM/14 enhanced_horror-free",
+      "new_group": "Chapter1-Remote",
+      "kind": "bgm",
+      "shared": true,
+      "refs": [
+        {
+          "script": "sntzm_clark3F(1)",
+          "ID": "3",
+          "kind": "bgm"
+        },
+        {
+          "script": "sntzm_david3F(1)",
+          "ID": "1",
+          "kind": "bgm"
+        },
+        {
+          "script": "sntzm_gy(1)",
+          "ID": "24",
+          "kind": "bgm"
+        }
+      ]
+    },
+    {
+      "guid": "1ecbd5382758f4b4d8019da64a171e85",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Audio\\Music\\BGM\\16 enhanced_suspence.wav",
+      "address": "VNovelizerRes/Audio/Music/BGM/16 enhanced_suspence",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Audio/Music/BGM/16 enhanced_suspence",
+      "new_group": "Chapter2-Remote",
+      "kind": "bgm",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_clark3F(3)",
+          "ID": "4",
+          "kind": "bgm"
+        },
+        {
+          "script": "sntzm_clark4F(3)",
+          "ID": "32",
+          "kind": "bgm"
+        },
+        {
+          "script": "sntzm_david313-315(4)",
+          "ID": "5",
+          "kind": "bgm"
+        },
+        {
+          "script": "sntzm_david313-315(4)",
+          "ID": "66",
+          "kind": "bgm"
+        },
+        {
+          "script": "sntzm_david3F(2)",
+          "ID": "17",
+          "kind": "bgm"
+        },
+        {
+          "script": "sntzm_david3F(3)",
+          "ID": "36",
+          "kind": "bgm"
+        },
+        {
+          "script": "sntzm_truth(2)",
+          "ID": "53",
+          "kind": "bgm"
+        }
+      ]
+    },
+    {
+      "guid": "c268dd4671126c548a171723bb0a95b8",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Audio\\Music\\BGM\\17 enhanced_suspense-tense-background-music.wav",
+      "address": "VNovelizerRes/Audio/Music/BGM/17 enhanced_suspense-tense-background-music",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Audio/Music/BGM/17 enhanced_suspense-tense-background-music",
+      "new_group": "Chapter2-Remote",
+      "kind": "bgm",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_david313-315(4)",
+          "ID": "23",
+          "kind": "bgm"
+        },
+        {
+          "script": "sntzm_ending5(2)",
+          "ID": "18",
+          "kind": "bgm"
+        },
+        {
+          "script": "sntzm_final(3)",
+          "ID": "70",
+          "kind": "bgm"
+        },
+        {
+          "script": "sntzm_final(4)",
+          "ID": "7",
+          "kind": "bgm"
+        },
+        {
+          "script": "sntzm_final(6)",
+          "ID": "4",
+          "kind": "bgm"
+        },
+        {
+          "script": "sntzm_gy(2)",
+          "ID": "88",
+          "kind": "bgm"
+        },
+        {
+          "script": "sntzm_gy(s2)",
+          "ID": "30",
+          "kind": "bgm"
+        },
+        {
+          "script": "sntzm_truth(1)",
+          "ID": "34",
+          "kind": "bgm"
+        },
+        {
+          "script": "sntzm_truth(2)",
+          "ID": "1",
+          "kind": "bgm"
+        },
+        {
+          "script": "sntzm_truth(3)",
+          "ID": "37",
+          "kind": "bgm"
+        }
+      ]
+    },
+    {
+      "guid": "ed05fe1cce54f76429dfb1871b397c70",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Audio\\Music\\BGM\\18 enhanced_APPLE.wav",
+      "address": "VNovelizerRes/Audio/Music/BGM/18 enhanced_APPLE",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Audio/Music/BGM/18 enhanced_APPLE",
+      "new_group": "Chapter1-Remote",
+      "kind": "bgm",
+      "shared": true,
+      "refs": [
+        {
+          "script": "sntzm_clark3F(4)",
+          "ID": "21",
+          "kind": "bgm"
+        },
+        {
+          "script": "sntzm_clark4F(3)",
+          "ID": "11",
+          "kind": "bgm"
+        },
+        {
+          "script": "sntzm_david4F(3)",
+          "ID": "30",
+          "kind": "bgm"
+        },
+        {
+          "script": "sntzm_final(6)",
+          "ID": "78",
+          "kind": "bgm"
+        },
+        {
+          "script": "sntzm_intro",
+          "ID": "1",
+          "kind": "bgm"
+        }
+      ]
+    },
+    {
+      "guid": "08a58ea281f0ddf4986ecfe9809cd4e8",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Audio\\Music\\BGM\\19 enhanced_suspense-tension-background-music.wav",
+      "address": "VNovelizerRes/Audio/Music/BGM/19 enhanced_suspense-tension-background-music",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Audio/Music/BGM/19 enhanced_suspense-tension-background-music",
+      "new_group": "Chapter2-Remote",
+      "kind": "bgm",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_final(2)",
+          "ID": "98",
+          "kind": "bgm"
+        },
+        {
+          "script": "sntzm_final(5)",
+          "ID": "21",
+          "kind": "bgm"
+        },
+        {
+          "script": "sntzm_gy(s2)",
+          "ID": "88",
+          "kind": "bgm"
+        },
+        {
+          "script": "sntzm_gy(s2)",
+          "ID": "92",
+          "kind": "bgm"
+        }
+      ]
+    },
+    {
+      "guid": "ea7622a6942ab414eb137a82e7bf2cf8",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Audio\\Music\\BGM\\20 leberch-suspense.wav",
+      "address": "VNovelizerRes/Audio/Music/BGM/20 leberch-suspense",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Audio/Music/BGM/20 leberch-suspense",
+      "new_group": "Chapter2-Remote",
+      "kind": "bgm",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_david3F(2)",
+          "ID": "2",
+          "kind": "bgm"
+        }
+      ]
+    },
+    {
+      "guid": "5eeb522c12d5fb644b2b145022b303bd",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Audio\\Music\\BGM\\22 the_mountain-horror.wav",
+      "address": "VNovelizerRes/Audio/Music/BGM/22 the_mountain-horror",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Audio/Music/BGM/22 the_mountain-horror",
+      "new_group": "Chapter2-Remote",
+      "kind": "bgm",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_clark3F(4)",
+          "ID": "1",
+          "kind": "bgm"
+        },
+        {
+          "script": "sntzm_ending3",
+          "ID": "57",
+          "kind": "bgm"
+        },
+        {
+          "script": "sntzm_ending5(2)",
+          "ID": "45",
+          "kind": "bgm"
+        }
+      ]
+    },
+    {
+      "guid": "691d09451133b75469b5a94965e652ad",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Audio\\Music\\BGM\\3 enhanced leberch-horror-night.wav",
+      "address": "VNovelizerRes/Audio/Music/BGM/3 enhanced leberch-horror-night",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Audio/Music/BGM/3 enhanced leberch-horror-night",
+      "new_group": "Chapter2-Remote",
+      "kind": "bgm",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_david313-315(4)",
+          "ID": "53",
+          "kind": "bgm"
+        },
+        {
+          "script": "sntzm_ending5(1)",
+          "ID": "53",
+          "kind": "bgm"
+        }
+      ]
+    },
+    {
+      "guid": "ba6be47ebb24d7547a01d59d12ebf40b",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Audio\\Music\\BGM\\4 enhanced leberch-spooky-piano.wav",
+      "address": "VNovelizerRes/Audio/Music/BGM/4 enhanced leberch-spooky-piano",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Audio/Music/BGM/4 enhanced leberch-spooky-piano",
+      "new_group": "Chapter1-Remote",
+      "kind": "bgm",
+      "shared": true,
+      "refs": [
+        {
+          "script": "sntzm_david313-315(1)",
+          "ID": "34",
+          "kind": "bgm"
+        },
+        {
+          "script": "sntzm_david4F(4)",
+          "ID": "35",
+          "kind": "bgm"
+        },
+        {
+          "script": "sntzm_david4F(4)",
+          "ID": "64",
+          "kind": "bgm"
+        },
+        {
+          "script": "sntzm_ending5(2)",
+          "ID": "2",
+          "kind": "bgm"
+        },
+        {
+          "script": "sntzm_final(4)",
+          "ID": "55",
+          "kind": "bgm"
+        },
+        {
+          "script": "sntzm_final(5)",
+          "ID": "20",
+          "kind": "bgm"
+        },
+        {
+          "script": "sntzm_gy(ns1)",
+          "ID": "44",
+          "kind": "bgm"
+        }
+      ]
+    },
+    {
+      "guid": "bc20fc06b41c7af46931a211e9ed779d",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Audio\\Music\\BGM\\5 enhanced leberch-suspense.wav",
+      "address": "VNovelizerRes/Audio/Music/BGM/5 enhanced leberch-suspense",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Audio/Music/BGM/5 enhanced leberch-suspense",
+      "new_group": "Chapter1-Remote",
+      "kind": "bgm",
+      "shared": true,
+      "refs": [
+        {
+          "script": "sntzm_clark3F(3)",
+          "ID": "62",
+          "kind": "bgm"
+        },
+        {
+          "script": "sntzm_clark4F(3)",
+          "ID": "69",
+          "kind": "bgm"
+        },
+        {
+          "script": "sntzm_david313-315(1)",
+          "ID": "79",
+          "kind": "bgm"
+        },
+        {
+          "script": "sntzm_david4F(4)",
+          "ID": "13",
+          "kind": "bgm"
+        },
+        {
+          "script": "sntzm_final(3)",
+          "ID": "115",
+          "kind": "bgm"
+        }
+      ]
+    },
+    {
+      "guid": "b428f3dfd1792d6458c28fbfcfd3e41f",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Audio\\Music\\BGM\\6 enhanced oceanframemusic-horror-background-music.wav",
+      "address": "VNovelizerRes/Audio/Music/BGM/6 enhanced oceanframemusic-horror-background-music",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Audio/Music/BGM/6 enhanced oceanframemusic-horror-background-music",
+      "new_group": "Chapter2-Remote",
+      "kind": "bgm",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_clark4F(4)",
+          "ID": "49",
+          "kind": "bgm"
+        },
+        {
+          "script": "sntzm_ending5(3)",
+          "ID": "1",
+          "kind": "bgm"
+        }
+      ]
+    },
+    {
+      "guid": "a50dba6b49dfb0d428baffe6ca4d2d61",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Audio\\Music\\BGM\\7 enhanced litesaturation-horror.wav",
+      "address": "VNovelizerRes/Audio/Music/BGM/7 enhanced litesaturation-horror",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Audio/Music/BGM/7 enhanced litesaturation-horror",
+      "new_group": "Chapter1-Remote",
+      "kind": "bgm",
+      "shared": true,
+      "refs": [
+        {
+          "script": "sntzm_clark3F(1)",
+          "ID": "4",
+          "kind": "bgm"
+        },
+        {
+          "script": "sntzm_clark4F(3)",
+          "ID": "25",
+          "kind": "bgm"
+        },
+        {
+          "script": "sntzm_clark4F(4)",
+          "ID": "100",
+          "kind": "bgm"
+        },
+        {
+          "script": "sntzm_david313-315(2)",
+          "ID": "1",
+          "kind": "bgm"
+        },
+        {
+          "script": "sntzm_david3F(3)",
+          "ID": "78",
+          "kind": "bgm"
+        },
+        {
+          "script": "sntzm_david4F(3)",
+          "ID": "56",
+          "kind": "bgm"
+        },
+        {
+          "script": "sntzm_final(1)",
+          "ID": "75",
+          "kind": "bgm"
+        },
+        {
+          "script": "sntzm_final(2)",
+          "ID": "52",
+          "kind": "bgm"
+        },
+        {
+          "script": "sntzm_gy(1)",
+          "ID": "64",
+          "kind": "bgm"
+        },
+        {
+          "script": "sntzm_gy(2)",
+          "ID": "44",
+          "kind": "bgm"
+        },
+        {
+          "script": "sntzm_gy(s2)",
+          "ID": "54",
+          "kind": "bgm"
+        }
+      ]
+    },
+    {
+      "guid": "596d2f7fcc896e9459e60a8763947f3d",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Audio\\Music\\BGM\\8 enhanced suspence-horror.wav",
+      "address": "VNovelizerRes/Audio/Music/BGM/8 enhanced suspence-horror",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Audio/Music/BGM/8 enhanced suspence-horror",
+      "new_group": "Chapter2-Remote",
+      "kind": "bgm",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_clark4F(2)",
+          "ID": "1",
+          "kind": "bgm"
+        },
+        {
+          "script": "sntzm_david313-315(2)",
+          "ID": "63",
+          "kind": "bgm"
+        },
+        {
+          "script": "sntzm_david4F(2)",
+          "ID": "1",
+          "kind": "bgm"
+        }
+      ]
+    },
+    {
+      "guid": "780014a3dc2bfcf498919ce4311dbdfd",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Audio\\Music\\BGM\\9 enhanced suspense tensions.wav",
+      "address": "VNovelizerRes/Audio/Music/BGM/9 enhanced suspense tensions",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Audio/Music/BGM/9 enhanced suspense tensions",
+      "new_group": "Chapter2-Remote",
+      "kind": "bgm",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_clark4F(1)",
+          "ID": "1",
+          "kind": "bgm"
+        },
+        {
+          "script": "sntzm_final(3)",
+          "ID": "93",
+          "kind": "bgm"
+        },
+        {
+          "script": "sntzm_gy(ns1)",
+          "ID": "4",
+          "kind": "bgm"
+        },
+        {
+          "script": "sntzm_gy(ns2)",
+          "ID": "2",
+          "kind": "bgm"
+        }
+      ]
+    },
+    {
+      "guid": "30452c7bdd3afd944a060a885b467e69",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Audio\\Music\\BGM\\leberch-horror-dark-375194.wav",
+      "address": "VNovelizerRes/Audio/Music/BGM/leberch-horror-dark-375194",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Audio/Music/BGM/leberch-horror-dark-375194",
+      "new_group": "Chapter2-Remote",
+      "kind": "bgm",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_gy(ns2)",
+          "ID": "4",
+          "kind": "bgm"
+        }
+      ]
+    },
+    {
+      "guid": "5aaa4e2ce7cb802478b4454535b1002e",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\mainmenu1.jpg",
+      "address": "VNovelizerRes/Backgrounds/mainmenu1",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/mainmenu1",
+      "new_group": "Chapter1-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_intro",
+          "ID": "2",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "f54cea1f0d43688409b65cae0b688f16",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_clark2_13.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_clark2_13",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_clark2_13",
+      "new_group": "Chapter1-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_intro",
+          "ID": "27",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "2c506274453905d4ab4bc862644a3ed3",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_clark2_4.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_clark2_4",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_clark2_4",
+      "new_group": "Chapter1-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_intro",
+          "ID": "23",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "afcc0bc0d5242e142bda4260a1668735",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_clark3F(1)_61.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_clark3F(1)_61",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_clark3F(1)_61",
+      "new_group": "Chapter1-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_clark3F(1)",
+          "ID": "61",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "80cb4d86829146549b3011ed4d446006",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_clark3F(1)_64.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_clark3F(1)_64",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_clark3F(1)_64",
+      "new_group": "Chapter1-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_clark3F(1)",
+          "ID": "64",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "b6f593145695e28459729ff307e7240b",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_clark3F(1)_67.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_clark3F(1)_67",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_clark3F(1)_67",
+      "new_group": "Chapter1-Remote",
+      "kind": "bg",
+      "shared": true,
+      "refs": [
+        {
+          "script": "sntzm_clark3F(1)",
+          "ID": "3",
+          "kind": "bg"
+        },
+        {
+          "script": "sntzm_clark3F(1)",
+          "ID": "67",
+          "kind": "bg"
+        },
+        {
+          "script": "sntzm_david3F(2)",
+          "ID": "48",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "87bb06d8b2ca0fa4983176cca50ed6b8",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_clark3F(2)_18.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_clark3F(2)_18",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_clark3F(2)_18",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_clark3F(2)",
+          "ID": "18",
+          "kind": "bg"
+        },
+        {
+          "script": "sntzm_david3F(1)",
+          "ID": "15",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "3a9984a6baf895840adafbdea2ebd771",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_clark3F(2)_24.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_clark3F(2)_24",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_clark3F(2)_24",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_clark3F(2)",
+          "ID": "24",
+          "kind": "bg"
+        },
+        {
+          "script": "sntzm_david3F(1)",
+          "ID": "25",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "941fa1718ec3f1840b4db57c916519b0",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_clark3F(2)_36.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_clark3F(2)_36",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_clark3F(2)_36",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_clark3F(2)",
+          "ID": "36",
+          "kind": "bg"
+        },
+        {
+          "script": "sntzm_david3F(1)",
+          "ID": "38",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "963e9086a187eb7458c5e5a15068a368",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_clark3F(2)_40.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_clark3F(2)_40",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_clark3F(2)_40",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_clark3F(2)",
+          "ID": "40",
+          "kind": "bg"
+        },
+        {
+          "script": "sntzm_clark3F(2)",
+          "ID": "45",
+          "kind": "bg"
+        },
+        {
+          "script": "sntzm_clark3F(2)",
+          "ID": "91",
+          "kind": "bg"
+        },
+        {
+          "script": "sntzm_david3F(1)",
+          "ID": "48",
+          "kind": "bg"
+        },
+        {
+          "script": "sntzm_david3F(1)",
+          "ID": "53",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "a86051a249b298946bebac770ad05634",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_clark3F(2)_42.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_clark3F(2)_42",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_clark3F(2)_42",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_clark3F(2)",
+          "ID": "42",
+          "kind": "bg"
+        },
+        {
+          "script": "sntzm_david3F(1)",
+          "ID": "49",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "69285751f96b35a4092c9cb26cb42ca9",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_clark3F(2)_72.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_clark3F(2)_72",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_clark3F(2)_72",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_clark3F(2)",
+          "ID": "72",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "421771b33470aa945ae2ff0d7c96e501",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_clark3F(2)_80.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_clark3F(2)_80",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_clark3F(2)_80",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_clark3F(2)",
+          "ID": "80",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "8a0fd0d4a528d664ab328805e9216b75",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_clark3F(2)_90.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_clark3F(2)_90",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_clark3F(2)_90",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_clark3F(2)",
+          "ID": "90",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "66a5907f51c802d4fa59f2a569860223",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_clark3F(3)_13.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_clark3F(3)_13",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_clark3F(3)_13",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_clark3F(3)",
+          "ID": "13",
+          "kind": "bg"
+        },
+        {
+          "script": "sntzm_david3F(3)",
+          "ID": "8",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "07683654bdfc0b14d8d181d97062a129",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_clark3F(3)_19.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_clark3F(3)_19",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_clark3F(3)_19",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_clark3F(3)",
+          "ID": "19",
+          "kind": "bg"
+        },
+        {
+          "script": "sntzm_david3F(3)",
+          "ID": "15",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "969ad7fad0f3f934188ae8f40f758c7c",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_clark3F(3)_2.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_clark3F(3)_2",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_clark3F(3)_2",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_clark3F(3)",
+          "ID": "2",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "ed25c55958d148043bfee16010d34fc8",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_clark3F(3)_6.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_clark3F(3)_6",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_clark3F(3)_6",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_clark3F(3)",
+          "ID": "6",
+          "kind": "bg"
+        },
+        {
+          "script": "sntzm_clark3F(4)",
+          "ID": "11",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "410e5470f398290448c4212f210a16a2",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_clark3F(3)_63.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_clark3F(3)_63",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_clark3F(3)_63",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_clark3F(3)",
+          "ID": "63",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "6f54300a02322a14db7b61c05fc8d8b7",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_clark3F(3)_70.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_clark3F(3)_70",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_clark3F(3)_70",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_clark3F(3)",
+          "ID": "70",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "d37a2b7a77096844085fd380b1b516ad",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_clark3F(3)_77.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_clark3F(3)_77",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_clark3F(3)_77",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_clark3F(3)",
+          "ID": "78",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "965a4cd38a4d5a242a4da972e96555ee",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_clark3F(3)_80.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_clark3F(3)_80",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_clark3F(3)_80",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_clark3F(3)",
+          "ID": "80",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "cc13860c025ed604c9e0e32dab73a80e",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_clark3F(3)_86.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_clark3F(3)_86",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_clark3F(3)_86",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_clark3F(3)",
+          "ID": "86",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "ff70c5ead58fbec438b9f30e9be420a3",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_clark3F(3)_91.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_clark3F(3)_91",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_clark3F(3)_91",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_clark3F(3)",
+          "ID": "91",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "ad2b4bae970dedf4d85bb720c0565465",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_clark3F(3)_94.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_clark3F(3)_94",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_clark3F(3)_94",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_clark3F(3)",
+          "ID": "94",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "1a52d027146e1f34ca75732ffd157323",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_clark3F(4)_24.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_clark3F(4)_24",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_clark3F(4)_24",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_clark3F(4)",
+          "ID": "24",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "571632c1049b16342a409326333c6c7b",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_clark3F(4)_41.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_clark3F(4)_41",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_clark3F(4)_41",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_clark3F(4)",
+          "ID": "41",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "2b3e77052c330b04bb3fac364e8cb186",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_clark3F(4)_49.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_clark3F(4)_49",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_clark3F(4)_49",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_clark3F(4)",
+          "ID": "49",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "1c2884f726d699749828876f8442d3a3",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_clark3F(4)_65.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_clark3F(4)_65",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_clark3F(4)_65",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_clark3F(4)",
+          "ID": "65",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "751882a8392336c4ea63889b798ba4ae",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_clark3F(4)_68.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_clark3F(4)_68",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_clark3F(4)_68",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_clark3F(4)",
+          "ID": "68",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "076aed1620b29af478a48c3c152aea28",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_clark3F(4)_74.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_clark3F(4)_74",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_clark3F(4)_74",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_clark3F(4)",
+          "ID": "74",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "1bdda11245259a543b1f0d03d77b01c4",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_clark3F(4)_94.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_clark3F(4)_94",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_clark3F(4)_94",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_clark3F(4)",
+          "ID": "94",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "5c51145bb66224a4d8a8cb178ec7fa35",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_clark3_2.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_clark3_2",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_clark3_2",
+      "new_group": "Chapter1-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_clark3F(1)",
+          "ID": "5",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "27782f37e3613ab47b0375c30bf26b1b",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_clark3_6.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_clark3_6",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_clark3_6",
+      "new_group": "Chapter1-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_intro",
+          "ID": "27",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "21e98fee2ae3a3f40bac71ac62ad2112",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_clark3_67.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_clark3_67",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_clark3_67",
+      "new_group": "Chapter1-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_intro",
+          "ID": "30",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "7fe5e17b78aa5fa42a35da10b6c49ab4",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_clark4F(1)_41.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_clark4F(1)_41",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_clark4F(1)_41",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_clark4F(1)",
+          "ID": "41",
+          "kind": "bg"
+        },
+        {
+          "script": "sntzm_david3F(2)",
+          "ID": "60",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "ab62c749f616b6f4a95ff916876bd8c7",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_clark4F(1)_73.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_clark4F(1)_73",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_clark4F(1)_73",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_clark4F(1)",
+          "ID": "73",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "89a57ba9eab35d54c8129851989c1de8",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_clark4F(1)_81.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_clark4F(1)_81",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_clark4F(1)_81",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_clark4F(1)",
+          "ID": "81",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "f93e12d797460074494158921a8e887f",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_clark4F(1)_9.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_clark4F(1)_9",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_clark4F(1)_9",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_clark4F(1)",
+          "ID": "9",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "2ebc639ebd992c14093c6a85329dcf0b",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_clark4F(2)_22.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_clark4F(2)_22",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_clark4F(2)_22",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_clark4F(2)",
+          "ID": "22",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "03d542df93ce85144aa5a97571e22dfc",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_clark4F(2)_68.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_clark4F(2)_68",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_clark4F(2)_68",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_clark4F(2)",
+          "ID": "68",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "81c0cacafb78d4c4e8f8f371d71dee72",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_clark4F(3)_13.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_clark4F(3)_13",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_clark4F(3)_13",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_clark4F(3)",
+          "ID": "13",
+          "kind": "bg"
+        },
+        {
+          "script": "sntzm_clark4F(3)",
+          "ID": "57",
+          "kind": "bg"
+        },
+        {
+          "script": "sntzm_clark4F(3)",
+          "ID": "58",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "6c4c090745ddc634aacb0680cdf4dc95",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_clark4F(3)_19.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_clark4F(3)_19",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_clark4F(3)_19",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_clark4F(3)",
+          "ID": "19",
+          "kind": "bg"
+        },
+        {
+          "script": "sntzm_clark4F(3)",
+          "ID": "20",
+          "kind": "bg"
+        },
+        {
+          "script": "sntzm_clark4F(3)",
+          "ID": "63",
+          "kind": "bg"
+        },
+        {
+          "script": "sntzm_clark4F(3)",
+          "ID": "64",
+          "kind": "bg"
+        },
+        {
+          "script": "sntzm_gy(ns1)",
+          "ID": "68",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "48b068a08d3f07c4980e31b424f6b305",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_clark4F(4)_47.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_clark4F(4)_47",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_clark4F(4)_47",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_clark4F(4)",
+          "ID": "47",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "844a5281462b66f4a95284da68179e0d",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_clark4F(4)_49.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_clark4F(4)_49",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_clark4F(4)_49",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_clark4F(4)",
+          "ID": "49",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "7cac21e1bf2e576458b50a831b5d088a",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_clark4_16.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_clark4_16",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_clark4_16",
+      "new_group": "Chapter1-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_intro",
+          "ID": "31",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "eac68c677bbba3c42b4c15b62549dff4",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_clark4_68.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_clark4_68",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_clark4_68",
+      "new_group": "Chapter1-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_intro",
+          "ID": "37",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "246f7de24ccffa940a4fa89703b02152",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_clark5_2.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_clark5_2",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_clark5_2",
+      "new_group": "Chapter1-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_intro",
+          "ID": "47",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "ccac6ab025894894cb67747082d51e1d",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_clark5_41.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_clark5_41",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_clark5_41",
+      "new_group": "Chapter1-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_intro",
+          "ID": "36",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "c88e124ab09195340a6f5e1b22ad45c6",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_david2_12.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_david2_12",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_david2_12",
+      "new_group": "Chapter1-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_intro",
+          "ID": "49",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "b52bf9597cdd6964f86b8a6126485fa7",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_david2_30.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_david2_30",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_david2_30",
+      "new_group": "Chapter1-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_intro",
+          "ID": "56",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "9ec869961306fa04f9ee267690fa9ab9",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_david313-315(1)_1.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_david313-315(1)_1",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_david313-315(1)_1",
+      "new_group": "Chapter1-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_david313-315(1)",
+          "ID": "1",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "e644b10d1bd62184c882fe8a586cd1c5",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_david313-315(1)_23.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_david313-315(1)_23",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_david313-315(1)_23",
+      "new_group": "Chapter1-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_david313-315(1)",
+          "ID": "23",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "af488596495e4244eb51a888dfc81265",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_david313-315(1)_26.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_david313-315(1)_26",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_david313-315(1)_26",
+      "new_group": "Chapter1-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_david313-315(1)",
+          "ID": "26",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "f3dfc550367f8ec45a32d02107fe934a",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_david313-315(1)_34.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_david313-315(1)_34",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_david313-315(1)_34",
+      "new_group": "Chapter1-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_david313-315(1)",
+          "ID": "34",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "139e3e6122c235b4a85ea4d4316573f9",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_david313-315(1)_46.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_david313-315(1)_46",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_david313-315(1)_46",
+      "new_group": "Chapter1-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_david313-315(1)",
+          "ID": "46",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "8333d4aa589eee24c9f1851acdbf162e",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_david313-315(1)_74.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_david313-315(1)_74",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_david313-315(1)_74",
+      "new_group": "Chapter1-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_david313-315(1)",
+          "ID": "74",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "90b31ca24f428b74f958b703b6cb7271",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_david313-315(1)_79.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_david313-315(1)_79",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_david313-315(1)_79",
+      "new_group": "Chapter1-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_david313-315(1)",
+          "ID": "80",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "28ef231535e743247bb67c06360cb3b0",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_david313-315(1)_84.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_david313-315(1)_84",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_david313-315(1)_84",
+      "new_group": "Chapter1-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_david313-315(1)",
+          "ID": "84",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "9b9801f32706f1146b78fa4e91d8e1e4",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_david313-315(2)_1.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_david313-315(2)_1",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_david313-315(2)_1",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_david313-315(2)",
+          "ID": "1",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "048f6ef40c6a46d48bf781d3ca6c4425",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_david313-315(2)_33.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_david313-315(2)_33",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_david313-315(2)_33",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_david313-315(2)",
+          "ID": "33",
+          "kind": "bg"
+        },
+        {
+          "script": "sntzm_david313-315(2)",
+          "ID": "46",
+          "kind": "bg"
+        },
+        {
+          "script": "sntzm_david313-315(2)",
+          "ID": "47",
+          "kind": "bg"
+        },
+        {
+          "script": "sntzm_david313-315(3)",
+          "ID": "1",
+          "kind": "bg"
+        },
+        {
+          "script": "sntzm_david4F(4)",
+          "ID": "44",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "02510cb50aea1c749b260281f376cfe6",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_david313-315(2)_62.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_david313-315(2)_62",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_david313-315(2)_62",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_david313-315(2)",
+          "ID": "62",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "e5ab178da5286224e9c326942d6de2ce",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_david313-315(2)_69.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_david313-315(2)_69",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_david313-315(2)_69",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_david313-315(2)",
+          "ID": "69",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "35e7c7709f686b6418a39809fcba674f",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_david313-315(2)_8.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_david313-315(2)_8",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_david313-315(2)_8",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_david313-315(2)",
+          "ID": "8",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "446b22ef73fdda94cbccfd66d6440143",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_david313-315(3)_10.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_david313-315(3)_10",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_david313-315(3)_10",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_david313-315(3)",
+          "ID": "10",
+          "kind": "bg"
+        },
+        {
+          "script": "sntzm_david313-315(3)",
+          "ID": "16",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "092f0c3f7c02c7f459d15f4f0dbba3de",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_david313-315(3)_13.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_david313-315(3)_13",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_david313-315(3)_13",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_david313-315(3)",
+          "ID": "13",
+          "kind": "bg"
+        },
+        {
+          "script": "sntzm_david313-315(3)",
+          "ID": "18",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "4d9e0575c179eaa45ba6c9e88fb264e2",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_david313-315(3)_23.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_david313-315(3)_23",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_david313-315(3)_23",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_david313-315(3)",
+          "ID": "23",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "459bcf3b9b3a13b4997871d2805008de",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_david313-315(3)_35.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_david313-315(3)_35",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_david313-315(3)_35",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_david313-315(3)",
+          "ID": "36",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "995ba1e7492723d40a46dfcb28ff06e3",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_david313-315(3)_38.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_david313-315(3)_38",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_david313-315(3)_38",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_david313-315(3)",
+          "ID": "38",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "10bc7b3f8dd286e408bb86e7965df592",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_david313-315(3)_45.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_david313-315(3)_45",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_david313-315(3)_45",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_david313-315(3)",
+          "ID": "45",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "1e4ecf85eaebcab42a2b943a6b55c0da",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_david313-315(3)_64.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_david313-315(3)_64",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_david313-315(3)_64",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_david313-315(3)",
+          "ID": "64",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "b5538e9429500914a8d8005979454554",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_david313-315(3)_67.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_david313-315(3)_67",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_david313-315(3)_67",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_david313-315(3)",
+          "ID": "67",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "861e803ffe012b84d90e74d5b3e36baa",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_david313-315(4)_1.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_david313-315(4)_1",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_david313-315(4)_1",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_david313-315(4)",
+          "ID": "1",
+          "kind": "bg"
+        },
+        {
+          "script": "sntzm_david313-315(4)",
+          "ID": "53",
+          "kind": "bg"
+        },
+        {
+          "script": "sntzm_david313-315(4)",
+          "ID": "83",
+          "kind": "bg"
+        },
+        {
+          "script": "sntzm_david313-315(6)",
+          "ID": "1",
+          "kind": "bg"
+        },
+        {
+          "script": "sntzm_david313-315(6)",
+          "ID": "96",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "574eaae471115c74893bbf962e0a6e10",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_david313-315(4)_19.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_david313-315(4)_19",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_david313-315(4)_19",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_david313-315(4)",
+          "ID": "19",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "07c386c7bf9a59c4cbeafdcce7be4989",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_david313-315(4)_27.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_david313-315(4)_27",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_david313-315(4)_27",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_david313-315(4)",
+          "ID": "27",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "027f5f140909cf74f9b5293f61186ddb",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_david313-315(4)_33.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_david313-315(4)_33",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_david313-315(4)_33",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_david313-315(4)",
+          "ID": "33",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "f9b1aca17d7b12245a324d7f2bcded12",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_david313-315(4)_48.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_david313-315(4)_48",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_david313-315(4)_48",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_david313-315(4)",
+          "ID": "48",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "944329b37a58af84e8c232414fe5fc6c",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_david313-315(4)_78.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_david313-315(4)_78",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_david313-315(4)_78",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_david313-315(4)",
+          "ID": "78",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "113c5371c5654704388cc010e11a0ddc",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_david313-315(5)_3.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_david313-315(5)_3",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_david313-315(5)_3",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_david313-315(5)",
+          "ID": "3",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "30b041e4e2d23d3469887a9be3818b1a",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_david313-315(5)_49.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_david313-315(5)_49",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_david313-315(5)_49",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_david313-315(5)",
+          "ID": "49",
+          "kind": "bg"
+        },
+        {
+          "script": "sntzm_david313-315(5)",
+          "ID": "65",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "d6961fa3702281f488c8470485d37b35",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_david313-315(6)_45.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_david313-315(6)_45",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_david313-315(6)_45",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_david313-315(6)",
+          "ID": "45",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "555c8f8b1cd60104d986d55969bb832d",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_david313-315(6)_50.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_david313-315(6)_50",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_david313-315(6)_50",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_david313-315(6)",
+          "ID": "50",
+          "kind": "bg"
+        },
+        {
+          "script": "sntzm_david313-315(6)",
+          "ID": "68",
+          "kind": "bg"
+        },
+        {
+          "script": "sntzm_david313-315(6)",
+          "ID": "102",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "66108bde4f88fa843958bc09146e6a58",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_david313-315(6)_84.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_david313-315(6)_84",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_david313-315(6)_84",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_david313-315(6)",
+          "ID": "84",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "50811b2a3eb298947881b13a5d5e4683",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_david3F(1)_76.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_david3F(1)_76",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_david3F(1)_76",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_david3F(1)",
+          "ID": "76",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "f98ae3620a5a732448e2a9a6bed8288d",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_david3F(1)_88.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_david3F(1)_88",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_david3F(1)_88",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_david3F(1)",
+          "ID": "88",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "3982d7bb54676394b9e878509b1ff9fc",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_david3F(1)_91.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_david3F(1)_91",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_david3F(1)_91",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_david3F(1)",
+          "ID": "91",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "5cdde3b8c1da2ee458a708e7667e25d5",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_david3F(2)_18.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_david3F(2)_18",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_david3F(2)_18",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_david3F(2)",
+          "ID": "18",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "6f1eed1793bce1448a2d6979cffe923d",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_david3F(2)_20.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_david3F(2)_20",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_david3F(2)_20",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_david3F(2)",
+          "ID": "20",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "f3a0ebd270bfb5d419463d8376a2bc99",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_david3F(2)_24.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_david3F(2)_24",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_david3F(2)_24",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_david3F(2)",
+          "ID": "24",
+          "kind": "bg"
+        },
+        {
+          "script": "sntzm_david3F(3)",
+          "ID": "36",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "1a500b3f767eeac4d801a9d87ca58730",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_david3F(2)_44.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_david3F(2)_44",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_david3F(2)_44",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_david3F(2)",
+          "ID": "44",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "e7a4854b66e33e549871df4ea84b5752",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_david3F(2)_66.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_david3F(2)_66",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_david3F(2)_66",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_david3F(2)",
+          "ID": "66",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "527b8724c19939442ae56e5b123a39a8",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_david3F(2)_73.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_david3F(2)_73",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_david3F(2)_73",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_david3F(2)",
+          "ID": "73",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "d24897294e00c93488868b8d6ae2e169",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_david3F(3)_43.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_david3F(3)_43",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_david3F(3)_43",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_david3F(3)",
+          "ID": "43",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "98a90db0076273d45b8fc04d11a1d219",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_david3F(3)_71.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_david3F(3)_71",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_david3F(3)_71",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_david3F(3)",
+          "ID": "71",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "82856bcc382a54a47aab198abec34b37",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_david3_3.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_david3_3",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_david3_3",
+      "new_group": "Chapter1-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_intro",
+          "ID": "58",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "33e6b590fa0f797489b2c0ed5648e85c",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_david3_38.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_david3_38",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_david3_38",
+      "new_group": "Chapter1-Remote",
+      "kind": "bg",
+      "shared": true,
+      "refs": [
+        {
+          "script": "sntzm_david4F(4)",
+          "ID": "51",
+          "kind": "bg"
+        },
+        {
+          "script": "sntzm_intro",
+          "ID": "57",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "ec746d540939acc47b1fa4886eba5a27",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_david3_81.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_david3_81",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_david3_81",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_david313-315(2)",
+          "ID": "43",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "0fdcfafde380082468b29573247f2305",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_david4F(1)_1.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_david4F(1)_1",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_david4F(1)_1",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_david3F(3)",
+          "ID": "77",
+          "kind": "bg"
+        },
+        {
+          "script": "sntzm_david4F(1)",
+          "ID": "1",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "a98873f03a45f354786fd9c70302cd45",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_david4F(1)_27.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_david4F(1)_27",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_david4F(1)_27",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_david4F(1)",
+          "ID": "27",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "a0fe7cd3439cbbb439be33b818b2d5c1",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_david4F(1)_35.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_david4F(1)_35",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_david4F(1)_35",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_david4F(1)",
+          "ID": "35",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "f2cb12129647dac4aad392a2858210de",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_david4F(2)_1.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_david4F(2)_1",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_david4F(2)_1",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_clark4F(2)",
+          "ID": "1",
+          "kind": "bg"
+        },
+        {
+          "script": "sntzm_david4F(2)",
+          "ID": "1",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "d02651d1f5bfd204cb390145ef5c390c",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_david4F(2)_11.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_david4F(2)_11",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_david4F(2)_11",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_david4F(2)",
+          "ID": "11",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "76469fab173833b4fa3ebcf47375f762",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_david4F(2)_15.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_david4F(2)_15",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_david4F(2)_15",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_clark4F(2)",
+          "ID": "4",
+          "kind": "bg"
+        },
+        {
+          "script": "sntzm_david4F(2)",
+          "ID": "15",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "50c66c7713bfba248a22768e3f44c523",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_david4F(2)_26.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_david4F(2)_26",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_david4F(2)_26",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_clark4F(2)",
+          "ID": "14",
+          "kind": "bg"
+        },
+        {
+          "script": "sntzm_clark4F(2)",
+          "ID": "29",
+          "kind": "bg"
+        },
+        {
+          "script": "sntzm_clark4F(2)",
+          "ID": "38",
+          "kind": "bg"
+        },
+        {
+          "script": "sntzm_clark4F(3)",
+          "ID": "84",
+          "kind": "bg"
+        },
+        {
+          "script": "sntzm_david4F(2)",
+          "ID": "26",
+          "kind": "bg"
+        },
+        {
+          "script": "sntzm_david4F(2)",
+          "ID": "46",
+          "kind": "bg"
+        },
+        {
+          "script": "sntzm_david4F(2)",
+          "ID": "60",
+          "kind": "bg"
+        },
+        {
+          "script": "sntzm_final(2)",
+          "ID": "79",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "1160c6ab702073e44924697757191bb3",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_david4F(2)_32.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_david4F(2)_32",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_david4F(2)_32",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_david4F(2)",
+          "ID": "33",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "90bd575605bedfb478b8dfe419f56357",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_david4F(2)_5.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_david4F(2)_5",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_david4F(2)_5",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_david4F(2)",
+          "ID": "5",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "e00bfb3014b0b0242b9aac2f7606a321",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_david4F(3)_1.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_david4F(3)_1",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_david4F(3)_1",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_clark4F(3)",
+          "ID": "1",
+          "kind": "bg"
+        },
+        {
+          "script": "sntzm_clark4F(3)",
+          "ID": "23",
+          "kind": "bg"
+        },
+        {
+          "script": "sntzm_clark4F(4)",
+          "ID": "1",
+          "kind": "bg"
+        },
+        {
+          "script": "sntzm_david4F(3)",
+          "ID": "2",
+          "kind": "bg"
+        },
+        {
+          "script": "sntzm_final(2)",
+          "ID": "82",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "3d6814eed4513374f80e53293ae6da38",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_david4F(3)_28.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_david4F(3)_28",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_david4F(3)_28",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_clark4F(3)",
+          "ID": "9",
+          "kind": "bg"
+        },
+        {
+          "script": "sntzm_david4F(3)",
+          "ID": "28",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "5a05465c320e9ab4583b3c9b93e905f6",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_david4F(3)_33.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_david4F(3)_33",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_david4F(3)_33",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_david4F(3)",
+          "ID": "33",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "c9c9bcc6044678b4eb925bd28d29bf01",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_david4F(3)_36.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_david4F(3)_36",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_david4F(3)_36",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_david4F(3)",
+          "ID": "36",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "81758cdab8946b24bb2ba3401e532706",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_david4F(3)_39.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_david4F(3)_39",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_david4F(3)_39",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_david4F(3)",
+          "ID": "39",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "3ce16464686778548a0fa9051fbf24ad",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_david4F(3)_60.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_david4F(3)_60",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_david4F(3)_60",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_clark4F(3)",
+          "ID": "70",
+          "kind": "bg"
+        },
+        {
+          "script": "sntzm_david4F(3)",
+          "ID": "60",
+          "kind": "bg"
+        },
+        {
+          "script": "sntzm_david4F(4)",
+          "ID": "46",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "3c6ed88d9294f444898a1937438260a6",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_david4F(4)_19.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_david4F(4)_19",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_david4F(4)_19",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_david4F(4)",
+          "ID": "19",
+          "kind": "bg"
+        },
+        {
+          "script": "sntzm_final(3)",
+          "ID": "18",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "5239bdff226b8d241b5f33761d187da3",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_david4F(4)_41.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_david4F(4)_41",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_david4F(4)_41",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_david4F(4)",
+          "ID": "41",
+          "kind": "bg"
+        },
+        {
+          "script": "sntzm_david4F(4)",
+          "ID": "55",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "d70d270067cff33478109310107a519f",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_ending3_21.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_ending3_21",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_ending3_21",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_ending3",
+          "ID": "22",
+          "kind": "bg"
+        },
+        {
+          "script": "sntzm_ending4(2)",
+          "ID": "1",
+          "kind": "bg"
+        },
+        {
+          "script": "sntzm_ending4(2)",
+          "ID": "38",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "19a8eb51786a3d44395ef2622306f853",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_ending3_42.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_ending3_42",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_ending3_42",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_ending3",
+          "ID": "42",
+          "kind": "bg"
+        },
+        {
+          "script": "sntzm_ending3",
+          "ID": "58",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "8080f28bd134f8f4f987a98e19e04807",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_ending3_52.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_ending3_52",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_ending3_52",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_ending3",
+          "ID": "52",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "2571d0b624d60eb4aa08940a22fa3122",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_ending3_56.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_ending3_56",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_ending3_56",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_ending3",
+          "ID": "56",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "6b3f959863a2bef4583ce22d32f92c8e",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_ending3_9.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_ending3_9",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_ending3_9",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_ending3",
+          "ID": "9",
+          "kind": "bg"
+        },
+        {
+          "script": "sntzm_ending4(2)",
+          "ID": "27",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "de4628d40fb2f374a880c1375d771c40",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_ending4(1)_18.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_ending4(1)_18",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_ending4(1)_18",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_ending4(1)",
+          "ID": "18",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "d019620b36f58894993d5ce2549b1ea4",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_ending4(1)_21.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_ending4(1)_21",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_ending4(1)_21",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_ending4(1)",
+          "ID": "21",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "26b7a5743fe4de84787d8a078acdb811",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_ending4(1)_36.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_ending4(1)_36",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_ending4(1)_36",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_ending4(1)",
+          "ID": "36",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "efc0ce8750fa6cc4ea492539ff5a9367",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_ending4(1)_4.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_ending4(1)_4",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_ending4(1)_4",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_ending4(1)",
+          "ID": "4",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "d39b330c51939454fb41bf49308a7414",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_ending4(1)_44.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_ending4(1)_44",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_ending4(1)_44",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_ending4(1)",
+          "ID": "44",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "8f4958496508ace45abff9090b8eb5ed",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_ending4(2)_53.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_ending4(2)_53",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_ending4(2)_53",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_ending4(2)",
+          "ID": "53",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "e87e4ec220afbab47973e7501aeb76cd",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_ending4(2)_54.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_ending4(2)_54",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_ending4(2)_54",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_ending4(2)",
+          "ID": "54",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "4960cd2a77dc690438abcbfaf60ccf03",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_ending4(2)_56.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_ending4(2)_56",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_ending4(2)_56",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_ending4(2)",
+          "ID": "56",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "1b888aac9a7a0f940a7603b20321486a",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_ending5(1)_61.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_ending5(1)_61",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_ending5(1)_61",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_ending5(1)",
+          "ID": "61",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "5a3ab06628e413945a162c1d3446c0ea",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_ending5(1)_72.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_ending5(1)_72",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_ending5(1)_72",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_ending5(1)",
+          "ID": "72",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "f70d78442e8aad54eaac60b7287740b3",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_ending5(1)_81.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_ending5(1)_81",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_ending5(1)_81",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_ending5(1)",
+          "ID": "81",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "c1798230b5133904bbe2e1943215368c",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_ending5(2)_12.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_ending5(2)_12",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_ending5(2)_12",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_ending5(2)",
+          "ID": "12",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "6f8ec3e656c8bcc4a973d093f6b2114c",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_ending5(2)_14.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_ending5(2)_14",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_ending5(2)_14",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_ending5(2)",
+          "ID": "14",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "1adcb9f24aecc0f48b2656799f585c57",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_ending5(2)_29.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_ending5(2)_29",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_ending5(2)_29",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_ending5(2)",
+          "ID": "29",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "ddef37f75902f53499504dd8c3f53eb6",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_ending5(2)_37.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_ending5(2)_37",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_ending5(2)_37",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_ending5(2)",
+          "ID": "37",
+          "kind": "bg"
+        },
+        {
+          "script": "sntzm_truth(3)",
+          "ID": "13",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "d6d6e1528dfd89149b781bc0778ba28a",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_ending5(2)_4.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_ending5(2)_4",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_ending5(2)_4",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_ending5(2)",
+          "ID": "4",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "e598bf2f5c8e9084986f4d115dff83bd",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_ending5(2)_45.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_ending5(2)_45",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_ending5(2)_45",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_ending5(2)",
+          "ID": "45",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "79b04808c704456488724a687c921dff",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_ending5(2)_46.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_ending5(2)_46",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_ending5(2)_46",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_ending5(2)",
+          "ID": "46",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "c3f6628d557a37145be624cbbf52f297",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_ending5(2)_61.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_ending5(2)_61",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_ending5(2)_61",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_ending5(2)",
+          "ID": "61",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "48ede1bebe306f34e9705fb1788717ed",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_ending5(3)_15.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_ending5(3)_15",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_ending5(3)_15",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_ending5(3)",
+          "ID": "15",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "4d3f7f394f149f649bd4ebcdf8965f6c",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_ending5(3)_2.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_ending5(3)_2",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_ending5(3)_2",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_ending5(3)",
+          "ID": "2",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "4a330f7685463e74eb129fe00548595f",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_ending5(3)_20.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_ending5(3)_20",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_ending5(3)_20",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_ending5(3)",
+          "ID": "20",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "bb047c6380bd01245ac77d02cc29cd52",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_ending5(3)_23.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_ending5(3)_23",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_ending5(3)_23",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_ending5(3)",
+          "ID": "23",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "9599a9052771cdf4b8a81d1242fc0a9d",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_ending5(3)_25.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_ending5(3)_25",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_ending5(3)_25",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_ending5(3)",
+          "ID": "25",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "5e43db9c840ace442b4ae210a9ca625d",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_ending5(3)_28.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_ending5(3)_28",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_ending5(3)_28",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_ending5(3)",
+          "ID": "28",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "c7f903cd94e5e1b43957f227f5b36461",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_fe_9.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_fe_9",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_fe_9",
+      "new_group": "Chapter1-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_intro",
+          "ID": "15",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "f6290ee27a636e84d95d175a5c543281",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_final(1)_18.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_final(1)_18",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_final(1)_18",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_final(1)",
+          "ID": "19",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "8e92346213cbb4343804ab04518577be",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_final(1)_21.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_final(1)_21",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_final(1)_21",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_final(1)",
+          "ID": "22",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "09fa9b70ff871304eae9e9b5a6a22cae",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_final(1)_37.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_final(1)_37",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_final(1)_37",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_final(1)",
+          "ID": "37",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "d6e5b7be45069cc42b3926af8097da43",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_final(1)_73.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_final(1)_73",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_final(1)_73",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_final(1)",
+          "ID": "74",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "682fcb4c7908de64ba73f434cbc26c43",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_final(1)_85.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_final(1)_85",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_final(1)_85",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_final(1)",
+          "ID": "85",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "3d3346b10e19a9147aebab637f63230a",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_final(1)_89.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_final(1)_89",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_final(1)_89",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_final(1)",
+          "ID": "89",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "c158c2f703f7b1742bd21a3034e94ba5",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_final(2)_88.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_final(2)_88",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_final(2)_88",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_final(2)",
+          "ID": "88",
+          "kind": "bg"
+        },
+        {
+          "script": "sntzm_final(3)",
+          "ID": "70",
+          "kind": "bg"
+        },
+        {
+          "script": "sntzm_final(3)",
+          "ID": "85",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "4272480cb0ac900498bac4de8f8c91d8",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_final(3)_104.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_final(3)_104",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_final(3)_104",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_final(3)",
+          "ID": "104",
+          "kind": "bg"
+        },
+        {
+          "script": "sntzm_final(4)",
+          "ID": "42",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "46940a02c66d1784e8606d339ae8d94d",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_final(3)_110.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_final(3)_110",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_final(3)_110",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_final(3)",
+          "ID": "110",
+          "kind": "bg"
+        },
+        {
+          "script": "sntzm_final(6)",
+          "ID": "78",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "05463e87e24fba44a86851c396d40a02",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_final(3)_57.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_final(3)_57",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_final(3)_57",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_final(3)",
+          "ID": "57",
+          "kind": "bg"
+        },
+        {
+          "script": "sntzm_final(4)",
+          "ID": "9",
+          "kind": "bg"
+        },
+        {
+          "script": "sntzm_final(6)",
+          "ID": "27",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "9f1616e2e56d1e84b85e069735ab82a2",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_final(3)_65.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_final(3)_65",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_final(3)_65",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_final(3)",
+          "ID": "65",
+          "kind": "bg"
+        },
+        {
+          "script": "sntzm_final(6)",
+          "ID": "31",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "ec8c4ae0b8bb4f945866d40f575ebd9b",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_final(3)_72.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_final(3)_72",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_final(3)_72",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_final(3)",
+          "ID": "72",
+          "kind": "bg"
+        },
+        {
+          "script": "sntzm_final(6)",
+          "ID": "36",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "165ac8b0a46d07c4686877f42d3bbf4b",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_final(4)_15.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_final(4)_15",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_final(4)_15",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_final(4)",
+          "ID": "15",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "02723c5e693d7c6449e632049f46b42f",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_final(4)_28.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_final(4)_28",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_final(4)_28",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_ending4(1)",
+          "ID": "49",
+          "kind": "bg"
+        },
+        {
+          "script": "sntzm_final(4)",
+          "ID": "28",
+          "kind": "bg"
+        },
+        {
+          "script": "sntzm_final(6)",
+          "ID": "56",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "a7625a36e861d3847bbc01da2c6deac2",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_final(4)_38.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_final(4)_38",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_final(4)_38",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_final(4)",
+          "ID": "38",
+          "kind": "bg"
+        },
+        {
+          "script": "sntzm_final(4)",
+          "ID": "70",
+          "kind": "bg"
+        },
+        {
+          "script": "sntzm_final(6)",
+          "ID": "68",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "890ed6ee5576d9649b3b678d620431b4",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_final(4)_61.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_final(4)_61",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_final(4)_61",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_final(4)",
+          "ID": "61",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "dd46bb487f316b54db31fffbce38752a",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_final(4)_78.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_final(4)_78",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_final(4)_78",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_final(4)",
+          "ID": "78",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "3ebaf4f296adb2f4fb8f5c8a50b7f966",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_final(4)_81.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_final(4)_81",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_final(4)_81",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_final(4)",
+          "ID": "81",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "33dc6647f01a95746b86a9dd275a2362",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_final(5)_116.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_final(5)_116",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_final(5)_116",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_final(5)",
+          "ID": "116",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "c4d3b6d0fcc6c5943960d23929e0f809",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_final(6)_14.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_final(6)_14",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_final(6)_14",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_final(6)",
+          "ID": "14",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "1f72c2700881d8e4180ec8090d747579",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_final(6)_44.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_final(6)_44",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_final(6)_44",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_final(6)",
+          "ID": "44",
+          "kind": "bg"
+        },
+        {
+          "script": "sntzm_final(6)",
+          "ID": "49",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "e0c7d45043050944389e52e6554df578",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_final(6)_57.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_final(6)_57",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_final(6)_57",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_final(6)",
+          "ID": "57",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "90f072407e617144ca4b1eec9cd3f62b",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_final(6)_65.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_final(6)_65",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_final(6)_65",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_final(6)",
+          "ID": "65",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "0b6fb2d8776003f47b3b03be151e7d02",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_final(6)_80.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_final(6)_80",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_final(6)_80",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_final(6)",
+          "ID": "80",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "3fe8952bfaed7ab49b219bae5c49a6e6",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_final(6)_86.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_final(6)_86",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_final(6)_86",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_final(6)",
+          "ID": "86",
+          "kind": "bg"
+        },
+        {
+          "script": "sntzm_final(6)",
+          "ID": "101",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "2d0f4f44cf0dd2146a30f9d790bc2cea",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_fourBranch2_52.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_fourBranch2_52",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_fourBranch2_52",
+      "new_group": "Chapter1-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_intro",
+          "ID": "53",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "f221bd105247dbc44863a5d951d8893a",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_gy(1)_2.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_gy(1)_2",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_gy(1)_2",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_gy(1)",
+          "ID": "2",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "8d33191bcb5dbf14d9d452850c213c0f",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_gy(1)_25.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_gy(1)_25",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_gy(1)_25",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_gy(1)",
+          "ID": "25",
+          "kind": "bg"
+        },
+        {
+          "script": "sntzm_truth(2)",
+          "ID": "35",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "412529aa9beefbe4589d61d8d8f866ae",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_gy(1)_3.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_gy(1)_3",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_gy(1)_3",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_gy(1)",
+          "ID": "3",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "7c00cdae3a954f54bbda1bae97e6a237",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_gy(1)_37.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_gy(1)_37",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_gy(1)_37",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_gy(1)",
+          "ID": "37",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "d95e26c2ba9a29f4a8edcf4e936c4308",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_gy(1)_41.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_gy(1)_41",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_gy(1)_41",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_gy(1)",
+          "ID": "41",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "fe916ba81cfd1384b92e0de61374cdef",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_gy(1)_47.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_gy(1)_47",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_gy(1)_47",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_gy(1)",
+          "ID": "47",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "eb309916a128b594bb68386a79047cbc",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_gy(1)_65.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_gy(1)_65",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_gy(1)_65",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_gy(1)",
+          "ID": "65",
+          "kind": "bg"
+        },
+        {
+          "script": "sntzm_gy(2)",
+          "ID": "34",
+          "kind": "bg"
+        },
+        {
+          "script": "sntzm_gy(2)",
+          "ID": "35",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "097e6469a61793c4689088f5b54cea1b",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_gy(1)_8.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_gy(1)_8",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_gy(1)_8",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_gy(1)",
+          "ID": "8",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "5a35b3aa727100048999c286e36d72bd",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_gy(1)_93.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_gy(1)_93",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_gy(1)_93",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_gy(1)",
+          "ID": "93",
+          "kind": "bg"
+        },
+        {
+          "script": "sntzm_gy(2)",
+          "ID": "45",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "f8486fe28de757e4eb546f8ff8466ca5",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_gy(2)_42.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_gy(2)_42",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_gy(2)_42",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_gy(2)",
+          "ID": "42",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "a6dea99b932b86347b0b50b6baea9a5c",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_gy(2)_47.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_gy(2)_47",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_gy(2)_47",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_gy(2)",
+          "ID": "47",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "e313482378f9fa64f858c530fdbe76b2",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_gy(2)_6.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_gy(2)_6",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_gy(2)_6",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_gy(2)",
+          "ID": "6",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "422a01fef9e647c43a64ad5233f9308e",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_gy(2)_62.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_gy(2)_62",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_gy(2)_62",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_gy(2)",
+          "ID": "62",
+          "kind": "bg"
+        },
+        {
+          "script": "sntzm_gy(ns1)",
+          "ID": "1",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "920bf21024db1b949afd6f816dd6fae6",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_gy(2)_66.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_gy(2)_66",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_gy(2)_66",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_gy(2)",
+          "ID": "61",
+          "kind": "bg"
+        },
+        {
+          "script": "sntzm_gy(2)",
+          "ID": "67",
+          "kind": "bg"
+        },
+        {
+          "script": "sntzm_gy(2)",
+          "ID": "90",
+          "kind": "bg"
+        },
+        {
+          "script": "sntzm_gy(2)",
+          "ID": "98",
+          "kind": "bg"
+        },
+        {
+          "script": "sntzm_gy(ns1)",
+          "ID": "10",
+          "kind": "bg"
+        },
+        {
+          "script": "sntzm_gy(ns1)",
+          "ID": "72",
+          "kind": "bg"
+        },
+        {
+          "script": "sntzm_gy(s1)",
+          "ID": "55",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "fd3e4d7f784a5bb4788a7e0a73a9bdfb",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_gy(2)_80.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_gy(2)_80",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_gy(2)_80",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_gy(2)",
+          "ID": "80",
+          "kind": "bg"
+        },
+        {
+          "script": "sntzm_gy(ns1)",
+          "ID": "4",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "6e9b0ae1262cdad4baf5ef130a28cc97",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_gy(ns2)_42.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_gy(ns2)_42",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_gy(ns2)_42",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_gy(ns2)",
+          "ID": "42",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "e82ed0b0d6b1c1d41b7cb623c6f6fb0c",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_gy(ns2)_65.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_gy(ns2)_65",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_gy(ns2)_65",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_gy(ns2)",
+          "ID": "65",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "d21d7dea306364342899bb225a39e204",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_gy(ns2)_68.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_gy(ns2)_68",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_gy(ns2)_68",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_gy(ns2)",
+          "ID": "68",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "0d0838d70b777fa47b77985ef065a36c",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_gy(ns2)_71.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_gy(ns2)_71",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_gy(ns2)_71",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_gy(ns2)",
+          "ID": "71",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "2ddb7ee7e0a8b444181c8df3dc19fe45",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_gy(ns2)_72.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_gy(ns2)_72",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_gy(ns2)_72",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_gy(ns2)",
+          "ID": "72",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "57b031cba161e0d48a7a49cdf116c0f8",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_gy(ns2)_82.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_gy(ns2)_82",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_gy(ns2)_82",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_ending5(2)",
+          "ID": "18",
+          "kind": "bg"
+        },
+        {
+          "script": "sntzm_gy(ns2)",
+          "ID": "82",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "6fc6f4c046fd6674c98e7d2c2ad582c2",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_gy(s1)_49.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_gy(s1)_49",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_gy(s1)_49",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_gy(s1)",
+          "ID": "49",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "4f554842bbd83974a9dad87f5f09fad2",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_gy(s1)_90.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_gy(s1)_90",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_gy(s1)_90",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_gy(s1)",
+          "ID": "90",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "946065044380fdb4c9df463edea10ab4",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_gy(s1)_92.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_gy(s1)_92",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_gy(s1)_92",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_gy(s1)",
+          "ID": "92",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "3b1efdb7523be0a4186de1691d2187b7",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_gy(s2)_1.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_gy(s2)_1",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_gy(s2)_1",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_gy(ns2)",
+          "ID": "34",
+          "kind": "bg"
+        },
+        {
+          "script": "sntzm_gy(s2)",
+          "ID": "1",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "156b461b51d353241b194c131678031f",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_gy(s2)_13.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_gy(s2)_13",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_gy(s2)_13",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_gy(s2)",
+          "ID": "13",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "6c2030a88aac068408e4b9fc635eef0c",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_gy(s2)_17.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_gy(s2)_17",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_gy(s2)_17",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_gy(ns2)",
+          "ID": "74",
+          "kind": "bg"
+        },
+        {
+          "script": "sntzm_gy(s2)",
+          "ID": "17",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "86c2314757b991440a12a62a57376b25",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_gy(s2)_25.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_gy(s2)_25",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_gy(s2)_25",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_gy(s2)",
+          "ID": "25",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "824dd18bde049704896d4c8846045297",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_gy(s2)_38.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_gy(s2)_38",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_gy(s2)_38",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_gy(s2)",
+          "ID": "38",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "001d154a01b48194d9941423c55899fd",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_gy(s2)_4.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_gy(s2)_4",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_gy(s2)_4",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_gy(ns2)",
+          "ID": "38",
+          "kind": "bg"
+        },
+        {
+          "script": "sntzm_gy(s2)",
+          "ID": "4",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "955bbbe29a9316c4e93602cff5616a5a",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_gy(s2)_40.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_gy(s2)_40",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_gy(s2)_40",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_gy(s2)",
+          "ID": "40",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "a6133b41a4588a046a73df8b6326fbe5",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_gy(s2)_51.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_gy(s2)_51",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_gy(s2)_51",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_gy(s2)",
+          "ID": "51",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "5d2a721de6bce0d47a6b18e69e98fddc",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_gy(s2)_53.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_gy(s2)_53",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_gy(s2)_53",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_gy(s2)",
+          "ID": "53",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "6d65ade9c903e30458a173ee1a04c0bf",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_gy(s2)_7.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_gy(s2)_7",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_gy(s2)_7",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_gy(s2)",
+          "ID": "7",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "965d42f19b330434390aac15f0831b50",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_gy(s2)_82.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_gy(s2)_82",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_gy(s2)_82",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_gy(s2)",
+          "ID": "77",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "42d94b54e34d1e54bba9e061631f186f",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_gy(s2)_95.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_gy(s2)_95",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_gy(s2)_95",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_gy(s2)",
+          "ID": "95",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "4f3c9580b3ef8a547991c0835b324d8c",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_main2_1.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_main2_1",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_main2_1",
+      "new_group": "Chapter1-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_intro",
+          "ID": "3",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "b536064cbb5ca9d4c98054327d2d6163",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_main2_61.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_main2_61",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_main2_61",
+      "new_group": "Chapter1-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_intro",
+          "ID": "9",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "28ee654de19f19e49b423c8e2999ae12",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_main3_1.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_main3_1",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_main3_1",
+      "new_group": "Chapter1-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_intro",
+          "ID": "17",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "202a7a85513f0a144946805d99366143",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_main3_41.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_main3_41",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_main3_41",
+      "new_group": "Chapter1-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_intro",
+          "ID": "21",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "61f80fdf60ce49b43995c20e67a3db90",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_ss_76.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_ss_76",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_ss_76",
+      "new_group": "Chapter1-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_clark3F(1)",
+          "ID": "4",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "187f74507cbd9764cbfad92d3c4c3f5a",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_truth(1)_11.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_truth(1)_11",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_truth(1)_11",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_truth(1)",
+          "ID": "11",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "2e8a420ab376ca04bb1350bee22ea113",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_truth(1)_15.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_truth(1)_15",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_truth(1)_15",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_truth(1)",
+          "ID": "15",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "b827b455b6ae0d64693f71a9f9a0df17",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_truth(1)_3.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_truth(1)_3",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_truth(1)_3",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_truth(1)",
+          "ID": "3",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "1d35c436a6842ab4ba76ecfbb35f5ca0",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_truth(1)_34.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_truth(1)_34",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_truth(1)_34",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_truth(1)",
+          "ID": "34",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "8502e29e84de1884caa678bf12739e16",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_truth(1)_4.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_truth(1)_4",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_truth(1)_4",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_truth(1)",
+          "ID": "4",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "ab173eaa2c0b4a6419cbec00cb73b96f",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_truth(1)_43.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_truth(1)_43",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_truth(1)_43",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_truth(1)",
+          "ID": "43",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "5fe3ed084f754714fb8a5019d78bcd92",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_truth(1)_45.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_truth(1)_45",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_truth(1)_45",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_truth(1)",
+          "ID": "45",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "90abaddc97b8f234aab54a9a5b47ce68",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_truth(1)_48.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_truth(1)_48",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_truth(1)_48",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_truth(1)",
+          "ID": "48",
+          "kind": "bg"
+        },
+        {
+          "script": "sntzm_truth(1)",
+          "ID": "61",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "befa80ab519209e4cb9e2ff5a914824c",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_truth(1)_51.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_truth(1)_51",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_truth(1)_51",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_truth(1)",
+          "ID": "51",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "2177e041acb6a5347b74fcdf26d136b1",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_truth(1)_55.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_truth(1)_55",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_truth(1)_55",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_truth(1)",
+          "ID": "55",
+          "kind": "bg"
+        },
+        {
+          "script": "sntzm_truth(1)",
+          "ID": "79",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "17ca2b5c92476344f9ca017792f9147b",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_truth(1)_56.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_truth(1)_56",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_truth(1)_56",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_truth(1)",
+          "ID": "56",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "d9129f10c4b719a41ad7b3421b21dc34",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_truth(1)_58.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_truth(1)_58",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_truth(1)_58",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_truth(1)",
+          "ID": "58",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "199eedc306ca8d84bba39c278851bfe9",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_truth(1)_69.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_truth(1)_69",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_truth(1)_69",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_truth(1)",
+          "ID": "69",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "03c276b452ccdb2419704327aaabf7d7",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_truth(1)_7.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_truth(1)_7",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_truth(1)_7",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_truth(1)",
+          "ID": "7",
+          "kind": "bg"
+        },
+        {
+          "script": "sntzm_truth(1)",
+          "ID": "77",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "c95cc8c114bcfa946b2c8c66eb5e08ed",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_truth(1)_72.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_truth(1)_72",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_truth(1)_72",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_truth(1)",
+          "ID": "72",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "fb8a811d0cc6afb48b7894c87ccda552",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_truth(1)_73.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_truth(1)_73",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_truth(1)_73",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_truth(1)",
+          "ID": "73",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "6fd39e1822135cf43bffe0375b855726",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_truth(1)_9.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_truth(1)_9",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_truth(1)_9",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_truth(1)",
+          "ID": "9",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "228225ca39a4b0149a6186f464722b76",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_truth(2)_1.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_truth(2)_1",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_truth(2)_1",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_truth(2)",
+          "ID": "1",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "e7c74940da0ac0b4db60de728f9aabf4",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_truth(2)_11.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_truth(2)_11",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_truth(2)_11",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_truth(2)",
+          "ID": "11",
+          "kind": "bg"
+        },
+        {
+          "script": "sntzm_truth(2)",
+          "ID": "23",
+          "kind": "bg"
+        },
+        {
+          "script": "sntzm_truth(2)",
+          "ID": "34",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "7318dac22b0b43444b4eba4e71a6dafe",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_truth(2)_13.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_truth(2)_13",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_truth(2)_13",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_truth(2)",
+          "ID": "13",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "287d9cfa19f94e14fa03f38741ad6acf",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_truth(2)_20.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_truth(2)_20",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_truth(2)_20",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_truth(2)",
+          "ID": "20",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "15e803c4e37a2ea46bd98cfe865bea6a",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_truth(2)_22.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_truth(2)_22",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_truth(2)_22",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_truth(2)",
+          "ID": "22",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "74e7d6d8f3793234680b9e327d6ad726",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_truth(2)_26.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_truth(2)_26",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_truth(2)_26",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_truth(2)",
+          "ID": "26",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "5275c55ec4765ef4995ddb1b5c2d3fcc",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_truth(2)_49.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_truth(2)_49",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_truth(2)_49",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_truth(2)",
+          "ID": "49",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "8bd90ed5d065c3a4e889a754497c0fe6",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_truth(2)_53.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_truth(2)_53",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_truth(2)_53",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_truth(2)",
+          "ID": "53",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "ed2b3f1137390fc44a1c72689d1c955b",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_truth(2)_56.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_truth(2)_56",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_truth(2)_56",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_truth(2)",
+          "ID": "56",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "b993ff7c0d60f9e4580f7808aaae6288",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_truth(2)_73.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_truth(2)_73",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_truth(2)_73",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_truth(2)",
+          "ID": "73",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "3b5ff386bc606704995730f3f29e5b1b",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_truth(2)_82.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_truth(2)_82",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_truth(2)_82",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_truth(2)",
+          "ID": "82",
+          "kind": "bg"
+        },
+        {
+          "script": "sntzm_truth(3)",
+          "ID": "40",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "ec698904f9c83954ebd3a9d19244f612",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_truth(3)_16.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_truth(3)_16",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_truth(3)_16",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_truth(3)",
+          "ID": "16",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "07f77f7243fb8f141b9aa841c26fe0f3",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_truth(3)_21.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_truth(3)_21",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_truth(3)_21",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_truth(3)",
+          "ID": "21",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "8e47727fb0685c047bd72292f385d6ea",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_truth(3)_23.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_truth(3)_23",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_truth(3)_23",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_truth(3)",
+          "ID": "23",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "a1280e273029eb34894738bb1dacad7a",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_truth(3)_24.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_truth(3)_24",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_truth(3)_24",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_truth(3)",
+          "ID": "24",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "d106c2932e354af418c133a0635715a6",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_truth(3)_27.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_truth(3)_27",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_truth(3)_27",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_truth(3)",
+          "ID": "27",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "237e9cb2f5210bd428debc20bc9df5c9",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_truth(3)_29.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_truth(3)_29",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_truth(3)_29",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_truth(3)",
+          "ID": "29",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "5c92329ffc0d8454bb70ede68cc69a8c",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_truth(3)_31.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_truth(3)_31",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_truth(3)_31",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_truth(3)",
+          "ID": "31",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "33cac89c992c00f408d016e15e1e1160",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_truth(3)_33.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_truth(3)_33",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_truth(3)_33",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_truth(3)",
+          "ID": "33",
+          "kind": "bg"
+        }
+      ]
+    },
+    {
+      "guid": "af85cf078e60bcc4984f39a9822a142f",
+      "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\Backgrounds\\sntzm_truth(3)_39.jpg",
+      "address": "VNovelizerRes/Backgrounds/sntzm_truth(3)_39",
+      "old_group": "Default Local Group",
+      "old_address": "VNovelizerRes/Backgrounds/sntzm_truth(3)_39",
+      "new_group": "Chapter2-Remote",
+      "kind": "bg",
+      "shared": false,
+      "refs": [
+        {
+          "script": "sntzm_truth(3)",
+          "ID": "39",
+          "kind": "bg"
+        },
+        {
+          "script": "sntzm_truth(3)",
+          "ID": "40",
+          "kind": "bg"
+        }
+      ]
+    }
+  ],
+  "missing": []
+}

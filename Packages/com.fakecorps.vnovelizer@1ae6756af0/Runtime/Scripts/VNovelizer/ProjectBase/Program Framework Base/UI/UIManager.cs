@@ -1121,10 +1121,8 @@ public class UIManager : BaseManager<UIManager>
             return;
         }
 
-#if UNITY_WEBGL && !UNITY_EDITOR
-        GameObject obj = ResourcesManager.GetInstance().Load<GameObject>(assetKey);
-        CachePreloadedPanelInstance(panelName, assetKey, obj);
-#else
+        // Load the prefab asset without ResourcesManager's automatic active instantiation.
+        // Hidden warm-up must not trigger OnEnable and change the game's panel state.
         GameObject localPrefab = Resources.Load<GameObject>(assetKey);
         if (localPrefab != null)
         {
@@ -1132,6 +1130,7 @@ public class UIManager : BaseManager<UIManager>
             return;
         }
 
+#if !UNITY_WEBGL || UNITY_EDITOR
         ResourcesManager.GetInstance().LoadOptionalAsync<GameObject>(
             assetKey,
             obj =>

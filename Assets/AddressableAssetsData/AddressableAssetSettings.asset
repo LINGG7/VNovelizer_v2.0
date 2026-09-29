@@ -45,13 +45,8 @@ MonoBehaviour:
   m_overridePlayerVersion: '[UnityEditor.PlayerSettings.bundleVersion]'
   m_GroupAssets:
   - {fileID: 11400000, guid: e4e8b3ee8803e8244ad7619bc60cfc0d, type: 2}
-  - {fileID: 11400000, guid: 9ddb6a65615720c44b5f1c4cb72e0d4a, type: 2}
   - {fileID: 11400000, guid: 1231d5dabbbb58447a6353b1b88493aa, type: 2}
   - {fileID: 11400000, guid: 31fea7d44bdf7d149aad11bb0f5aea7e, type: 2}
-  - {fileID: 11400000, guid: 88ef54cf575972f4f85ec8015d2522e8, type: 2}
-  - {fileID: 11400000, guid: a02ce471f15242543936b2e218db7f2f, type: 2}
-  - {fileID: 11400000, guid: 24a47748927f4464094699b36c3bfa8c, type: 2}
-  - {fileID: 11400000, guid: 145f4a069fbefbd4db049ea2dcefc661, type: 2}
   - {fileID: 11400000, guid: e5ce5abcf944f0345b243d67f984ba40, type: 2}
   m_BuildSettings:
     m_CompileScriptsInVirtualMode: 0
@@ -65,7 +60,7 @@ MonoBehaviour:
       m_ProfileName: Default
       m_Values:
       - m_Id: 0fe0bbe9d5c0e754aacab48848c22da8
-        m_Value: https://res.huizi888.com/vnovelizer/prod/1.1.3/[BuildTarget]
+        m_Value: https://res.huizi888.com/vnovelizer/prod/1.0.0/[BuildTarget]
       - m_Id: 18d5772cf6da98640a62f9079cda3fcf
         m_Value: ServerData/[BuildTarget]
       - m_Id: 3e9d47e47ed02494fb2a6b7245e074cc

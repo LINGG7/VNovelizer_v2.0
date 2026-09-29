@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Chapter1-Remote
+  m_EditorClassIdentifier: 
+  m_GroupName: Chapter1-Remote
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 576a7a4c4233445498fcdb701a8525da
+  m_SerializeEntries:
+  - m_GUID: d5a93460516e4f44b9e62f873eae1e1e
+    m_Address: "VNovelizerRes/CharactersPic/\u514B\u62C9\u514B"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/CharactersPic
+    - chapter1_required
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dd6540b699c750e42ac1b14441d94376
+    m_Address: "VNovelizerRes/CharactersPic/\u5927\u536B"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/CharactersPic
+    - chapter1_required
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: e05a7e7d0a4767d4dbd8053c426fbfd0, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 315c59f9b334b6a4abe7162dbb83f016, type: 2}
+    - {fileID: 11400000, guid: 8b741236f5107e94cb3607da408ccb78, type: 2}

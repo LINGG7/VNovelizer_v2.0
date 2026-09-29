@@ -14,21 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CharacterID: wy
   ElementSprites:
-  - Element: dm
-    Sprite: {fileID: 21300000, guid: 2b2c108cf554d0b4cb5b1f5831260b9d, type: 3}
-    SpritePath: "VNovelizerRes/CharactersPic/\u7F51\u763E\u5B66\u5F92/\u515C\u5E3D"
   - Element: bd
     Sprite: {fileID: 21300000, guid: 5db840cb4ecb4574f8968b1b0c1cc846, type: 3}
     SpritePath: "VNovelizerRes/CharactersPic/\u7F51\u763E\u5B66\u5F92/\u7EF7\u5E26"
   - Element: w
     Sprite: {fileID: 21300000, guid: 2ea7765ab709a2a469a7840e342c8613, type: 3}
     SpritePath: "VNovelizerRes/CharactersPic/\u7F51\u763E\u5B66\u5F92/\u65E0"
-  - Element: child
-    Sprite: {fileID: 21300000, guid: ff95381d4e709b141bceebd27233c9fe, type: 3}
-    SpritePath: "VNovelizerRes/CharactersPic/\u7F51\u763E\u5B66\u5F92/child"
-  - Element: hurt
-    Sprite: {fileID: 21300000, guid: 33e0fb6cd2092a3489464019c7814a9e, type: 3}
-    SpritePath: "VNovelizerRes/CharactersPic/\u7F51\u763E\u5B66\u5F92/hurt"
   HeadSprites: []
   SpeakerBox: {fileID: 0}
   HeadFrame: {fileID: 0}

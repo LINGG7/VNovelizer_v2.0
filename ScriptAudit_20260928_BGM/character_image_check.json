@@ -1,0 +1,5905 @@
+[
+  {
+    "value": "wy_bd",
+    "count": 22,
+    "status": "ok",
+    "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\CharactersPic\\网瘾学徒\\绷带.png",
+    "detail": {
+      "path": "VNovelizerRes/CharactersPic/网瘾学徒/绷带",
+      "guid": "5db840cb4ecb4574f8968b1b0c1cc846",
+      "fileID": 21300000
+    },
+    "refs": [
+      {
+        "script": "sntzm_clark3F(1).xlsx",
+        "ID": "6",
+        "cell": "D6"
+      },
+      {
+        "script": "sntzm_clark3F(1).xlsx",
+        "ID": "7",
+        "cell": "D7"
+      },
+      {
+        "script": "sntzm_clark3F(1).xlsx",
+        "ID": "11",
+        "cell": "D11"
+      },
+      {
+        "script": "sntzm_clark3F(1).xlsx",
+        "ID": "12",
+        "cell": "D12"
+      },
+      {
+        "script": "sntzm_clark3F(1).xlsx",
+        "ID": "13",
+        "cell": "D13"
+      },
+      {
+        "script": "sntzm_clark3F(1).xlsx",
+        "ID": "14",
+        "cell": "D14"
+      },
+      {
+        "script": "sntzm_clark3F(1).xlsx",
+        "ID": "15",
+        "cell": "D15"
+      },
+      {
+        "script": "sntzm_clark3F(1).xlsx",
+        "ID": "16",
+        "cell": "D16"
+      },
+      {
+        "script": "sntzm_clark3F(1).xlsx",
+        "ID": "17",
+        "cell": "D17"
+      },
+      {
+        "script": "sntzm_clark3F(1).xlsx",
+        "ID": "19",
+        "cell": "F19"
+      },
+      {
+        "script": "sntzm_clark3F(1).xlsx",
+        "ID": "20",
+        "cell": "F20"
+      },
+      {
+        "script": "sntzm_clark3F(1).xlsx",
+        "ID": "21",
+        "cell": "D21"
+      },
+      {
+        "script": "sntzm_clark3F(1).xlsx",
+        "ID": "22",
+        "cell": "D22"
+      },
+      {
+        "script": "sntzm_clark3F(1).xlsx",
+        "ID": "27",
+        "cell": "D27"
+      },
+      {
+        "script": "sntzm_clark3F(1).xlsx",
+        "ID": "28",
+        "cell": "D28"
+      },
+      {
+        "script": "sntzm_clark3F(1).xlsx",
+        "ID": "37",
+        "cell": "D37"
+      },
+      {
+        "script": "sntzm_clark3F(1).xlsx",
+        "ID": "38",
+        "cell": "D38"
+      },
+      {
+        "script": "sntzm_clark3F(1).xlsx",
+        "ID": "39",
+        "cell": "D39"
+      },
+      {
+        "script": "sntzm_clark3F(1).xlsx",
+        "ID": "40",
+        "cell": "D40"
+      },
+      {
+        "script": "sntzm_clark3F(1).xlsx",
+        "ID": "41",
+        "cell": "D41"
+      },
+      {
+        "script": "sntzm_clark3F(1).xlsx",
+        "ID": "60",
+        "cell": "D57"
+      },
+      {
+        "script": "sntzm_clark3F(1).xlsx",
+        "ID": "61",
+        "cell": "D58"
+      }
+    ],
+    "remote_path_files": [
+      "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\CharactersPic\\网瘾学徒\\绷带.png"
+    ]
+  },
+  {
+    "value": "Clark_default",
+    "count": 163,
+    "status": "ok",
+    "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\CharactersPic\\克拉克.png",
+    "detail": {
+      "path": "VNovelizerRes/CharactersPic/克拉克",
+      "guid": "d5a93460516e4f44b9e62f873eae1e1e",
+      "fileID": 21300000
+    },
+    "refs": [
+      {
+        "script": "sntzm_clark3F(1).xlsx",
+        "ID": "8",
+        "cell": "D8"
+      },
+      {
+        "script": "sntzm_clark3F(1).xlsx",
+        "ID": "9",
+        "cell": "D9"
+      },
+      {
+        "script": "sntzm_clark3F(1).xlsx",
+        "ID": "18",
+        "cell": "D18"
+      },
+      {
+        "script": "sntzm_clark3F(1).xlsx",
+        "ID": "19",
+        "cell": "D19"
+      },
+      {
+        "script": "sntzm_clark3F(1).xlsx",
+        "ID": "20",
+        "cell": "D20"
+      },
+      {
+        "script": "sntzm_clark3F(1).xlsx",
+        "ID": "29",
+        "cell": "D29"
+      },
+      {
+        "script": "sntzm_clark3F(1).xlsx",
+        "ID": "30",
+        "cell": "D30"
+      },
+      {
+        "script": "sntzm_clark3F(1).xlsx",
+        "ID": "45",
+        "cell": "D45"
+      },
+      {
+        "script": "sntzm_clark3F(1).xlsx",
+        "ID": "46",
+        "cell": "D46"
+      },
+      {
+        "script": "sntzm_clark3F(1).xlsx",
+        "ID": "49",
+        "cell": "D49"
+      },
+      {
+        "script": "sntzm_clark3F(1).xlsx",
+        "ID": "53",
+        "cell": "D50"
+      },
+      {
+        "script": "sntzm_clark3F(2).xlsx",
+        "ID": "12",
+        "cell": "D13"
+      },
+      {
+        "script": "sntzm_clark3F(2).xlsx",
+        "ID": "13",
+        "cell": "D14"
+      },
+      {
+        "script": "sntzm_clark3F(2).xlsx",
+        "ID": "21",
+        "cell": "D21"
+      },
+      {
+        "script": "sntzm_clark3F(2).xlsx",
+        "ID": "22",
+        "cell": "D22"
+      },
+      {
+        "script": "sntzm_clark3F(2).xlsx",
+        "ID": "34",
+        "cell": "D34"
+      },
+      {
+        "script": "sntzm_clark3F(2).xlsx",
+        "ID": "35",
+        "cell": "D35"
+      },
+      {
+        "script": "sntzm_clark3F(2).xlsx",
+        "ID": "51",
+        "cell": "D46"
+      },
+      {
+        "script": "sntzm_clark3F(2).xlsx",
+        "ID": "52",
+        "cell": "D47"
+      },
+      {
+        "script": "sntzm_clark3F(2).xlsx",
+        "ID": "53",
+        "cell": "D48"
+      },
+      {
+        "script": "sntzm_clark3F(2).xlsx",
+        "ID": "55",
+        "cell": "D50"
+      },
+      {
+        "script": "sntzm_clark3F(2).xlsx",
+        "ID": "56",
+        "cell": "D51"
+      },
+      {
+        "script": "sntzm_clark3F(2).xlsx",
+        "ID": "58",
+        "cell": "D53"
+      },
+      {
+        "script": "sntzm_clark3F(2).xlsx",
+        "ID": "60",
+        "cell": "D55"
+      },
+      {
+        "script": "sntzm_clark3F(2).xlsx",
+        "ID": "61",
+        "cell": "D56"
+      },
+      {
+        "script": "sntzm_clark3F(2).xlsx",
+        "ID": "62",
+        "cell": "D57"
+      },
+      {
+        "script": "sntzm_clark3F(2).xlsx",
+        "ID": "63",
+        "cell": "D58"
+      },
+      {
+        "script": "sntzm_clark3F(2).xlsx",
+        "ID": "66",
+        "cell": "D61"
+      },
+      {
+        "script": "sntzm_clark3F(2).xlsx",
+        "ID": "67",
+        "cell": "D62"
+      },
+      {
+        "script": "sntzm_clark3F(2).xlsx",
+        "ID": "82",
+        "cell": "D77"
+      },
+      {
+        "script": "sntzm_clark3F(2).xlsx",
+        "ID": "83",
+        "cell": "D78"
+      },
+      {
+        "script": "sntzm_clark3F(2).xlsx",
+        "ID": "89",
+        "cell": "D83"
+      },
+      {
+        "script": "sntzm_clark3F(2).xlsx",
+        "ID": "90",
+        "cell": "D84"
+      },
+      {
+        "script": "sntzm_clark3F(3).xlsx",
+        "ID": "7",
+        "cell": "D8"
+      },
+      {
+        "script": "sntzm_clark3F(3).xlsx",
+        "ID": "8",
+        "cell": "D9"
+      },
+      {
+        "script": "sntzm_clark3F(3).xlsx",
+        "ID": "26",
+        "cell": "D27"
+      },
+      {
+        "script": "sntzm_clark3F(3).xlsx",
+        "ID": "27",
+        "cell": "D28"
+      },
+      {
+        "script": "sntzm_clark3F(3).xlsx",
+        "ID": "35",
+        "cell": "D36"
+      },
+      {
+        "script": "sntzm_clark3F(3).xlsx",
+        "ID": "37",
+        "cell": "D37"
+      },
+      {
+        "script": "sntzm_clark3F(3).xlsx",
+        "ID": "39",
+        "cell": "D39"
+      },
+      {
+        "script": "sntzm_clark3F(3).xlsx",
+        "ID": "40",
+        "cell": "D40"
+      },
+      {
+        "script": "sntzm_clark4F(1).xlsx",
+        "ID": "12",
+        "cell": "D12"
+      },
+      {
+        "script": "sntzm_clark4F(1).xlsx",
+        "ID": "13",
+        "cell": "D13"
+      },
+      {
+        "script": "sntzm_clark4F(1).xlsx",
+        "ID": "14",
+        "cell": "D14"
+      },
+      {
+        "script": "sntzm_clark4F(2).xlsx",
+        "ID": "18",
+        "cell": "D28"
+      },
+      {
+        "script": "sntzm_clark4F(2).xlsx",
+        "ID": "19",
+        "cell": "D29"
+      },
+      {
+        "script": "sntzm_clark4F(2).xlsx",
+        "ID": "36",
+        "cell": "D48"
+      },
+      {
+        "script": "sntzm_clark4F(2).xlsx",
+        "ID": "37",
+        "cell": "D49"
+      },
+      {
+        "script": "sntzm_clark4F(2).xlsx",
+        "ID": "39",
+        "cell": "D52"
+      },
+      {
+        "script": "sntzm_clark4F(2).xlsx",
+        "ID": "79",
+        "cell": "D53"
+      },
+      {
+        "script": "sntzm_clark4F(2).xlsx",
+        "ID": "78",
+        "cell": "D61"
+      },
+      {
+        "script": "sntzm_clark4F(2).xlsx",
+        "ID": "89",
+        "cell": "D62"
+      },
+      {
+        "script": "sntzm_clark4F(3).xlsx",
+        "ID": "14",
+        "cell": "D14"
+      },
+      {
+        "script": "sntzm_clark4F(3).xlsx",
+        "ID": "15",
+        "cell": "D15"
+      },
+      {
+        "script": "sntzm_clark4F(3).xlsx",
+        "ID": "21",
+        "cell": "D20"
+      },
+      {
+        "script": "sntzm_clark4F(3).xlsx",
+        "ID": "30",
+        "cell": "D21"
+      },
+      {
+        "script": "sntzm_clark4F(3).xlsx",
+        "ID": "33",
+        "cell": "F24"
+      },
+      {
+        "script": "sntzm_clark4F(3).xlsx",
+        "ID": "34",
+        "cell": "F25"
+      },
+      {
+        "script": "sntzm_clark4F(3).xlsx",
+        "ID": "37",
+        "cell": "F28"
+      },
+      {
+        "script": "sntzm_clark4F(3).xlsx",
+        "ID": "38",
+        "cell": "F29"
+      },
+      {
+        "script": "sntzm_clark4F(3).xlsx",
+        "ID": "59",
+        "cell": "D55"
+      },
+      {
+        "script": "sntzm_clark4F(3).xlsx",
+        "ID": "61",
+        "cell": "D56"
+      },
+      {
+        "script": "sntzm_clark4F(3).xlsx",
+        "ID": "60",
+        "cell": "D59"
+      },
+      {
+        "script": "sntzm_clark4F(3).xlsx",
+        "ID": "62",
+        "cell": "D60"
+      },
+      {
+        "script": "sntzm_clark4F(3).xlsx",
+        "ID": "81",
+        "cell": "D92"
+      },
+      {
+        "script": "sntzm_clark4F(3).xlsx",
+        "ID": "82",
+        "cell": "D93"
+      },
+      {
+        "script": "sntzm_clark4F(4).xlsx",
+        "ID": "19",
+        "cell": "D76"
+      },
+      {
+        "script": "sntzm_clark4F(4).xlsx",
+        "ID": "20",
+        "cell": "D77"
+      },
+      {
+        "script": "sntzm_clark4F(4).xlsx",
+        "ID": "55",
+        "cell": "D92"
+      },
+      {
+        "script": "sntzm_clark4F(4).xlsx",
+        "ID": "56",
+        "cell": "D93"
+      },
+      {
+        "script": "sntzm_clark4F(4).xlsx",
+        "ID": "57",
+        "cell": "D94"
+      },
+      {
+        "script": "sntzm_clark4F(4).xlsx",
+        "ID": "58",
+        "cell": "D95"
+      },
+      {
+        "script": "sntzm_ending4(1).xlsx",
+        "ID": "9",
+        "cell": "D10"
+      },
+      {
+        "script": "sntzm_ending4(1).xlsx",
+        "ID": "10",
+        "cell": "D11"
+      },
+      {
+        "script": "sntzm_ending4(1).xlsx",
+        "ID": "12",
+        "cell": "D13"
+      },
+      {
+        "script": "sntzm_ending4(1).xlsx",
+        "ID": "13",
+        "cell": "D14"
+      },
+      {
+        "script": "sntzm_ending5(1).xlsx",
+        "ID": "35",
+        "cell": "D32"
+      },
+      {
+        "script": "sntzm_ending5(1).xlsx",
+        "ID": "36",
+        "cell": "D33"
+      },
+      {
+        "script": "sntzm_ending5(1).xlsx",
+        "ID": "37",
+        "cell": "D34"
+      },
+      {
+        "script": "sntzm_ending5(1).xlsx",
+        "ID": "38",
+        "cell": "D35"
+      },
+      {
+        "script": "sntzm_ending5(1).xlsx",
+        "ID": "42",
+        "cell": "D39"
+      },
+      {
+        "script": "sntzm_ending5(1).xlsx",
+        "ID": "43",
+        "cell": "D40"
+      },
+      {
+        "script": "sntzm_ending5(1).xlsx",
+        "ID": "44",
+        "cell": "D41"
+      },
+      {
+        "script": "sntzm_ending5(1).xlsx",
+        "ID": "45",
+        "cell": "D42"
+      },
+      {
+        "script": "sntzm_ending5(1).xlsx",
+        "ID": "46",
+        "cell": "D43"
+      },
+      {
+        "script": "sntzm_ending5(1).xlsx",
+        "ID": "47",
+        "cell": "D44"
+      },
+      {
+        "script": "sntzm_ending5(1).xlsx",
+        "ID": "48",
+        "cell": "D45"
+      },
+      {
+        "script": "sntzm_ending5(1).xlsx",
+        "ID": "49",
+        "cell": "D46"
+      },
+      {
+        "script": "sntzm_ending5(2).xlsx",
+        "ID": "22",
+        "cell": "D23"
+      },
+      {
+        "script": "sntzm_ending5(2).xlsx",
+        "ID": "23",
+        "cell": "D24"
+      },
+      {
+        "script": "sntzm_ending5(2).xlsx",
+        "ID": "24",
+        "cell": "D25"
+      },
+      {
+        "script": "sntzm_final(1).xlsx",
+        "ID": "15",
+        "cell": "D15"
+      },
+      {
+        "script": "sntzm_final(1).xlsx",
+        "ID": "16",
+        "cell": "D16"
+      },
+      {
+        "script": "sntzm_final(1).xlsx",
+        "ID": "17",
+        "cell": "D17"
+      },
+      {
+        "script": "sntzm_final(1).xlsx",
+        "ID": "18",
+        "cell": "D18"
+      },
+      {
+        "script": "sntzm_final(1).xlsx",
+        "ID": "78",
+        "cell": "D78"
+      },
+      {
+        "script": "sntzm_final(1).xlsx",
+        "ID": "79",
+        "cell": "D79"
+      },
+      {
+        "script": "sntzm_final(1).xlsx",
+        "ID": "80",
+        "cell": "D80"
+      },
+      {
+        "script": "sntzm_final(1).xlsx",
+        "ID": "84",
+        "cell": "D84"
+      },
+      {
+        "script": "sntzm_final(1).xlsx",
+        "ID": "85",
+        "cell": "D85"
+      },
+      {
+        "script": "sntzm_final(1).xlsx",
+        "ID": "87",
+        "cell": "D87"
+      },
+      {
+        "script": "sntzm_final(1).xlsx",
+        "ID": "88",
+        "cell": "D88"
+      },
+      {
+        "script": "sntzm_final(1).xlsx",
+        "ID": "108",
+        "cell": "D106"
+      },
+      {
+        "script": "sntzm_final(1).xlsx",
+        "ID": "109",
+        "cell": "D107"
+      },
+      {
+        "script": "sntzm_final(2).xlsx",
+        "ID": "4",
+        "cell": "D70"
+      },
+      {
+        "script": "sntzm_final(2).xlsx",
+        "ID": "75",
+        "cell": "D71"
+      },
+      {
+        "script": "sntzm_final(3).xlsx",
+        "ID": "105",
+        "cell": "D58"
+      },
+      {
+        "script": "sntzm_final(3).xlsx",
+        "ID": "106",
+        "cell": "D59"
+      },
+      {
+        "script": "sntzm_final(3).xlsx",
+        "ID": "17",
+        "cell": "F97"
+      },
+      {
+        "script": "sntzm_final(3).xlsx",
+        "ID": "27",
+        "cell": "F98"
+      },
+      {
+        "script": "sntzm_final(4).xlsx",
+        "ID": "37",
+        "cell": "D36"
+      },
+      {
+        "script": "sntzm_final(4).xlsx",
+        "ID": "38",
+        "cell": "D37"
+      },
+      {
+        "script": "sntzm_final(5).xlsx",
+        "ID": "55",
+        "cell": "D11"
+      },
+      {
+        "script": "sntzm_final(5).xlsx",
+        "ID": "56",
+        "cell": "D12"
+      },
+      {
+        "script": "sntzm_final(5).xlsx",
+        "ID": "58",
+        "cell": "D14"
+      },
+      {
+        "script": "sntzm_final(5).xlsx",
+        "ID": "59",
+        "cell": "D15"
+      },
+      {
+        "script": "sntzm_final(5).xlsx",
+        "ID": "70",
+        "cell": "D26"
+      },
+      {
+        "script": "sntzm_final(5).xlsx",
+        "ID": "71",
+        "cell": "D27"
+      },
+      {
+        "script": "sntzm_final(5).xlsx",
+        "ID": "72",
+        "cell": "D28"
+      },
+      {
+        "script": "sntzm_final(5).xlsx",
+        "ID": "107",
+        "cell": "D65"
+      },
+      {
+        "script": "sntzm_final(5).xlsx",
+        "ID": "108",
+        "cell": "D66"
+      },
+      {
+        "script": "sntzm_final(6).xlsx",
+        "ID": "62",
+        "cell": "D49"
+      },
+      {
+        "script": "sntzm_final(6).xlsx",
+        "ID": "63",
+        "cell": "D50"
+      },
+      {
+        "script": "sntzm_final(6).xlsx",
+        "ID": "69",
+        "cell": "D57"
+      },
+      {
+        "script": "sntzm_final(6).xlsx",
+        "ID": "70",
+        "cell": "D58"
+      },
+      {
+        "script": "sntzm_final(6).xlsx",
+        "ID": "71",
+        "cell": "D59"
+      },
+      {
+        "script": "sntzm_final(6).xlsx",
+        "ID": "72",
+        "cell": "D60"
+      },
+      {
+        "script": "sntzm_final(6).xlsx",
+        "ID": "81",
+        "cell": "D69"
+      },
+      {
+        "script": "sntzm_final(6).xlsx",
+        "ID": "82",
+        "cell": "D70"
+      },
+      {
+        "script": "sntzm_final(6).xlsx",
+        "ID": "88",
+        "cell": "D80"
+      },
+      {
+        "script": "sntzm_final(6).xlsx",
+        "ID": "89",
+        "cell": "D81"
+      },
+      {
+        "script": "sntzm_final(6).xlsx",
+        "ID": "93",
+        "cell": "D85"
+      },
+      {
+        "script": "sntzm_final(6).xlsx",
+        "ID": "94",
+        "cell": "D86"
+      },
+      {
+        "script": "sntzm_final(6).xlsx",
+        "ID": "95",
+        "cell": "D87"
+      },
+      {
+        "script": "sntzm_final(6).xlsx",
+        "ID": "96",
+        "cell": "D88"
+      },
+      {
+        "script": "sntzm_gy(1).xlsx",
+        "ID": "6",
+        "cell": "F5"
+      },
+      {
+        "script": "sntzm_gy(1).xlsx",
+        "ID": "7",
+        "cell": "F6"
+      },
+      {
+        "script": "sntzm_gy(1).xlsx",
+        "ID": "71",
+        "cell": "D65"
+      },
+      {
+        "script": "sntzm_gy(1).xlsx",
+        "ID": "72",
+        "cell": "D66"
+      },
+      {
+        "script": "sntzm_gy(1).xlsx",
+        "ID": "77",
+        "cell": "D83"
+      },
+      {
+        "script": "sntzm_gy(1).xlsx",
+        "ID": "80",
+        "cell": "D84"
+      },
+      {
+        "script": "sntzm_gy(2).xlsx",
+        "ID": "8",
+        "cell": "D8"
+      },
+      {
+        "script": "sntzm_gy(2).xlsx",
+        "ID": "9",
+        "cell": "D9"
+      },
+      {
+        "script": "sntzm_gy(2).xlsx",
+        "ID": "12",
+        "cell": "D12"
+      },
+      {
+        "script": "sntzm_gy(2).xlsx",
+        "ID": "13",
+        "cell": "D13"
+      },
+      {
+        "script": "sntzm_gy(2).xlsx",
+        "ID": "51",
+        "cell": "D50"
+      },
+      {
+        "script": "sntzm_gy(2).xlsx",
+        "ID": "52",
+        "cell": "D51"
+      },
+      {
+        "script": "sntzm_gy(2).xlsx",
+        "ID": "88",
+        "cell": "D90"
+      },
+      {
+        "script": "sntzm_gy(2).xlsx",
+        "ID": "89",
+        "cell": "D91"
+      },
+      {
+        "script": "sntzm_gy(ns1).xlsx",
+        "ID": "15",
+        "cell": "D16"
+      },
+      {
+        "script": "sntzm_gy(ns1).xlsx",
+        "ID": "16",
+        "cell": "D17"
+      },
+      {
+        "script": "sntzm_gy(ns1).xlsx",
+        "ID": "44",
+        "cell": "D34"
+      },
+      {
+        "script": "sntzm_gy(ns1).xlsx",
+        "ID": "45",
+        "cell": "D35"
+      },
+      {
+        "script": "sntzm_gy(ns1).xlsx",
+        "ID": "73",
+        "cell": "D59"
+      },
+      {
+        "script": "sntzm_gy(ns1).xlsx",
+        "ID": "74",
+        "cell": "D60"
+      },
+      {
+        "script": "sntzm_gy(ns1).xlsx",
+        "ID": "80",
+        "cell": "D82"
+      },
+      {
+        "script": "sntzm_gy(ns1).xlsx",
+        "ID": "81",
+        "cell": "D83"
+      },
+      {
+        "script": "sntzm_gy(ns2).xlsx",
+        "ID": "46",
+        "cell": "D45"
+      },
+      {
+        "script": "sntzm_gy(ns2).xlsx",
+        "ID": "47",
+        "cell": "D46"
+      },
+      {
+        "script": "sntzm_gy(s1).xlsx",
+        "ID": "16",
+        "cell": "D16"
+      },
+      {
+        "script": "sntzm_gy(s1).xlsx",
+        "ID": "17",
+        "cell": "D17"
+      },
+      {
+        "script": "sntzm_gy(s2).xlsx",
+        "ID": "36",
+        "cell": "D36"
+      },
+      {
+        "script": "sntzm_gy(s2).xlsx",
+        "ID": "37",
+        "cell": "D37"
+      }
+    ],
+    "remote_path_files": [
+      "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\CharactersPic\\克拉克.png"
+    ]
+  },
+  {
+    "value": "Sophia_default",
+    "count": 206,
+    "status": "ok",
+    "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\CharactersPic\\索菲亚.png",
+    "detail": {
+      "path": "VNovelizerRes/CharactersPic/索菲亚",
+      "guid": "1dd10b443b5f8db4c9899bcf2258fbed",
+      "fileID": 21300000
+    },
+    "refs": [
+      {
+        "script": "sntzm_clark3F(4).xlsx",
+        "ID": "11",
+        "cell": "D9"
+      },
+      {
+        "script": "sntzm_clark3F(4).xlsx",
+        "ID": "12",
+        "cell": "D10"
+      },
+      {
+        "script": "sntzm_clark3F(4).xlsx",
+        "ID": "13",
+        "cell": "D11"
+      },
+      {
+        "script": "sntzm_clark3F(4).xlsx",
+        "ID": "15",
+        "cell": "D13"
+      },
+      {
+        "script": "sntzm_clark3F(4).xlsx",
+        "ID": "16",
+        "cell": "D14"
+      },
+      {
+        "script": "sntzm_clark3F(4).xlsx",
+        "ID": "18",
+        "cell": "D16"
+      },
+      {
+        "script": "sntzm_clark3F(4).xlsx",
+        "ID": "19",
+        "cell": "D17"
+      },
+      {
+        "script": "sntzm_clark3F(4).xlsx",
+        "ID": "20",
+        "cell": "D18"
+      },
+      {
+        "script": "sntzm_clark3F(4).xlsx",
+        "ID": "21",
+        "cell": "D19"
+      },
+      {
+        "script": "sntzm_clark3F(4).xlsx",
+        "ID": "22",
+        "cell": "D21"
+      },
+      {
+        "script": "sntzm_clark3F(4).xlsx",
+        "ID": "23",
+        "cell": "D22"
+      },
+      {
+        "script": "sntzm_clark3F(4).xlsx",
+        "ID": "25",
+        "cell": "D24"
+      },
+      {
+        "script": "sntzm_clark3F(4).xlsx",
+        "ID": "26",
+        "cell": "D25"
+      },
+      {
+        "script": "sntzm_clark3F(4).xlsx",
+        "ID": "27",
+        "cell": "D26"
+      },
+      {
+        "script": "sntzm_clark3F(4).xlsx",
+        "ID": "28",
+        "cell": "D27"
+      },
+      {
+        "script": "sntzm_clark3F(4).xlsx",
+        "ID": "30",
+        "cell": "D29"
+      },
+      {
+        "script": "sntzm_clark3F(4).xlsx",
+        "ID": "31",
+        "cell": "D30"
+      },
+      {
+        "script": "sntzm_clark3F(4).xlsx",
+        "ID": "32",
+        "cell": "D31"
+      },
+      {
+        "script": "sntzm_clark4F(1).xlsx",
+        "ID": "4",
+        "cell": "D7"
+      },
+      {
+        "script": "sntzm_clark4F(1).xlsx",
+        "ID": "6",
+        "cell": "D8"
+      },
+      {
+        "script": "sntzm_clark4F(1).xlsx",
+        "ID": "8",
+        "cell": "D10"
+      },
+      {
+        "script": "sntzm_clark4F(1).xlsx",
+        "ID": "9",
+        "cell": "D11"
+      },
+      {
+        "script": "sntzm_clark4F(1).xlsx",
+        "ID": "16",
+        "cell": "D16"
+      },
+      {
+        "script": "sntzm_clark4F(1).xlsx",
+        "ID": "18",
+        "cell": "D17"
+      },
+      {
+        "script": "sntzm_clark4F(1).xlsx",
+        "ID": "23",
+        "cell": "D21"
+      },
+      {
+        "script": "sntzm_clark4F(1).xlsx",
+        "ID": "24",
+        "cell": "D22"
+      },
+      {
+        "script": "sntzm_clark4F(1).xlsx",
+        "ID": "37",
+        "cell": "D35"
+      },
+      {
+        "script": "sntzm_clark4F(1).xlsx",
+        "ID": "38",
+        "cell": "D36"
+      },
+      {
+        "script": "sntzm_clark4F(1).xlsx",
+        "ID": "39",
+        "cell": "D37"
+      },
+      {
+        "script": "sntzm_clark4F(1).xlsx",
+        "ID": "48",
+        "cell": "D45"
+      },
+      {
+        "script": "sntzm_clark4F(1).xlsx",
+        "ID": "49",
+        "cell": "D46"
+      },
+      {
+        "script": "sntzm_clark4F(1).xlsx",
+        "ID": "50",
+        "cell": "D47"
+      },
+      {
+        "script": "sntzm_clark4F(1).xlsx",
+        "ID": "69",
+        "cell": "D48"
+      },
+      {
+        "script": "sntzm_clark4F(1).xlsx",
+        "ID": "17",
+        "cell": "D64"
+      },
+      {
+        "script": "sntzm_clark4F(3).xlsx",
+        "ID": "49",
+        "cell": "D73"
+      },
+      {
+        "script": "sntzm_clark4F(3).xlsx",
+        "ID": "50",
+        "cell": "D74"
+      },
+      {
+        "script": "sntzm_clark4F(4).xlsx",
+        "ID": "72",
+        "cell": "D33"
+      },
+      {
+        "script": "sntzm_clark4F(4).xlsx",
+        "ID": "73",
+        "cell": "D34"
+      },
+      {
+        "script": "sntzm_clark4F(4).xlsx",
+        "ID": "90",
+        "cell": "D51"
+      },
+      {
+        "script": "sntzm_clark4F(4).xlsx",
+        "ID": "91",
+        "cell": "D52"
+      },
+      {
+        "script": "sntzm_clark4F(4).xlsx",
+        "ID": "92",
+        "cell": "D53"
+      },
+      {
+        "script": "sntzm_clark4F(4).xlsx",
+        "ID": "9",
+        "cell": "D66"
+      },
+      {
+        "script": "sntzm_clark4F(4).xlsx",
+        "ID": "10",
+        "cell": "D67"
+      },
+      {
+        "script": "sntzm_clark4F(4).xlsx",
+        "ID": "11",
+        "cell": "D68"
+      },
+      {
+        "script": "sntzm_clark4F(4).xlsx",
+        "ID": "12",
+        "cell": "D69"
+      },
+      {
+        "script": "sntzm_clark4F(4).xlsx",
+        "ID": "13",
+        "cell": "D70"
+      },
+      {
+        "script": "sntzm_david3F(2).xlsx",
+        "ID": "46",
+        "cell": "F46"
+      },
+      {
+        "script": "sntzm_david3F(2).xlsx",
+        "ID": "47",
+        "cell": "F47"
+      },
+      {
+        "script": "sntzm_david3F(2).xlsx",
+        "ID": "53",
+        "cell": "D53"
+      },
+      {
+        "script": "sntzm_david3F(2).xlsx",
+        "ID": "54",
+        "cell": "D54"
+      },
+      {
+        "script": "sntzm_david3F(2).xlsx",
+        "ID": "55",
+        "cell": "D55"
+      },
+      {
+        "script": "sntzm_david3F(2).xlsx",
+        "ID": "56",
+        "cell": "D56"
+      },
+      {
+        "script": "sntzm_david3F(2).xlsx",
+        "ID": "57",
+        "cell": "D57"
+      },
+      {
+        "script": "sntzm_david3F(2).xlsx",
+        "ID": "63",
+        "cell": "D63"
+      },
+      {
+        "script": "sntzm_david3F(2).xlsx",
+        "ID": "64",
+        "cell": "D64"
+      },
+      {
+        "script": "sntzm_david3F(2).xlsx",
+        "ID": "75",
+        "cell": "D65"
+      },
+      {
+        "script": "sntzm_david3F(2).xlsx",
+        "ID": "76",
+        "cell": "D66"
+      },
+      {
+        "script": "sntzm_david3F(2).xlsx",
+        "ID": "77",
+        "cell": "D67"
+      },
+      {
+        "script": "sntzm_david3F(2).xlsx",
+        "ID": "78",
+        "cell": "D68"
+      },
+      {
+        "script": "sntzm_david3F(3).xlsx",
+        "ID": "73",
+        "cell": "F74"
+      },
+      {
+        "script": "sntzm_david3F(3).xlsx",
+        "ID": "74",
+        "cell": "F75"
+      },
+      {
+        "script": "sntzm_david4F(1).xlsx",
+        "ID": "7",
+        "cell": "D10"
+      },
+      {
+        "script": "sntzm_david4F(1).xlsx",
+        "ID": "8",
+        "cell": "D11"
+      },
+      {
+        "script": "sntzm_david4F(1).xlsx",
+        "ID": "9",
+        "cell": "D12"
+      },
+      {
+        "script": "sntzm_david4F(1).xlsx",
+        "ID": "10",
+        "cell": "D13"
+      },
+      {
+        "script": "sntzm_david4F(1).xlsx",
+        "ID": "11",
+        "cell": "D14"
+      },
+      {
+        "script": "sntzm_david4F(1).xlsx",
+        "ID": "12",
+        "cell": "D15"
+      },
+      {
+        "script": "sntzm_david4F(1).xlsx",
+        "ID": "13",
+        "cell": "D16"
+      },
+      {
+        "script": "sntzm_david4F(1).xlsx",
+        "ID": "14",
+        "cell": "D17"
+      },
+      {
+        "script": "sntzm_david4F(1).xlsx",
+        "ID": "15",
+        "cell": "D18"
+      },
+      {
+        "script": "sntzm_david4F(1).xlsx",
+        "ID": "36",
+        "cell": "D40"
+      },
+      {
+        "script": "sntzm_david4F(1).xlsx",
+        "ID": "37",
+        "cell": "D41"
+      },
+      {
+        "script": "sntzm_david4F(3).xlsx",
+        "ID": "64",
+        "cell": "D32"
+      },
+      {
+        "script": "sntzm_david4F(3).xlsx",
+        "ID": "66",
+        "cell": "D33"
+      },
+      {
+        "script": "sntzm_david4F(3).xlsx",
+        "ID": "90",
+        "cell": "D50"
+      },
+      {
+        "script": "sntzm_david4F(3).xlsx",
+        "ID": "91",
+        "cell": "D51"
+      },
+      {
+        "script": "sntzm_david4F(4).xlsx",
+        "ID": "65",
+        "cell": "D63"
+      },
+      {
+        "script": "sntzm_david4F(4).xlsx",
+        "ID": "67",
+        "cell": "D64"
+      },
+      {
+        "script": "sntzm_david4F(4).xlsx",
+        "ID": "68",
+        "cell": "D65"
+      },
+      {
+        "script": "sntzm_david4F(4).xlsx",
+        "ID": "69",
+        "cell": "D66"
+      },
+      {
+        "script": "sntzm_david4F(4).xlsx",
+        "ID": "70",
+        "cell": "D67"
+      },
+      {
+        "script": "sntzm_david4F(4).xlsx",
+        "ID": "71",
+        "cell": "D68"
+      },
+      {
+        "script": "sntzm_david4F(4).xlsx",
+        "ID": "72",
+        "cell": "D69"
+      },
+      {
+        "script": "sntzm_david4F(4).xlsx",
+        "ID": "73",
+        "cell": "D70"
+      },
+      {
+        "script": "sntzm_david4F(4).xlsx",
+        "ID": "82",
+        "cell": "D79"
+      },
+      {
+        "script": "sntzm_david4F(4).xlsx",
+        "ID": "83",
+        "cell": "D80"
+      },
+      {
+        "script": "sntzm_david4F(4).xlsx",
+        "ID": "84",
+        "cell": "D81"
+      },
+      {
+        "script": "sntzm_david4F(4).xlsx",
+        "ID": "85",
+        "cell": "D82"
+      },
+      {
+        "script": "sntzm_david4F(4).xlsx",
+        "ID": "86",
+        "cell": "D83"
+      },
+      {
+        "script": "sntzm_final(1).xlsx",
+        "ID": "75",
+        "cell": "D75"
+      },
+      {
+        "script": "sntzm_final(1).xlsx",
+        "ID": "76",
+        "cell": "D76"
+      },
+      {
+        "script": "sntzm_final(1).xlsx",
+        "ID": "77",
+        "cell": "D77"
+      },
+      {
+        "script": "sntzm_final(1).xlsx",
+        "ID": "81",
+        "cell": "D81"
+      },
+      {
+        "script": "sntzm_final(1).xlsx",
+        "ID": "82",
+        "cell": "D82"
+      },
+      {
+        "script": "sntzm_final(1).xlsx",
+        "ID": "103",
+        "cell": "D102"
+      },
+      {
+        "script": "sntzm_final(1).xlsx",
+        "ID": "104",
+        "cell": "D103"
+      },
+      {
+        "script": "sntzm_final(1).xlsx",
+        "ID": "105",
+        "cell": "D104"
+      },
+      {
+        "script": "sntzm_final(1).xlsx",
+        "ID": "107",
+        "cell": "D108"
+      },
+      {
+        "script": "sntzm_final(1).xlsx",
+        "ID": "110",
+        "cell": "D109"
+      },
+      {
+        "script": "sntzm_final(2).xlsx",
+        "ID": "37",
+        "cell": "D13"
+      },
+      {
+        "script": "sntzm_final(2).xlsx",
+        "ID": "38",
+        "cell": "D14"
+      },
+      {
+        "script": "sntzm_final(2).xlsx",
+        "ID": "39",
+        "cell": "D15"
+      },
+      {
+        "script": "sntzm_final(2).xlsx",
+        "ID": "45",
+        "cell": "D21"
+      },
+      {
+        "script": "sntzm_final(2).xlsx",
+        "ID": "46",
+        "cell": "D22"
+      },
+      {
+        "script": "sntzm_final(2).xlsx",
+        "ID": "61",
+        "cell": "F36"
+      },
+      {
+        "script": "sntzm_final(2).xlsx",
+        "ID": "62",
+        "cell": "F37"
+      },
+      {
+        "script": "sntzm_final(2).xlsx",
+        "ID": "63",
+        "cell": "D38"
+      },
+      {
+        "script": "sntzm_final(2).xlsx",
+        "ID": "64",
+        "cell": "D39"
+      },
+      {
+        "script": "sntzm_final(2).xlsx",
+        "ID": "65",
+        "cell": "D40"
+      },
+      {
+        "script": "sntzm_final(3).xlsx",
+        "ID": "93",
+        "cell": "D45"
+      },
+      {
+        "script": "sntzm_final(3).xlsx",
+        "ID": "94",
+        "cell": "D46"
+      },
+      {
+        "script": "sntzm_final(3).xlsx",
+        "ID": "114",
+        "cell": "D48"
+      },
+      {
+        "script": "sntzm_final(3).xlsx",
+        "ID": "97",
+        "cell": "D50"
+      },
+      {
+        "script": "sntzm_final(3).xlsx",
+        "ID": "98",
+        "cell": "D51"
+      },
+      {
+        "script": "sntzm_final(3).xlsx",
+        "ID": "100",
+        "cell": "F53"
+      },
+      {
+        "script": "sntzm_final(3).xlsx",
+        "ID": "101",
+        "cell": "F54"
+      },
+      {
+        "script": "sntzm_final(3).xlsx",
+        "ID": "103",
+        "cell": "D56"
+      },
+      {
+        "script": "sntzm_final(3).xlsx",
+        "ID": "104",
+        "cell": "D57"
+      },
+      {
+        "script": "sntzm_final(3).xlsx",
+        "ID": "107",
+        "cell": "D60"
+      },
+      {
+        "script": "sntzm_final(3).xlsx",
+        "ID": "108",
+        "cell": "D61"
+      },
+      {
+        "script": "sntzm_final(5).xlsx",
+        "ID": "53",
+        "cell": "D9"
+      },
+      {
+        "script": "sntzm_final(5).xlsx",
+        "ID": "54",
+        "cell": "D10"
+      },
+      {
+        "script": "sntzm_final(5).xlsx",
+        "ID": "61",
+        "cell": "D17"
+      },
+      {
+        "script": "sntzm_final(5).xlsx",
+        "ID": "62",
+        "cell": "D18"
+      },
+      {
+        "script": "sntzm_final(5).xlsx",
+        "ID": "63",
+        "cell": "D19"
+      },
+      {
+        "script": "sntzm_final(5).xlsx",
+        "ID": "64",
+        "cell": "D20"
+      },
+      {
+        "script": "sntzm_final(5).xlsx",
+        "ID": "67",
+        "cell": "D23"
+      },
+      {
+        "script": "sntzm_final(5).xlsx",
+        "ID": "68",
+        "cell": "D24"
+      },
+      {
+        "script": "sntzm_final(5).xlsx",
+        "ID": "74",
+        "cell": "D30"
+      },
+      {
+        "script": "sntzm_final(5).xlsx",
+        "ID": "75",
+        "cell": "D31"
+      },
+      {
+        "script": "sntzm_final(5).xlsx",
+        "ID": "76",
+        "cell": "D32"
+      },
+      {
+        "script": "sntzm_final(5).xlsx",
+        "ID": "77",
+        "cell": "D33"
+      },
+      {
+        "script": "sntzm_final(5).xlsx",
+        "ID": "78",
+        "cell": "D34"
+      },
+      {
+        "script": "sntzm_final(5).xlsx",
+        "ID": "79",
+        "cell": "D35"
+      },
+      {
+        "script": "sntzm_final(5).xlsx",
+        "ID": "80",
+        "cell": "D36"
+      },
+      {
+        "script": "sntzm_final(5).xlsx",
+        "ID": "81",
+        "cell": "D37"
+      },
+      {
+        "script": "sntzm_final(5).xlsx",
+        "ID": "88",
+        "cell": "D44"
+      },
+      {
+        "script": "sntzm_final(5).xlsx",
+        "ID": "89",
+        "cell": "D45"
+      },
+      {
+        "script": "sntzm_final(5).xlsx",
+        "ID": "90",
+        "cell": "D46"
+      },
+      {
+        "script": "sntzm_final(5).xlsx",
+        "ID": "91",
+        "cell": "D47"
+      },
+      {
+        "script": "sntzm_final(5).xlsx",
+        "ID": "92",
+        "cell": "D48"
+      },
+      {
+        "script": "sntzm_final(5).xlsx",
+        "ID": "93",
+        "cell": "D49"
+      },
+      {
+        "script": "sntzm_final(5).xlsx",
+        "ID": "94",
+        "cell": "D50"
+      },
+      {
+        "script": "sntzm_final(5).xlsx",
+        "ID": "95",
+        "cell": "D51"
+      },
+      {
+        "script": "sntzm_final(6).xlsx",
+        "ID": "96",
+        "cell": "F88"
+      },
+      {
+        "script": "sntzm_final(6).xlsx",
+        "ID": "97",
+        "cell": "F89"
+      },
+      {
+        "script": "sntzm_final(6).xlsx",
+        "ID": "98",
+        "cell": "F90"
+      },
+      {
+        "script": "sntzm_final(6).xlsx",
+        "ID": "99",
+        "cell": "D91"
+      },
+      {
+        "script": "sntzm_gy(1).xlsx",
+        "ID": "5",
+        "cell": "D4"
+      },
+      {
+        "script": "sntzm_gy(1).xlsx",
+        "ID": "6",
+        "cell": "D5"
+      },
+      {
+        "script": "sntzm_gy(1).xlsx",
+        "ID": "7",
+        "cell": "D6"
+      },
+      {
+        "script": "sntzm_gy(1).xlsx",
+        "ID": "8",
+        "cell": "D7"
+      },
+      {
+        "script": "sntzm_gy(1).xlsx",
+        "ID": "49",
+        "cell": "D44"
+      },
+      {
+        "script": "sntzm_gy(1).xlsx",
+        "ID": "51",
+        "cell": "D45"
+      },
+      {
+        "script": "sntzm_gy(1).xlsx",
+        "ID": "54",
+        "cell": "D48"
+      },
+      {
+        "script": "sntzm_gy(1).xlsx",
+        "ID": "55",
+        "cell": "D49"
+      },
+      {
+        "script": "sntzm_gy(1).xlsx",
+        "ID": "56",
+        "cell": "D50"
+      },
+      {
+        "script": "sntzm_gy(1).xlsx",
+        "ID": "57",
+        "cell": "D51"
+      },
+      {
+        "script": "sntzm_gy(1).xlsx",
+        "ID": "58",
+        "cell": "D52"
+      },
+      {
+        "script": "sntzm_gy(1).xlsx",
+        "ID": "59",
+        "cell": "D53"
+      },
+      {
+        "script": "sntzm_gy(1).xlsx",
+        "ID": "67",
+        "cell": "D61"
+      },
+      {
+        "script": "sntzm_gy(1).xlsx",
+        "ID": "68",
+        "cell": "D62"
+      },
+      {
+        "script": "sntzm_gy(1).xlsx",
+        "ID": "91",
+        "cell": "D69"
+      },
+      {
+        "script": "sntzm_gy(1).xlsx",
+        "ID": "92",
+        "cell": "D70"
+      },
+      {
+        "script": "sntzm_gy(1).xlsx",
+        "ID": "94",
+        "cell": "D72"
+      },
+      {
+        "script": "sntzm_gy(1).xlsx",
+        "ID": "95",
+        "cell": "D73"
+      },
+      {
+        "script": "sntzm_gy(1).xlsx",
+        "ID": "96",
+        "cell": "D74"
+      },
+      {
+        "script": "sntzm_gy(1).xlsx",
+        "ID": "97",
+        "cell": "D75"
+      },
+      {
+        "script": "sntzm_gy(1).xlsx",
+        "ID": "4",
+        "cell": "D94"
+      },
+      {
+        "script": "sntzm_gy(1).xlsx",
+        "ID": "13",
+        "cell": "D97"
+      },
+      {
+        "script": "sntzm_gy(1).xlsx",
+        "ID": "14",
+        "cell": "D98"
+      },
+      {
+        "script": "sntzm_gy(1).xlsx",
+        "ID": "15",
+        "cell": "D99"
+      },
+      {
+        "script": "sntzm_gy(2).xlsx",
+        "ID": "67",
+        "cell": "D69"
+      },
+      {
+        "script": "sntzm_gy(2).xlsx",
+        "ID": "68",
+        "cell": "D70"
+      },
+      {
+        "script": "sntzm_gy(2).xlsx",
+        "ID": "69",
+        "cell": "D71"
+      },
+      {
+        "script": "sntzm_gy(2).xlsx",
+        "ID": "70",
+        "cell": "D72"
+      },
+      {
+        "script": "sntzm_gy(2).xlsx",
+        "ID": "73",
+        "cell": "D75"
+      },
+      {
+        "script": "sntzm_gy(2).xlsx",
+        "ID": "74",
+        "cell": "D76"
+      },
+      {
+        "script": "sntzm_gy(2).xlsx",
+        "ID": "75",
+        "cell": "D77"
+      },
+      {
+        "script": "sntzm_gy(2).xlsx",
+        "ID": "76",
+        "cell": "D78"
+      },
+      {
+        "script": "sntzm_gy(2).xlsx",
+        "ID": "77",
+        "cell": "D79"
+      },
+      {
+        "script": "sntzm_gy(2).xlsx",
+        "ID": "78",
+        "cell": "D80"
+      },
+      {
+        "script": "sntzm_gy(2).xlsx",
+        "ID": "86",
+        "cell": "D88"
+      },
+      {
+        "script": "sntzm_gy(2).xlsx",
+        "ID": "87",
+        "cell": "D89"
+      },
+      {
+        "script": "sntzm_gy(s1).xlsx",
+        "ID": "22",
+        "cell": "D22"
+      },
+      {
+        "script": "sntzm_gy(s1).xlsx",
+        "ID": "23",
+        "cell": "D23"
+      },
+      {
+        "script": "sntzm_gy(s1).xlsx",
+        "ID": "26",
+        "cell": "D26"
+      },
+      {
+        "script": "sntzm_gy(s1).xlsx",
+        "ID": "27",
+        "cell": "D27"
+      },
+      {
+        "script": "sntzm_gy(s1).xlsx",
+        "ID": "77",
+        "cell": "D75"
+      },
+      {
+        "script": "sntzm_gy(s1).xlsx",
+        "ID": "78",
+        "cell": "D76"
+      },
+      {
+        "script": "sntzm_gy(s1).xlsx",
+        "ID": "83",
+        "cell": "D81"
+      },
+      {
+        "script": "sntzm_gy(s1).xlsx",
+        "ID": "84",
+        "cell": "D82"
+      },
+      {
+        "script": "sntzm_gy(s1).xlsx",
+        "ID": "85",
+        "cell": "D83"
+      },
+      {
+        "script": "sntzm_gy(s1).xlsx",
+        "ID": "86",
+        "cell": "D84"
+      },
+      {
+        "script": "sntzm_gy(s1).xlsx",
+        "ID": "87",
+        "cell": "D85"
+      },
+      {
+        "script": "sntzm_gy(s1).xlsx",
+        "ID": "88",
+        "cell": "D86"
+      },
+      {
+        "script": "sntzm_gy(s2).xlsx",
+        "ID": "49",
+        "cell": "F50"
+      },
+      {
+        "script": "sntzm_gy(s2).xlsx",
+        "ID": "50",
+        "cell": "F51"
+      },
+      {
+        "script": "sntzm_gy(s2).xlsx",
+        "ID": "88",
+        "cell": "D87"
+      },
+      {
+        "script": "sntzm_gy(s2).xlsx",
+        "ID": "89",
+        "cell": "D88"
+      },
+      {
+        "script": "sntzm_gy(s2).xlsx",
+        "ID": "90",
+        "cell": "D89"
+      },
+      {
+        "script": "sntzm_gy(s2).xlsx",
+        "ID": "91",
+        "cell": "D90"
+      },
+      {
+        "script": "sntzm_truth(2).xlsx",
+        "ID": "63",
+        "cell": "D65"
+      },
+      {
+        "script": "sntzm_truth(2).xlsx",
+        "ID": "69",
+        "cell": "D66"
+      },
+      {
+        "script": "sntzm_truth(3).xlsx",
+        "ID": "2",
+        "cell": "D3"
+      },
+      {
+        "script": "sntzm_truth(3).xlsx",
+        "ID": "4",
+        "cell": "D4"
+      }
+    ],
+    "remote_path_files": [
+      "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\CharactersPic\\索菲亚.png"
+    ]
+  },
+  {
+    "value": "Abaddon_default",
+    "count": 281,
+    "status": "ok",
+    "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\CharactersPic\\盖曼阴.png",
+    "detail": {
+      "path": "VNovelizerRes/CharactersPic/盖曼阴",
+      "guid": "358ed20ec9742ac47bd5f52d34bf129a",
+      "fileID": 21300000
+    },
+    "refs": [
+      {
+        "script": "sntzm_clark4F(3).xlsx",
+        "ID": "2",
+        "cell": "D3"
+      },
+      {
+        "script": "sntzm_clark4F(3).xlsx",
+        "ID": "5",
+        "cell": "D4"
+      },
+      {
+        "script": "sntzm_clark4F(3).xlsx",
+        "ID": "32",
+        "cell": "D23"
+      },
+      {
+        "script": "sntzm_clark4F(3).xlsx",
+        "ID": "33",
+        "cell": "D24"
+      },
+      {
+        "script": "sntzm_clark4F(3).xlsx",
+        "ID": "34",
+        "cell": "D25"
+      },
+      {
+        "script": "sntzm_clark4F(3).xlsx",
+        "ID": "35",
+        "cell": "D26"
+      },
+      {
+        "script": "sntzm_clark4F(3).xlsx",
+        "ID": "36",
+        "cell": "D27"
+      },
+      {
+        "script": "sntzm_clark4F(3).xlsx",
+        "ID": "37",
+        "cell": "D28"
+      },
+      {
+        "script": "sntzm_clark4F(3).xlsx",
+        "ID": "38",
+        "cell": "D29"
+      },
+      {
+        "script": "sntzm_clark4F(3).xlsx",
+        "ID": "39",
+        "cell": "D30"
+      },
+      {
+        "script": "sntzm_clark4F(3).xlsx",
+        "ID": "40",
+        "cell": "D31"
+      },
+      {
+        "script": "sntzm_clark4F(3).xlsx",
+        "ID": "41",
+        "cell": "D32"
+      },
+      {
+        "script": "sntzm_clark4F(3).xlsx",
+        "ID": "42",
+        "cell": "D33"
+      },
+      {
+        "script": "sntzm_clark4F(3).xlsx",
+        "ID": "44",
+        "cell": "D35"
+      },
+      {
+        "script": "sntzm_clark4F(3).xlsx",
+        "ID": "52",
+        "cell": "D36"
+      },
+      {
+        "script": "sntzm_clark4F(3).xlsx",
+        "ID": "92",
+        "cell": "D39"
+      },
+      {
+        "script": "sntzm_clark4F(3).xlsx",
+        "ID": "93",
+        "cell": "D40"
+      },
+      {
+        "script": "sntzm_clark4F(3).xlsx",
+        "ID": "94",
+        "cell": "D41"
+      },
+      {
+        "script": "sntzm_clark4F(3).xlsx",
+        "ID": "66",
+        "cell": "D46"
+      },
+      {
+        "script": "sntzm_clark4F(3).xlsx",
+        "ID": "67",
+        "cell": "D47"
+      },
+      {
+        "script": "sntzm_clark4F(3).xlsx",
+        "ID": "68",
+        "cell": "D48"
+      },
+      {
+        "script": "sntzm_clark4F(3).xlsx",
+        "ID": "69",
+        "cell": "D49"
+      },
+      {
+        "script": "sntzm_clark4F(3).xlsx",
+        "ID": "70",
+        "cell": "D50"
+      },
+      {
+        "script": "sntzm_clark4F(3).xlsx",
+        "ID": "71",
+        "cell": "D51"
+      },
+      {
+        "script": "sntzm_clark4F(3).xlsx",
+        "ID": "72",
+        "cell": "D52"
+      },
+      {
+        "script": "sntzm_clark4F(3).xlsx",
+        "ID": "20",
+        "cell": "D53"
+      },
+      {
+        "script": "sntzm_clark4F(3).xlsx",
+        "ID": "26",
+        "cell": "D66"
+      },
+      {
+        "script": "sntzm_clark4F(3).xlsx",
+        "ID": "27",
+        "cell": "D67"
+      },
+      {
+        "script": "sntzm_clark4F(3).xlsx",
+        "ID": "46",
+        "cell": "D70"
+      },
+      {
+        "script": "sntzm_clark4F(3).xlsx",
+        "ID": "47",
+        "cell": "D71"
+      },
+      {
+        "script": "sntzm_clark4F(3).xlsx",
+        "ID": "48",
+        "cell": "D72"
+      },
+      {
+        "script": "sntzm_clark4F(3).xlsx",
+        "ID": "78",
+        "cell": "D81"
+      },
+      {
+        "script": "sntzm_clark4F(3).xlsx",
+        "ID": "84",
+        "cell": "D82"
+      },
+      {
+        "script": "sntzm_clark4F(3).xlsx",
+        "ID": "83",
+        "cell": "D94"
+      },
+      {
+        "script": "sntzm_clark4F(3).xlsx",
+        "ID": "90",
+        "cell": "D95"
+      },
+      {
+        "script": "sntzm_clark4F(4).xlsx",
+        "ID": "30",
+        "cell": "D7"
+      },
+      {
+        "script": "sntzm_clark4F(4).xlsx",
+        "ID": "31",
+        "cell": "D8"
+      },
+      {
+        "script": "sntzm_clark4F(4).xlsx",
+        "ID": "32",
+        "cell": "D9"
+      },
+      {
+        "script": "sntzm_clark4F(4).xlsx",
+        "ID": "33",
+        "cell": "D10"
+      },
+      {
+        "script": "sntzm_clark4F(4).xlsx",
+        "ID": "34",
+        "cell": "D11"
+      },
+      {
+        "script": "sntzm_clark4F(4).xlsx",
+        "ID": "35",
+        "cell": "D12"
+      },
+      {
+        "script": "sntzm_clark4F(4).xlsx",
+        "ID": "38",
+        "cell": "D15"
+      },
+      {
+        "script": "sntzm_clark4F(4).xlsx",
+        "ID": "39",
+        "cell": "D16"
+      },
+      {
+        "script": "sntzm_clark4F(4).xlsx",
+        "ID": "40",
+        "cell": "D17"
+      },
+      {
+        "script": "sntzm_clark4F(4).xlsx",
+        "ID": "41",
+        "cell": "D18"
+      },
+      {
+        "script": "sntzm_clark4F(4).xlsx",
+        "ID": "42",
+        "cell": "D19"
+      },
+      {
+        "script": "sntzm_clark4F(4).xlsx",
+        "ID": "104",
+        "cell": "D20"
+      },
+      {
+        "script": "sntzm_clark4F(4).xlsx",
+        "ID": "45",
+        "cell": "D23"
+      },
+      {
+        "script": "sntzm_clark4F(4).xlsx",
+        "ID": "46",
+        "cell": "D24"
+      },
+      {
+        "script": "sntzm_clark4F(4).xlsx",
+        "ID": "47",
+        "cell": "D25"
+      },
+      {
+        "script": "sntzm_clark4F(4).xlsx",
+        "ID": "63",
+        "cell": "D26"
+      },
+      {
+        "script": "sntzm_clark4F(4).xlsx",
+        "ID": "64",
+        "cell": "D27"
+      },
+      {
+        "script": "sntzm_clark4F(4).xlsx",
+        "ID": "65",
+        "cell": "D28"
+      },
+      {
+        "script": "sntzm_clark4F(4).xlsx",
+        "ID": "66",
+        "cell": "D29"
+      },
+      {
+        "script": "sntzm_clark4F(4).xlsx",
+        "ID": "76",
+        "cell": "D37"
+      },
+      {
+        "script": "sntzm_clark4F(4).xlsx",
+        "ID": "77",
+        "cell": "D38"
+      },
+      {
+        "script": "sntzm_clark4F(4).xlsx",
+        "ID": "78",
+        "cell": "D39"
+      },
+      {
+        "script": "sntzm_clark4F(4).xlsx",
+        "ID": "79",
+        "cell": "D40"
+      },
+      {
+        "script": "sntzm_clark4F(4).xlsx",
+        "ID": "80",
+        "cell": "D41"
+      },
+      {
+        "script": "sntzm_clark4F(4).xlsx",
+        "ID": "81",
+        "cell": "D42"
+      },
+      {
+        "script": "sntzm_clark4F(4).xlsx",
+        "ID": "82",
+        "cell": "D43"
+      },
+      {
+        "script": "sntzm_clark4F(4).xlsx",
+        "ID": "83",
+        "cell": "D44"
+      },
+      {
+        "script": "sntzm_clark4F(4).xlsx",
+        "ID": "85",
+        "cell": "D46"
+      },
+      {
+        "script": "sntzm_clark4F(4).xlsx",
+        "ID": "86",
+        "cell": "D47"
+      },
+      {
+        "script": "sntzm_clark4F(4).xlsx",
+        "ID": "87",
+        "cell": "D48"
+      },
+      {
+        "script": "sntzm_clark4F(4).xlsx",
+        "ID": "88",
+        "cell": "D49"
+      },
+      {
+        "script": "sntzm_clark4F(4).xlsx",
+        "ID": "91",
+        "cell": "F52"
+      },
+      {
+        "script": "sntzm_clark4F(4).xlsx",
+        "ID": "92",
+        "cell": "F53"
+      },
+      {
+        "script": "sntzm_clark4F(4).xlsx",
+        "ID": "93",
+        "cell": "D54"
+      },
+      {
+        "script": "sntzm_clark4F(4).xlsx",
+        "ID": "94",
+        "cell": "D55"
+      },
+      {
+        "script": "sntzm_clark4F(4).xlsx",
+        "ID": "95",
+        "cell": "D56"
+      },
+      {
+        "script": "sntzm_clark4F(4).xlsx",
+        "ID": "96",
+        "cell": "D57"
+      },
+      {
+        "script": "sntzm_clark4F(4).xlsx",
+        "ID": "97",
+        "cell": "D58"
+      },
+      {
+        "script": "sntzm_clark4F(4).xlsx",
+        "ID": "98",
+        "cell": "D59"
+      },
+      {
+        "script": "sntzm_clark4F(4).xlsx",
+        "ID": "99",
+        "cell": "D60"
+      },
+      {
+        "script": "sntzm_clark4F(4).xlsx",
+        "ID": "100",
+        "cell": "D61"
+      },
+      {
+        "script": "sntzm_clark4F(4).xlsx",
+        "ID": "101",
+        "cell": "D62"
+      },
+      {
+        "script": "sntzm_clark4F(4).xlsx",
+        "ID": "102",
+        "cell": "D63"
+      },
+      {
+        "script": "sntzm_clark4F(4).xlsx",
+        "ID": "14",
+        "cell": "D71"
+      },
+      {
+        "script": "sntzm_clark4F(4).xlsx",
+        "ID": "15",
+        "cell": "D72"
+      },
+      {
+        "script": "sntzm_clark4F(4).xlsx",
+        "ID": "16",
+        "cell": "D73"
+      },
+      {
+        "script": "sntzm_clark4F(4).xlsx",
+        "ID": "17",
+        "cell": "D74"
+      },
+      {
+        "script": "sntzm_clark4F(4).xlsx",
+        "ID": "18",
+        "cell": "D75"
+      },
+      {
+        "script": "sntzm_clark4F(4).xlsx",
+        "ID": "22",
+        "cell": "D79"
+      },
+      {
+        "script": "sntzm_clark4F(4).xlsx",
+        "ID": "23",
+        "cell": "D80"
+      },
+      {
+        "script": "sntzm_clark4F(4).xlsx",
+        "ID": "24",
+        "cell": "D81"
+      },
+      {
+        "script": "sntzm_clark4F(4).xlsx",
+        "ID": "51",
+        "cell": "D88"
+      },
+      {
+        "script": "sntzm_clark4F(4).xlsx",
+        "ID": "52",
+        "cell": "D89"
+      },
+      {
+        "script": "sntzm_clark4F(4).xlsx",
+        "ID": "28",
+        "cell": "D100"
+      },
+      {
+        "script": "sntzm_david4F(3).xlsx",
+        "ID": "3",
+        "cell": "D4"
+      },
+      {
+        "script": "sntzm_david4F(3).xlsx",
+        "ID": "4",
+        "cell": "D5"
+      },
+      {
+        "script": "sntzm_david4F(3).xlsx",
+        "ID": "42",
+        "cell": "D23"
+      },
+      {
+        "script": "sntzm_david4F(3).xlsx",
+        "ID": "60",
+        "cell": "D24"
+      },
+      {
+        "script": "sntzm_david4F(3).xlsx",
+        "ID": "56",
+        "cell": "D25"
+      },
+      {
+        "script": "sntzm_david4F(3).xlsx",
+        "ID": "57",
+        "cell": "D26"
+      },
+      {
+        "script": "sntzm_david4F(3).xlsx",
+        "ID": "58",
+        "cell": "D27"
+      },
+      {
+        "script": "sntzm_david4F(3).xlsx",
+        "ID": "59",
+        "cell": "D28"
+      },
+      {
+        "script": "sntzm_david4F(3).xlsx",
+        "ID": "61",
+        "cell": "D29"
+      },
+      {
+        "script": "sntzm_david4F(3).xlsx",
+        "ID": "69",
+        "cell": "D36"
+      },
+      {
+        "script": "sntzm_david4F(3).xlsx",
+        "ID": "70",
+        "cell": "D37"
+      },
+      {
+        "script": "sntzm_david4F(3).xlsx",
+        "ID": "71",
+        "cell": "D38"
+      },
+      {
+        "script": "sntzm_david4F(3).xlsx",
+        "ID": "72",
+        "cell": "D39"
+      },
+      {
+        "script": "sntzm_david4F(3).xlsx",
+        "ID": "73",
+        "cell": "D40"
+      },
+      {
+        "script": "sntzm_david4F(3).xlsx",
+        "ID": "74",
+        "cell": "D41"
+      },
+      {
+        "script": "sntzm_david4F(3).xlsx",
+        "ID": "75",
+        "cell": "D42"
+      },
+      {
+        "script": "sntzm_david4F(3).xlsx",
+        "ID": "76",
+        "cell": "D43"
+      },
+      {
+        "script": "sntzm_david4F(3).xlsx",
+        "ID": "77",
+        "cell": "D44"
+      },
+      {
+        "script": "sntzm_david4F(3).xlsx",
+        "ID": "78",
+        "cell": "D45"
+      },
+      {
+        "script": "sntzm_david4F(3).xlsx",
+        "ID": "79",
+        "cell": "D46"
+      },
+      {
+        "script": "sntzm_david4F(3).xlsx",
+        "ID": "80",
+        "cell": "D47"
+      },
+      {
+        "script": "sntzm_david4F(3).xlsx",
+        "ID": "81",
+        "cell": "D48"
+      },
+      {
+        "script": "sntzm_david4F(3).xlsx",
+        "ID": "91",
+        "cell": "F51"
+      },
+      {
+        "script": "sntzm_david4F(3).xlsx",
+        "ID": "92",
+        "cell": "F52"
+      },
+      {
+        "script": "sntzm_david4F(3).xlsx",
+        "ID": "65",
+        "cell": "D53"
+      },
+      {
+        "script": "sntzm_david4F(3).xlsx",
+        "ID": "82",
+        "cell": "D54"
+      },
+      {
+        "script": "sntzm_david4F(3).xlsx",
+        "ID": "83",
+        "cell": "D55"
+      },
+      {
+        "script": "sntzm_david4F(3).xlsx",
+        "ID": "84",
+        "cell": "D56"
+      },
+      {
+        "script": "sntzm_david4F(3).xlsx",
+        "ID": "85",
+        "cell": "D57"
+      },
+      {
+        "script": "sntzm_david4F(3).xlsx",
+        "ID": "86",
+        "cell": "D58"
+      },
+      {
+        "script": "sntzm_david4F(3).xlsx",
+        "ID": "87",
+        "cell": "D59"
+      },
+      {
+        "script": "sntzm_david4F(3).xlsx",
+        "ID": "88",
+        "cell": "D60"
+      },
+      {
+        "script": "sntzm_david4F(3).xlsx",
+        "ID": "93",
+        "cell": "D61"
+      },
+      {
+        "script": "sntzm_david4F(3).xlsx",
+        "ID": "94",
+        "cell": "D62"
+      },
+      {
+        "script": "sntzm_david4F(3).xlsx",
+        "ID": "5",
+        "cell": "D64"
+      },
+      {
+        "script": "sntzm_david4F(3).xlsx",
+        "ID": "6",
+        "cell": "D65"
+      },
+      {
+        "script": "sntzm_david4F(3).xlsx",
+        "ID": "7",
+        "cell": "D66"
+      },
+      {
+        "script": "sntzm_david4F(3).xlsx",
+        "ID": "8",
+        "cell": "D67"
+      },
+      {
+        "script": "sntzm_david4F(3).xlsx",
+        "ID": "9",
+        "cell": "D68"
+      },
+      {
+        "script": "sntzm_david4F(3).xlsx",
+        "ID": "10",
+        "cell": "D69"
+      },
+      {
+        "script": "sntzm_david4F(3).xlsx",
+        "ID": "12",
+        "cell": "D71"
+      },
+      {
+        "script": "sntzm_david4F(3).xlsx",
+        "ID": "13",
+        "cell": "D72"
+      },
+      {
+        "script": "sntzm_david4F(3).xlsx",
+        "ID": "14",
+        "cell": "D73"
+      },
+      {
+        "script": "sntzm_david4F(3).xlsx",
+        "ID": "17",
+        "cell": "D76"
+      },
+      {
+        "script": "sntzm_david4F(3).xlsx",
+        "ID": "18",
+        "cell": "D77"
+      },
+      {
+        "script": "sntzm_david4F(3).xlsx",
+        "ID": "19",
+        "cell": "D78"
+      },
+      {
+        "script": "sntzm_david4F(3).xlsx",
+        "ID": "20",
+        "cell": "D79"
+      },
+      {
+        "script": "sntzm_david4F(3).xlsx",
+        "ID": "44",
+        "cell": "D84"
+      },
+      {
+        "script": "sntzm_david4F(3).xlsx",
+        "ID": "45",
+        "cell": "D85"
+      },
+      {
+        "script": "sntzm_david4F(3).xlsx",
+        "ID": "47",
+        "cell": "D87"
+      },
+      {
+        "script": "sntzm_david4F(3).xlsx",
+        "ID": "48",
+        "cell": "D88"
+      },
+      {
+        "script": "sntzm_david4F(3).xlsx",
+        "ID": "53",
+        "cell": "F93"
+      },
+      {
+        "script": "sntzm_david4F(3).xlsx",
+        "ID": "54",
+        "cell": "F94"
+      },
+      {
+        "script": "sntzm_david4F(3).xlsx",
+        "ID": "55",
+        "cell": "D95"
+      },
+      {
+        "script": "sntzm_david4F(4).xlsx",
+        "ID": "1",
+        "cell": "D2"
+      },
+      {
+        "script": "sntzm_david4F(4).xlsx",
+        "ID": "2",
+        "cell": "D3"
+      },
+      {
+        "script": "sntzm_david4F(4).xlsx",
+        "ID": "3",
+        "cell": "D4"
+      },
+      {
+        "script": "sntzm_david4F(4).xlsx",
+        "ID": "4",
+        "cell": "D5"
+      },
+      {
+        "script": "sntzm_david4F(4).xlsx",
+        "ID": "5",
+        "cell": "D6"
+      },
+      {
+        "script": "sntzm_david4F(4).xlsx",
+        "ID": "10",
+        "cell": "D11"
+      },
+      {
+        "script": "sntzm_david4F(4).xlsx",
+        "ID": "11",
+        "cell": "D12"
+      },
+      {
+        "script": "sntzm_david4F(4).xlsx",
+        "ID": "12",
+        "cell": "D13"
+      },
+      {
+        "script": "sntzm_david4F(4).xlsx",
+        "ID": "13",
+        "cell": "D14"
+      },
+      {
+        "script": "sntzm_david4F(4).xlsx",
+        "ID": "17",
+        "cell": "D18"
+      },
+      {
+        "script": "sntzm_david4F(4).xlsx",
+        "ID": "18",
+        "cell": "D19"
+      },
+      {
+        "script": "sntzm_david4F(4).xlsx",
+        "ID": "20",
+        "cell": "D21"
+      },
+      {
+        "script": "sntzm_david4F(4).xlsx",
+        "ID": "21",
+        "cell": "D22"
+      },
+      {
+        "script": "sntzm_david4F(4).xlsx",
+        "ID": "22",
+        "cell": "D23"
+      },
+      {
+        "script": "sntzm_david4F(4).xlsx",
+        "ID": "23",
+        "cell": "D24"
+      },
+      {
+        "script": "sntzm_david4F(4).xlsx",
+        "ID": "24",
+        "cell": "D25"
+      },
+      {
+        "script": "sntzm_david4F(4).xlsx",
+        "ID": "25",
+        "cell": "D26"
+      },
+      {
+        "script": "sntzm_david4F(4).xlsx",
+        "ID": "26",
+        "cell": "D27"
+      },
+      {
+        "script": "sntzm_david4F(4).xlsx",
+        "ID": "27",
+        "cell": "D28"
+      },
+      {
+        "script": "sntzm_david4F(4).xlsx",
+        "ID": "31",
+        "cell": "D30"
+      },
+      {
+        "script": "sntzm_david4F(4).xlsx",
+        "ID": "32",
+        "cell": "D31"
+      },
+      {
+        "script": "sntzm_david4F(4).xlsx",
+        "ID": "33",
+        "cell": "D32"
+      },
+      {
+        "script": "sntzm_david4F(4).xlsx",
+        "ID": "34",
+        "cell": "D33"
+      },
+      {
+        "script": "sntzm_david4F(4).xlsx",
+        "ID": "35",
+        "cell": "D34"
+      },
+      {
+        "script": "sntzm_david4F(4).xlsx",
+        "ID": "46",
+        "cell": "D44"
+      },
+      {
+        "script": "sntzm_david4F(4).xlsx",
+        "ID": "56",
+        "cell": "D54"
+      },
+      {
+        "script": "sntzm_david4F(4).xlsx",
+        "ID": "57",
+        "cell": "D55"
+      },
+      {
+        "script": "sntzm_david4F(4).xlsx",
+        "ID": "66",
+        "cell": "D84"
+      },
+      {
+        "script": "sntzm_david4F(4).xlsx",
+        "ID": "87",
+        "cell": "D85"
+      },
+      {
+        "script": "sntzm_david4F(4).xlsx",
+        "ID": "88",
+        "cell": "D86"
+      },
+      {
+        "script": "sntzm_david4F(4).xlsx",
+        "ID": "89",
+        "cell": "D87"
+      },
+      {
+        "script": "sntzm_david4F(4).xlsx",
+        "ID": "90",
+        "cell": "D88"
+      },
+      {
+        "script": "sntzm_david4F(4).xlsx",
+        "ID": "91",
+        "cell": "D89"
+      },
+      {
+        "script": "sntzm_david4F(4).xlsx",
+        "ID": "103",
+        "cell": "D94"
+      },
+      {
+        "script": "sntzm_david4F(4).xlsx",
+        "ID": "96",
+        "cell": "D95"
+      },
+      {
+        "script": "sntzm_david4F(4).xlsx",
+        "ID": "97",
+        "cell": "D96"
+      },
+      {
+        "script": "sntzm_david4F(4).xlsx",
+        "ID": "98",
+        "cell": "D97"
+      },
+      {
+        "script": "sntzm_david4F(4).xlsx",
+        "ID": "99",
+        "cell": "D98"
+      },
+      {
+        "script": "sntzm_david4F(4).xlsx",
+        "ID": "101",
+        "cell": "D100"
+      },
+      {
+        "script": "sntzm_david4F(4).xlsx",
+        "ID": "102",
+        "cell": "D101"
+      },
+      {
+        "script": "sntzm_david4F(4).xlsx",
+        "ID": "30",
+        "cell": "D104"
+      },
+      {
+        "script": "sntzm_final(2).xlsx",
+        "ID": "7",
+        "cell": "D6"
+      },
+      {
+        "script": "sntzm_final(2).xlsx",
+        "ID": "31",
+        "cell": "D7"
+      },
+      {
+        "script": "sntzm_final(2).xlsx",
+        "ID": "33",
+        "cell": "D9"
+      },
+      {
+        "script": "sntzm_final(2).xlsx",
+        "ID": "34",
+        "cell": "D10"
+      },
+      {
+        "script": "sntzm_final(2).xlsx",
+        "ID": "35",
+        "cell": "D11"
+      },
+      {
+        "script": "sntzm_final(2).xlsx",
+        "ID": "40",
+        "cell": "D16"
+      },
+      {
+        "script": "sntzm_final(2).xlsx",
+        "ID": "41",
+        "cell": "D17"
+      },
+      {
+        "script": "sntzm_final(2).xlsx",
+        "ID": "42",
+        "cell": "D18"
+      },
+      {
+        "script": "sntzm_final(2).xlsx",
+        "ID": "46",
+        "cell": "F22"
+      },
+      {
+        "script": "sntzm_final(2).xlsx",
+        "ID": "47",
+        "cell": "F23"
+      },
+      {
+        "script": "sntzm_final(2).xlsx",
+        "ID": "50",
+        "cell": "D26"
+      },
+      {
+        "script": "sntzm_final(2).xlsx",
+        "ID": "51",
+        "cell": "D27"
+      },
+      {
+        "script": "sntzm_final(2).xlsx",
+        "ID": "52",
+        "cell": "D28"
+      },
+      {
+        "script": "sntzm_final(2).xlsx",
+        "ID": "53",
+        "cell": "D29"
+      },
+      {
+        "script": "sntzm_final(2).xlsx",
+        "ID": "54",
+        "cell": "D30"
+      },
+      {
+        "script": "sntzm_final(2).xlsx",
+        "ID": "66",
+        "cell": "D41"
+      },
+      {
+        "script": "sntzm_final(2).xlsx",
+        "ID": "67",
+        "cell": "D42"
+      },
+      {
+        "script": "sntzm_final(2).xlsx",
+        "ID": "3",
+        "cell": "D45"
+      },
+      {
+        "script": "sntzm_final(2).xlsx",
+        "ID": "15",
+        "cell": "D53"
+      },
+      {
+        "script": "sntzm_final(2).xlsx",
+        "ID": "58",
+        "cell": "D54"
+      },
+      {
+        "script": "sntzm_final(2).xlsx",
+        "ID": "19",
+        "cell": "F58"
+      },
+      {
+        "script": "sntzm_final(2).xlsx",
+        "ID": "20",
+        "cell": "F59"
+      },
+      {
+        "script": "sntzm_final(2).xlsx",
+        "ID": "21",
+        "cell": "D60"
+      },
+      {
+        "script": "sntzm_final(2).xlsx",
+        "ID": "22",
+        "cell": "D61"
+      },
+      {
+        "script": "sntzm_final(2).xlsx",
+        "ID": "23",
+        "cell": "D62"
+      },
+      {
+        "script": "sntzm_final(2).xlsx",
+        "ID": "24",
+        "cell": "D63"
+      },
+      {
+        "script": "sntzm_final(2).xlsx",
+        "ID": "25",
+        "cell": "D64"
+      },
+      {
+        "script": "sntzm_final(2).xlsx",
+        "ID": "26",
+        "cell": "D65"
+      },
+      {
+        "script": "sntzm_final(2).xlsx",
+        "ID": "27",
+        "cell": "D66"
+      },
+      {
+        "script": "sntzm_final(2).xlsx",
+        "ID": "28",
+        "cell": "D67"
+      },
+      {
+        "script": "sntzm_final(2).xlsx",
+        "ID": "83",
+        "cell": "D79"
+      },
+      {
+        "script": "sntzm_final(2).xlsx",
+        "ID": "84",
+        "cell": "D80"
+      },
+      {
+        "script": "sntzm_final(2).xlsx",
+        "ID": "85",
+        "cell": "D81"
+      },
+      {
+        "script": "sntzm_final(2).xlsx",
+        "ID": "86",
+        "cell": "D82"
+      },
+      {
+        "script": "sntzm_final(2).xlsx",
+        "ID": "87",
+        "cell": "D83"
+      },
+      {
+        "script": "sntzm_final(2).xlsx",
+        "ID": "88",
+        "cell": "D84"
+      },
+      {
+        "script": "sntzm_final(2).xlsx",
+        "ID": "89",
+        "cell": "D85"
+      },
+      {
+        "script": "sntzm_final(2).xlsx",
+        "ID": "90",
+        "cell": "D86"
+      },
+      {
+        "script": "sntzm_final(2).xlsx",
+        "ID": "92",
+        "cell": "D88"
+      },
+      {
+        "script": "sntzm_final(2).xlsx",
+        "ID": "93",
+        "cell": "D89"
+      },
+      {
+        "script": "sntzm_final(2).xlsx",
+        "ID": "94",
+        "cell": "D90"
+      },
+      {
+        "script": "sntzm_final(2).xlsx",
+        "ID": "95",
+        "cell": "D91"
+      },
+      {
+        "script": "sntzm_final(2).xlsx",
+        "ID": "96",
+        "cell": "D92"
+      },
+      {
+        "script": "sntzm_final(2).xlsx",
+        "ID": "102",
+        "cell": "D98"
+      },
+      {
+        "script": "sntzm_final(2).xlsx",
+        "ID": "103",
+        "cell": "D99"
+      },
+      {
+        "script": "sntzm_final(2).xlsx",
+        "ID": "104",
+        "cell": "D100"
+      },
+      {
+        "script": "sntzm_final(2).xlsx",
+        "ID": "105",
+        "cell": "D101"
+      },
+      {
+        "script": "sntzm_final(2).xlsx",
+        "ID": "106",
+        "cell": "D102"
+      },
+      {
+        "script": "sntzm_final(2).xlsx",
+        "ID": "107",
+        "cell": "D103"
+      },
+      {
+        "script": "sntzm_final(2).xlsx",
+        "ID": "108",
+        "cell": "D104"
+      },
+      {
+        "script": "sntzm_final(2).xlsx",
+        "ID": "109",
+        "cell": "D105"
+      },
+      {
+        "script": "sntzm_final(3).xlsx",
+        "ID": "3",
+        "cell": "D5"
+      },
+      {
+        "script": "sntzm_final(3).xlsx",
+        "ID": "51",
+        "cell": "D6"
+      },
+      {
+        "script": "sntzm_final(3).xlsx",
+        "ID": "52",
+        "cell": "D7"
+      },
+      {
+        "script": "sntzm_final(3).xlsx",
+        "ID": "53",
+        "cell": "D8"
+      },
+      {
+        "script": "sntzm_final(3).xlsx",
+        "ID": "9",
+        "cell": "D69"
+      },
+      {
+        "script": "sntzm_final(3).xlsx",
+        "ID": "10",
+        "cell": "D70"
+      },
+      {
+        "script": "sntzm_final(3).xlsx",
+        "ID": "11",
+        "cell": "D71"
+      },
+      {
+        "script": "sntzm_final(3).xlsx",
+        "ID": "30",
+        "cell": "D72"
+      },
+      {
+        "script": "sntzm_final(3).xlsx",
+        "ID": "31",
+        "cell": "D73"
+      },
+      {
+        "script": "sntzm_final(3).xlsx",
+        "ID": "32",
+        "cell": "D74"
+      },
+      {
+        "script": "sntzm_final(3).xlsx",
+        "ID": "33",
+        "cell": "D75"
+      },
+      {
+        "script": "sntzm_final(3).xlsx",
+        "ID": "12",
+        "cell": "D76"
+      },
+      {
+        "script": "sntzm_final(3).xlsx",
+        "ID": "35",
+        "cell": "D78"
+      },
+      {
+        "script": "sntzm_final(3).xlsx",
+        "ID": "36",
+        "cell": "D79"
+      },
+      {
+        "script": "sntzm_final(3).xlsx",
+        "ID": "37",
+        "cell": "D80"
+      },
+      {
+        "script": "sntzm_final(3).xlsx",
+        "ID": "38",
+        "cell": "D81"
+      },
+      {
+        "script": "sntzm_final(3).xlsx",
+        "ID": "39",
+        "cell": "D82"
+      },
+      {
+        "script": "sntzm_final(3).xlsx",
+        "ID": "40",
+        "cell": "D83"
+      },
+      {
+        "script": "sntzm_final(3).xlsx",
+        "ID": "41",
+        "cell": "D84"
+      },
+      {
+        "script": "sntzm_final(3).xlsx",
+        "ID": "42",
+        "cell": "D85"
+      },
+      {
+        "script": "sntzm_final(3).xlsx",
+        "ID": "50",
+        "cell": "D86"
+      },
+      {
+        "script": "sntzm_final(3).xlsx",
+        "ID": "43",
+        "cell": "D87"
+      },
+      {
+        "script": "sntzm_final(3).xlsx",
+        "ID": "44",
+        "cell": "D88"
+      },
+      {
+        "script": "sntzm_final(3).xlsx",
+        "ID": "45",
+        "cell": "D89"
+      },
+      {
+        "script": "sntzm_final(3).xlsx",
+        "ID": "46",
+        "cell": "D90"
+      },
+      {
+        "script": "sntzm_final(3).xlsx",
+        "ID": "47",
+        "cell": "D91"
+      },
+      {
+        "script": "sntzm_final(3).xlsx",
+        "ID": "48",
+        "cell": "D92"
+      },
+      {
+        "script": "sntzm_final(3).xlsx",
+        "ID": "49",
+        "cell": "D93"
+      },
+      {
+        "script": "sntzm_final(3).xlsx",
+        "ID": "14",
+        "cell": "D94"
+      },
+      {
+        "script": "sntzm_final(3).xlsx",
+        "ID": "16",
+        "cell": "D96"
+      },
+      {
+        "script": "sntzm_final(3).xlsx",
+        "ID": "17",
+        "cell": "D97"
+      },
+      {
+        "script": "sntzm_final(3).xlsx",
+        "ID": "28",
+        "cell": "D99"
+      },
+      {
+        "script": "sntzm_final(3).xlsx",
+        "ID": "18",
+        "cell": "D100"
+      },
+      {
+        "script": "sntzm_final(3).xlsx",
+        "ID": "19",
+        "cell": "D101"
+      },
+      {
+        "script": "sntzm_final(3).xlsx",
+        "ID": "20",
+        "cell": "D102"
+      },
+      {
+        "script": "sntzm_final(3).xlsx",
+        "ID": "22",
+        "cell": "D103"
+      },
+      {
+        "script": "sntzm_final(3).xlsx",
+        "ID": "23",
+        "cell": "D104"
+      },
+      {
+        "script": "sntzm_final(3).xlsx",
+        "ID": "24",
+        "cell": "D105"
+      },
+      {
+        "script": "sntzm_final(3).xlsx",
+        "ID": "25",
+        "cell": "D106"
+      },
+      {
+        "script": "sntzm_final(3).xlsx",
+        "ID": "54",
+        "cell": "D107"
+      },
+      {
+        "script": "sntzm_final(5).xlsx",
+        "ID": "84",
+        "cell": "D40"
+      },
+      {
+        "script": "sntzm_final(5).xlsx",
+        "ID": "85",
+        "cell": "D41"
+      },
+      {
+        "script": "sntzm_final(5).xlsx",
+        "ID": "86",
+        "cell": "D42"
+      },
+      {
+        "script": "sntzm_final(5).xlsx",
+        "ID": "87",
+        "cell": "D43"
+      },
+      {
+        "script": "sntzm_final(5).xlsx",
+        "ID": "96",
+        "cell": "D52"
+      },
+      {
+        "script": "sntzm_final(5).xlsx",
+        "ID": "97",
+        "cell": "D53"
+      }
+    ],
+    "remote_path_files": [
+      "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\CharactersPic\\盖曼阴.png"
+    ]
+  },
+  {
+    "value": "David_bandage",
+    "count": 244,
+    "status": "ok",
+    "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\CharactersPic\\大卫表情\\绷带.png",
+    "detail": {
+      "path": "VNovelizerRes/CharactersPic/大卫表情/绷带",
+      "guid": "5fe119f69f1166d4ea0b8abf30902f2a",
+      "fileID": 21300000
+    },
+    "refs": [
+      {
+        "script": "sntzm_david313-315(1).xlsx",
+        "ID": "8",
+        "cell": "D9"
+      },
+      {
+        "script": "sntzm_david313-315(1).xlsx",
+        "ID": "9",
+        "cell": "D10"
+      },
+      {
+        "script": "sntzm_david313-315(1).xlsx",
+        "ID": "11",
+        "cell": "D12"
+      },
+      {
+        "script": "sntzm_david313-315(1).xlsx",
+        "ID": "12",
+        "cell": "D13"
+      },
+      {
+        "script": "sntzm_david313-315(1).xlsx",
+        "ID": "13",
+        "cell": "D14"
+      },
+      {
+        "script": "sntzm_david313-315(1).xlsx",
+        "ID": "14",
+        "cell": "D15"
+      },
+      {
+        "script": "sntzm_david313-315(1).xlsx",
+        "ID": "31",
+        "cell": "D28"
+      },
+      {
+        "script": "sntzm_david313-315(1).xlsx",
+        "ID": "32",
+        "cell": "D29"
+      },
+      {
+        "script": "sntzm_david313-315(1).xlsx",
+        "ID": "38",
+        "cell": "D35"
+      },
+      {
+        "script": "sntzm_david313-315(1).xlsx",
+        "ID": "39",
+        "cell": "D36"
+      },
+      {
+        "script": "sntzm_david313-315(1).xlsx",
+        "ID": "40",
+        "cell": "D37"
+      },
+      {
+        "script": "sntzm_david313-315(1).xlsx",
+        "ID": "53",
+        "cell": "D48"
+      },
+      {
+        "script": "sntzm_david313-315(1).xlsx",
+        "ID": "54",
+        "cell": "D49"
+      },
+      {
+        "script": "sntzm_david313-315(1).xlsx",
+        "ID": "55",
+        "cell": "D50"
+      },
+      {
+        "script": "sntzm_david313-315(1).xlsx",
+        "ID": "56",
+        "cell": "D51"
+      },
+      {
+        "script": "sntzm_david313-315(1).xlsx",
+        "ID": "57",
+        "cell": "D52"
+      },
+      {
+        "script": "sntzm_david313-315(1).xlsx",
+        "ID": "59",
+        "cell": "D54"
+      },
+      {
+        "script": "sntzm_david313-315(1).xlsx",
+        "ID": "60",
+        "cell": "D55"
+      },
+      {
+        "script": "sntzm_david313-315(1).xlsx",
+        "ID": "61",
+        "cell": "D56"
+      },
+      {
+        "script": "sntzm_david313-315(1).xlsx",
+        "ID": "62",
+        "cell": "D57"
+      },
+      {
+        "script": "sntzm_david313-315(1).xlsx",
+        "ID": "67",
+        "cell": "D61"
+      },
+      {
+        "script": "sntzm_david313-315(1).xlsx",
+        "ID": "68",
+        "cell": "D62"
+      },
+      {
+        "script": "sntzm_david313-315(1).xlsx",
+        "ID": "77",
+        "cell": "D73"
+      },
+      {
+        "script": "sntzm_david313-315(1).xlsx",
+        "ID": "78",
+        "cell": "D74"
+      },
+      {
+        "script": "sntzm_david313-315(1).xlsx",
+        "ID": "89",
+        "cell": "D85"
+      },
+      {
+        "script": "sntzm_david313-315(1).xlsx",
+        "ID": "90",
+        "cell": "D86"
+      },
+      {
+        "script": "sntzm_david313-315(1).xlsx",
+        "ID": "93",
+        "cell": "D89"
+      },
+      {
+        "script": "sntzm_david313-315(1).xlsx",
+        "ID": "94",
+        "cell": "D90"
+      },
+      {
+        "script": "sntzm_david313-315(2).xlsx",
+        "ID": "2",
+        "cell": "D3"
+      },
+      {
+        "script": "sntzm_david313-315(2).xlsx",
+        "ID": "3",
+        "cell": "D4"
+      },
+      {
+        "script": "sntzm_david313-315(2).xlsx",
+        "ID": "36",
+        "cell": "D37"
+      },
+      {
+        "script": "sntzm_david313-315(2).xlsx",
+        "ID": "37",
+        "cell": "D38"
+      },
+      {
+        "script": "sntzm_david313-315(2).xlsx",
+        "ID": "50",
+        "cell": "D49"
+      },
+      {
+        "script": "sntzm_david313-315(2).xlsx",
+        "ID": "51",
+        "cell": "D52"
+      },
+      {
+        "script": "sntzm_david313-315(2).xlsx",
+        "ID": "52",
+        "cell": "D53"
+      },
+      {
+        "script": "sntzm_david313-315(2).xlsx",
+        "ID": "53",
+        "cell": "D54"
+      },
+      {
+        "script": "sntzm_david313-315(2).xlsx",
+        "ID": "54",
+        "cell": "D55"
+      },
+      {
+        "script": "sntzm_david313-315(2).xlsx",
+        "ID": "65",
+        "cell": "D66"
+      },
+      {
+        "script": "sntzm_david313-315(2).xlsx",
+        "ID": "66",
+        "cell": "D67"
+      },
+      {
+        "script": "sntzm_david313-315(2).xlsx",
+        "ID": "76",
+        "cell": "D76"
+      },
+      {
+        "script": "sntzm_david313-315(2).xlsx",
+        "ID": "77",
+        "cell": "D77"
+      },
+      {
+        "script": "sntzm_david313-315(3).xlsx",
+        "ID": "8",
+        "cell": "D8"
+      },
+      {
+        "script": "sntzm_david313-315(3).xlsx",
+        "ID": "9",
+        "cell": "D9"
+      },
+      {
+        "script": "sntzm_david313-315(3).xlsx",
+        "ID": "27",
+        "cell": "D26"
+      },
+      {
+        "script": "sntzm_david313-315(3).xlsx",
+        "ID": "28",
+        "cell": "D27"
+      },
+      {
+        "script": "sntzm_david313-315(3).xlsx",
+        "ID": "39",
+        "cell": "D38"
+      },
+      {
+        "script": "sntzm_david313-315(3).xlsx",
+        "ID": "40",
+        "cell": "D39"
+      },
+      {
+        "script": "sntzm_david313-315(3).xlsx",
+        "ID": "47",
+        "cell": "D46"
+      },
+      {
+        "script": "sntzm_david313-315(3).xlsx",
+        "ID": "48",
+        "cell": "D47"
+      },
+      {
+        "script": "sntzm_david313-315(3).xlsx",
+        "ID": "54",
+        "cell": "D53"
+      },
+      {
+        "script": "sntzm_david313-315(3).xlsx",
+        "ID": "55",
+        "cell": "D54"
+      },
+      {
+        "script": "sntzm_david313-315(3).xlsx",
+        "ID": "60",
+        "cell": "D59"
+      },
+      {
+        "script": "sntzm_david313-315(3).xlsx",
+        "ID": "61",
+        "cell": "D60"
+      },
+      {
+        "script": "sntzm_david313-315(3).xlsx",
+        "ID": "66",
+        "cell": "D66"
+      },
+      {
+        "script": "sntzm_david313-315(3).xlsx",
+        "ID": "67",
+        "cell": "D67"
+      },
+      {
+        "script": "sntzm_david313-315(3).xlsx",
+        "ID": "70",
+        "cell": "D70"
+      },
+      {
+        "script": "sntzm_david313-315(3).xlsx",
+        "ID": "71",
+        "cell": "D71"
+      },
+      {
+        "script": "sntzm_david313-315(3).xlsx",
+        "ID": "73",
+        "cell": "D73"
+      },
+      {
+        "script": "sntzm_david313-315(3).xlsx",
+        "ID": "74",
+        "cell": "D74"
+      },
+      {
+        "script": "sntzm_david313-315(3).xlsx",
+        "ID": "26",
+        "cell": "D79"
+      },
+      {
+        "script": "sntzm_david313-315(4).xlsx",
+        "ID": "10",
+        "cell": "D10"
+      },
+      {
+        "script": "sntzm_david313-315(4).xlsx",
+        "ID": "11",
+        "cell": "D11"
+      },
+      {
+        "script": "sntzm_david313-315(4).xlsx",
+        "ID": "12",
+        "cell": "D12"
+      },
+      {
+        "script": "sntzm_david313-315(4).xlsx",
+        "ID": "13",
+        "cell": "D13"
+      },
+      {
+        "script": "sntzm_david313-315(4).xlsx",
+        "ID": "57",
+        "cell": "D57"
+      },
+      {
+        "script": "sntzm_david313-315(4).xlsx",
+        "ID": "58",
+        "cell": "D58"
+      },
+      {
+        "script": "sntzm_david313-315(4).xlsx",
+        "ID": "59",
+        "cell": "D59"
+      },
+      {
+        "script": "sntzm_david313-315(4).xlsx",
+        "ID": "60",
+        "cell": "D60"
+      },
+      {
+        "script": "sntzm_david313-315(4).xlsx",
+        "ID": "61",
+        "cell": "D61"
+      },
+      {
+        "script": "sntzm_david313-315(4).xlsx",
+        "ID": "62",
+        "cell": "D62"
+      },
+      {
+        "script": "sntzm_david313-315(4).xlsx",
+        "ID": "74",
+        "cell": "D74"
+      },
+      {
+        "script": "sntzm_david313-315(4).xlsx",
+        "ID": "75",
+        "cell": "D75"
+      },
+      {
+        "script": "sntzm_david313-315(4).xlsx",
+        "ID": "76",
+        "cell": "D76"
+      },
+      {
+        "script": "sntzm_david313-315(4).xlsx",
+        "ID": "77",
+        "cell": "D77"
+      },
+      {
+        "script": "sntzm_david313-315(4).xlsx",
+        "ID": "78",
+        "cell": "D78"
+      },
+      {
+        "script": "sntzm_david313-315(4).xlsx",
+        "ID": "87",
+        "cell": "D87"
+      },
+      {
+        "script": "sntzm_david313-315(4).xlsx",
+        "ID": "88",
+        "cell": "D88"
+      },
+      {
+        "script": "sntzm_david313-315(4).xlsx",
+        "ID": "89",
+        "cell": "D89"
+      },
+      {
+        "script": "sntzm_david313-315(4).xlsx",
+        "ID": "90",
+        "cell": "D90"
+      },
+      {
+        "script": "sntzm_david313-315(5).xlsx",
+        "ID": "16",
+        "cell": "D13"
+      },
+      {
+        "script": "sntzm_david313-315(5).xlsx",
+        "ID": "17",
+        "cell": "D14"
+      },
+      {
+        "script": "sntzm_david313-315(5).xlsx",
+        "ID": "38",
+        "cell": "D34"
+      },
+      {
+        "script": "sntzm_david313-315(5).xlsx",
+        "ID": "39",
+        "cell": "D35"
+      },
+      {
+        "script": "sntzm_david313-315(6).xlsx",
+        "ID": "7",
+        "cell": "D7"
+      },
+      {
+        "script": "sntzm_david313-315(6).xlsx",
+        "ID": "8",
+        "cell": "D8"
+      },
+      {
+        "script": "sntzm_david313-315(6).xlsx",
+        "ID": "15",
+        "cell": "D15"
+      },
+      {
+        "script": "sntzm_david313-315(6).xlsx",
+        "ID": "17",
+        "cell": "D16"
+      },
+      {
+        "script": "sntzm_david313-315(6).xlsx",
+        "ID": "18",
+        "cell": "D17"
+      },
+      {
+        "script": "sntzm_david313-315(6).xlsx",
+        "ID": "19",
+        "cell": "D18"
+      },
+      {
+        "script": "sntzm_david313-315(6).xlsx",
+        "ID": "23",
+        "cell": "D22"
+      },
+      {
+        "script": "sntzm_david313-315(6).xlsx",
+        "ID": "24",
+        "cell": "D23"
+      },
+      {
+        "script": "sntzm_david313-315(6).xlsx",
+        "ID": "30",
+        "cell": "D29"
+      },
+      {
+        "script": "sntzm_david313-315(6).xlsx",
+        "ID": "31",
+        "cell": "D30"
+      },
+      {
+        "script": "sntzm_david313-315(6).xlsx",
+        "ID": "32",
+        "cell": "D31"
+      },
+      {
+        "script": "sntzm_david313-315(6).xlsx",
+        "ID": "34",
+        "cell": "D33"
+      },
+      {
+        "script": "sntzm_david313-315(6).xlsx",
+        "ID": "35",
+        "cell": "D34"
+      },
+      {
+        "script": "sntzm_david313-315(6).xlsx",
+        "ID": "38",
+        "cell": "D37"
+      },
+      {
+        "script": "sntzm_david313-315(6).xlsx",
+        "ID": "39",
+        "cell": "D38"
+      },
+      {
+        "script": "sntzm_david313-315(6).xlsx",
+        "ID": "40",
+        "cell": "D39"
+      },
+      {
+        "script": "sntzm_david313-315(6).xlsx",
+        "ID": "41",
+        "cell": "D40"
+      },
+      {
+        "script": "sntzm_david313-315(6).xlsx",
+        "ID": "46",
+        "cell": "D45"
+      },
+      {
+        "script": "sntzm_david313-315(6).xlsx",
+        "ID": "47",
+        "cell": "D46"
+      },
+      {
+        "script": "sntzm_david313-315(6).xlsx",
+        "ID": "16",
+        "cell": "D50"
+      },
+      {
+        "script": "sntzm_david313-315(6).xlsx",
+        "ID": "51",
+        "cell": "D51"
+      },
+      {
+        "script": "sntzm_david313-315(6).xlsx",
+        "ID": "52",
+        "cell": "D52"
+      },
+      {
+        "script": "sntzm_david313-315(6).xlsx",
+        "ID": "53",
+        "cell": "D53"
+      },
+      {
+        "script": "sntzm_david313-315(6).xlsx",
+        "ID": "54",
+        "cell": "D54"
+      },
+      {
+        "script": "sntzm_david313-315(6).xlsx",
+        "ID": "55",
+        "cell": "D55"
+      },
+      {
+        "script": "sntzm_david313-315(6).xlsx",
+        "ID": "56",
+        "cell": "D56"
+      },
+      {
+        "script": "sntzm_david313-315(6).xlsx",
+        "ID": "57",
+        "cell": "D57"
+      },
+      {
+        "script": "sntzm_david313-315(6).xlsx",
+        "ID": "58",
+        "cell": "D58"
+      },
+      {
+        "script": "sntzm_david313-315(6).xlsx",
+        "ID": "61",
+        "cell": "D61"
+      },
+      {
+        "script": "sntzm_david313-315(6).xlsx",
+        "ID": "62",
+        "cell": "D62"
+      },
+      {
+        "script": "sntzm_david313-315(6).xlsx",
+        "ID": "67",
+        "cell": "D67"
+      },
+      {
+        "script": "sntzm_david313-315(6).xlsx",
+        "ID": "68",
+        "cell": "D68"
+      },
+      {
+        "script": "sntzm_david313-315(6).xlsx",
+        "ID": "79",
+        "cell": "D80"
+      },
+      {
+        "script": "sntzm_david313-315(6).xlsx",
+        "ID": "80",
+        "cell": "D81"
+      },
+      {
+        "script": "sntzm_david313-315(6).xlsx",
+        "ID": "81",
+        "cell": "D82"
+      },
+      {
+        "script": "sntzm_david313-315(6).xlsx",
+        "ID": "83",
+        "cell": "D84"
+      },
+      {
+        "script": "sntzm_david313-315(6).xlsx",
+        "ID": "84",
+        "cell": "D85"
+      },
+      {
+        "script": "sntzm_david313-315(6).xlsx",
+        "ID": "85",
+        "cell": "D86"
+      },
+      {
+        "script": "sntzm_david313-315(6).xlsx",
+        "ID": "86",
+        "cell": "D87"
+      },
+      {
+        "script": "sntzm_david313-315(6).xlsx",
+        "ID": "87",
+        "cell": "D88"
+      },
+      {
+        "script": "sntzm_david313-315(6).xlsx",
+        "ID": "88",
+        "cell": "D89"
+      },
+      {
+        "script": "sntzm_david313-315(6).xlsx",
+        "ID": "91",
+        "cell": "D92"
+      },
+      {
+        "script": "sntzm_david313-315(6).xlsx",
+        "ID": "92",
+        "cell": "D93"
+      },
+      {
+        "script": "sntzm_david313-315(6).xlsx",
+        "ID": "98",
+        "cell": "D99"
+      },
+      {
+        "script": "sntzm_david313-315(6).xlsx",
+        "ID": "99",
+        "cell": "D100"
+      },
+      {
+        "script": "sntzm_david313-315(6).xlsx",
+        "ID": "100",
+        "cell": "D101"
+      },
+      {
+        "script": "sntzm_david313-315(6).xlsx",
+        "ID": "101",
+        "cell": "D102"
+      },
+      {
+        "script": "sntzm_david313-315(6).xlsx",
+        "ID": "102",
+        "cell": "D103"
+      },
+      {
+        "script": "sntzm_david3F(1).xlsx",
+        "ID": "8",
+        "cell": "D10"
+      },
+      {
+        "script": "sntzm_david3F(1).xlsx",
+        "ID": "9",
+        "cell": "D11"
+      },
+      {
+        "script": "sntzm_david3F(1).xlsx",
+        "ID": "20",
+        "cell": "D20"
+      },
+      {
+        "script": "sntzm_david3F(1).xlsx",
+        "ID": "23",
+        "cell": "D21"
+      },
+      {
+        "script": "sntzm_david3F(1).xlsx",
+        "ID": "34",
+        "cell": "D31"
+      },
+      {
+        "script": "sntzm_david3F(1).xlsx",
+        "ID": "36",
+        "cell": "D32"
+      },
+      {
+        "script": "sntzm_david3F(1).xlsx",
+        "ID": "40",
+        "cell": "D36"
+      },
+      {
+        "script": "sntzm_david3F(1).xlsx",
+        "ID": "42",
+        "cell": "D37"
+      },
+      {
+        "script": "sntzm_david3F(1).xlsx",
+        "ID": "58",
+        "cell": "D50"
+      },
+      {
+        "script": "sntzm_david3F(1).xlsx",
+        "ID": "59",
+        "cell": "D51"
+      },
+      {
+        "script": "sntzm_david3F(1).xlsx",
+        "ID": "60",
+        "cell": "D52"
+      },
+      {
+        "script": "sntzm_david3F(1).xlsx",
+        "ID": "62",
+        "cell": "D54"
+      },
+      {
+        "script": "sntzm_david3F(1).xlsx",
+        "ID": "63",
+        "cell": "D55"
+      },
+      {
+        "script": "sntzm_david3F(1).xlsx",
+        "ID": "65",
+        "cell": "D57"
+      },
+      {
+        "script": "sntzm_david3F(1).xlsx",
+        "ID": "66",
+        "cell": "D58"
+      },
+      {
+        "script": "sntzm_david3F(1).xlsx",
+        "ID": "68",
+        "cell": "D60"
+      },
+      {
+        "script": "sntzm_david3F(1).xlsx",
+        "ID": "70",
+        "cell": "D61"
+      },
+      {
+        "script": "sntzm_david3F(1).xlsx",
+        "ID": "71",
+        "cell": "D62"
+      },
+      {
+        "script": "sntzm_david3F(1).xlsx",
+        "ID": "72",
+        "cell": "D63"
+      },
+      {
+        "script": "sntzm_david3F(1).xlsx",
+        "ID": "77",
+        "cell": "D68"
+      },
+      {
+        "script": "sntzm_david3F(1).xlsx",
+        "ID": "78",
+        "cell": "D69"
+      },
+      {
+        "script": "sntzm_david3F(1).xlsx",
+        "ID": "79",
+        "cell": "D70"
+      },
+      {
+        "script": "sntzm_david3F(1).xlsx",
+        "ID": "80",
+        "cell": "D71"
+      },
+      {
+        "script": "sntzm_david3F(1).xlsx",
+        "ID": "81",
+        "cell": "D72"
+      },
+      {
+        "script": "sntzm_david3F(1).xlsx",
+        "ID": "69",
+        "cell": "D84"
+      },
+      {
+        "script": "sntzm_david3F(1).xlsx",
+        "ID": "35",
+        "cell": "D88"
+      },
+      {
+        "script": "sntzm_david3F(1).xlsx",
+        "ID": "22",
+        "cell": "D90"
+      },
+      {
+        "script": "sntzm_david3F(2).xlsx",
+        "ID": "11",
+        "cell": "D10"
+      },
+      {
+        "script": "sntzm_david3F(2).xlsx",
+        "ID": "12",
+        "cell": "D11"
+      },
+      {
+        "script": "sntzm_david3F(2).xlsx",
+        "ID": "43",
+        "cell": "D43"
+      },
+      {
+        "script": "sntzm_david3F(2).xlsx",
+        "ID": "44",
+        "cell": "D44"
+      },
+      {
+        "script": "sntzm_david3F(2).xlsx",
+        "ID": "45",
+        "cell": "D45"
+      },
+      {
+        "script": "sntzm_david3F(2).xlsx",
+        "ID": "46",
+        "cell": "D46"
+      },
+      {
+        "script": "sntzm_david3F(2).xlsx",
+        "ID": "47",
+        "cell": "D47"
+      },
+      {
+        "script": "sntzm_david3F(2).xlsx",
+        "ID": "48",
+        "cell": "D48"
+      },
+      {
+        "script": "sntzm_david3F(2).xlsx",
+        "ID": "54",
+        "cell": "F54"
+      },
+      {
+        "script": "sntzm_david3F(2).xlsx",
+        "ID": "69",
+        "cell": "D74"
+      },
+      {
+        "script": "sntzm_david3F(2).xlsx",
+        "ID": "70",
+        "cell": "D75"
+      },
+      {
+        "script": "sntzm_david3F(2).xlsx",
+        "ID": "23",
+        "cell": "D80"
+      },
+      {
+        "script": "sntzm_david3F(3).xlsx",
+        "ID": "1",
+        "cell": "D2"
+      },
+      {
+        "script": "sntzm_david3F(3).xlsx",
+        "ID": "2",
+        "cell": "D3"
+      },
+      {
+        "script": "sntzm_david3F(3).xlsx",
+        "ID": "3",
+        "cell": "D4"
+      },
+      {
+        "script": "sntzm_david3F(3).xlsx",
+        "ID": "35",
+        "cell": "D36"
+      },
+      {
+        "script": "sntzm_david3F(3).xlsx",
+        "ID": "36",
+        "cell": "D37"
+      },
+      {
+        "script": "sntzm_david3F(3).xlsx",
+        "ID": "57",
+        "cell": "D58"
+      },
+      {
+        "script": "sntzm_david3F(3).xlsx",
+        "ID": "58",
+        "cell": "D59"
+      },
+      {
+        "script": "sntzm_david3F(3).xlsx",
+        "ID": "72",
+        "cell": "D73"
+      },
+      {
+        "script": "sntzm_david3F(3).xlsx",
+        "ID": "73",
+        "cell": "D74"
+      },
+      {
+        "script": "sntzm_david3F(3).xlsx",
+        "ID": "74",
+        "cell": "D75"
+      },
+      {
+        "script": "sntzm_david4F(1).xlsx",
+        "ID": "31",
+        "cell": "D34"
+      },
+      {
+        "script": "sntzm_david4F(1).xlsx",
+        "ID": "32",
+        "cell": "D35"
+      },
+      {
+        "script": "sntzm_david4F(1).xlsx",
+        "ID": "33",
+        "cell": "D36"
+      },
+      {
+        "script": "sntzm_david4F(1).xlsx",
+        "ID": "78",
+        "cell": "D37"
+      },
+      {
+        "script": "sntzm_david4F(1).xlsx",
+        "ID": "81",
+        "cell": "D44"
+      },
+      {
+        "script": "sntzm_david4F(1).xlsx",
+        "ID": "82",
+        "cell": "D45"
+      },
+      {
+        "script": "sntzm_david4F(1).xlsx",
+        "ID": "83",
+        "cell": "D46"
+      },
+      {
+        "script": "sntzm_david4F(1).xlsx",
+        "ID": "54",
+        "cell": "D63"
+      },
+      {
+        "script": "sntzm_david4F(1).xlsx",
+        "ID": "55",
+        "cell": "D64"
+      },
+      {
+        "script": "sntzm_david4F(1).xlsx",
+        "ID": "44",
+        "cell": "D69"
+      },
+      {
+        "script": "sntzm_david4F(1).xlsx",
+        "ID": "62",
+        "cell": "D70"
+      },
+      {
+        "script": "sntzm_david4F(1).xlsx",
+        "ID": "64",
+        "cell": "D72"
+      },
+      {
+        "script": "sntzm_david4F(1).xlsx",
+        "ID": "65",
+        "cell": "D73"
+      },
+      {
+        "script": "sntzm_david4F(1).xlsx",
+        "ID": "67",
+        "cell": "D75"
+      },
+      {
+        "script": "sntzm_david4F(1).xlsx",
+        "ID": "68",
+        "cell": "D76"
+      },
+      {
+        "script": "sntzm_david4F(1).xlsx",
+        "ID": "73",
+        "cell": "D81"
+      },
+      {
+        "script": "sntzm_david4F(1).xlsx",
+        "ID": "74",
+        "cell": "D82"
+      },
+      {
+        "script": "sntzm_david4F(1).xlsx",
+        "ID": "75",
+        "cell": "D83"
+      },
+      {
+        "script": "sntzm_david4F(2).xlsx",
+        "ID": "6",
+        "cell": "D7"
+      },
+      {
+        "script": "sntzm_david4F(2).xlsx",
+        "ID": "7",
+        "cell": "D8"
+      },
+      {
+        "script": "sntzm_david4F(2).xlsx",
+        "ID": "29",
+        "cell": "D30"
+      },
+      {
+        "script": "sntzm_david4F(2).xlsx",
+        "ID": "30",
+        "cell": "D31"
+      },
+      {
+        "script": "sntzm_david4F(2).xlsx",
+        "ID": "61",
+        "cell": "D51"
+      },
+      {
+        "script": "sntzm_david4F(2).xlsx",
+        "ID": "62",
+        "cell": "D52"
+      },
+      {
+        "script": "sntzm_david4F(2).xlsx",
+        "ID": "78",
+        "cell": "D68"
+      },
+      {
+        "script": "sntzm_david4F(2).xlsx",
+        "ID": "79",
+        "cell": "D69"
+      },
+      {
+        "script": "sntzm_david4F(3).xlsx",
+        "ID": "32",
+        "cell": "D13"
+      },
+      {
+        "script": "sntzm_david4F(3).xlsx",
+        "ID": "33",
+        "cell": "D14"
+      },
+      {
+        "script": "sntzm_david4F(3).xlsx",
+        "ID": "37",
+        "cell": "D18"
+      },
+      {
+        "script": "sntzm_david4F(3).xlsx",
+        "ID": "38",
+        "cell": "D19"
+      },
+      {
+        "script": "sntzm_david4F(3).xlsx",
+        "ID": "61",
+        "cell": "F29"
+      },
+      {
+        "script": "sntzm_david4F(3).xlsx",
+        "ID": "62",
+        "cell": "F30"
+      },
+      {
+        "script": "sntzm_david4F(3).xlsx",
+        "ID": "22",
+        "cell": "D81"
+      },
+      {
+        "script": "sntzm_david4F(3).xlsx",
+        "ID": "23",
+        "cell": "D82"
+      },
+      {
+        "script": "sntzm_david4F(3).xlsx",
+        "ID": "43",
+        "cell": "D83"
+      },
+      {
+        "script": "sntzm_david4F(3).xlsx",
+        "ID": "48",
+        "cell": "F88"
+      },
+      {
+        "script": "sntzm_david4F(3).xlsx",
+        "ID": "49",
+        "cell": "F89"
+      },
+      {
+        "script": "sntzm_david4F(3).xlsx",
+        "ID": "50",
+        "cell": "D90"
+      },
+      {
+        "script": "sntzm_david4F(3).xlsx",
+        "ID": "51",
+        "cell": "D91"
+      },
+      {
+        "script": "sntzm_david4F(3).xlsx",
+        "ID": "52",
+        "cell": "D92"
+      },
+      {
+        "script": "sntzm_david4F(3).xlsx",
+        "ID": "53",
+        "cell": "D93"
+      },
+      {
+        "script": "sntzm_david4F(4).xlsx",
+        "ID": "18",
+        "cell": "F19"
+      },
+      {
+        "script": "sntzm_david4F(4).xlsx",
+        "ID": "19",
+        "cell": "F20"
+      },
+      {
+        "script": "sntzm_david4F(4).xlsx",
+        "ID": "38",
+        "cell": "D37"
+      },
+      {
+        "script": "sntzm_david4F(4).xlsx",
+        "ID": "39",
+        "cell": "D38"
+      },
+      {
+        "script": "sntzm_david4F(4).xlsx",
+        "ID": "44",
+        "cell": "D42"
+      },
+      {
+        "script": "sntzm_david4F(4).xlsx",
+        "ID": "58",
+        "cell": "D56"
+      },
+      {
+        "script": "sntzm_david4F(4).xlsx",
+        "ID": "59",
+        "cell": "D57"
+      },
+      {
+        "script": "sntzm_david4F(4).xlsx",
+        "ID": "61",
+        "cell": "D59"
+      },
+      {
+        "script": "sntzm_david4F(4).xlsx",
+        "ID": "62",
+        "cell": "D60"
+      },
+      {
+        "script": "sntzm_david4F(4).xlsx",
+        "ID": "63",
+        "cell": "D61"
+      },
+      {
+        "script": "sntzm_david4F(4).xlsx",
+        "ID": "64",
+        "cell": "D62"
+      },
+      {
+        "script": "sntzm_david4F(4).xlsx",
+        "ID": "83",
+        "cell": "F80"
+      },
+      {
+        "script": "sntzm_david4F(4).xlsx",
+        "ID": "84",
+        "cell": "F81"
+      },
+      {
+        "script": "sntzm_david4F(4).xlsx",
+        "ID": "87",
+        "cell": "F85"
+      },
+      {
+        "script": "sntzm_david4F(4).xlsx",
+        "ID": "88",
+        "cell": "F86"
+      },
+      {
+        "script": "sntzm_final(2).xlsx",
+        "ID": "60",
+        "cell": "D35"
+      },
+      {
+        "script": "sntzm_final(2).xlsx",
+        "ID": "61",
+        "cell": "D36"
+      },
+      {
+        "script": "sntzm_final(2).xlsx",
+        "ID": "65",
+        "cell": "F40"
+      },
+      {
+        "script": "sntzm_final(2).xlsx",
+        "ID": "66",
+        "cell": "F41"
+      },
+      {
+        "script": "sntzm_final(2).xlsx",
+        "ID": "16",
+        "cell": "D55"
+      },
+      {
+        "script": "sntzm_final(2).xlsx",
+        "ID": "17",
+        "cell": "D56"
+      },
+      {
+        "script": "sntzm_final(2).xlsx",
+        "ID": "18",
+        "cell": "D57"
+      },
+      {
+        "script": "sntzm_final(2).xlsx",
+        "ID": "19",
+        "cell": "D58"
+      }
+    ],
+    "remote_path_files": [
+      "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\CharactersPic\\大卫表情\\绷带.png"
+    ]
+  },
+  {
+    "value": "Sophia_headcut",
+    "count": 1,
+    "status": "missing_element",
+    "file": "",
+    "detail": "available: default",
+    "refs": [
+      {
+        "script": "sntzm_david4F(4).xlsx",
+        "ID": "51",
+        "cell": "D49"
+      }
+    ]
+  },
+  {
+    "value": "Gaiman_default",
+    "count": 110,
+    "status": "ok",
+    "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\CharactersPic\\盖曼.png",
+    "detail": {
+      "path": "VNovelizerRes/CharactersPic/盖曼",
+      "guid": "fca892bfaf4bccf4e8fea9e912ecbcb2",
+      "fileID": 21300000
+    },
+    "refs": [
+      {
+        "script": "sntzm_ending5(1).xlsx",
+        "ID": "8",
+        "cell": "D9"
+      },
+      {
+        "script": "sntzm_ending5(1).xlsx",
+        "ID": "9",
+        "cell": "D10"
+      },
+      {
+        "script": "sntzm_ending5(1).xlsx",
+        "ID": "13",
+        "cell": "D14"
+      },
+      {
+        "script": "sntzm_ending5(1).xlsx",
+        "ID": "15",
+        "cell": "D15"
+      },
+      {
+        "script": "sntzm_ending5(1).xlsx",
+        "ID": "14",
+        "cell": "D16"
+      },
+      {
+        "script": "sntzm_ending5(1).xlsx",
+        "ID": "16",
+        "cell": "D17"
+      },
+      {
+        "script": "sntzm_ending5(1).xlsx",
+        "ID": "17",
+        "cell": "D18"
+      },
+      {
+        "script": "sntzm_ending5(1).xlsx",
+        "ID": "18",
+        "cell": "D19"
+      },
+      {
+        "script": "sntzm_ending5(1).xlsx",
+        "ID": "54",
+        "cell": "D51"
+      },
+      {
+        "script": "sntzm_ending5(1).xlsx",
+        "ID": "55",
+        "cell": "D52"
+      },
+      {
+        "script": "sntzm_ending5(1).xlsx",
+        "ID": "56",
+        "cell": "D53"
+      },
+      {
+        "script": "sntzm_ending5(1).xlsx",
+        "ID": "57",
+        "cell": "D54"
+      },
+      {
+        "script": "sntzm_gy(2).xlsx",
+        "ID": "90",
+        "cell": "D92"
+      },
+      {
+        "script": "sntzm_gy(2).xlsx",
+        "ID": "91",
+        "cell": "D93"
+      },
+      {
+        "script": "sntzm_gy(2).xlsx",
+        "ID": "92",
+        "cell": "D94"
+      },
+      {
+        "script": "sntzm_gy(2).xlsx",
+        "ID": "93",
+        "cell": "D95"
+      },
+      {
+        "script": "sntzm_gy(2).xlsx",
+        "ID": "95",
+        "cell": "F97"
+      },
+      {
+        "script": "sntzm_gy(2).xlsx",
+        "ID": "96",
+        "cell": "F98"
+      },
+      {
+        "script": "sntzm_gy(ns1).xlsx",
+        "ID": "11",
+        "cell": "D12"
+      },
+      {
+        "script": "sntzm_gy(ns1).xlsx",
+        "ID": "12",
+        "cell": "D13"
+      },
+      {
+        "script": "sntzm_gy(ns1).xlsx",
+        "ID": "17",
+        "cell": "D18"
+      },
+      {
+        "script": "sntzm_gy(ns1).xlsx",
+        "ID": "18",
+        "cell": "D19"
+      },
+      {
+        "script": "sntzm_gy(ns1).xlsx",
+        "ID": "19",
+        "cell": "D20"
+      },
+      {
+        "script": "sntzm_gy(ns1).xlsx",
+        "ID": "20",
+        "cell": "D21"
+      },
+      {
+        "script": "sntzm_gy(ns1).xlsx",
+        "ID": "28",
+        "cell": "D25"
+      },
+      {
+        "script": "sntzm_gy(ns1).xlsx",
+        "ID": "29",
+        "cell": "D26"
+      },
+      {
+        "script": "sntzm_gy(ns1).xlsx",
+        "ID": "40",
+        "cell": "D30"
+      },
+      {
+        "script": "sntzm_gy(ns1).xlsx",
+        "ID": "41",
+        "cell": "D31"
+      },
+      {
+        "script": "sntzm_gy(ns1).xlsx",
+        "ID": "42",
+        "cell": "D32"
+      },
+      {
+        "script": "sntzm_gy(ns1).xlsx",
+        "ID": "50",
+        "cell": "D40"
+      },
+      {
+        "script": "sntzm_gy(ns1).xlsx",
+        "ID": "51",
+        "cell": "D41"
+      },
+      {
+        "script": "sntzm_gy(ns1).xlsx",
+        "ID": "59",
+        "cell": "D47"
+      },
+      {
+        "script": "sntzm_gy(ns1).xlsx",
+        "ID": "60",
+        "cell": "D48"
+      },
+      {
+        "script": "sntzm_gy(ns1).xlsx",
+        "ID": "61",
+        "cell": "D49"
+      },
+      {
+        "script": "sntzm_gy(ns1).xlsx",
+        "ID": "62",
+        "cell": "D50"
+      },
+      {
+        "script": "sntzm_gy(ns1).xlsx",
+        "ID": "63",
+        "cell": "D51"
+      },
+      {
+        "script": "sntzm_gy(ns1).xlsx",
+        "ID": "64",
+        "cell": "D52"
+      },
+      {
+        "script": "sntzm_gy(ns1).xlsx",
+        "ID": "65",
+        "cell": "D53"
+      },
+      {
+        "script": "sntzm_gy(ns1).xlsx",
+        "ID": "66",
+        "cell": "D54"
+      },
+      {
+        "script": "sntzm_gy(ns1).xlsx",
+        "ID": "67",
+        "cell": "D55"
+      },
+      {
+        "script": "sntzm_gy(ns1).xlsx",
+        "ID": "75",
+        "cell": "D61"
+      },
+      {
+        "script": "sntzm_gy(ns1).xlsx",
+        "ID": "76",
+        "cell": "D62"
+      },
+      {
+        "script": "sntzm_gy(ns1).xlsx",
+        "ID": "77",
+        "cell": "D63"
+      },
+      {
+        "script": "sntzm_gy(ns1).xlsx",
+        "ID": "78",
+        "cell": "D64"
+      },
+      {
+        "script": "sntzm_gy(ns1).xlsx",
+        "ID": "25",
+        "cell": "D71"
+      },
+      {
+        "script": "sntzm_gy(ns1).xlsx",
+        "ID": "26",
+        "cell": "D72"
+      },
+      {
+        "script": "sntzm_gy(ns1).xlsx",
+        "ID": "30",
+        "cell": "D73"
+      },
+      {
+        "script": "sntzm_gy(ns1).xlsx",
+        "ID": "31",
+        "cell": "D74"
+      },
+      {
+        "script": "sntzm_gy(ns1).xlsx",
+        "ID": "82",
+        "cell": "D84"
+      },
+      {
+        "script": "sntzm_gy(ns1).xlsx",
+        "ID": "83",
+        "cell": "D85"
+      },
+      {
+        "script": "sntzm_gy(ns2).xlsx",
+        "ID": "8",
+        "cell": "D7"
+      },
+      {
+        "script": "sntzm_gy(ns2).xlsx",
+        "ID": "9",
+        "cell": "D8"
+      },
+      {
+        "script": "sntzm_gy(ns2).xlsx",
+        "ID": "10",
+        "cell": "D9"
+      },
+      {
+        "script": "sntzm_gy(ns2).xlsx",
+        "ID": "11",
+        "cell": "D10"
+      },
+      {
+        "script": "sntzm_gy(ns2).xlsx",
+        "ID": "12",
+        "cell": "D11"
+      },
+      {
+        "script": "sntzm_gy(ns2).xlsx",
+        "ID": "14",
+        "cell": "D13"
+      },
+      {
+        "script": "sntzm_gy(ns2).xlsx",
+        "ID": "15",
+        "cell": "D14"
+      },
+      {
+        "script": "sntzm_gy(ns2).xlsx",
+        "ID": "16",
+        "cell": "D15"
+      },
+      {
+        "script": "sntzm_gy(ns2).xlsx",
+        "ID": "17",
+        "cell": "D16"
+      },
+      {
+        "script": "sntzm_gy(ns2).xlsx",
+        "ID": "19",
+        "cell": "D18"
+      },
+      {
+        "script": "sntzm_gy(ns2).xlsx",
+        "ID": "20",
+        "cell": "D19"
+      },
+      {
+        "script": "sntzm_gy(ns2).xlsx",
+        "ID": "21",
+        "cell": "D20"
+      },
+      {
+        "script": "sntzm_gy(ns2).xlsx",
+        "ID": "22",
+        "cell": "D21"
+      },
+      {
+        "script": "sntzm_gy(ns2).xlsx",
+        "ID": "25",
+        "cell": "D24"
+      },
+      {
+        "script": "sntzm_gy(ns2).xlsx",
+        "ID": "26",
+        "cell": "D25"
+      },
+      {
+        "script": "sntzm_gy(ns2).xlsx",
+        "ID": "33",
+        "cell": "D32"
+      },
+      {
+        "script": "sntzm_gy(ns2).xlsx",
+        "ID": "34",
+        "cell": "D33"
+      },
+      {
+        "script": "sntzm_gy(ns2).xlsx",
+        "ID": "41",
+        "cell": "D40"
+      },
+      {
+        "script": "sntzm_gy(ns2).xlsx",
+        "ID": "42",
+        "cell": "D41"
+      },
+      {
+        "script": "sntzm_gy(s1).xlsx",
+        "ID": "3",
+        "cell": "D3"
+      },
+      {
+        "script": "sntzm_gy(s1).xlsx",
+        "ID": "4",
+        "cell": "D4"
+      },
+      {
+        "script": "sntzm_gy(s1).xlsx",
+        "ID": "5",
+        "cell": "D5"
+      },
+      {
+        "script": "sntzm_gy(s1).xlsx",
+        "ID": "6",
+        "cell": "D6"
+      },
+      {
+        "script": "sntzm_gy(s1).xlsx",
+        "ID": "7",
+        "cell": "D7"
+      },
+      {
+        "script": "sntzm_gy(s1).xlsx",
+        "ID": "8",
+        "cell": "D8"
+      },
+      {
+        "script": "sntzm_gy(s1).xlsx",
+        "ID": "9",
+        "cell": "D9"
+      },
+      {
+        "script": "sntzm_gy(s1).xlsx",
+        "ID": "10",
+        "cell": "D10"
+      },
+      {
+        "script": "sntzm_gy(s1).xlsx",
+        "ID": "11",
+        "cell": "D11"
+      },
+      {
+        "script": "sntzm_gy(s1).xlsx",
+        "ID": "13",
+        "cell": "D13"
+      },
+      {
+        "script": "sntzm_gy(s1).xlsx",
+        "ID": "14",
+        "cell": "D14"
+      },
+      {
+        "script": "sntzm_gy(s1).xlsx",
+        "ID": "15",
+        "cell": "D15"
+      },
+      {
+        "script": "sntzm_gy(s1).xlsx",
+        "ID": "18",
+        "cell": "D18"
+      },
+      {
+        "script": "sntzm_gy(s1).xlsx",
+        "ID": "19",
+        "cell": "D19"
+      },
+      {
+        "script": "sntzm_gy(s1).xlsx",
+        "ID": "24",
+        "cell": "D24"
+      },
+      {
+        "script": "sntzm_gy(s1).xlsx",
+        "ID": "25",
+        "cell": "D25"
+      },
+      {
+        "script": "sntzm_gy(s1).xlsx",
+        "ID": "28",
+        "cell": "D28"
+      },
+      {
+        "script": "sntzm_gy(s1).xlsx",
+        "ID": "29",
+        "cell": "D29"
+      },
+      {
+        "script": "sntzm_gy(s1).xlsx",
+        "ID": "30",
+        "cell": "D30"
+      },
+      {
+        "script": "sntzm_gy(s1).xlsx",
+        "ID": "31",
+        "cell": "D31"
+      },
+      {
+        "script": "sntzm_gy(s1).xlsx",
+        "ID": "32",
+        "cell": "D32"
+      },
+      {
+        "script": "sntzm_gy(s1).xlsx",
+        "ID": "33",
+        "cell": "D33"
+      },
+      {
+        "script": "sntzm_gy(s1).xlsx",
+        "ID": "41",
+        "cell": "D38"
+      },
+      {
+        "script": "sntzm_gy(s1).xlsx",
+        "ID": "42",
+        "cell": "D39"
+      },
+      {
+        "script": "sntzm_gy(s1).xlsx",
+        "ID": "43",
+        "cell": "D40"
+      },
+      {
+        "script": "sntzm_gy(s1).xlsx",
+        "ID": "44",
+        "cell": "D41"
+      },
+      {
+        "script": "sntzm_gy(s1).xlsx",
+        "ID": "56",
+        "cell": "D53"
+      },
+      {
+        "script": "sntzm_gy(s1).xlsx",
+        "ID": "57",
+        "cell": "D54"
+      },
+      {
+        "script": "sntzm_gy(s1).xlsx",
+        "ID": "66",
+        "cell": "D64"
+      },
+      {
+        "script": "sntzm_gy(s1).xlsx",
+        "ID": "67",
+        "cell": "D65"
+      },
+      {
+        "script": "sntzm_gy(s1).xlsx",
+        "ID": "68",
+        "cell": "D66"
+      },
+      {
+        "script": "sntzm_gy(s1).xlsx",
+        "ID": "69",
+        "cell": "D67"
+      },
+      {
+        "script": "sntzm_gy(s1).xlsx",
+        "ID": "71",
+        "cell": "D69"
+      },
+      {
+        "script": "sntzm_gy(s1).xlsx",
+        "ID": "72",
+        "cell": "D70"
+      },
+      {
+        "script": "sntzm_gy(s1).xlsx",
+        "ID": "73",
+        "cell": "D71"
+      },
+      {
+        "script": "sntzm_gy(s1).xlsx",
+        "ID": "74",
+        "cell": "D72"
+      },
+      {
+        "script": "sntzm_gy(s1).xlsx",
+        "ID": "75",
+        "cell": "D73"
+      },
+      {
+        "script": "sntzm_gy(s1).xlsx",
+        "ID": "80",
+        "cell": "D78"
+      },
+      {
+        "script": "sntzm_gy(s1).xlsx",
+        "ID": "81",
+        "cell": "D79"
+      },
+      {
+        "script": "sntzm_gy(s1).xlsx",
+        "ID": "89",
+        "cell": "D87"
+      },
+      {
+        "script": "sntzm_gy(s1).xlsx",
+        "ID": "90",
+        "cell": "D88"
+      }
+    ],
+    "remote_path_files": [
+      "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\CharactersPic\\盖曼.png"
+    ]
+  },
+  {
+    "value": "David_default",
+    "count": 98,
+    "status": "ok",
+    "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\CharactersPic\\大卫.png",
+    "detail": {
+      "path": "VNovelizerRes/CharactersPic/大卫",
+      "guid": "dd6540b699c750e42ac1b14441d94376",
+      "fileID": 21300000
+    },
+    "refs": [
+      {
+        "script": "sntzm_ending5(1).xlsx",
+        "ID": "58",
+        "cell": "D55"
+      },
+      {
+        "script": "sntzm_ending5(1).xlsx",
+        "ID": "59",
+        "cell": "D56"
+      },
+      {
+        "script": "sntzm_ending5(2).xlsx",
+        "ID": "25",
+        "cell": "D26"
+      },
+      {
+        "script": "sntzm_ending5(2).xlsx",
+        "ID": "26",
+        "cell": "D27"
+      },
+      {
+        "script": "sntzm_ending5(2).xlsx",
+        "ID": "27",
+        "cell": "D28"
+      },
+      {
+        "script": "sntzm_ending5(2).xlsx",
+        "ID": "28",
+        "cell": "D29"
+      },
+      {
+        "script": "sntzm_ending5(2).xlsx",
+        "ID": "32",
+        "cell": "D33"
+      },
+      {
+        "script": "sntzm_ending5(2).xlsx",
+        "ID": "33",
+        "cell": "D34"
+      },
+      {
+        "script": "sntzm_final(3).xlsx",
+        "ID": "85",
+        "cell": "D37"
+      },
+      {
+        "script": "sntzm_final(3).xlsx",
+        "ID": "86",
+        "cell": "D38"
+      },
+      {
+        "script": "sntzm_final(3).xlsx",
+        "ID": "87",
+        "cell": "D39"
+      },
+      {
+        "script": "sntzm_final(3).xlsx",
+        "ID": "88",
+        "cell": "D40"
+      },
+      {
+        "script": "sntzm_final(3).xlsx",
+        "ID": "89",
+        "cell": "D41"
+      },
+      {
+        "script": "sntzm_final(3).xlsx",
+        "ID": "90",
+        "cell": "D42"
+      },
+      {
+        "script": "sntzm_final(3).xlsx",
+        "ID": "91",
+        "cell": "D43"
+      },
+      {
+        "script": "sntzm_final(3).xlsx",
+        "ID": "92",
+        "cell": "D44"
+      },
+      {
+        "script": "sntzm_final(3).xlsx",
+        "ID": "99",
+        "cell": "D52"
+      },
+      {
+        "script": "sntzm_final(3).xlsx",
+        "ID": "100",
+        "cell": "D53"
+      },
+      {
+        "script": "sntzm_final(3).xlsx",
+        "ID": "108",
+        "cell": "F61"
+      },
+      {
+        "script": "sntzm_final(3).xlsx",
+        "ID": "109",
+        "cell": "F62"
+      },
+      {
+        "script": "sntzm_final(4).xlsx",
+        "ID": "41",
+        "cell": "D40"
+      },
+      {
+        "script": "sntzm_final(4).xlsx",
+        "ID": "42",
+        "cell": "D41"
+      },
+      {
+        "script": "sntzm_final(4).xlsx",
+        "ID": "45",
+        "cell": "D44"
+      },
+      {
+        "script": "sntzm_final(4).xlsx",
+        "ID": "46",
+        "cell": "D45"
+      },
+      {
+        "script": "sntzm_final(4).xlsx",
+        "ID": "47",
+        "cell": "D46"
+      },
+      {
+        "script": "sntzm_final(4).xlsx",
+        "ID": "48",
+        "cell": "D47"
+      },
+      {
+        "script": "sntzm_final(5).xlsx",
+        "ID": "100",
+        "cell": "D58"
+      },
+      {
+        "script": "sntzm_final(5).xlsx",
+        "ID": "101",
+        "cell": "D59"
+      },
+      {
+        "script": "sntzm_final(5).xlsx",
+        "ID": "102",
+        "cell": "D60"
+      },
+      {
+        "script": "sntzm_final(5).xlsx",
+        "ID": "104",
+        "cell": "D62"
+      },
+      {
+        "script": "sntzm_final(5).xlsx",
+        "ID": "105",
+        "cell": "D63"
+      },
+      {
+        "script": "sntzm_final(5).xlsx",
+        "ID": "109",
+        "cell": "D67"
+      },
+      {
+        "script": "sntzm_final(5).xlsx",
+        "ID": "110",
+        "cell": "D68"
+      },
+      {
+        "script": "sntzm_final(5).xlsx",
+        "ID": "112",
+        "cell": "D70"
+      },
+      {
+        "script": "sntzm_final(5).xlsx",
+        "ID": "113",
+        "cell": "D71"
+      },
+      {
+        "script": "sntzm_final(5).xlsx",
+        "ID": "114",
+        "cell": "D72"
+      },
+      {
+        "script": "sntzm_final(5).xlsx",
+        "ID": "115",
+        "cell": "D73"
+      },
+      {
+        "script": "sntzm_final(6).xlsx",
+        "ID": "66",
+        "cell": "D53"
+      },
+      {
+        "script": "sntzm_final(6).xlsx",
+        "ID": "67",
+        "cell": "D55"
+      },
+      {
+        "script": "sntzm_final(6).xlsx",
+        "ID": "72",
+        "cell": "F60"
+      },
+      {
+        "script": "sntzm_final(6).xlsx",
+        "ID": "73",
+        "cell": "F61"
+      },
+      {
+        "script": "sntzm_final(6).xlsx",
+        "ID": "79",
+        "cell": "D67"
+      },
+      {
+        "script": "sntzm_final(6).xlsx",
+        "ID": "80",
+        "cell": "D68"
+      },
+      {
+        "script": "sntzm_final(6).xlsx",
+        "ID": "89",
+        "cell": "F81"
+      },
+      {
+        "script": "sntzm_final(6).xlsx",
+        "ID": "90",
+        "cell": "F82"
+      },
+      {
+        "script": "sntzm_final(6).xlsx",
+        "ID": "91",
+        "cell": "D83"
+      },
+      {
+        "script": "sntzm_final(6).xlsx",
+        "ID": "92",
+        "cell": "D84"
+      },
+      {
+        "script": "sntzm_gy(1).xlsx",
+        "ID": "69",
+        "cell": "D63"
+      },
+      {
+        "script": "sntzm_gy(1).xlsx",
+        "ID": "70",
+        "cell": "D64"
+      },
+      {
+        "script": "sntzm_gy(1).xlsx",
+        "ID": "86",
+        "cell": "D88"
+      },
+      {
+        "script": "sntzm_gy(1).xlsx",
+        "ID": "84",
+        "cell": "D89"
+      },
+      {
+        "script": "sntzm_gy(1).xlsx",
+        "ID": "85",
+        "cell": "D90"
+      },
+      {
+        "script": "sntzm_gy(1).xlsx",
+        "ID": "88",
+        "cell": "D91"
+      },
+      {
+        "script": "sntzm_gy(1).xlsx",
+        "ID": "87",
+        "cell": "D93"
+      },
+      {
+        "script": "sntzm_gy(2).xlsx",
+        "ID": "10",
+        "cell": "D10"
+      },
+      {
+        "script": "sntzm_gy(2).xlsx",
+        "ID": "11",
+        "cell": "D11"
+      },
+      {
+        "script": "sntzm_gy(2).xlsx",
+        "ID": "24",
+        "cell": "D22"
+      },
+      {
+        "script": "sntzm_gy(2).xlsx",
+        "ID": "25",
+        "cell": "D23"
+      },
+      {
+        "script": "sntzm_gy(2).xlsx",
+        "ID": "26",
+        "cell": "D24"
+      },
+      {
+        "script": "sntzm_gy(2).xlsx",
+        "ID": "27",
+        "cell": "D25"
+      },
+      {
+        "script": "sntzm_gy(2).xlsx",
+        "ID": "18",
+        "cell": "D26"
+      },
+      {
+        "script": "sntzm_gy(2).xlsx",
+        "ID": "19",
+        "cell": "D27"
+      },
+      {
+        "script": "sntzm_gy(2).xlsx",
+        "ID": "28",
+        "cell": "D28"
+      },
+      {
+        "script": "sntzm_gy(2).xlsx",
+        "ID": "29",
+        "cell": "D29"
+      },
+      {
+        "script": "sntzm_gy(2).xlsx",
+        "ID": "40",
+        "cell": "D39"
+      },
+      {
+        "script": "sntzm_gy(2).xlsx",
+        "ID": "41",
+        "cell": "D40"
+      },
+      {
+        "script": "sntzm_gy(2).xlsx",
+        "ID": "49",
+        "cell": "D48"
+      },
+      {
+        "script": "sntzm_gy(2).xlsx",
+        "ID": "50",
+        "cell": "D49"
+      },
+      {
+        "script": "sntzm_gy(2).xlsx",
+        "ID": "71",
+        "cell": "D73"
+      },
+      {
+        "script": "sntzm_gy(2).xlsx",
+        "ID": "72",
+        "cell": "D74"
+      },
+      {
+        "script": "sntzm_gy(2).xlsx",
+        "ID": "94",
+        "cell": "D96"
+      },
+      {
+        "script": "sntzm_gy(2).xlsx",
+        "ID": "95",
+        "cell": "D97"
+      },
+      {
+        "script": "sntzm_gy(ns1).xlsx",
+        "ID": "22",
+        "cell": "D23"
+      },
+      {
+        "script": "sntzm_gy(ns1).xlsx",
+        "ID": "27",
+        "cell": "D24"
+      },
+      {
+        "script": "sntzm_gy(ns1).xlsx",
+        "ID": "46",
+        "cell": "D36"
+      },
+      {
+        "script": "sntzm_gy(ns1).xlsx",
+        "ID": "47",
+        "cell": "D37"
+      },
+      {
+        "script": "sntzm_gy(ns1).xlsx",
+        "ID": "23",
+        "cell": "D69"
+      },
+      {
+        "script": "sntzm_gy(ns1).xlsx",
+        "ID": "24",
+        "cell": "D70"
+      },
+      {
+        "script": "sntzm_gy(ns2).xlsx",
+        "ID": "12",
+        "cell": "F11"
+      },
+      {
+        "script": "sntzm_gy(ns2).xlsx",
+        "ID": "13",
+        "cell": "F12"
+      },
+      {
+        "script": "sntzm_gy(ns2).xlsx",
+        "ID": "49",
+        "cell": "D48"
+      },
+      {
+        "script": "sntzm_gy(ns2).xlsx",
+        "ID": "50",
+        "cell": "D49"
+      },
+      {
+        "script": "sntzm_gy(ns2).xlsx",
+        "ID": "51",
+        "cell": "D50"
+      },
+      {
+        "script": "sntzm_gy(ns2).xlsx",
+        "ID": "52",
+        "cell": "D51"
+      },
+      {
+        "script": "sntzm_gy(s1).xlsx",
+        "ID": "46",
+        "cell": "D43"
+      },
+      {
+        "script": "sntzm_gy(s1).xlsx",
+        "ID": "47",
+        "cell": "D44"
+      },
+      {
+        "script": "sntzm_gy(s2).xlsx",
+        "ID": "32",
+        "cell": "D32"
+      },
+      {
+        "script": "sntzm_gy(s2).xlsx",
+        "ID": "33",
+        "cell": "D33"
+      },
+      {
+        "script": "sntzm_gy(s2).xlsx",
+        "ID": "34",
+        "cell": "D34"
+      },
+      {
+        "script": "sntzm_gy(s2).xlsx",
+        "ID": "35",
+        "cell": "D35"
+      },
+      {
+        "script": "sntzm_gy(s2).xlsx",
+        "ID": "37",
+        "cell": "F37"
+      },
+      {
+        "script": "sntzm_gy(s2).xlsx",
+        "ID": "38",
+        "cell": "F38"
+      },
+      {
+        "script": "sntzm_gy(s2).xlsx",
+        "ID": "44",
+        "cell": "D44"
+      },
+      {
+        "script": "sntzm_gy(s2).xlsx",
+        "ID": "45",
+        "cell": "D45"
+      },
+      {
+        "script": "sntzm_gy(s2).xlsx",
+        "ID": "46",
+        "cell": "D46"
+      },
+      {
+        "script": "sntzm_gy(s2).xlsx",
+        "ID": "47",
+        "cell": "D47"
+      },
+      {
+        "script": "sntzm_gy(s2).xlsx",
+        "ID": "48",
+        "cell": "D48"
+      },
+      {
+        "script": "sntzm_gy(s2).xlsx",
+        "ID": "49",
+        "cell": "D50"
+      }
+    ],
+    "remote_path_files": [
+      "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\CharactersPic\\大卫.png"
+    ]
+  },
+  {
+    "value": "Clemons_default",
+    "count": 19,
+    "status": "ok",
+    "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\CharactersPic\\克莱蒙斯上校.png",
+    "detail": {
+      "path": "VNovelizerRes/CharactersPic/克莱蒙斯上校",
+      "guid": "5eca183ea94e5044890a057fbf3a3ee4",
+      "fileID": 21300000
+    },
+    "refs": [
+      {
+        "script": "sntzm_final(1).xlsx",
+        "ID": "25",
+        "cell": "D25"
+      },
+      {
+        "script": "sntzm_final(1).xlsx",
+        "ID": "26",
+        "cell": "D26"
+      },
+      {
+        "script": "sntzm_final(1).xlsx",
+        "ID": "30",
+        "cell": "D30"
+      },
+      {
+        "script": "sntzm_final(1).xlsx",
+        "ID": "31",
+        "cell": "D31"
+      },
+      {
+        "script": "sntzm_final(1).xlsx",
+        "ID": "32",
+        "cell": "D32"
+      },
+      {
+        "script": "sntzm_final(1).xlsx",
+        "ID": "34",
+        "cell": "D34"
+      },
+      {
+        "script": "sntzm_final(1).xlsx",
+        "ID": "35",
+        "cell": "D35"
+      },
+      {
+        "script": "sntzm_final(1).xlsx",
+        "ID": "44",
+        "cell": "D44"
+      },
+      {
+        "script": "sntzm_final(1).xlsx",
+        "ID": "45",
+        "cell": "D45"
+      },
+      {
+        "script": "sntzm_final(1).xlsx",
+        "ID": "49",
+        "cell": "D49"
+      },
+      {
+        "script": "sntzm_final(1).xlsx",
+        "ID": "50",
+        "cell": "D50"
+      },
+      {
+        "script": "sntzm_final(1).xlsx",
+        "ID": "52",
+        "cell": "D52"
+      },
+      {
+        "script": "sntzm_final(1).xlsx",
+        "ID": "53",
+        "cell": "D53"
+      },
+      {
+        "script": "sntzm_final(1).xlsx",
+        "ID": "61",
+        "cell": "D61"
+      },
+      {
+        "script": "sntzm_final(1).xlsx",
+        "ID": "62",
+        "cell": "D62"
+      },
+      {
+        "script": "sntzm_final(1).xlsx",
+        "ID": "68",
+        "cell": "D68"
+      },
+      {
+        "script": "sntzm_final(1).xlsx",
+        "ID": "69",
+        "cell": "D69"
+      },
+      {
+        "script": "sntzm_final(1).xlsx",
+        "ID": "72",
+        "cell": "D72"
+      },
+      {
+        "script": "sntzm_final(1).xlsx",
+        "ID": "73",
+        "cell": "D73"
+      }
+    ],
+    "remote_path_files": [
+      "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\CharactersPic\\克莱蒙斯上校.png"
+    ]
+  },
+  {
+    "value": "Clark_blue",
+    "count": 6,
+    "status": "ok",
+    "file": "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\CharactersPic\\克拉克_blue.png",
+    "detail": {
+      "path": "VNovelizerRes/CharactersPic/克拉克_blue",
+      "guid": "dd7a240205bfee14c9fcf5944e7464ac",
+      "fileID": 21300000
+    },
+    "refs": [
+      {
+        "script": "sntzm_truth(2).xlsx",
+        "ID": "57",
+        "cell": "D58"
+      },
+      {
+        "script": "sntzm_truth(2).xlsx",
+        "ID": "58",
+        "cell": "D59"
+      },
+      {
+        "script": "sntzm_truth(2).xlsx",
+        "ID": "65",
+        "cell": "D68"
+      },
+      {
+        "script": "sntzm_truth(2).xlsx",
+        "ID": "67",
+        "cell": "D69"
+      },
+      {
+        "script": "sntzm_truth(2).xlsx",
+        "ID": "70",
+        "cell": "D71"
+      },
+      {
+        "script": "sntzm_truth(2).xlsx",
+        "ID": "71",
+        "cell": "D72"
+      }
+    ],
+    "remote_path_files": [
+      "E:\\Unity Projects\\VNovelizerTest_v1.0\\Assets\\RemoteContent\\VNovelizerRes\\CharactersPic\\克拉克_blue.png"
+    ]
+  }
+]

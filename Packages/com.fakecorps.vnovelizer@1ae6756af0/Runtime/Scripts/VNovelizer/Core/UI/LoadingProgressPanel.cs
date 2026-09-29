@@ -466,6 +466,14 @@ public class LoadingProgressPanel : BasePanel
         labelRect.offsetMax = Vector2.zero;
 
         TextMeshProUGUI text = labelObject.GetComponent<TextMeshProUGUI>();
+        // Reuse the panel's working Chinese font instead of the optional TMP default font.
+        TMP_Text fontSource = taskNameText != null && taskNameText.font != null ? taskNameText
+            : progressText != null && progressText.font != null ? progressText : detailText;
+        if (fontSource != null && fontSource.font != null)
+        {
+            text.font = fontSource.font;
+            text.fontSharedMaterial = fontSource.fontSharedMaterial;
+        }
         text.text = label;
         text.fontSize = 22f;
         text.alignment = TextAlignmentOptions.Center;

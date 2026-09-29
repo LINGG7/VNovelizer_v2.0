@@ -37,6 +37,10 @@ public class MainMenuPanel : BasePanel
     [SerializeField] private Button quitBtn;
     private CanvasGroup mainMenuCanvasGroup;
     private MainMenuBurnTransition burnTransition;
+    private Image mainMenuBackground;
+    private Sprite originalBackgroundSprite;
+    private Sprite burnedBackgroundSprite;
+    private const string BurnedBackgroundPath = "VNovelizerRes/Backgrounds/mainmenu_burned";
     
     #endregion
     
@@ -118,6 +122,7 @@ public class MainMenuPanel : BasePanel
         galleryBtn = GetControl<Button>("GalleryBtn");
         settingsBtn = GetControl<Button>("SettingsBtn");
         quitBtn = GetControl<Button>("QuitBtn");
+        EnsureBurnBackground();
         EnsureCanvasGroup();
         
         // 检查关键控件是否存在
@@ -430,7 +435,26 @@ public class MainMenuPanel : BasePanel
             enterLoadingBurnEmberAmountMultiplier,
             enterLoadingBurnTongueActivity,
             enterLoadingBurnTongueSpeed);
+        EnsureBurnBackground();
+        if (mainMenuBackground != null)
+            mainMenuBackground.sprite = originalBackgroundSprite;
+        burnTransition.BindBackground(mainMenuBackground, burnedBackgroundSprite);
         yield return burnTransition.Play(transform as RectTransform);
+    }
+
+    private void EnsureBurnBackground()
+    {
+        if (mainMenuBackground == null)
+        {
+            Transform background = transform.Find("BackgroundContainer/Background");
+            mainMenuBackground = background != null ? background.GetComponent<Image>() : null;
+            if (mainMenuBackground != null)
+                originalBackgroundSprite = mainMenuBackground.sprite;
+        }
+
+        // Load before playback so the impact frame does not stall on Resources.Load.
+        if (burnedBackgroundSprite == null)
+            burnedBackgroundSprite = Resources.Load<Sprite>(BurnedBackgroundPath);
     }
 
     private void EnsureCanvasGroup()
@@ -455,6 +479,8 @@ public class MainMenuPanel : BasePanel
 
     private void ResetMainMenuFade()
     {
+        if (mainMenuBackground != null)
+            mainMenuBackground.sprite = originalBackgroundSprite;
         EnsureCanvasGroup();
         mainMenuCanvasGroup.alpha = 1f;
         mainMenuCanvasGroup.interactable = true;

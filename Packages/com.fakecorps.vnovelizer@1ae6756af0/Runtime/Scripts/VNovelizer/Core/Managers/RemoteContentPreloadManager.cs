@@ -107,8 +107,18 @@ public class RemoteContentPreloadManager : BaseManager<RemoteContentPreloadManag
     public NetworkReachability CurrentNetwork => Application.internetReachability;
     public bool AllowOptionalDownloadOnCellular =>
         PlayerPrefs.GetInt(OptionalCellularPreferenceKey, 0) == 1;
-    public long CacheSpaceOccupied =>
-        Caching.ready ? Caching.currentCacheForWriting.spaceOccupied : -1;
+    public long CacheSpaceOccupied
+    {
+        get
+        {
+#if ENABLE_CACHING
+            return Caching.ready ? Caching.currentCacheForWriting.spaceOccupied : -1;
+#else
+            // Some build targets do not expose Unity's native bundle cache API.
+            return -1;
+#endif
+        }
+    }
 
     public RemoteContentPreloadManager()
     {
@@ -420,6 +430,7 @@ public class RemoteContentPreloadManager : BaseManager<RemoteContentPreloadManag
         AsyncOperationHandle initializeHandle;
         try
         {
+            Debug.Log($"[RemoteContentPreload] Initialize: streamingAssetsPath='{Application.streamingAssetsPath}', runtimePath='{Addressables.RuntimePath}', timeout={CatalogOperationTimeoutSeconds}s");
             initializeHandle = Addressables.InitializeAsync(false);
         }
         catch (System.Exception e)
@@ -898,6 +909,9 @@ public class RemoteContentPreloadManager : BaseManager<RemoteContentPreloadManag
     {
         Addressables.ResourceManager.WebRequestOverride = request =>
         {
+            // Exclude query parameters so signed URL credentials are not written to logs.
+            string diagnosticUrl = request.url.Split('?')[0].Split('#')[0];
+            Debug.Log($"[RemoteContentPreload] WebRequest: {request.method} {diagnosticUrl}");
             if (request.timeout <= 0)
             {
                 request.timeout = BundleRequestTimeoutSeconds;
