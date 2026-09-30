@@ -57,6 +57,7 @@ public class MainMenuPanel : BasePanel
         
         // 绑定事件
         BindEvents();
+        MusicManager.GetInstance().PreloadSFX("Skip");
     }
     
     private void ShowRemoteContentFailure(string scriptName, string lineID, RemoteContentPreloadManager preloadManager)
@@ -190,6 +191,7 @@ public class MainMenuPanel : BasePanel
         ResetMainMenuFade();
         RefreshSaveButtonState();
         StartRemoteContentPreload();
+        MusicManager.GetInstance().PlayMainMenuBGM();
     }
     
     public override void ShowMe()
@@ -199,6 +201,7 @@ public class MainMenuPanel : BasePanel
         ResetMainMenuFade();
         RefreshSaveButtonState();
         StartRemoteContentPreload();
+        MusicManager.GetInstance().PlayMainMenuBGM();
     }
     
     public override void HideMe()
@@ -206,6 +209,11 @@ public class MainMenuPanel : BasePanel
         gameObject.SetActive(false);
     }
     
+    private void OnDisable()
+    {
+        MusicManager.GetInstance().StopMainMenuBGM();
+    }
+
     private void OnDestroy()
     {
         // 清理事件监听

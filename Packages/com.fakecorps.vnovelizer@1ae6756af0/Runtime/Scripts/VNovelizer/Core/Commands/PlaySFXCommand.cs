@@ -12,6 +12,15 @@ namespace VNovelizer.Core.Commands
     /// </summary>
     public class PlaySFXCommand : VNCommand
     {
+        private bool interrupted;
+        private MusicManager.SFXPlayback activePlayback;
+
+        public override void Interrupt()
+        {
+            interrupted = true;
+            MusicManager.GetInstance().CancelSFX(activePlayback);
+        }
+
         public override string CommandName { get { return "playsfx"; } }
 
         public override bool Execute(string args)
@@ -23,7 +32,8 @@ namespace VNovelizer.Core.Commands
 
         public override IEnumerator ExecuteAsync(string args)
         {
-            if (string.IsNullOrEmpty(args))
+            interrupted = false;
+            if (string.IsNullOrWhiteSpace(args))
             {
                 Debug.LogError("[PlaySFX] 参数不能为空");
                 yield break;
@@ -32,6 +42,7 @@ namespace VNovelizer.Core.Commands
             // 解析参数：名称, 次数
             string[] parts = args.Split(',');
             string sfxName = parts[0].Trim();
+            if (string.IsNullOrEmpty(sfxName)) yield break;
             int times = 1; // 默认播放1次
 
             if (parts.Length >= 2)
@@ -51,61 +62,54 @@ namespace VNovelizer.Core.Commands
 
             Debug.Log($"[PlaySFX] 准备播放音效: {sfxName}, 次数: {times}");
 
-            // 播放指定次数的音效
-            for (int i = 0; i < times; i++)
+            MusicManager music = MusicManager.GetInstance();
+            try
             {
-                bool sourceReady = false;
-                AudioSource currentSource = null;
-                AudioClip loadedClip = null;
-
-                // 播放音效（不循环，因为我们要手动控制次数）
-                MusicManager.GetInstance().PlaySFX(sfxName, false, (source) =>
+                for (int i = 0; i < times && !interrupted; i++)
                 {
-                    if (source != null && source.clip != null)
+                    activePlayback = music.PlaySFXTracked(sfxName, false);
+                    float preparingTime = 0f;
+                    float playingTime = 0f;
+                    while (!interrupted && !activePlayback.IsDone)
                     {
-                        sourceReady = true;
-                        currentSource = source;
-                        loadedClip = source.clip;
+                        yield return null;
+                        if (interrupted || activePlayback.IsDone) break;
+                        if (AudioListener.pause || !Application.isFocused) continue;
+                        if (activePlayback.HasStarted) playingTime += Time.unscaledDeltaTime;
+                        else preparingTime += Time.unscaledDeltaTime;
+                        if (preparingTime >= 15f ||
+                            playingTime >= activePlayback.ExpectedDuration + 3f)
+                        {
+                            music.CancelSFX(activePlayback);
+                            Debug.LogWarning($"[PlaySFX] 音效 {sfxName} 等待超时，已取消播放");
+                            yield break;
+                        }
                     }
-                });
-
-                // 等待音效资源加载完成并开始播放（最多等待2秒）
-                float waitTime = 0f;
-                while (!sourceReady && waitTime < 2f)
-                {
-                    yield return null;
-                    waitTime += Time.deltaTime;
-                }
-
-                if (currentSource == null || loadedClip == null)
-                {
-                    Debug.LogWarning($"[PlaySFX] 音效 {sfxName} 加载失败或资源不存在");
-                    // 如果加载失败，跳过本次播放，继续下一次
+                    if (interrupted) yield break;
+                    if (!activePlayback.Succeeded)
+                    {
+                        Debug.LogWarning($"[PlaySFX] 音效 {sfxName} 未完成播放，终止本次命令");
+                        yield break;
+                    }
+                    activePlayback = null;
                     if (i < times - 1)
                     {
-                        yield return new WaitForSeconds(0.1f);
+                        float gap = 0f;
+                        while (gap < 0.05f && !interrupted)
+                        {
+                            yield return null;
+                            if (!AudioListener.pause && Application.isFocused)
+                                gap += Time.unscaledDeltaTime;
+                        }
                     }
-                    continue;
-                }
-
-                // 等待当前音效播放完成
-                // 使用AudioClip.length作为最大等待时间，防止无限等待
-                float clipLength = loadedClip.length;
-                float elapsedTime = 0f;
-                
-                while (currentSource != null && currentSource.isPlaying && elapsedTime < clipLength + 0.5f)
-                {
-                    yield return null;
-                    elapsedTime += Time.deltaTime;
-                }
-
-                // 如果不是最后一次，等待一小段时间再播放下一次（避免连续播放时重叠）
-                if (i < times - 1)
-                {
-                    yield return new WaitForSeconds(0.05f);
                 }
             }
-
+            finally
+            {
+                music.CancelSFX(activePlayback);
+                activePlayback = null;
+            }
+            if (interrupted) yield break;
             Debug.Log($"[PlaySFX] 音效 {sfxName} 播放完成，共播放 {times} 次");
         }
 

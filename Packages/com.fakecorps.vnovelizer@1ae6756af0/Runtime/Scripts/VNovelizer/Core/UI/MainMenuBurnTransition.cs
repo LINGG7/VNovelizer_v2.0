@@ -795,6 +795,7 @@ public sealed class MainMenuBurnTransition : MonoBehaviour
         {
             EmitImpact();
             impactEmitted = true;
+            MusicManager.GetInstance().PlaySFX("FireBurn", false);
         }
 
         if (timeline < ignitionEnd || timeline >= fadeStart)

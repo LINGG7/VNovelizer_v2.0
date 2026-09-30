@@ -1,10 +1,11 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
 using UnityEngine.AddressableAssets.ResourceLocators;
 using UnityEngine.ResourceManagement.AsyncOperations;
 using UnityEngine.ResourceManagement.ResourceLocations;
+using UnityEngine.ResourceManagement.ResourceProviders;
 using UnityEngine.Networking;
 
 public enum RemoteContentLocationState
@@ -66,6 +67,15 @@ public class RemoteContentPreloadManager : BaseManager<RemoteContentPreloadManag
     private const int BundleRequestTimeoutSeconds = 30;
     private const int MaxRequiredDownloadAttempts = 3;
     private const int MaxOptionalDownloadAttempts = 2;
+
+    // WebGL download-only operations do not keep bundles available to asset loads.
+    // Retain bundle containers for the session, without decoding every texture/audio asset.
+#if UNITY_WEBGL && !UNITY_EDITOR
+    private const bool KeepPreloadedBundles = true;
+#else
+    private const bool KeepPreloadedBundles = false;
+#endif
+    private readonly Dictionary<string, AsyncOperationHandle> preloadedBundles = new Dictionary<string, AsyncOperationHandle>();
 
     private readonly HashSet<string> completedLabels = new HashSet<string>();
     private readonly HashSet<string> failedLabels = new HashSet<string>();
@@ -350,6 +360,10 @@ public class RemoteContentPreloadManager : BaseManager<RemoteContentPreloadManag
 
     private IEnumerator ClearRemoteContentCacheCoroutine(System.Action<bool> completedCallback)
     {
+        ReleasePreloadedBundles();
+        completedLabels.Clear();
+        isReady = false;
+        isOptionalReady = false;
         bool succeeded = true;
         string[] labels = { RequiredChapterLabel, OptionalChapterLabel };
         foreach (string label in labels)
@@ -507,6 +521,7 @@ public class RemoteContentPreloadManager : BaseManager<RemoteContentPreloadManag
         {
             completedLabels.Clear();
             failedLabels.Clear();
+            ReleasePreloadedBundles();
             ResourcesManager.GetInstance().ReleaseCachedAssets();
             Debug.Log($"[RemoteContentPreload] Updated {catalogsToUpdate.Count} remote catalog(s).");
         }
@@ -563,7 +578,7 @@ public class RemoteContentPreloadManager : BaseManager<RemoteContentPreloadManag
             yield break;
         }
 
-        if (totalDownloadBytes <= 0)
+        if (totalDownloadBytes <= 0 && !KeepPreloadedBundles)
         {
             progress = 1f;
             if (showProgressTask && !string.IsNullOrEmpty(cachedTaskName))
@@ -599,7 +614,7 @@ public class RemoteContentPreloadManager : BaseManager<RemoteContentPreloadManag
                 break;
             }
 
-            if (labelSize <= 0)
+            if (labelSize <= 0 && !KeepPreloadedBundles)
             {
                 completedLabels.Add(label);
                 continue;
@@ -846,7 +861,7 @@ public class RemoteContentPreloadManager : BaseManager<RemoteContentPreloadManag
         AsyncOperationHandle downloadHandle;
         try
         {
-            downloadHandle = Addressables.DownloadDependenciesAsync(label, false);
+            downloadHandle = BeginBundlePreload(label);
         }
         catch (System.Exception e)
         {
@@ -885,6 +900,10 @@ public class RemoteContentPreloadManager : BaseManager<RemoteContentPreloadManag
 
         if (downloadHandle.Status == AsyncOperationStatus.Succeeded)
         {
+            if (KeepPreloadedBundles)
+            {
+                preloadedBundles[label] = downloadHandle;
+            }
             completedLabels.Add(label);
             failedLabels.Remove(label);
             Debug.Log($"[RemoteContentPreload] Downloaded {label}.");
@@ -902,7 +921,48 @@ public class RemoteContentPreloadManager : BaseManager<RemoteContentPreloadManag
             completedCallback?.Invoke(false, canRetry);
         }
 
-        ReleaseIfValid(downloadHandle);
+        if (!KeepPreloadedBundles || downloadHandle.Status != AsyncOperationStatus.Succeeded)
+        {
+            ReleaseIfValid(downloadHandle);
+        }
+    }
+
+    private AsyncOperationHandle BeginBundlePreload(string label)
+    {
+        if (!KeepPreloadedBundles)
+        {
+            return Addressables.DownloadDependenciesAsync(label, false);
+        }
+
+        var visited = new HashSet<IResourceLocation>();
+        var bundles = new List<IResourceLocation>();
+        bool found = false;
+        foreach (var locator in Addressables.ResourceLocators)
+        {
+            if (!locator.Locate(label, typeof(object), out var locations)) continue;
+            found = true;
+            foreach (var location in locations) CollectBundleLocations(location, visited, bundles);
+        }
+        if (!found) throw new System.InvalidOperationException($"Missing preload label: {label}");
+        // Use original locations, not DownloadOnlyLocation wrappers, so normal asset
+        // loads share these bundle operations and their retained reference counts.
+        return Addressables.ResourceManager.ProvideResources<IAssetBundleResource>(bundles, true);
+    }
+
+    private static void CollectBundleLocations(IResourceLocation location,
+        HashSet<IResourceLocation> visited, List<IResourceLocation> bundles)
+    {
+        if (!visited.Add(location)) return;
+        if (location.ResourceType == typeof(IAssetBundleResource)) bundles.Add(location);
+        if (!location.HasDependencies) return;
+        foreach (var dependency in location.Dependencies)
+            CollectBundleLocations(dependency, visited, bundles);
+    }
+
+    private void ReleasePreloadedBundles()
+    {
+        foreach (var handle in preloadedBundles.Values) ReleaseIfValid(handle);
+        preloadedBundles.Clear();
     }
 
     private void ConfigureAddressablesWebRequests()

@@ -42,6 +42,7 @@ public class MusicPage : MonoBehaviour
     private VNMusic currentMusic;
     private int currentMusicIndex = -1;
     private int musicLoadVersion;
+    private int mainMenuPauseToken = -1;
     private int pictureLoadVersion;
     private bool isPlaying = false;
     private float currentVolume = 1f;
@@ -219,6 +220,11 @@ public class MusicPage : MonoBehaviour
         }
     }
     
+    private void OnDisable()
+    {
+        StopMusic();
+    }
+
     private void OnDestroy()
     {
         // 移除事件监听
@@ -560,6 +566,8 @@ public class MusicPage : MonoBehaviour
             Debug.LogWarning($"[MusicPage] Failed to set audio time before playback: {e.Message}");
         }
 
+        if (mainMenuPauseToken < 0)
+            mainMenuPauseToken = MusicManager.GetInstance().PauseMainMenuBGMForPreview();
         audioSource.Play();
         isPlaying = true;
         UpdatePlayPauseButton();
@@ -599,10 +607,18 @@ public class MusicPage : MonoBehaviour
     /// <summary>
     /// 停止播放
     /// </summary>
+    private void ResumeMainMenuMusic()
+    {
+        if (mainMenuPauseToken < 0) return;
+        MusicManager.GetInstance().ResumeMainMenuBGMAfterPreview(mainMenuPauseToken);
+        mainMenuPauseToken = -1;
+    }
+
     private void StopMusic()
     {
         musicLoadVersion++;
-        if (audioSource != null && audioSource.isPlaying)
+        ResumeMainMenuMusic();
+        if (audioSource != null)
         {
             audioSource.Stop();
         }
@@ -650,6 +666,7 @@ public class MusicPage : MonoBehaviour
         {
 
             audioSource.Pause();
+            ResumeMainMenuMusic();
            
             isPlaying = false;
         }

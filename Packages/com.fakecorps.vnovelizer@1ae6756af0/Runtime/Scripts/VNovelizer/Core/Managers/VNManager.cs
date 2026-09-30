@@ -114,6 +114,7 @@ public partial class VNManager : BaseManager<VNManager>
     /// <param name="onGameStarted">游戏启动完成后的回调函数（可选）</param>
     public void StartGame(string scriptFileName, string startLineID = "", UnityAction onGameStarted = null, bool ignoreChoiceWhenFastForward = false)
     {
+        MusicManager.GetInstance().StopMainMenuBGM();
         this.pendingScriptName = scriptFileName;
 #if UNITY_EDITOR
         DebugBeginLoading(scriptFileName);
@@ -141,6 +142,7 @@ public partial class VNManager : BaseManager<VNManager>
     /// <param name="onGameStarted">游戏启动完成后的回调函数（可选）</param>
     public void StartGameOnScene(string scriptFileName, string startLineID = "", UnityAction onGameStarted = null, bool ignoreChoiceWhenFastForward = false)
     {
+        MusicManager.GetInstance().StopMainMenuBGM();
         this.pendingScriptName = scriptFileName;
 #if UNITY_EDITOR
         DebugBeginLoading(scriptFileName);
@@ -757,6 +759,7 @@ public partial class VNManager : BaseManager<VNManager>
     /// </summary>
     public void ContinueGame(SaveData saveData)
     {
+        MusicManager.GetInstance().StopMainMenuBGM();
 #if UNITY_EDITOR
         DebugBeginLoading(saveData.ScriptFileName);
 #endif
@@ -1652,7 +1655,7 @@ public partial class VNManager : BaseManager<VNManager>
         isTextDisplaying = true;
 
         bool skipHistory = HasNoteFlag(currentLine.Note, "nohistory");
-        if (!skipHistory)
+        if (!skipHistory && !string.IsNullOrWhiteSpace(currentLine.Text) && !string.IsNullOrWhiteSpace(finalText))
         {
             AddHistoryEntry(finalSpeaker, finalText, currentLine.Voice);
         }

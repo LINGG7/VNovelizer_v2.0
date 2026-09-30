@@ -243,6 +243,8 @@ public class VNGameplayPanel : BasePanel
             autoSpeed = 1.0f;
         }
 
+        MusicManager.GetInstance().PreloadSFX("Skip");
+
         EventCenter.GetInstance().AddEventListener<Dictionary<string, string>>(VNGameEvents.UpdateDialogue, OnUpdateDialogue);
         EventCenter.GetInstance().AddEventListener<string>(VNGameEvents.ChangeBackground, OnChangeBackground);
         EventCenter.GetInstance().AddEventListener<Dictionary<string, string>>(VNGameEvents.ShowCharacter, OnShowCharacter);

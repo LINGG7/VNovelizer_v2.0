@@ -10,6 +10,8 @@ public class MusicManager : BaseManager<MusicManager>
     private float BGMVolume = 1f;
     private string currentPlayingBGM = null; // 【新增】记录当前正在播放的 BGM 名称
     private string pendingBGM = null;
+    private bool mainMenuBgmActive;
+    private const string MainMenuBgmName = "11 enhanced the_mountain-hope-background";
     private Coroutine fadeCoroutine = null;
     private int bgmRequestVersion = 0;
     private bool bgmPaused = false;
@@ -19,6 +21,23 @@ public class MusicManager : BaseManager<MusicManager>
     // SFX 列表（用于在 Update 里检测播放是否结束）
     private List<AudioSource> SFXList = new List<AudioSource>();
     private float SFXVolume = 1f;
+    private const string SoundPoolKey = "VNovelizerRes/VNPrefabs/Gameplay/SoundObj";
+    private readonly Dictionary<string, AudioClip> sfxClips = new Dictionary<string, AudioClip>();
+    private readonly Dictionary<string, List<UnityAction<AudioClip>>> pendingSfx = new Dictionary<string, List<UnityAction<AudioClip>>>();
+    private readonly Dictionary<AudioSource, float> sfxStartDeadlines = new Dictionary<AudioSource, float>();
+    private readonly HashSet<AudioSource> startedSfx = new HashSet<AudioSource>();
+    public sealed class SFXPlayback
+    {
+        public bool IsDone { get; internal set; }
+        public bool Succeeded { get; internal set; }
+        public bool HasStarted { get; internal set; }
+        public float ExpectedDuration { get; internal set; }
+        internal AudioSource Source;
+    }
+    private readonly Dictionary<AudioSource, SFXPlayback> sfxPlaybacks = new Dictionary<AudioSource, SFXPlayback>();
+    private readonly HashSet<SFXPlayback> pendingPlaybacks = new HashSet<SFXPlayback>();
+    private int sfxGeneration;
+    private bool warmingSfxPool;
 
     public MusicManager()
     {
@@ -39,8 +58,37 @@ public class MusicManager : BaseManager<MusicManager>
         BGM.volume = BGMVolume * fadeVolumeFactor;
     }
 
+    public void PlayMainMenuBGM()
+    {
+        if (mainMenuBgmActive && (pendingBGM == MainMenuBgmName ||
+            (currentPlayingBGM == MainMenuBgmName && BGM != null && BGM.clip != null))) return;
+        PlayBGM(MainMenuBgmName);
+        mainMenuBgmActive = true;
+    }
+
+    public void StopMainMenuBGM()
+    {
+        if (!mainMenuBgmActive) return;
+        // StopBGM also invalidates an in-flight load, so it cannot start during gameplay.
+        StopBGM();
+    }
+    // Return an ownership token so a gallery cannot resume a different BGM later.
+    public int PauseMainMenuBGMForPreview()
+    {
+        if (!mainMenuBgmActive || bgmPaused) return -1;
+        PauseBGM();
+        return bgmRequestVersion;
+    }
+
+    public void ResumeMainMenuBGMAfterPreview(int requestVersion)
+    {
+        if (requestVersion < 0 || requestVersion != bgmRequestVersion || !mainMenuBgmActive) return;
+        bgmPaused = false;
+        if (BGM != null) BGM.UnPause();
+    }
     public void PlayBGM(string name)
     {
+        mainMenuBgmActive = false;
         // 先规范化名称，防止空白字符串导致加载目录本身
         if (!string.IsNullOrEmpty(name))
         {
@@ -67,6 +115,7 @@ public class MusicManager : BaseManager<MusicManager>
             return;
         }
 
+        bgmPaused = false;
         CancelFadeAndRestoreVolume();
         int requestVersion = ++bgmRequestVersion;
         pendingBGM = name;
@@ -106,6 +155,7 @@ public class MusicManager : BaseManager<MusicManager>
 
     public void StopBGM()
     {
+        mainMenuBgmActive = false;
         ++bgmRequestVersion;
         pendingBGM = null;
         currentPlayingBGM = null; // 【新增】停止时清空当前播放的 BGM
@@ -156,6 +206,7 @@ public class MusicManager : BaseManager<MusicManager>
             BGM.volume = 0f;
             BGM.loop = true;
             BGM.Play();
+            if (bgmPaused) BGM.Pause();
             fadeCoroutine = MonoManager.GetInstance().StartCoroutine(FadeIn(requestVersion));
             return;
         }
@@ -178,6 +229,7 @@ public class MusicManager : BaseManager<MusicManager>
         BGM.volume = 0f;
         fadeVolumeFactor = 0f;
         BGM.Play();
+        if (bgmPaused) BGM.Pause();
         yield return FadeVolume(0f, 1f, requestVersion);
         if (requestVersion == bgmRequestVersion)
         {
@@ -262,33 +314,140 @@ public class MusicManager : BaseManager<MusicManager>
         }
     }
 
-    // 播放音效
-    public void PlaySFX(string name, bool isLoop, UnityAction<AudioSource> callBack = null)
+    // Warm the existing runtime audio pool without playing an audible cue.
+    public void PreloadSFX(string name)
     {
-        string loadPath = VNProjectConfig.Instance.SFXResPath;
-        ResourcesManager.GetInstance().LoadAsync<AudioClip>(loadPath +"/" + name, (clip) =>
+        LoadSFXClip(name, null);
+        if (warmingSfxPool) return;
+        warmingSfxPool = true;
+        PoolManager.GetInstance().GetObj(SoundPoolKey, obj =>
         {
-            PoolManager.GetInstance().GetObj("VNovelizerRes/VNPrefabs/Gameplay/SoundObj", (obj) =>
+            warmingSfxPool = false;
+            if (obj == null) return;
+            AudioSource source = obj.GetComponent<AudioSource>();
+            if (source != null)
             {
-                AudioSource source = obj.GetComponent<AudioSource>();
-
-                if (source == null) source = obj.AddComponent<AudioSource>();
-
-                source.clip = clip;
-                source.volume = SFXVolume;
-                source.loop = isLoop;
-                source.Play();
-
-                SFXList.Add(source);
-
-                if (callBack != null)
-                {
-                    callBack(source);
-                }
-            });
+                source.Stop();
+                source.clip = null;
+            }
+            PoolManager.GetInstance().PushObj(SoundPoolKey, obj);
         });
     }
 
+    private void LoadSFXClip(string name, UnityAction<AudioClip> callback)
+    {
+        string path = VNProjectConfig.Instance.SFXResPath + "/" + name;
+        if (sfxClips.TryGetValue(path, out AudioClip cached) && cached != null &&
+            cached.loadState == AudioDataLoadState.Loaded)
+        {
+            callback?.Invoke(cached);
+            return;
+        }
+        if (pendingSfx.TryGetValue(path, out List<UnityAction<AudioClip>> waiting))
+        {
+            if (callback != null) waiting.Add(callback);
+            return;
+        }
+        waiting = new List<UnityAction<AudioClip>>();
+        if (callback != null) waiting.Add(callback);
+        pendingSfx.Add(path, waiting);
+        ResourcesManager.GetInstance().LoadAsync<AudioClip>(path, clip =>
+            MonoManager.GetInstance().StartCoroutine(PrepareSFXClip(path, clip)));
+    }
+
+    private IEnumerator PrepareSFXClip(string path, AudioClip clip)
+    {
+        if (clip != null && clip.loadState == AudioDataLoadState.Unloaded)
+            clip.LoadAudioData();
+        float deadline = Time.realtimeSinceStartup + 10f;
+        while (clip != null && clip.loadState == AudioDataLoadState.Loading &&
+               Time.realtimeSinceStartup < deadline)
+            yield return null;
+        if (clip == null || clip.loadState != AudioDataLoadState.Loaded)
+        {
+            Debug.LogWarning($"[MusicManager] SFX audio data unavailable: {path}");
+            clip = null;
+        }
+        else sfxClips[path] = clip;
+
+        List<UnityAction<AudioClip>> waiting = pendingSfx[path];
+        pendingSfx.Remove(path);
+        foreach (UnityAction<AudioClip> callback in waiting) callback(clip);
+    }
+
+    public void PlaySFX(string name, bool isLoop, UnityAction<AudioSource> callBack = null)
+    {
+        PlaySFXTracked(name, isLoop, callBack);
+    }
+
+    public SFXPlayback PlaySFXTracked(string name, bool isLoop, UnityAction<AudioSource> callBack = null)
+    {
+        var playback = new SFXPlayback();
+        pendingPlaybacks.Add(playback);
+        int generation = sfxGeneration;
+        LoadSFXClip(name, clip =>
+        {
+            if (playback.IsDone || clip == null || generation != sfxGeneration)
+            {
+                playback.IsDone = true;
+                pendingPlaybacks.Remove(playback);
+                callBack?.Invoke(null);
+                return;
+            }
+            PoolManager.GetInstance().GetObj(SoundPoolKey, obj =>
+            {
+                pendingPlaybacks.Remove(playback);
+                if (playback.IsDone || obj == null || generation != sfxGeneration)
+                {
+                    playback.IsDone = true;
+                    if (obj != null) PoolManager.GetInstance().PushObj(SoundPoolKey, obj);
+                    callBack?.Invoke(null);
+                    return;
+                }
+                AudioSource source = obj.GetComponent<AudioSource>();
+                if (source == null) source = obj.AddComponent<AudioSource>();
+                source.clip = clip;
+                source.volume = SFXVolume;
+                source.loop = isLoop;
+                playback.Source = source;
+                playback.ExpectedDuration = clip.length / Mathf.Max(0.01f, Mathf.Abs(source.pitch));
+                sfxPlaybacks[source] = playback;
+                startedSfx.Remove(source);
+                sfxStartDeadlines[source] = Time.realtimeSinceStartup + 3f;
+                source.Play();
+                if (source.isPlaying)
+                {
+                    startedSfx.Add(source);
+                    playback.HasStarted = true;
+                }
+                SFXList.Add(source);
+                callBack?.Invoke(source);
+            });
+        });
+        return playback;
+    }
+
+    public void CancelSFX(SFXPlayback playback)
+    {
+        if (playback == null || playback.IsDone) return;
+        playback.IsDone = true;
+        pendingPlaybacks.Remove(playback);
+        AudioSource source = playback.Source;
+        // Match the request, not just the pooled source: it may already have been reused.
+        if (source != null && sfxPlaybacks.TryGetValue(source, out SFXPlayback owner) && owner == playback)
+            StopSFX(source);
+        playback.Source = null;
+    }
+
+    private void FinishSFXPlayback(AudioSource source, bool succeeded)
+    {
+        if (ReferenceEquals(source, null)) return;
+        if (!sfxPlaybacks.TryGetValue(source, out SFXPlayback playback)) return;
+        if (!playback.IsDone) playback.Succeeded = succeeded;
+        playback.IsDone = true;
+        playback.Source = null;
+        sfxPlaybacks.Remove(source);
+    }
     // 停止并回收音效
     public void StopSFX(AudioSource source)
     {
@@ -300,7 +459,10 @@ public class MusicManager : BaseManager<MusicManager>
 
         if (SFXList.Contains(source))
         {
+            FinishSFXPlayback(source, false);
             SFXList.Remove(source);
+            startedSfx.Remove(source);
+            sfxStartDeadlines.Remove(source);
             try
             {
                 source.Stop();
@@ -320,7 +482,7 @@ public class MusicManager : BaseManager<MusicManager>
 
                 if (sourceObj != null)
                 {
-                    PoolManager.GetInstance().PushObj("Music/SoundObj", sourceObj);
+                    PoolManager.GetInstance().PushObj(SoundPoolKey, sourceObj);
                 }
             }
             catch (MissingReferenceException)
@@ -340,6 +502,9 @@ public class MusicManager : BaseManager<MusicManager>
             //检查 AudioSource 和 GameObject 是否已被销毁
             if (source == null)
             {
+                startedSfx.Remove(source);
+                sfxStartDeadlines.Remove(source);
+                FinishSFXPlayback(source, false);
                 SFXList.RemoveAt(i);
                 continue;
             }
@@ -351,6 +516,9 @@ public class MusicManager : BaseManager<MusicManager>
                 sourceObj = source.gameObject;
                 if (sourceObj == null)
                 {
+                    startedSfx.Remove(source);
+                    sfxStartDeadlines.Remove(source);
+                    FinishSFXPlayback(source, false);
                     SFXList.RemoveAt(i);
                     continue;
                 }
@@ -358,6 +526,9 @@ public class MusicManager : BaseManager<MusicManager>
             catch (MissingReferenceException)
             {
                 // 对象已被销毁
+                startedSfx.Remove(source);
+                sfxStartDeadlines.Remove(source);
+                FinishSFXPlayback(source, false);
                 SFXList.RemoveAt(i);
                 continue;
             }
@@ -371,12 +542,27 @@ public class MusicManager : BaseManager<MusicManager>
             catch (MissingReferenceException)
             {
                 // 对象已被销毁
+                startedSfx.Remove(source);
+                sfxStartDeadlines.Remove(source);
+                FinishSFXPlayback(source, false);
                 SFXList.RemoveAt(i);
                 continue;
             }
 
+            // A backend may report false while Play is still starting. Do not cancel it.
+            if (isPlaying)
+            {
+                startedSfx.Add(source);
+                if (sfxPlaybacks.TryGetValue(source, out SFXPlayback playback)) playback.HasStarted = true;
+            }
+            if (AudioListener.pause || !Application.isFocused) continue;
+            if (!isPlaying && !startedSfx.Contains(source) &&
+                sfxStartDeadlines.TryGetValue(source, out float deadline) &&
+                Time.realtimeSinceStartup < deadline) continue;
+
             if (!isPlaying)
             {
+                FinishSFXPlayback(source, startedSfx.Contains(source));
                 // 停止并回收
                 try
                 {
@@ -387,7 +573,7 @@ public class MusicManager : BaseManager<MusicManager>
                     if (source != null && sourceObj != null)
                     {
                         // 还给对象池（PushObj 内部会进行安全检查）
-                        PoolManager.GetInstance().PushObj("Music/SoundObj", sourceObj);
+                        PoolManager.GetInstance().PushObj(SoundPoolKey, sourceObj);
                     }
                 }
                 catch (MissingReferenceException)
@@ -397,6 +583,9 @@ public class MusicManager : BaseManager<MusicManager>
                 }
 
                 // 从列表中移除
+                startedSfx.Remove(source);
+                sfxStartDeadlines.Remove(source);
+                FinishSFXPlayback(source, false);
                 SFXList.RemoveAt(i);
             }
         }
@@ -407,6 +596,12 @@ public class MusicManager : BaseManager<MusicManager>
     /// </summary>
     public void ClearAllSFX()
     {
+        ++sfxGeneration;
+        foreach (SFXPlayback playback in pendingPlaybacks) playback.IsDone = true;
+        pendingPlaybacks.Clear();
+        foreach (AudioSource source in SFXList) FinishSFXPlayback(source, false);
+        startedSfx.Clear();
+        sfxStartDeadlines.Clear();
         for (int i = SFXList.Count - 1; i >= 0; --i)
         {
             if (SFXList[i] != null && SFXList[i].gameObject != null)

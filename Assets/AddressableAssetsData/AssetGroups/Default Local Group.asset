@@ -335,6 +335,14 @@ MonoBehaviour:
     - VNovelizerRes/VNPrefabs/UI
     - VNovelizerRes/VNPrefabs/UI/Gallery
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2de4fdeaf5de53e49b0d2d8c72f66b50
+    m_Address: VNovelizerRes/Audio/SFX/FireBurn
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Audio
+    - VNovelizerRes/Audio/SFX
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 30177442672a55f48a3284b48b5eb118
     m_Address: VNovelizerRes/VNScripts/sntzm_final(1)
     m_ReadOnly: 0
@@ -478,13 +486,6 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 494e961e1ddad0f4d99e66651ebd1fb7
     m_Address: VNovelizerRes/Backgrounds/sntzm_david4F(1)_27 1
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - VNovelizerRes
-    - VNovelizerRes/Backgrounds
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 4ace94afda1d3b34db435d1c3349fb6c
-    m_Address: VNovelizerRes/Backgrounds/sntzm_clark3F(2)_1
     m_ReadOnly: 0
     m_SerializedLabels:
     - VNovelizerRes
@@ -883,6 +884,13 @@ MonoBehaviour:
     - VNovelizerRes/VFX
     - VNovelizerRes/VFX/PostProcess
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8f2d950b63b7a6747bac74a9395ef3c2
+    m_Address: VNovelizerRes/ExcelVNScripts/~$sntzm_clark3F(1)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/ExcelVNScripts
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 94856c0ff92a41f4aa27f836edabefa4
     m_Address: VNovelizerRes/VFX/Partical/SnowEffect
     m_ReadOnly: 0
@@ -1175,6 +1183,15 @@ MonoBehaviour:
     m_SerializedLabels:
     - VNovelizerRes
     - VNovelizerRes/ExcelVNScripts
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ba06a348987c3f448aaadedc921ea5c5
+    m_Address: VNovelizerRes/Audio/Music/BGM/11 enhanced the_mountain-hope-background
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - VNovelizerRes
+    - VNovelizerRes/Audio
+    - VNovelizerRes/Audio/Music
+    - VNovelizerRes/Audio/Music/BGM
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: ba527902c0422b04d94124d4b5dcaa9f
     m_Address: VNovelizerRes/Backgrounds/mainmenu
